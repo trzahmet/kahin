@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kahin Ligi — Yayın Ekranı</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔮</text></svg>">
+<link rel="stylesheet" href="style.css">
+<script src="config.js"></script>
+<script src="api.js"></script>
+</head>
+<body class="tv">
+<div class="wrap">
+  <header class="app">
+    <h1 class="logo"><span class="k">Kahin</span> Ligi</h1>
+    <div class="sub" id="leagueName"></div>
+    <span id="demoBadge" class="demo-badge" style="display:none">DEMO</span>
+  </header>
+
+  <div class="tv-grid">
+    <section class="card">
+      <h2>Liderlik — sürprizi bilen çok kazanır</h2>
+      <table class="lb">
+        <thead><tr><th>#</th><th>Kahin</th><th style="text-align:right">Puan</th></tr></thead>
+        <tbody id="lbBody"></tbody>
+      </table>
+    </section>
+
+    <div>
+      <section class="card">
+        <h2>Ekip vs Chat</h2>
+        <div class="vs" id="vsBox"></div>
+      </section>
+      <section class="card">
+        <h2>Taraftar dağılımı</h2>
+        <div class="bars" id="teamBars"></div>
+      </section>
+      <section class="card qr">
+        <h2>Sen de oyna</h2>
+        <div class="join-url" id="joinUrl"></div>
+        <p class="muted">üyelik yok · isim yaz, tahminini kilitle</p>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const $ = s => document.querySelector(s);
+  const qs = new URLSearchParams(location.search);
+  const slug = qs.get("lig") || "demo";
+  if (KL.DEMO) $("#demoBadge").style.display = "";
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const joinUrl = location.href.replace(/tv\.html.*/, "") + "?lig=" + encodeURIComponent(slug);
+  $("#joinUrl").textContent = joinUrl.replace(/^https?:\/\//, "");
+  const TEAMS = { BJK: ["Beşiktaş", "var(--bjk)"], FB: ["Fenerbahçe", "var(--fb)"],
+                  GS: ["Galatasaray", "var(--gs)"], DIGER: ["Diğer", "var(--diger)"] };
+
+  async function render() {
+    try {
+      const lb = await KL.api.leaderboard(slug);
+      $("#lbBody").innerHTML = lb.players.slice(0, 10).map((p, i) => `
+        <tr><td>${i + 1}</td>
+            <td><span class="team-dot t-${esc(p.team)}"></span>${esc(p.name)}${p.is_host ? '<span class="host-tag">EKİP</span>' : ""}</td>
+            <td class="pts">${p.total}</td></tr>`).join("");
+      $("#vsBox").innerHTML = `
+        <div class="side"><div class="big">${lb.ekip_vs_chat.ekip}</div><div class="lbl">Ekip ortalaması</div></div>
+        <div class="side"><div class="big">${lb.ekip_vs_chat.chat}</div><div class="lbl">Chat ort. — ${lb.ekip_vs_chat.chat_n} kahin</div></div>`;
+      const total = Object.values(lb.takim_kirilimi).reduce((a, b) => a + b, 0) || 1;
+      $("#teamBars").innerHTML = Object.entries(TEAMS).map(([k, [name, color]]) => {
+        const n = lb.takim_kirilimi[k] || 0;
+        return `<div class="bar"><span style="width:92px">${name}</span>
+          <div class="fill" style="background:${color};width:${Math.max(2, Math.round(100 * n / total) * 0.7)}%"></div>
+          <span class="n">${n}</span></div>`;
+      }).join("");
+    } catch (e) { /* tv ekranı sessiz kalır, sonraki turda dener */ }
+  }
+  render();
+  setInterval(render, 10000);
+})();
+</script>
+</body>
+</html>

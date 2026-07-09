@@ -1,0 +1,96 @@
+/* Kahin Ligi — koyu, yayın-dostu, mobil-öncelikli */
+:root {
+  --bg: #0b0e14;
+  --panel: #141926;
+  --panel2: #1b2233;
+  --line: #26304a;
+  --text: #e8ecf6;
+  --muted: #8b96b0;
+  --accent: #ffb020;      /* kahin altını */
+  --accent2: #6c8cff;
+  --ok: #35c46f;
+  --bad: #ff5d6c;
+  --bjk: #dfe3ee; --fb: #ffd54d; --gs: #ff7043; --diger: #8b96b0;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+body { min-height: 100vh; }
+a { color: var(--accent2); text-decoration: none; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 16px; }
+
+header.app { display: flex; align-items: baseline; gap: 10px; padding: 14px 0 6px; }
+header.app .logo { font-size: 26px; font-weight: 800; letter-spacing: .5px; }
+header.app .logo .k { color: var(--accent); }
+header.app .sub { color: var(--muted); font-size: 13px; }
+.demo-badge { background: var(--accent); color: #111; font-weight: 700; font-size: 11px; padding: 2px 8px; border-radius: 999px; margin-left: auto; }
+
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin: 12px 0; }
+.card h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 1.2px; color: var(--muted); margin-bottom: 12px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+
+input, select, button { font: inherit; border-radius: 10px; border: 1px solid var(--line); background: var(--panel2); color: var(--text); padding: 10px 12px; }
+input:focus, select:focus { outline: 2px solid var(--accent2); border-color: transparent; }
+input.num { width: 58px; text-align: center; font-weight: 700; font-size: 18px; }
+button { cursor: pointer; font-weight: 700; }
+button.primary { background: var(--accent); color: #14100a; border: none; }
+button.primary:active { transform: scale(.98); }
+button.ghost { background: transparent; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+
+.match { border: 1px solid var(--line); border-radius: 12px; padding: 12px; margin: 10px 0; background: var(--panel2); }
+.match .teams { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-weight: 800; font-size: 17px; }
+.match .when { color: var(--muted); font-size: 12px; margin-top: 2px; }
+.match .score { font-size: 20px; color: var(--accent); font-weight: 800; white-space: nowrap; }
+.lock { font-size: 11px; color: var(--bad); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+.openlbl { font-size: 11px; color: var(--ok); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+
+.pickgrid { display: flex; gap: 6px; margin-top: 10px; }
+.pickgrid button { flex: 1; font-size: 16px; }
+.pickgrid button.sel { background: var(--accent2); color: #fff; border-color: transparent; }
+.cards2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+.cards2 label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 4px; }
+
+table.lb { width: 100%; border-collapse: collapse; }
+table.lb td, table.lb th { padding: 8px 6px; text-align: left; border-bottom: 1px solid var(--line); }
+table.lb th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
+table.lb td.pts { text-align: right; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }
+.host-tag { background: var(--accent2); color: #fff; font-size: 10px; font-weight: 800; padding: 1px 7px; border-radius: 999px; margin-left: 6px; vertical-align: middle; }
+.team-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 7px; }
+.t-BJK { background: var(--bjk); } .t-FB { background: var(--fb); } .t-GS { background: var(--gs); } .t-DIGER { background: var(--diger); }
+
+.vs { display: flex; gap: 10px; align-items: stretch; }
+.vs .side { flex: 1; text-align: center; padding: 14px 8px; border-radius: 12px; background: var(--panel2); border: 1px solid var(--line); }
+.vs .side .big { font-size: 34px; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }
+.vs .side .lbl { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 1px; }
+
+.msg { padding: 10px 12px; border-radius: 10px; margin: 8px 0; font-size: 14px; display: none; }
+.msg.ok { display: block; background: rgba(53,196,111,.12); color: var(--ok); border: 1px solid rgba(53,196,111,.3); }
+.msg.err { display: block; background: rgba(255,93,108,.12); color: var(--bad); border: 1px solid rgba(255,93,108,.3); }
+.muted { color: var(--muted); font-size: 13px; }
+.pillrow { display: flex; gap: 6px; flex-wrap: wrap; }
+.pill { border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; background: var(--panel2); cursor: pointer; font-weight: 700; font-size: 14px; }
+.pill.sel { background: var(--accent); color: #14100a; border-color: transparent; }
+.reveal-row { display: flex; justify-content: space-between; gap: 8px; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: 14px; }
+.reveal-row .who { font-weight: 700; }
+.reveal-row .what { color: var(--muted); }
+.reveal-row .p { color: var(--accent); font-weight: 800; }
+footer { color: var(--muted); font-size: 12px; text-align: center; padding: 24px 0; }
+
+/* ---- TV (OBS) görünümü ---- */
+body.tv { background: #05070c; overflow: hidden; }
+.tv .wrap { max-width: 1240px; }
+.tv-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 18px; padding: 10px 0; }
+.tv h1 { font-size: 40px; letter-spacing: 1px; }
+.tv h1 .k { color: var(--accent); }
+.tv .card { padding: 20px; }
+.tv table.lb td, .tv table.lb th { padding: 10px 8px; font-size: 20px; }
+.tv table.lb td.pts { font-size: 24px; }
+.tv .vs .side .big { font-size: 56px; }
+.tv .vs .side .lbl { font-size: 15px; }
+.tv .qr { text-align: center; }
+.tv .join-url { font-size: 26px; font-weight: 800; color: var(--accent); letter-spacing: 1px; }
+.bars { margin-top: 10px; }
+.bar { display: flex; align-items: center; gap: 8px; margin: 6px 0; font-size: 14px; }
+.bar .fill { height: 14px; border-radius: 7px; }
+.bar .n { color: var(--muted); font-variant-numeric: tabular-nums; }
+@media (max-width: 900px) { .tv-grid { grid-template-columns: 1fr; } }

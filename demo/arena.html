@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>ARENA — canlı kapışma prototipi</title>
+<style>
+:root{
+  --bg:#07080f; --gold:#ffb020; --red:#ff3b5c; --blue:#3b8bff;
+  --bjk:#e8e8e8; --fb:#ffd54d; --gs:#ff7043;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:radial-gradient(1200px 600px at 50% -10%,#141a2e 0%,var(--bg) 60%);
+  color:#fff;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  width:1280px;height:720px;overflow:hidden;position:relative}
+
+/* üst bar */
+.top{display:flex;justify-content:space-between;align-items:center;padding:18px 32px 0}
+.brand{font-size:30px;font-weight:900;letter-spacing:2px}
+.brand .a{color:var(--gold)}
+.roomcode{background:#141a2e;border:2px solid var(--gold);border-radius:14px;padding:8px 22px;
+  font-size:24px;font-weight:900;letter-spacing:4px;color:var(--gold);
+  box-shadow:0 0 24px rgba(255,176,32,.35);animation:pulse 2s infinite}
+.roomcode small{display:block;font-size:10px;letter-spacing:1px;color:#8b96b0;font-weight:600}
+@keyframes pulse{50%{box-shadow:0 0 40px rgba(255,176,32,.6)}}
+.stage{font-size:13px;color:#8b96b0;letter-spacing:2px;text-transform:uppercase}
+.stage b{color:#fff}
+
+/* sayaç */
+.timerwrap{position:absolute;left:50%;top:88px;transform:translateX(-50%);text-align:center;z-index:30}
+.timer{width:84px;height:84px;border-radius:50%;background:conic-gradient(var(--gold) var(--deg,360deg),#1a2138 0);
+  display:flex;align-items:center;justify-content:center;margin:0 auto;
+  box-shadow:0 0 30px rgba(255,176,32,.25)}
+.timer .inner{width:66px;height:66px;border-radius:50%;background:#0c1020;display:flex;
+  align-items:center;justify-content:center;font-size:30px;font-weight:900;font-variant-numeric:tabular-nums}
+.timer.hot .inner{color:var(--red);animation:shake .12s infinite}
+
+/* kartlar */
+.duel{position:absolute;top:150px;left:0;right:0;display:flex;justify-content:center;gap:120px}
+.card{width:360px;height:300px;border-radius:24px;background:linear-gradient(180deg,#1a2138,#10141f);
+  border:2px solid #26304a;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:10px;position:relative;transition:transform .3s,border-color .3s,filter .5s}
+.card .emoji{font-size:110px;filter:drop-shadow(0 8px 24px rgba(0,0,0,.6))}
+.card .name{font-size:34px;font-weight:900;letter-spacing:1px}
+.card.left{border-color:var(--red)} .card.right{border-color:var(--blue)}
+.card .hosts{position:absolute;top:-20px;display:flex;gap:6px}
+.hostchip{background:#0c1020;border:2px solid var(--gold);border-radius:999px;padding:3px 12px;
+  font-size:14px;font-weight:800;color:var(--gold)}
+.card.winner{transform:scale(1.12);border-color:var(--gold);
+  box-shadow:0 0 80px rgba(255,176,32,.5);z-index:20}
+.card.loser{filter:grayscale(1) brightness(.45);transform:scale(.9) rotate(-2deg)}
+.vs{align-self:center;font-size:64px;font-weight:900;color:var(--gold);text-shadow:0 0 30px rgba(255,176,32,.6);
+  animation:vsbeat 1s infinite}
+@keyframes vsbeat{50%{transform:scale(1.15)}}
+
+/* halat çekme barı */
+.tugwrap{position:absolute;top:492px;left:120px;right:120px}
+.tug{height:54px;border-radius:27px;background:#10141f;border:2px solid #26304a;overflow:hidden;position:relative}
+.tug .side{position:absolute;top:0;bottom:0;transition:width .25s cubic-bezier(.2,.8,.3,1.2)}
+.tug .l{left:0;background:linear-gradient(90deg,#ff3b5c,#ff7043)}
+.tug .r{right:0;background:linear-gradient(270deg,#3b8bff,#6c8cff)}
+.tug .knot{position:absolute;top:-14px;bottom:-14px;width:6px;background:var(--gold);
+  box-shadow:0 0 20px var(--gold);transition:left .25s cubic-bezier(.2,.8,.3,1.2);z-index:5}
+.tug .pct{position:absolute;top:0;bottom:0;display:flex;align-items:center;font-size:26px;font-weight:900;z-index:6}
+.tug .pl{left:18px} .tug .pr{right:18px}
+.tug.curtain .side,.tug.curtain .knot{visibility:hidden}
+.tug.curtain::after{content:"👁️ SON 3 SANİYE — PERDE!";position:absolute;inset:0;display:flex;
+  align-items:center;justify-content:center;font-size:24px;font-weight:900;color:var(--gold);
+  letter-spacing:3px;animation:shake .15s infinite}
+@keyframes shake{25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
+
+/* taraftar cepheleri */
+.factions{position:absolute;top:566px;left:120px;right:120px;display:flex;justify-content:space-between;font-size:14px}
+.fac{display:flex;gap:10px;align-items:center}
+.fac .dot{width:12px;height:12px;border-radius:50%}
+.fac .bar{width:110px;height:10px;background:#1a2138;border-radius:5px;overflow:hidden}
+.fac .bar i{display:block;height:100%;border-radius:5px;transition:width .4s}
+
+/* oy ticker + izleyici */
+.ticker{position:absolute;left:32px;top:150px;width:210px;font-size:13px;color:#8b96b0}
+.ticker div{background:#10141fdd;border:1px solid #26304a;border-radius:8px;padding:5px 10px;margin:4px 0;
+  animation:slidein .3s ease-out;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ticker b{color:#fff}
+@keyframes slidein{from{transform:translateX(-30px);opacity:0}}
+.crowd{position:absolute;right:32px;top:150px;width:210px;text-align:right}
+.crowd .n{font-size:44px;font-weight:900;color:var(--gold);font-variant-numeric:tabular-nums}
+.crowd .l{font-size:12px;color:#8b96b0;letter-spacing:2px;text-transform:uppercase}
+
+/* oy partikülleri */
+.p{position:absolute;width:10px;height:10px;border-radius:50%;pointer-events:none;z-index:15}
+
+/* drama bandı */
+.drama{position:absolute;bottom:64px;left:50%;transform:translateX(-50%) scale(0);
+  background:linear-gradient(90deg,#ff3b5c22,#10141f,#ff3b5c22);border:2px solid var(--red);
+  border-radius:14px;padding:14px 30px;font-size:24px;font-weight:900;text-align:center;
+  transition:transform .35s cubic-bezier(.2,.8,.3,1.4);z-index:40;white-space:nowrap}
+.drama.show{transform:translateX(-50%) scale(1)}
+.drama .sub{display:block;font-size:14px;font-weight:600;color:#8b96b0;margin-top:4px;white-space:normal}
+.drama.gold{border-color:var(--gold);background:linear-gradient(90deg,#ffb02022,#10141f,#ffb02022)}
+
+/* alt bant */
+.bottom{position:absolute;bottom:14px;left:32px;right:32px;display:flex;justify-content:space-between;
+  align-items:center;font-size:14px;color:#8b96b0}
+.sike{display:flex;gap:8px;align-items:center;font-weight:700;color:#ffb020}
+.sike .b{background:#141a2e;border:1px solid #26304a;padding:4px 12px;border-radius:999px;font-size:13px}
+.konfeti{position:absolute;width:12px;height:12px;z-index:50;pointer-events:none}
+</style>
+</head>
+<body>
+  <div class="top">
+    <div class="brand"><span class="a">ARENA</span> · KEBAP KUPASI</div>
+    <div class="stage">ÇEYREK FİNAL <b>2/4</b> · Kazanan yarı finale</div>
+    <div class="roomcode">HTALKS<small>telefondan katıl · arena.gg</small></div>
+  </div>
+
+  <div class="timerwrap"><div class="timer" id="timer"><div class="inner" id="tval">15</div></div></div>
+
+  <div class="duel">
+    <div class="card left" id="cardL">
+      <div class="hosts" id="hostsL"></div>
+      <div class="emoji">🥙</div><div class="name">Adana</div>
+    </div>
+    <div class="vs">VS</div>
+    <div class="card right" id="cardR">
+      <div class="hosts" id="hostsR"></div>
+      <div class="emoji">🍖</div><div class="name">Beyti</div>
+    </div>
+  </div>
+
+  <div class="ticker" id="ticker"></div>
+  <div class="crowd"><div class="n" id="crowdN">0</div><div class="l">oy kullanıldı</div></div>
+
+  <div class="tugwrap">
+    <div class="tug" id="tug">
+      <div class="side l" id="sideL" style="width:50%"></div>
+      <div class="side r" id="sideR" style="width:50%"></div>
+      <div class="knot" id="knot" style="left:calc(50% - 3px)"></div>
+      <div class="pct pl" id="pctL">50%</div>
+      <div class="pct pr" id="pctR">50%</div>
+    </div>
+  </div>
+
+  <div class="factions">
+    <div class="fac"><span class="dot" style="background:var(--bjk)"></span>Beşiktaş
+      <span class="bar"><i id="fBJK" style="background:var(--bjk);width:50%"></i></span></div>
+    <div class="fac"><span class="dot" style="background:var(--fb)"></span>Fenerbahçe
+      <span class="bar"><i id="fFB" style="background:var(--fb);width:50%"></i></span></div>
+    <div class="fac"><span class="dot" style="background:var(--gs)"></span>Galatasaray
+      <span class="bar"><i id="fGS" style="background:var(--gs);width:50%"></i></span></div>
+  </div>
+
+  <div class="drama" id="drama"></div>
+
+  <div class="bottom">
+    <div>⚡ 1X2 yok, oran yok — sadece kapışma</div>
+    <div class="sike">🕵️ <span class="b">Bu gece 1 ŞİKE HAKKI kullanıldı — kim, hangi düelloda? Gece sonunda açıklanacak</span></div>
+  </div>
+
+<script>
+// ---- Senaryolu demo simülasyonu: 15 sn oylama, perde, reveal, drama ----
+const $=id=>document.getElementById(id);
+const NAMES=["kahin_ferdi","temkinli61","karakartal_06","gs_lord34","fb_umut","adanali01",
+  "passolig_magduru","kebapsever","hilmicem_fan","06_ankara","ofsayt_var","tribun_lideri",
+  "corba_ustasi","yedek_kulubesi","penalti_bekleyen"];
+const TEAMS=[["BJK","var(--bjk)"],["FB","var(--fb)"],["GS","var(--gs)"]];
+
+// host seçimleri (önceden kilitlenmiş) — Hilmi yalnız kalacak
+$("hostsL").innerHTML='<span class="hostchip">Hasan</span><span class="hostchip">Turancan</span>';
+$("hostsR").innerHTML='<span class="hostchip">Hilmi</span>';
+
+let t=15, votes=0, share=50; // share = sol yüzde
+// senaryo: Beyti önde başlar (Hilmi umutlanır), son 5 sn Adana coşar (comeback), perde, reveal 58-42
+const script=[[14,44],[12,41],[10,38],[8,43],[6,47],[5,52],[4,55]]; // [saniye, sol%]
+let konfetiOn=false;
+
+function spawnParticle(side){
+  const p=document.createElement("div");p.className="p";
+  const [,color]=TEAMS[Math.random()*3|0];
+  p.style.background=color;
+  const y=200+Math.random()*260, x0=side==="l"?-20:1300, x1=side==="l"?120+Math.random()*300:860+Math.random()*300;
+  p.style.left=x0+"px";p.style.top=y+"px";document.body.appendChild(p);
+  p.animate([{left:x0+"px",opacity:1},{left:x1+"px",opacity:0}],{duration:600,easing:"ease-out"})
+   .onfinish=()=>p.remove();
+}
+function tick(){
+  const now=script.find(s=>s[0]===t);
+  if(now) share=now[1];
+  share+=(Math.random()-.5)*1.6;
+  const l=Math.max(8,Math.min(92,share));
+  $("sideL").style.width=l+"%";$("sideR").style.width=(100-l)+"%";
+  $("knot").style.left=`calc(${l}% - 3px)`;
+  $("pctL").textContent=Math.round(l)+"%";$("pctR").textContent=Math.round(100-l)+"%";
+  $("fBJK").style.width=(l+8+Math.random()*6)+"%";
+  $("fFB").style.width=(l-4+Math.random()*8)+"%";
+  $("fGS").style.width=(100-l+6+Math.random()*8)+"%";
+}
+function addVotes(){
+  const burst=6+(Math.random()*14|0)+(t<6?18:0); votes+=burst;
+  $("crowdN").textContent=votes.toLocaleString("tr-TR");
+  for(let i=0;i<Math.min(burst,10);i++)setTimeout(()=>spawnParticle(Math.random()*100<share?"l":"r"),i*40);
+  if(Math.random()<.8){
+    const n=NAMES[Math.random()*NAMES.length|0];
+    const side=Math.random()*100<share?"Adana":"Beyti";
+    const el=document.createElement("div");
+    el.innerHTML=`<b>${n}</b> → ${side}`;
+    const tk=$("ticker");tk.prepend(el);
+    while(tk.children.length>7)tk.lastChild.remove();
+  }
+}
+function drama(msg,sub,gold){
+  const d=$("drama");d.className="drama"+(gold?" gold":"");
+  d.innerHTML=msg+(sub?`<span class="sub">${sub}</span>`:"");
+  requestAnimationFrame(()=>d.classList.add("show"));
+}
+function konfeti(){
+  if(konfetiOn)return;konfetiOn=true;
+  setInterval(()=>{for(let i=0;i<6;i++){
+    const k=document.createElement("div");k.className="konfeti";
+    k.style.background=["#ffb020","#ff3b5c","#3b8bff","#35c46f"][Math.random()*4|0];
+    k.style.left=(80+Math.random()*420)+"px";k.style.top="-20px";
+    k.style.transform=`rotate(${Math.random()*360}deg)`;
+    document.body.appendChild(k);
+    k.animate([{top:"-20px"},{top:"740px"}],{duration:1800+Math.random()*1200,easing:"ease-in"})
+     .onfinish=()=>k.remove();
+  }},150);
+}
+const iv=setInterval(()=>{
+  t--;
+  $("tval").textContent=Math.max(0,t);
+  $("timer").style.setProperty("--deg",(t/15*360)+"deg");
+  if(t<=5)$("timer").classList.add("hot");
+  if(t>0){tick();addVotes();}
+  if(t===3){$("tug").classList.add("curtain");drama("👁️ PERDE KAPANDI","Son oylar körlemesine giriyor…");}
+  if(t===0){
+    clearInterval(iv);
+    setTimeout(()=>{
+      $("tug").classList.remove("curtain");
+      share=58;tick();
+      $("pctL").textContent="58%";$("pctR").textContent="42%";
+      $("sideL").style.width="58%";$("sideR").style.width="42%";$("knot").style.left="calc(58% - 3px)";
+      $("cardL").classList.add("winner");$("cardR").classList.add("loser");
+      drama("💔 CHAT, HİLMİ'Yİ YALNIZ BIRAKTI",
+            "İhanet raporu: Galatasaraylıların %38'i kendi hostuna karşı oynadı · en hızlı oy: kahin_ferdi (0.8sn)");
+      konfeti();
+      setTimeout(()=>{drama("⭐ ADANA YARI FİNALDE","Sıradaki kapışma: İskender vs Cağ · 3 saniye…",true);},4200);
+    },900);
+  }
+},1000);
+for(let i=0;i<5;i++)setTimeout(addVotes,i*180); // açılış patlaması
+</script>
+</body>
+</html>

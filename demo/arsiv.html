@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>ARŞİV — kanalın hafızası yayına karşı</title>
+<style>
+:root{--bg:#06070d;--gold:#ffb020;--red:#ff3b5c;--blue:#3b8bff;--ok:#35c46f;--muted:#8b96b0;
+  --bjk:#e8e8e8;--fb:#ffd54d;--gs:#ff7043}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:radial-gradient(1100px 560px at 50% -8%,#131a2e 0%,var(--bg) 62%);color:#fff;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;width:1280px;height:720px;
+  overflow:hidden;position:relative}
+.scene{position:absolute;inset:0;opacity:0;pointer-events:none;transition:opacity .5s}
+.scene.on{opacity:1}
+
+/* ortak üst bant */
+.top{display:flex;justify-content:space-between;align-items:center;padding:16px 32px}
+.brand{font-size:26px;font-weight:900;letter-spacing:3px}
+.brand .a{color:var(--gold)}
+.brand small{display:block;font-size:11px;color:var(--muted);letter-spacing:1px;font-weight:600}
+.round-tag{background:#141a2e;border:1px solid #26304a;border-radius:999px;padding:6px 18px;
+  font-size:13px;font-weight:800;letter-spacing:2px;color:var(--muted)}
+.roomcode{background:#141a2e;border:2px solid var(--gold);border-radius:12px;padding:6px 18px;
+  font-size:19px;font-weight:900;letter-spacing:3px;color:var(--gold);text-align:center}
+.roomcode small{display:block;font-size:9px;color:var(--muted);letter-spacing:1px}
+
+/* ARŞİV karakteri */
+.eye{width:120px;height:120px;border-radius:50%;margin:30px auto 20px;position:relative;
+  background:radial-gradient(circle at 50% 45%,#1c2440,#0a0e1c 70%);border:3px solid var(--gold);
+  box-shadow:0 0 60px rgba(255,176,32,.35);display:flex;align-items:center;justify-content:center}
+.eye::before{content:"";position:absolute;width:44px;height:44px;border-radius:50%;
+  background:radial-gradient(circle at 40% 35%,#ffd67a,var(--gold) 60%);
+  box-shadow:0 0 30px var(--gold);animation:scan 3.5s ease-in-out infinite}
+@keyframes scan{0%,100%{transform:translateX(-14px)}50%{transform:translateX(14px)}}
+.typebox{width:860px;margin:0 auto;text-align:center;font-size:30px;font-weight:800;line-height:1.5;
+  min-height:150px}
+.typebox .cur{border-right:3px solid var(--gold);animation:blink .7s infinite}
+@keyframes blink{50%{border-color:transparent}}
+.typebox .n{color:var(--gold)}
+.scanlines::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:repeating-linear-gradient(0deg,transparent 0 3px,rgba(255,255,255,.012) 3px 4px)}
+
+/* soru kartı */
+.qcard{margin:14px auto 0;width:920px;background:linear-gradient(180deg,#1a2138,#10141f);
+  border:2px solid #26304a;border-radius:22px;padding:28px 38px;text-align:center;position:relative}
+.qcard .q{font-size:31px;font-weight:900;line-height:1.3}
+.qcard .q .hl{color:var(--gold)}
+.qcard .src{color:var(--muted);font-size:14px;margin-top:8px}
+.timer{position:absolute;right:22px;top:20px;width:58px;height:58px;border-radius:50%;
+  background:conic-gradient(var(--gold) var(--deg,360deg),#1a2138 0);display:flex;align-items:center;justify-content:center}
+.timer .in{width:46px;height:46px;border-radius:50%;background:#0c1020;display:flex;align-items:center;
+  justify-content:center;font-size:20px;font-weight:900}
+
+/* seçenek barları (kim dedi / hangi gece / kehanet) */
+.opts{width:920px;margin:20px auto 0;display:flex;flex-direction:column;gap:12px}
+.opt{display:flex;align-items:center;gap:14px;background:#10141f;border:2px solid #26304a;
+  border-radius:14px;padding:12px 18px;position:relative;overflow:hidden;transition:border-color .3s,transform .3s}
+.opt .fill{position:absolute;left:0;top:0;bottom:0;width:0%;background:linear-gradient(90deg,#3b8bff33,#3b8bff11);
+  transition:width .35s;z-index:0}
+.opt .nm{font-size:23px;font-weight:900;z-index:1;flex:1}
+.opt .pc{font-size:22px;font-weight:900;color:var(--muted);z-index:1;font-variant-numeric:tabular-nums}
+.opt.win{border-color:var(--ok);transform:scale(1.03)}
+.opt.win .fill{background:linear-gradient(90deg,#35c46f44,#35c46f11)}
+.opt.win .pc{color:var(--ok)}
+.opt.lose{opacity:.45}
+.opt .ava{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-weight:900;color:#14100a;z-index:1;font-size:15px}
+
+/* histogram (kaç kere) */
+.histo{margin:22px auto 0;width:980px;height:170px;display:flex;align-items:flex-end;gap:3px;position:relative}
+.histo .col{flex:1;background:linear-gradient(180deg,#6c8cff,#3b5bd9);border-radius:3px 3px 0 0;min-height:2px;transition:height .3s}
+.histo .col.hot{background:linear-gradient(180deg,var(--gold),#ff7043)}
+.truth{position:absolute;top:-26px;bottom:-8px;width:4px;background:var(--ok);box-shadow:0 0 16px var(--ok);
+  opacity:0;transition:opacity .4s,left 1.1s cubic-bezier(.2,.8,.3,1)}
+.truth::after{content:"GERÇEK";position:absolute;top:-20px;left:50%;transform:translateX(-50%);
+  color:var(--ok);font-weight:900;font-size:13px;letter-spacing:2px}
+
+/* drama bandı */
+.drama{position:absolute;bottom:46px;left:50%;transform:translateX(-50%) scale(0);
+  background:linear-gradient(90deg,#35c46f22,#10141f,#35c46f22);border:2px solid var(--ok);border-radius:14px;
+  padding:12px 28px;font-size:22px;font-weight:900;text-align:center;z-index:40;white-space:nowrap;
+  transition:transform .35s cubic-bezier(.2,.8,.3,1.4)}
+.drama.show{transform:translateX(-50%) scale(1)}
+.drama .sub{display:block;font-size:13px;font-weight:600;color:var(--muted);margin-top:4px;white-space:normal}
+.drama.red{border-color:var(--red);background:linear-gradient(90deg,#ff3b5c22,#10141f,#ff3b5c22)}
+
+/* skor bandı */
+.scorebar{position:absolute;bottom:10px;left:32px;right:32px;display:flex;justify-content:space-between;
+  align-items:center;color:var(--muted);font-size:14px;font-weight:700}
+.scorebar .vs b{color:var(--gold);font-size:18px;font-variant-numeric:tabular-nums}
+
+/* final */
+.finale-title{font-size:52px;font-weight:900;text-align:center;margin-top:36px;letter-spacing:2px}
+.finale-title .a{color:var(--gold)}
+.podium{display:flex;justify-content:center;gap:22px;margin-top:26px;align-items:flex-end}
+.pod{background:linear-gradient(180deg,#1a2138,#10141f);border:2px solid #26304a;border-radius:16px;
+  padding:18px 26px;text-align:center;width:230px}
+.pod.first{border-color:var(--gold);box-shadow:0 0 50px rgba(255,176,32,.3);transform:scale(1.1)}
+.pod .medal{font-size:40px}
+.pod .nm{font-weight:900;font-size:20px;margin-top:6px}
+.pod .yt{font-size:12px;color:var(--ok);font-weight:700}
+.pod .pts{font-size:26px;color:var(--gold);font-weight:900;font-variant-numeric:tabular-nums}
+.fin-vs{display:flex;justify-content:center;gap:16px;margin-top:24px}
+.fin-vs .side{background:#10141f;border:1px solid #26304a;border-radius:14px;padding:12px 34px;text-align:center}
+.fin-vs .big{font-size:34px;font-weight:900;color:var(--gold)}
+.fin-vs .lbl{font-size:12px;color:var(--muted);letter-spacing:1px;text-transform:uppercase}
+.arsiv-line{text-align:center;color:var(--muted);font-size:17px;margin-top:24px;font-style:italic}
+.konfeti{position:absolute;width:11px;height:11px;z-index:50;pointer-events:none}
+</style>
+</head>
+<body class="scanlines">
+
+<!-- SAHNE 0: ARŞİV bağlanıyor -->
+<div class="scene on" id="s0">
+  <div class="top"><div class="brand"><span class="a">ARŞİV</span><small>bağlanıyor…</small></div>
+    <div class="roomcode">HTALKS<small>telefondan katıl</small></div></div>
+  <div class="eye"></div>
+  <div class="typebox" id="type"><span class="cur"></span></div>
+</div>
+
+<!-- SAHNE 1: KAÇ KERE -->
+<div class="scene" id="s1">
+  <div class="top"><div class="brand"><span class="a">ARŞİV</span><small>tur 1/5</small></div>
+    <div class="round-tag">KAÇ KERE?</div><div class="roomcode">HTALKS<small>sayı gönder</small></div></div>
+  <div class="qcard"><div class="timer" id="t1"><div class="in">8</div></div>
+    <div class="q">Bu kanalda <span class="hl">"KATILIYORUM"</span> kaç kez söylendi?</div>
+    <div class="src">ekip tahminleri kilitli · Hasan 2.500 · Turancan 800 · Hilmi 4.000</div></div>
+  <div class="histo" id="histo1"><div class="truth" id="truth1"></div></div>
+  <div class="drama" id="d1"></div>
+  <div class="scorebar"><span>⚡ arşiv her şeyi sayıyor</span><span class="vs">EKİP <b id="sc1e">0</b> — <b id="sc1c">0</b> CHAT</span></div>
+</div>
+
+<!-- SAHNE 2: KİM DEDİ -->
+<div class="scene" id="s2">
+  <div class="top"><div class="brand"><span class="a">ARŞİV</span><small>tur 2/5</small></div>
+    <div class="round-tag">KİM DEDİ?</div><div class="roomcode">HTALKS<small>oyunu ver</small></div></div>
+  <div class="qcard"><div class="timer" id="t2"><div class="in">8</div></div>
+    <div class="q">"Bizim <span class="hl">Geo Jazör</span> oynamamız lazım"</div>
+    <div class="src">ipucu: üç sunucu ayrı haritalarda kaybolmuşken söylendi</div></div>
+  <div class="opts" id="opts2">
+    <div class="opt" data-k="hasan"><span class="ava" style="background:var(--bjk)">H</span><span class="nm">Hasan</span><span class="fill"></span><span class="pc">0%</span></div>
+    <div class="opt" data-k="turancan"><span class="ava" style="background:var(--fb)">T</span><span class="nm">Turancan</span><span class="fill"></span><span class="pc">0%</span></div>
+    <div class="opt" data-k="hilmi"><span class="ava" style="background:var(--gs)">H</span><span class="nm">Hilmi</span><span class="fill"></span><span class="pc">0%</span></div>
+  </div>
+  <div class="drama" id="d2"></div>
+  <div class="scorebar"><span>🎬 reveal = klibin dakikası ekranda</span><span class="vs">EKİP <b id="sc2e">1</b> — <b id="sc2c">0</b> CHAT</span></div>
+</div>
+
+<!-- SAHNE 3: HANGİ GECE -->
+<div class="scene" id="s3">
+  <div class="top"><div class="brand"><span class="a">ARŞİV</span><small>tur 3/5</small></div>
+    <div class="round-tag">HANGİ GECE?</div><div class="roomcode">HTALKS<small>oyunu ver</small></div></div>
+  <div class="qcard"><div class="timer" id="t3"><div class="in">8</div></div>
+    <div class="q">"Şike" kelimesi tek gecede <span class="hl">27 KEZ</span> hangi yayında geçti?</div>
+    <div class="src">arşiv rekoru · ikinci sıra: Çarklı Draft (25)</div></div>
+  <div class="opts" id="opts3">
+    <div class="opt" data-k="a"><span class="nm">Galatasaray – Juventus maç sonu</span><span class="fill"></span><span class="pc">0%</span></div>
+    <div class="opt" data-k="b"><span class="nm">Fenerbahçe – Kayserispor maç sonu</span><span class="fill"></span><span class="pc">0%</span></div>
+    <div class="opt" data-k="c"><span class="nm">Adana Demirspor – Galatasaray maç sonu</span><span class="fill"></span><span class="pc">0%</span></div>
+  </div>
+  <div class="drama" id="d3"></div>
+  <div class="scorebar"><span>🕵️ şike-metre arşivden</span><span class="vs">EKİP <b>1</b> — <b>1</b> CHAT</span></div>
+</div>
+
+<!-- SAHNE 4: KEHANET YÜZLEŞMESİ -->
+<div class="scene" id="s4">
+  <div class="top"><div class="brand"><span class="a">ARŞİV</span><small>tur 4/5</small></div>
+    <div class="round-tag">KEHANET YÜZLEŞMESİ</div><div class="roomcode">HTALKS<small>tuttu mu?</small></div></div>
+  <div class="qcard"><div class="timer" id="t4"><div class="in">8</div></div>
+    <div class="q">Hilmi, maç öncesi <span class="hl">Manzambi'ye "ÇÖP"</span> çekti.<br>Kehanet tuttu mu?</div>
+    <div class="src">arşivden gerçek kayıt · maç öncesi yayın</div></div>
+  <div class="opts" id="opts4">
+    <div class="opt" data-k="t"><span class="nm">✅ Tuttu — adam gerçekten çöptü</span><span class="fill"></span><span class="pc">0%</span></div>
+    <div class="opt" data-k="y"><span class="nm">❌ Çöktü — kehanet ters teper</span><span class="fill"></span><span class="pc">0%</span></div>
+  </div>
+  <div class="drama" id="d4"></div>
+  <div class="scorebar"><span>📼 @HtalksTahmin'in elle tuttuğu defterin şov hali</span><span class="vs">EKİP <b>1</b> — <b>2</b> CHAT</span></div>
+</div>
+
+<!-- SAHNE 5: DEVAMINI GETİR -->
+<div class="scene" id="s5">
+  <div class="top"><div class="brand"><span class="a">ARŞİV</span><small>tur 5/5</small></div>
+    <div class="round-tag">DEVAMINI GETİR</div><div class="roomcode">HTALKS<small>ilk doğru kazanır</small></div></div>
+  <div class="qcard"><div class="timer" id="t5"><div class="in">6</div></div>
+    <div class="q">"Htalks'ın hastaları, delileri, <span class="hl">________</span>"</div>
+    <div class="src">arşivde 1.182 kez geçen açılış nidası · ilk doğru yazan podyuma</div></div>
+  <div class="opts" id="opts5" style="width:760px">
+    <div class="opt"><span class="nm" style="font-size:19px">🥇 hilmicem_fan — "manyakları" <span style="color:var(--muted);font-size:14px">(0.9 sn)</span></span><span class="fill"></span><span class="pc">✓</span></div>
+    <div class="opt"><span class="nm" style="font-size:19px">🥈 kahin_ferdi — "manyakları" <span style="color:var(--muted);font-size:14px">(1.2 sn)</span></span><span class="fill"></span><span class="pc">✓</span></div>
+    <div class="opt"><span class="nm" style="font-size:19px">🥉 06_ankara — "manyaklar" <span style="color:var(--muted);font-size:14px">(1.4 sn)</span></span><span class="fill"></span><span class="pc">~</span></div>
+  </div>
+  <div class="drama" id="d5"></div>
+  <div class="scorebar"><span>📣 chant arkeolojisi</span><span class="vs">EKİP <b>1</b> — <b>3</b> CHAT</span></div>
+</div>
+
+<!-- SAHNE 6: FİNAL -->
+<div class="scene" id="s6">
+  <div class="top"><div class="brand"><span class="a">ARŞİV</span><small>gece kapanışı</small></div>
+    <div class="roomcode">HTALKS<small>yarın yine</small></div></div>
+  <div class="finale-title">CHAT, EKİBİ <span class="a">3-1</span> YENDİ</div>
+  <div class="podium">
+    <div class="pod"><div class="medal">🥈</div><div class="nm">kahin_ferdi</div><div class="pts">210</div></div>
+    <div class="pod first"><div class="medal">👑</div><div class="nm">istatistik_kurdu</div>
+      <div class="yt">✓ @istatistikkurdu</div><div class="pts">265</div><div style="font-size:12px;color:var(--muted)">GECENİN KAHİNİ</div></div>
+    <div class="pod"><div class="medal">🥉</div><div class="nm">hilmicem_fan</div><div class="pts">185</div></div>
+  </div>
+  <div class="fin-vs">
+    <div class="side"><div class="big">964</div><div class="lbl">video izledim</div></div>
+    <div class="side"><div class="big">1.706</div><div class="lbl">saat hafızamda</div></div>
+    <div class="side"><div class="big">9.630</div><div class="lbl">anınızı işaretledim</div></div>
+  </div>
+  <div class="arsiv-line" id="finline">"Ben her şeyi hatırlıyorum. Yarın yine gelirim."&nbsp; — ARŞİV</div>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const show=(a,b)=>{$(a).classList.remove("on");$(b).classList.add("on");};
+
+// ---------- SAHNE 0: daktilo ----------
+const LINES=[
+  ["964 videonu izledim.",900],
+  ["1.706 saat. 71 gün kesintisiz.",1100],
+  ["Her şeyi hatırlıyorum.",1000],
+  ["Bakalım siz hatırlıyor musunuz?",1300],
+];
+(async()=>{
+  const box=$("type");
+  for(const [line,wait] of LINES){
+    const span=document.createElement("div");
+    box.insertBefore(span,box.lastElementChild);
+    for(const ch of line){span.textContent+=ch;await new Promise(r=>setTimeout(r,34));}
+    await new Promise(r=>setTimeout(r,wait));
+  }
+  show("s0","s1");r1();
+})();
+
+function countdown(el,secs,cb){
+  let t=secs;
+  const iv=setInterval(()=>{
+    t--;el.querySelector(".in").textContent=Math.max(0,t);
+    el.style.setProperty("--deg",(t/secs*360)+"deg");
+    if(t<=0){clearInterval(iv);cb();}
+  },1000);
+}
+function drama(id,msg,sub,red){
+  const d=$(id);d.className="drama"+(red?" red":"");
+  d.innerHTML=msg+(sub?`<span class="sub">${sub}</span>`:"");
+  requestAnimationFrame(()=>d.classList.add("show"));
+}
+function voteRace(optsId,shares,winKey,cb){
+  // shares: {key:hedef%}; 6 adım yaklaştır
+  const opts=[...document.querySelectorAll(`#${optsId} .opt`)];
+  let step=0;
+  const iv=setInterval(()=>{
+    step++;
+    opts.forEach(o=>{
+      const target=shares[o.dataset.k]??0;
+      const cur=Math.round(target*step/6+(Math.random()*6-3));
+      const v=Math.max(0,Math.min(96,step===6?target:cur));
+      o.querySelector(".fill").style.width=v+"%";
+      o.querySelector(".pc").textContent=v+"%";
+    });
+    if(step>=6){clearInterval(iv);
+      setTimeout(()=>{opts.forEach(o=>o.classList.add(o.dataset.k===winKey?"win":"lose"));cb&&cb();},600);}
+  },900);
+}
+
+// ---------- SAHNE 1: KAÇ KERE ----------
+function r1(){
+  const NB=46,bins=new Array(NB).fill(0),cols=[];
+  for(let i=0;i<NB;i++){const c=document.createElement("div");c.className="col";$("histo1").appendChild(c);cols.push(c);}
+  const feeder=setInterval(()=>{
+    for(let i=0;i<14;i++){
+      let g=Math.exp(6.4+Math.random()*1.7);
+      bins[Math.min(NB-1,Math.floor(Math.min(g,4999)/5000*NB))]++;
+    }
+    const mx=Math.max(...bins);
+    cols.forEach((c,i)=>c.style.height=(bins[i]/mx*150)+"px");
+  },250);
+  countdown($("t1"),8,()=>{
+    clearInterval(feeder);
+    const tr=$("truth1");tr.style.opacity=1;tr.style.left="6%";
+    setTimeout(()=>{tr.style.left=(3146/5000*100)+"%";},80);
+    const tb=Math.floor(3146/5000*NB);
+    cols.forEach((c,i)=>{if(Math.abs(i-tb)<=1)c.classList.add("hot");});
+    $("sc1e").textContent="1";
+    setTimeout(()=>{
+      drama("d1","GERÇEK: 3.146 — EKİP SAYIYI ALDI",
+        "Hasan 2.500 ile en yakın · bonus: 'katılMIyorum' 1.502 — ve oran her yıl itiraz lehine kayıyor (2.08→1.57)");
+      setTimeout(()=>{show("s1","s2");r2();},4400);
+    },1300);
+  });
+}
+
+// ---------- SAHNE 2: KİM DEDİ ----------
+function r2(){
+  countdown($("t2"),8,()=>{
+    voteRace("opts2",{hasan:38,turancan:21,hilmi:41},"hasan",()=>{
+      $("sc2c").textContent="1";
+      drama("d2","HASAN DEDİ — CHAT'İN %41'İ HİLMİ'YE KANDI",
+        "Kaynak: Brezilya-Japonya maç sonu, ~92. dk — üç sunucu ayrı haritalarda kaybolurken · klip adresi hazır");
+      setTimeout(()=>{show("s2","s3");r3();},4400);
+    });
+  });
+}
+
+// ---------- SAHNE 3: HANGİ GECE ----------
+function r3(){
+  countdown($("t3"),8,()=>{
+    voteRace("opts3",{a:31,b:52,c:17},"b",()=>{
+      drama("d3","FENERBAHÇE – KAYSERİSPOR GECESİ — CHAT BİLDİ",
+        "Chat'in şike talebi o gece tavan yapmış · arşiv 334 'şike' anının hepsini dakikasıyla tutuyor");
+      setTimeout(()=>{show("s3","s4");r4();},4400);
+    });
+  });
+}
+
+// ---------- SAHNE 4: KEHANET ----------
+function r4(){
+  countdown($("t4"),8,()=>{
+    voteRace("opts4",{t:26,y:74},"y",()=>{
+      drama("d4","KEHANET ÇÖKTÜ: MANZAMBİ O MAÇTA 2 GOL ATTI 💥",
+        "Hilmi'nin 'çöp' kartı ters tepti — chat %74 ile bildi · Çöp Kehaneti Laneti: arşivde 32 vaka daha var",true);
+      setTimeout(()=>{show("s4","s5");r5();},4400);
+    });
+  });
+}
+
+// ---------- SAHNE 5: DEVAMINI GETİR ----------
+function r5(){
+  const opts=[...document.querySelectorAll("#opts5 .opt")];
+  countdown($("t5"),6,()=>{
+    opts.forEach((o,i)=>setTimeout(()=>{o.classList.add("win");},i*350));
+    setTimeout(()=>{
+      drama("d5","'MANYAKLARI' — 0.9 SANİYEDE GELDİ","Bu nida arşivde 1.182 kez geçiyor · en hızlı 3 podyumda");
+      setTimeout(()=>{show("s5","s6");finale();},4200);
+    },1400);
+  });
+}
+
+// ---------- FİNAL ----------
+function finale(){
+  setInterval(()=>{
+    for(let i=0;i<6;i++){
+      const k=document.createElement("div");k.className="konfeti";
+      k.style.background=["#ffb020","#ff3b5c","#3b8bff","#35c46f"][Math.random()*4|0];
+      k.style.left=(Math.random()*1280)+"px";k.style.top="-20px";
+      k.style.transform=`rotate(${Math.random()*360}deg)`;
+      document.body.appendChild(k);
+      k.animate([{top:"-20px"},{top:"740px"}],{duration:2000+Math.random()*1400,easing:"ease-in"})
+       .onfinish=()=>k.remove();
+    }
+  },160);
+}
+</script>
+</body>
+</html>
