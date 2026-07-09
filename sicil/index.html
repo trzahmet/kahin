@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TAHMİN SİCİLİ — HTalks DK-2026 Karnesi</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+<style>
+  :root {
+    --bg: #0c0f14; --panel: #151a23; --panel2: #1b2230; --line: #2a3446;
+    --text: #e8edf5; --dim: #8b96a8;
+    --tuttu: #2ecc71; --kismen: #f1c40f; --coktu: #e74c3c; --bekliyor: #5dade2; --mor: #a06cd5;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.5; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 16px 80px; }
+  header { text-align: center; padding: 28px 0 8px; }
+  header h1 { font-size: 1.9rem; letter-spacing: 3px; }
+  header .alt { color: var(--dim); margin-top: 6px; font-size: .95rem; }
+  header .guncel { display: inline-block; margin-top: 10px; font-size: .8rem; color: var(--bekliyor); border: 1px solid var(--line); border-radius: 20px; padding: 3px 12px; }
+  .hafta { background: linear-gradient(135deg, #1a2333, #141a26); border: 1px solid var(--line); border-left: 4px solid var(--mor); border-radius: 12px; padding: 14px 16px; margin: 22px 0; font-size: .95rem; }
+  .hafta b { color: var(--mor); display: block; margin-bottom: 4px; font-size: .8rem; letter-spacing: 2px; }
+  .kartlar { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 10px 0 26px; }
+  .kart { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; position: relative; }
+  .kart.birinci { border-color: #d4af37; box-shadow: 0 0 24px rgba(212,175,55,.12); }
+  .kart .sira { position: absolute; top: 14px; right: 14px; font-size: 1.4rem; }
+  .kart h2 { font-size: 1.3rem; }
+  .kart .unvan { color: var(--dim); font-size: .8rem; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 12px; }
+  .kart .puanlar { display: flex; gap: 8px; margin: 10px 0; }
+  .p { flex: 1; text-align: center; background: var(--panel2); border-radius: 8px; padding: 8px 2px; }
+  .p .n { font-size: 1.25rem; font-weight: 700; }
+  .p .l { font-size: .65rem; color: var(--dim); letter-spacing: 1px; }
+  .p.t .n { color: var(--tuttu); } .p.k .n { color: var(--kismen); } .p.c .n { color: var(--coktu); }
+  .kart .grup { font-size: .85rem; color: var(--dim); margin: 8px 0 4px; }
+  .kart .grup b { color: var(--text); }
+  .kart .samp { font-size: .85rem; margin-top: 8px; padding-top: 10px; border-top: 1px dashed var(--line); }
+  .kart .samp .d { font-weight: 700; }
+  .kart .imza { font-size: .8rem; color: var(--dim); font-style: italic; margin-top: 10px; }
+  .rozet { display: inline-block; font-size: .7rem; font-weight: 700; letter-spacing: 1px; border-radius: 4px; padding: 2px 8px; }
+  .r-TUTTU { background: rgba(46,204,113,.15); color: var(--tuttu); }
+  .r-KISMEN { background: rgba(241,196,15,.15); color: var(--kismen); }
+  .r-COKTU { background: rgba(231,76,60,.15); color: var(--coktu); }
+  .r-BEKLIYOR { background: rgba(93,173,226,.15); color: var(--bekliyor); }
+  .r-YASIYOR { background: rgba(46,204,113,.15); color: var(--tuttu); }
+  .r-KARARSIZ { background: rgba(160,108,213,.15); color: var(--mor); }
+  section h3 { letter-spacing: 2px; font-size: 1rem; color: var(--dim); text-transform: uppercase; margin: 30px 0 14px; }
+  .evrim { border-left: 2px solid var(--line); margin-left: 8px; padding-left: 18px; }
+  .ev { position: relative; padding-bottom: 16px; font-size: .92rem; }
+  .ev::before { content: ""; position: absolute; left: -24px; top: 5px; width: 10px; height: 10px; border-radius: 50%; background: var(--mor); }
+  .ev .t { color: var(--mor); font-weight: 700; margin-right: 8px; }
+  .filtreler { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .f { background: var(--panel); border: 1px solid var(--line); color: var(--dim); border-radius: 20px; padding: 5px 14px; font-size: .8rem; cursor: pointer; user-select: none; }
+  .f.on { background: var(--panel2); color: var(--text); border-color: var(--bekliyor); }
+  .kayit { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; }
+  .kayit .ust { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
+  .kayit .kisi { font-weight: 700; }
+  .kayit .meta { color: var(--dim); font-size: .75rem; }
+  .kayit .ozet { font-size: .93rem; }
+  .kayit .cozum { font-size: .85rem; color: var(--dim); margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--line); }
+  .kayit .cozum a, .ev a, .yz a { color: var(--bekliyor); text-decoration: none; }
+  .yz { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; margin-bottom: 10px; font-size: .9rem; }
+  .yz .t { color: var(--mor); font-weight: 700; margin-right: 6px; }
+  footer { margin-top: 40px; font-size: .78rem; color: var(--dim); border-top: 1px solid var(--line); padding-top: 16px; }
+  footer a { color: var(--bekliyor); }
+  .geri { display: inline-block; margin-bottom: 8px; color: var(--dim); text-decoration: none; font-size: .85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="geri" href="../">← modüller</a>
+  <header>
+    <h1>📋 TAHMİN SİCİLİ</h1>
+    <div class="alt">Hasan · Turancan · Hilmi — Dünya Kupası 2026 karnesi.<br>Kanalın 47 canlı yayınını baştan sona izleyen yapay zekanın tuttuğu kayıt.</div>
+    <div class="guncel" id="guncel"></div>
+  </header>
+
+  <div class="hafta" id="hafta"></div>
+
+  <div class="kartlar" id="kartlar"></div>
+
+  <section>
+    <h3>🏆 Şampiyon tahmini nasıl evrildi</h3>
+    <div class="evrim" id="evrim"></div>
+  </section>
+
+  <section>
+    <h3>📜 Kayıtlar</h3>
+    <div class="filtreler" id="filtreler"></div>
+    <div id="liste"></div>
+  </section>
+
+  <section>
+    <h3>🪞 Yüzleşme köşesi — kendi itirafları</h3>
+    <div id="yuzlesme"></div>
+  </section>
+
+  <footer>
+    <b>Yöntem ve dürüstlük notu:</b> Bu sicil, kanalın <span id="kapsam"></span> otomatik transkript analiziyle çıkarıldı.
+    Otomatik altyazıda konuşmacı etiketi olmadığından, kişi ataması yalnız bağlam kanıtıyla yapılır (isimle hitap, kendinden söz etme);
+    kanıtı zayıf tahminler bu sayfada kişiye yazılmaz ve gösterilmez. Hükümler yayınlarda dile getirilen sonuçlara dayanır;
+    her kartta kaynak yayının bağlantısı vardır. Transkriptlerden birebir alıntı yapılmaz — tüm ifadeler özettir.
+    Bu sayfa bağımsız bir hayran çalışmasıdır; HTalks ile resmi bağı yoktur.
+  </footer>
+</div>
+<script src="data.js"></script>
+<script>
+  const yt = id => id ? `https://youtu.be/${id}` : null;
+  const R = d => `<span class="rozet r-${d}">${d === 'COKTU' ? 'ÇÖKTÜ' : d}</span>`;
+
+  document.getElementById('guncel').textContent = 'Son güncelleme: ' + SICIL.guncelleme + ' · her yayından sonra yenilenir';
+  document.getElementById('kapsam').textContent = SICIL.kapsam.yayin + ' Dünya Kupası dönemi yayınının (tespit edilen ' + SICIL.kapsam.tahmin + ' tahminin kişiye atanabilen ' + SICIL.kapsam.atanmis + " tanesi)";
+  document.getElementById('hafta').innerHTML = '<b>BU HAFTA ÇÖZÜLENLER</b>' + SICIL.dun.ozet;
+
+  document.getElementById('kartlar').innerHTML = SICIL.karne.map((k, i) => `
+    <div class="kart ${i === 0 ? 'birinci' : ''}">
+      <div class="sira">${['🥇','🥈','🥉'][i]}</div>
+      <h2>${k.kisi}</h2>
+      <div class="unvan">${k.unvan}</div>
+      <div class="puanlar">
+        <div class="p t"><div class="n">${k.tally.tuttu}</div><div class="l">TUTTU</div></div>
+        <div class="p k"><div class="n">${k.tally.kismen}</div><div class="l">KISMEN</div></div>
+        <div class="p c"><div class="n">${k.tally.coktu}</div><div class="l">ÇÖKTÜ</div></div>
+      </div>
+      <div class="grup">Grup karnesi (kanalın kendi puanlaması): <b>${k.grupPuan} puan · ${k.grupSira}.</b></div>
+      <div class="samp">Şampiyon: <span class="d">${k.sampiyon.pick}</span> ${R(k.sampiyon.durum)}<br><span style="color:var(--dim); font-size:.8rem">${k.sampiyon.not}</span></div>
+      <div class="imza">${k.imza}</div>
+    </div>`).join('');
+
+  document.getElementById('evrim').innerHTML = SICIL.sampiyonEvrimi.map(e =>
+    `<div class="ev"><span class="t">${e.t}</span>${e.olay} <a href="${yt(e.video)}" target="_blank">yayın ↗</a></div>`).join('');
+
+  const durumlar = ['Tümü', 'TUTTU', 'KISMEN', 'COKTU', 'BEKLIYOR'];
+  const kisiler = ['Herkes', 'Hasan', 'Turancan', 'Hilmi'];
+  let fd = 'Tümü', fk = 'Herkes';
+  function cizFiltre() {
+    document.getElementById('filtreler').innerHTML =
+      durumlar.map(d => `<div class="f ${fd === d ? 'on' : ''}" onclick="fd='${d}';ciz()">${d === 'COKTU' ? 'ÇÖKTÜ' : d}</div>`).join('') +
+      '<div style="width:12px"></div>' +
+      kisiler.map(k => `<div class="f ${fk === k ? 'on' : ''}" onclick="fk='${k}';ciz()">${k}</div>`).join('');
+  }
+  function ciz() {
+    cizFiltre();
+    const kayitlar = SICIL.kayitlar.filter(k =>
+      (fd === 'Tümü' || k.durum === fd) && (fk === 'Herkes' || k.kisi === fk));
+    document.getElementById('liste').innerHTML = kayitlar.map(k => `
+      <div class="kayit">
+        <div class="ust"><span class="kisi">${k.kisi}</span>${R(k.durum)}<span class="meta">${k.t} · ${k.kat}</span></div>
+        <div class="ozet">${k.ozet}</div>
+        <div class="cozum">${k.cozum}
+          ${k.video ? ` <a href="${yt(k.video)}" target="_blank">tahmin yayını ↗</a>` : ''}
+          ${k.kanit && k.kanit !== k.video ? ` · <a href="${yt(k.kanit)}" target="_blank">sonuç yayını ↗</a>` : ''}
+        </div>
+      </div>`).join('') || '<div style="color:var(--dim)">Bu filtrede kayıt yok.</div>';
+  }
+  ciz();
+
+  document.getElementById('yuzlesme').innerHTML = SICIL.yuzlesmeKosesi.map(y =>
+    `<div class="yz"><span class="t">${y.t}</span>${y.olay} <a href="${yt(y.video)}" target="_blank">yayın ↗</a></div>`).join('');
+</script>
+</body>
+</html>

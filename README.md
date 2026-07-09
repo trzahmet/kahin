@@ -1,55 +1,27 @@
-# Kahin Ligi
+# HTalks Evreni — bağımsız hayran modülleri
 
-Üyeliksiz, yayın-dostu tahmin ligi. **Sürprizi bilen çok kazanır.**
+Kanalın 2.124 videosunu (1.904 saat) analiz eden bir boru hattının ürettiği, tek çatı altında yaşayan modüller. Bağımsız hayran çalışmasıdır; HTalks ile resmi bağı yoktur.
 
-Yayıncı ekipler için tasarlandı: ekip + izleyiciler maç başlamadan tahmin kilitler
-(kör tahmin), maç başlayınca herkesin kartı açılır (yüzleşme), sonuç girilince
-puanlar otomatik hesaplanır, liderlik tablosu yayın ekranına atılır.
+**Canlı site:** https://networkailab01-web.github.io/kahin/
 
-## Neden böyle? (kanıta dayalı tasarım kuralları)
+## Modüller
 
-Tasarım şartnamesi `../htalks-analiz/RAPOR.md`'deki 61 yayınlık analizden geliyor:
+| Modül | Yol | Durum | Ne yapar |
+|---|---|---|---|
+| Tahmin Sicili | `sicil/` | **CANLI** | Üçlünün DK-2026 tahmin karnesi: kim ne dedi, ne tuttu, ne çöktü. Her yayından sonra güncellenir. |
+| HTalks Wrapped | `wrapped/` | CANLI | Arşiv sayılarının sinematik gösterimi. |
+| ARŞİV Oyunu | `demo/arsiv.html` | DEMO | Kanal hafızasına karşı yarışma prototipi. |
+| VS Arena | — | YAKINDA | Küratörlü, güncel versus paketleri + yayın TV modu. |
+| Günün Sorusu | — | YAKINDA | Arşivden günde tek soru; seri + paylaşım kartı. |
+| Kahin Ligi (park) | `lig/` | PARK | Eski tahmin-ligi uygulaması; altyapısı VS Arena'nın canlı moduna devşirilecek. |
 
-| Kural | Kanıt |
-|---|---|
-| Üyelik yok (oyuncu=cihaz, yönetici=gizli link) | "Web sitesine üye olma varsa kullanmam" — yayında açık veto |
-| Kör tahmin (maça kadar sunucuda gizli) | "hile yapıyorsun" şüphesi + sözlü tarif edilen ihtiyaç |
-| Oran-parası YOK, kalabalık çarpanı VAR | Had Tahmin Oyunu'nun ruhu, bahis regülasyonuna girmeden |
-| ⭐Maksimüs / 🗑️Çöp kartları | Her maçta oynanan mevcut ritüel |
-| Ekip-vs-Chat karşılaştırması | "chat host'lardan hızlı" — ölçülemeyen rekabet |
-| Taraftar kırılımı (BJK/FB/GS) | Kanal dinamiğinin temeli |
-| Tek ekran TV görünümü | Excel ekran paylaşımı fiyaskoları |
+## Veri ve dürüstlük ilkeleri
 
-## Puanlama
+- Transkriptlerden **birebir alıntı yapılmaz** — özet + kaynak yayın linki.
+- Kişi ataması yalnız bağlam kanıtıyla; kanıtı zayıf kayıtlar kişiye yazılmaz.
+- Hükümler (TUTTU/KISMEN/ÇÖKTÜ) yayınlarda söylenen sonuçlara dayanır; her kartta kaynak var.
+- Maç görüntüsü, kulüp/beIN materyali kullanılmaz.
 
-- Doğru 1X2: **10 × kalabalık çarpanı** — o sonucu seçenlerin oranına göre 1.0–3.0
-  (herkes bildiyse 10, %33 bildiyse 30'a kadar).
-- Gol farkını tutturma: **+5**
-- Birebir skor: **+10**
-- ⭐ Maksimüs hükmü tutan: **+5** · 🗑️ Çöp hükmü tutan: **+5**
-  (hükümleri maç sonu yönetici verir — yüzleşme anı yayının kendisidir)
+## Teknik
 
-## Kurulum (bir kere, ~5 dakika)
-
-1. **Supabase** → SQL Editor → `schema.sql` içeriğini yapıştır, çalıştır.
-2. `config.js` → `SUPABASE_URL` ve `SUPABASE_ANON_KEY` doldur
-   (Project Settings → API; anon key herkese açık olabilir, tablolar RPC-kilitli).
-3. Bu klasörü herhangi bir statik hosta koy (GitHub Pages / Cloudflare Pages / Netlify).
-   Derleme yok; dosyaları kopyalamak yeterli.
-
-`config.js` boş bırakılırsa site **DEMO modunda** açılır (veri tarayıcıda kalır) —
-ürünü göstermek/denemek için sunucu bile gerekmez.
-
-## Kullanım
-
-- `admin.html` → lig kur → **yönetici linkini kaydet** → maçları ekle.
-- Oyuncular `index.html?lig=<slug>` → isim yaz, tahmin kilitle.
-- Yayın ekranı: `tv.html?lig=<slug>` (OBS pencere kaynağı, 10 sn'de bir yenilenir).
-- Maç bitince `admin.html` → skor + ⭐/🗑️ hükümleri → "Sonucu işle".
-
-## Güvenlik modeli
-
-- Tüm tablolar RLS ile kapalı; istemci yalnızca `security definer` RPC çağırır.
-- Tahminler maç saatinden önce hiçbir RPC'den sızmaz (kör tahmin sunucuda).
-- Yönetici yetkisi = lig kurulurken üretilen `admin_secret` (linkte taşınır).
-- Gerçek para/ödül/oran yok — puan bazlı eğlence ürünü.
+Tamamen statik site (GitHub Pages). Sicil verisi `sicil/data.js` içinde; üretim boru hattı ayrı depodadır ve her yeni yayından sonra bu dosyayı günceller.

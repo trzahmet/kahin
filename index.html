@@ -1,226 +1,77 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kahin Ligi — tahminini kilitle, yüzleşmeye gel</title>
-<meta name="description" content="Üyeliksiz tahmin ligi: maç başlamadan tahminini kilitle, yayında yüzleş. Sürprizi bilen çok kazanır.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔮</text></svg>">
-<link rel="stylesheet" href="style.css">
-<script src="config.js"></script>
-<script src="api.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTalks Evreni — bağımsız hayran modülleri</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔮</text></svg>">
+<style>
+  :root { --bg:#0c0f14; --panel:#151a23; --line:#2a3446; --text:#e8edf5; --dim:#8b96a8; --mavi:#5dade2; --mor:#a06cd5; --altin:#d4af37; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.5; }
+  .wrap { max-width:760px; margin:0 auto; padding:40px 16px 80px; }
+  header { text-align:center; margin-bottom:34px; }
+  header h1 { font-size:2rem; letter-spacing:2px; }
+  header p { color:var(--dim); margin-top:10px; max-width:520px; margin-left:auto; margin-right:auto; }
+  header p b { color:var(--text); }
+  .moduller { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; }
+  a.mod { display:block; background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:20px; text-decoration:none; color:var(--text); transition:transform .15s, border-color .15s; }
+  a.mod:hover { transform:translateY(-3px); border-color:var(--mavi); }
+  a.mod.pasif { opacity:.55; pointer-events:none; }
+  .mod .ikon { font-size:1.8rem; }
+  .mod h2 { font-size:1.1rem; margin:8px 0 4px; }
+  .mod p { font-size:.85rem; color:var(--dim); }
+  .etiket { display:inline-block; font-size:.65rem; font-weight:700; letter-spacing:1px; border-radius:4px; padding:2px 8px; margin-top:10px; }
+  .canli { background:rgba(46,204,113,.15); color:#2ecc71; }
+  .yakinda { background:rgba(160,108,213,.15); color:var(--mor); }
+  footer { margin-top:44px; text-align:center; font-size:.75rem; color:var(--dim); }
+</style>
 </head>
 <body>
 <div class="wrap">
-  <header class="app">
-    <div class="logo"><span class="k">Kahin</span> Ligi</div>
-    <div class="sub">sürprizi bilen çok kazanır</div>
-    <span id="demoBadge" class="demo-badge" style="display:none">DEMO</span>
+  <header>
+    <h1>🔮 HTalks EVRENİ</h1>
+    <p>Kanalın <b>2.124 videosunu — 1.904 saati —</b> baştan sona izleyen ve her şeyi hatırlayan bir yapay zekanın ürettiği bağımsız hayran modülleri.</p>
   </header>
-
-  <div id="msg" class="msg"></div>
-
-  <!-- Katılım -->
-  <section class="card" id="joinCard">
-    <h2 id="joinTitle">Lige katıl — üyelik yok, isim yeter</h2>
-    <div class="row">
-      <input id="inName" maxlength="24" placeholder="Takma adın" style="flex:2 1 140px">
-      <div class="pillrow" id="teamPills" style="flex:3 1 220px">
-        <span class="pill" data-team="BJK">Beşiktaş</span>
-        <span class="pill" data-team="FB">Fenerbahçe</span>
-        <span class="pill" data-team="GS">Galatasaray</span>
-        <span class="pill sel" data-team="DIGER">Diğer</span>
-      </div>
-      <button class="primary" id="btnJoin" style="flex:1 1 100%">Katıl / Güncelle</button>
-    </div>
-    <p class="muted" style="margin-top:8px">Kimliğin bu cihazda saklanır; şifre, e-posta, üyelik yok.</p>
-  </section>
-
-  <!-- Fikstür -->
-  <section class="card">
-    <h2>Fikstür &amp; Tahminlerin</h2>
-    <p class="muted">Tahminler maç başlayana kadar <b>gizli ve değiştirilebilir</b>; başlayınca herkese açılır (kör tahmin kuralı). Maksimüs = gecenin adamı kartın, Çöp = gecenin hayal kırıklığı kartın.</p>
-    <div id="fixtures"></div>
-  </section>
-
-  <!-- Liderlik -->
-  <section class="card">
-    <h2>Liderlik Tablosu</h2>
-    <div class="vs" id="vsBox" style="margin-bottom:12px"></div>
-    <table class="lb">
-      <thead><tr><th>#</th><th>Kahin</th><th style="text-align:right">Puan</th></tr></thead>
-      <tbody id="lbBody"></tbody>
-    </table>
-  </section>
-
-  <footer>
-    Kahin Ligi — gerçek para yok, oran yok, sadece kahinlik onuru.
-    <span id="tvLink"></span>
-  </footer>
+  <div class="moduller">
+    <a class="mod" href="sicil/">
+      <div class="ikon">📋</div>
+      <h2>Tahmin Sicili</h2>
+      <p>Üçlünün DK-2026 tahmin karnesi: kim ne dedi, ne tuttu, ne çöktü. Her yayından sonra güncellenir.</p>
+      <span class="etiket canli">CANLI</span>
+    </a>
+    <a class="mod" href="wrapped/htalks.html">
+      <div class="ikon">🎞️</div>
+      <h2>HTalks Wrapped</h2>
+      <p>4,5 yılın arşivinden çıkan sayıların sinematik gösterimi. Dokunarak ilerle.</p>
+      <span class="etiket canli">CANLI</span>
+    </a>
+    <a class="mod" href="demo/arsiv.html">
+      <div class="ikon">🏛️</div>
+      <h2>ARŞİV Oyunu</h2>
+      <p>Kanal hafızasına karşı yarış: kaç kere söylendi, kim dedi, hangi gece?</p>
+      <span class="etiket canli">DEMO</span>
+    </a>
+    <a class="mod pasif" href="#">
+      <div class="ikon">⚔️</div>
+      <h2>VS Arena</h2>
+      <p>Her hafta güncel, küratörlü versus paketleri. Oyla, yarın taraftar kırılımını gör.</p>
+      <span class="etiket yakinda">YAKINDA</span>
+    </a>
+    <a class="mod pasif" href="#">
+      <div class="ikon">❓</div>
+      <h2>Günün Sorusu</h2>
+      <p>Arşivden her gün tek soru. Serini koru, kartını paylaş.</p>
+      <span class="etiket yakinda">YAKINDA</span>
+    </a>
+    <a class="mod" href="demo/arena.html">
+      <div class="ikon">🎪</div>
+      <h2>ARENA (demo)</h2>
+      <p>Canlı yayın oylama sahnesi — VS Arena'nın yayın modu prototipi.</p>
+      <span class="etiket canli">DEMO</span>
+    </a>
+  </div>
+  <footer>Bağımsız hayran çalışmasıdır; HTalks ile resmi bağı yoktur. Görsel/veri politikası: birebir alıntı yok, dakika-referanslı özet var.</footer>
 </div>
-
-<script>
-(function () {
-  const $ = s => document.querySelector(s);
-  const qs = new URLSearchParams(location.search);
-  const slug = qs.get("lig") || "demo";
-  const token = KL.deviceToken();
-  let myTeam = localStorage.getItem("kl_team_" + slug) || "DIGER";
-  let joined = !!localStorage.getItem("kl_name_" + slug);
-
-  if (KL.DEMO) $("#demoBadge").style.display = "";
-  $("#tvLink").innerHTML = ` · <a href="tv.html?lig=${encodeURIComponent(slug)}">yayın ekranı</a>`;
-
-  function say(text, kind) {
-    const el = $("#msg");
-    el.className = "msg " + kind; el.textContent = text;
-    if (kind === "ok") setTimeout(() => { el.className = "msg"; }, 3500);
-  }
-  const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
-    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const fmtDT = iso => new Date(iso).toLocaleString("tr-TR", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" });
-  const teamName = { BJK: "Beşiktaş", FB: "Fenerbahçe", GS: "Galatasaray", DIGER: "Diğer" };
-
-  // takım seçimi
-  document.querySelectorAll("#teamPills .pill").forEach(p => {
-    if (p.dataset.team === myTeam) {
-      document.querySelectorAll("#teamPills .pill").forEach(x => x.classList.remove("sel"));
-      p.classList.add("sel");
-    }
-    p.onclick = () => {
-      document.querySelectorAll("#teamPills .pill").forEach(x => x.classList.remove("sel"));
-      p.classList.add("sel"); myTeam = p.dataset.team;
-    };
-  });
-  $("#inName").value = localStorage.getItem("kl_name_" + slug) || "";
-
-  $("#btnJoin").onclick = async () => {
-    const name = $("#inName").value.trim();
-    if (name.length < 2) return say("Takma ad en az 2 karakter olmalı.", "err");
-    try {
-      const r = await KL.api.join(slug, token, name, myTeam);
-      localStorage.setItem("kl_name_" + slug, name);
-      localStorage.setItem("kl_team_" + slug, myTeam);
-      joined = true;
-      $("#joinTitle").textContent = `${r.league_name} — hoş geldin, ${r.name}`;
-      say("Katıldın. Şimdi tahminlerini kilitle.", "ok");
-      render();
-    } catch (e) { say(e.message, "err"); }
-  };
-
-  function pickRow(m) {
-    const mine = m.mine || {};
-    const dis = m.locked ? "disabled" : "";
-    const sel = p => (mine.pick === p ? "sel" : "");
-    return `
-      <div class="pickgrid">
-        <button ${dis} class="${sel('1')}" data-pick="1" data-m="${m.id}">1 · ${esc(m.home)}</button>
-        <button ${dis} class="${sel('X')}" data-pick="X" data-m="${m.id}">X</button>
-        <button ${dis} class="${sel('2')}" data-pick="2" data-m="${m.id}">2 · ${esc(m.away)}</button>
-      </div>
-      <div class="row" style="margin-top:8px">
-        <input ${dis} class="num" inputmode="numeric" id="sh-${m.id}" placeholder="0" value="${mine.score_home ?? ""}">
-        <span>—</span>
-        <input ${dis} class="num" inputmode="numeric" id="sa-${m.id}" placeholder="0" value="${mine.score_away ?? ""}">
-        <span class="muted">skor tahminin</span>
-      </div>
-      <div class="cards2">
-        <div><label>⭐ Maksimüs (gecenin adamı)</label>
-          <input ${dis} id="mk-${m.id}" maxlength="30" placeholder="oyuncu adı" value="${esc(mine.maksimus ?? "")}" style="width:100%"></div>
-        <div><label>🗑️ Çöp (hayal kırıklığı)</label>
-          <input ${dis} id="cp-${m.id}" maxlength="30" placeholder="oyuncu adı" value="${esc(mine.cop ?? "")}" style="width:100%"></div>
-      </div>
-      ${m.locked ? "" : `<button class="primary" style="margin-top:10px;width:100%" data-save="${m.id}">Tahmini kilitle</button>`}`;
-  }
-
-  function resultRow(m) {
-    const mine = m.mine;
-    let s = `<div class="score">${m.score_home ?? "?"} - ${m.score_away ?? "?"}</div>`;
-    let verdicts = "";
-    if (m.maksimus_verdict || m.cop_verdict)
-      verdicts = `<p class="muted">Hüküm: ⭐ ${esc(m.maksimus_verdict ?? "—")} · 🗑️ ${esc(m.cop_verdict ?? "—")}</p>`;
-    let minep = "";
-    if (mine) {
-      const tick = v => v === true ? "✅" : v === false ? "❌" : "";
-      minep = `<p class="muted">Senin kartın: ${esc(mine.pick)} / ${mine.score_home}-${mine.score_away}
-        ${mine.maksimus ? " · ⭐" + esc(mine.maksimus) + tick(mine.maksimus_ok) : ""}
-        ${mine.cop ? " · 🗑️" + esc(mine.cop) + tick(mine.cop_ok) : ""}
-        ${mine.points != null ? ` → <b style="color:var(--accent)">${mine.points} puan</b>` : ""}</p>`;
-    }
-    return s + verdicts + minep +
-      `<button class="ghost" data-reveal="${m.id}" style="margin-top:8px">Yüzleşme: herkesin tahmini</button>
-       <div id="rev-${m.id}"></div>`;
-  }
-
-  async function render() {
-    try {
-      const fx = await KL.api.fixtures(slug, token);
-      $("#fixtures").innerHTML = fx.length ? fx.map(m => `
-        <div class="match">
-          <div class="teams"><span>${esc(m.home)} — ${esc(m.away)}</span>
-            ${m.status === "finished" || m.locked
-              ? (m.status === "finished" ? `<span class="score">${m.score_home}-${m.score_away}</span>` : `<span class="lock">Kilitli</span>`)
-              : `<span class="openlbl">Açık</span>`}</div>
-          <div class="when">${fmtDT(m.kickoff)} · ${m.n_predictions} kahin tahmin girdi</div>
-          ${m.locked ? resultRow(m) : (joined ? pickRow(m) : `<p class="muted" style="margin-top:8px">Tahmin girmek için yukarıdan katıl.</p>`)}
-        </div>`).join("") : `<p class="muted">Henüz maç eklenmemiş.</p>`;
-
-      // seçim davranışları
-      document.querySelectorAll("[data-pick]").forEach(b => {
-        b.onclick = () => {
-          document.querySelectorAll(`[data-m="${b.dataset.m}"]`).forEach(x => x.classList.remove("sel"));
-          b.classList.add("sel");
-        };
-      });
-      document.querySelectorAll("[data-save]").forEach(b => {
-        b.onclick = async () => {
-          const id = b.dataset.save;
-          const pick = document.querySelector(`[data-m="${id}"].sel`)?.dataset.pick;
-          const sh = parseInt($(`#sh-${id}`).value, 10), sa = parseInt($(`#sa-${id}`).value, 10);
-          if (!pick) return say("1, X veya 2 seç.", "err");
-          if (isNaN(sh) || isNaN(sa)) return say("Skor tahmini gir (ör. 2-1).", "err");
-          if ((pick === "1" && sh <= sa) || (pick === "2" && sh >= sa) || (pick === "X" && sh !== sa))
-            return say("Skorun 1X2 seçiminle çelişiyor — kahin böyle hata yapmaz.", "err");
-          try {
-            await KL.api.predict(slug, token, id, pick, sh, sa, $(`#mk-${id}`).value, $(`#cp-${id}`).value);
-            say("Tahmin kilitlendi. Maç başlayınca yüzleşmede görüşürüz. 🔮", "ok");
-            render();
-          } catch (e) { say(e.message, "err"); }
-        };
-      });
-      document.querySelectorAll("[data-reveal]").forEach(b => {
-        b.onclick = async () => {
-          try {
-            const rows = await KL.api.reveal(slug, b.dataset.reveal);
-            document.getElementById("rev-" + b.dataset.reveal).innerHTML = rows.length
-              ? rows.map(r => `<div class="reveal-row">
-                  <span class="who"><span class="team-dot t-${esc(r.team)}"></span>${esc(r.name)}${r.is_host ? '<span class="host-tag">EKİP</span>' : ""}</span>
-                  <span class="what">${esc(r.pick)} · ${r.score_home}-${r.score_away}
-                    ${r.maksimus ? " ⭐" + esc(r.maksimus) : ""}${r.cop ? " 🗑️" + esc(r.cop) : ""}</span>
-                  <span class="p">${r.points != null ? r.points : ""}</span></div>`).join("")
-              : `<p class="muted">Bu maça tahmin girilmemiş.</p>`;
-          } catch (e) { say(e.message, "err"); }
-        };
-      });
-
-      const lb = await KL.api.leaderboard(slug);
-      $("#lbBody").innerHTML = lb.players.map((p, i) => `
-        <tr><td>${i + 1}</td>
-            <td><span class="team-dot t-${esc(p.team)}" title="${teamName[p.team] || p.team}"></span>${esc(p.name)}${p.is_host ? '<span class="host-tag">EKİP</span>' : ""}</td>
-            <td class="pts">${p.total}</td></tr>`).join("") ||
-        `<tr><td colspan="3" class="muted">Henüz kahin yok.</td></tr>`;
-      $("#vsBox").innerHTML = `
-        <div class="side"><div class="big">${lb.ekip_vs_chat.ekip}</div><div class="lbl">Ekip ort.</div></div>
-        <div class="side"><div class="big">${lb.ekip_vs_chat.chat}</div><div class="lbl">Chat ort. (${lb.ekip_vs_chat.chat_n} kahin)</div></div>`;
-    } catch (e) { say(e.message, "err"); }
-  }
-
-  if (joined) {
-    $("#joinTitle").textContent = `Hoş geldin, ${localStorage.getItem("kl_name_" + slug)} — bilgilerini güncelleyebilirsin`;
-  }
-  render();
-  setInterval(render, 60000);
-})();
-</script>
 </body>
 </html>
