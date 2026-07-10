@@ -3,8 +3,8 @@
 // yalnız bağlam kanıtıyla kişiye atananlar yayınlanır). Hükümler, yayınlarda
 // söylenen sonuçlara dayanır; her kayıtta kaynak yayın linki vardır.
 const SICIL = {
-  guncelleme: "9 Temmuz 2026",
-  kapsam: { yayin: 47, tahmin: 802, atanmis: 122, yuzlesme: 95 },
+  guncelleme: "10 Temmuz 2026",
+  kapsam: { yayin: 48, tahmin: 816, atanmis: 125, yuzlesme: 97 },
 
   karne: [
     {
@@ -31,8 +31,8 @@ const SICIL = {
       grupPuan: "12", grupSira: 2,
       sampiyon: { pick: "Portekiz", durum: "ÇÖKTÜ",
         not: "6 Temmuz'da İspanya-Portekiz (1-0, 90+1 Merino) ile şampiyon tahmini turnuvadan elendi." },
-      tally: { tuttu: 0, kismen: 2, coktu: 5 },
-      imza: "Senegal'e yarı final, ABD'ye çeyrek final yazdı — ikisi de erken gitti."
+      tally: { tuttu: 0, kismen: 2, coktu: 6 },
+      imza: "Senegal'e yarı final, ABD'ye çeyrek final, Meksika'ya İngiltere galibiyeti yazdı — üçü de gitti."
     }
   ],
 
@@ -151,10 +151,10 @@ const SICIL = {
       ozet: "John Duran'ın Galatasaray'la anlaştığını, sadece açıklamanın bekletildiğini 'duyduğunu' söyledi.",
       cozum: "Resmi açıklama yok — takipte.",
       video: "6kgw0KhCfz0", kanit: null },
-    { kisi: "Hasan", t: "5 Tem", kat: "turnuva", durum: "BEKLIYOR",
+    { kisi: "Hasan", t: "5 Tem", kat: "turnuva", durum: "COKTU",
       ozet: "Meksika'nın İngiltere'yi 90 dakikada yenip turnuvada tarih yazacağını söyledi.",
-      cozum: "Son 16 eşleşmesi — sonuç bir sonraki güncellemede işlenecek.",
-      video: "H9wsL6yVgyM", kanit: null },
+      cozum: "İngiltere turu geçti: Cumartesi gecesi çeyrek finalde Norveç'le oynuyor; Meksika turnuva dışı.",
+      video: "H9wsL6yVgyM", kanit: "3Vl3PNsRqQ8" },
     { kisi: "Turancan", t: "8 Tem", kat: "turnuva", durum: "BEKLIYOR",
       ozet: "'Arjantin finale çıkarsa, rakip Fransa bile olsa yüzde yüz şampiyon' dedi.",
       cozum: "Arjantin çeyrek finalde — takipte.",
@@ -181,11 +181,16 @@ const SICIL = {
       video: "sVR8mv4AIPc", kanit: null },
     { kisi: "Hasan", t: "26 Haz", kat: "oyuncu", durum: "BEKLIYOR",
       ozet: "Fransa şampiyon olursa Dembele'nin (turnuvada 4 gol) Ballon d'Or'u garantileyeceğini söyledi.",
-      cozum: "Koşul canlı: Fransa çeyrek finalde (bu akşam Fas'a karşı).",
-      video: "HCfRvcR8RxI", kanit: null }
+      cozum: "Koşul güçlendi: Fransa, Fas'ı 2-0 geçip üst üste 3. kez yarı finale çıktı — ikinci golü yine Dembele attı.",
+      video: "HCfRvcR8RxI", kanit: "3Vl3PNsRqQ8" },
+    { kisi: "Hilmi", t: "10 Tem", kat: "sezon", durum: "BEKLIYOR",
+      ozet: "Kocaelispor'da Selçuk İnan'ın 7. haftaya kadar görevde kalma ihtimalini %10'un altında gördü.",
+      cozum: "2026-27 sezonu başlıyor — takipte.",
+      video: "3Vl3PNsRqQ8", kanit: null }
   ],
 
   yuzlesmeKosesi: [
+    { t: "10 Tem", olay: "Ugochukwu transferi resmileşince eski 'çöp transfer, kesin gelmez' yorumları hem masada hem superchat'le hatırlatıldı; görüş 'iyi maç oynarsa değişir' diye yumuşatıldı.", video: "3Vl3PNsRqQ8" },
     { t: "13 Haz", olay: "Katar'a önceki yayında verilen 'sıfır' notu izleyici tarafından hatırlatıldı; ekip 'ilk patlamamız' diye kabul etti (Katar 1-1 İsviçre).", video: "ssRo1VjOSMU" },
     { t: "28 Haz", olay: "D Grubu tahminleri yayında unutuldu; izleyiciler uyarınca sonradan eklendi — Hilmi 2 puan aldı, diğerleri 0.", video: "KVik2_JlLko" },
     { t: "28 Haz", olay: "Ekip, Furkan Elmer'in ayrı tahmin oyununda da sonuncu olduklarını gülerek itiraf etti.", video: "KVik2_JlLko" },
@@ -194,6 +199,6 @@ const SICIL = {
 
   dun: {
     baslik: "Bu hafta çözülenler",
-    ozet: "Portekiz'in elenmesiyle Hasan'ın şampiyon tahmini düştü; Brezilya'nın Norveç'e elenmesi Turancan'ın 'sürpriz eleme' öngörüsünü kısmen doğruladı, Hilmi'nin 'kilit adam kaleci' ısrarını tam doğruladı."
+    ozet: "Fransa, Fas'ı 2-0 geçti (Mbappe + Dembele): Hasan'ın 'Meksika İngiltere'yi yener' tahmini çöktü — İngiltere Cumartesi çeyrek finalde Norveç'le. Hasan'ın 'Fransa şampiyonsa Dembele Ballon d'Or' koşulu güçlendi. Daha önce: Portekiz'in elenmesiyle Hasan'ın şampiyon tahmini düşmüş, Hilmi'nin 'kilit adam kaleci' ısrarı tutmuştu."
   }
 };
