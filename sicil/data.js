@@ -3,8 +3,8 @@
 // yalnız bağlam kanıtıyla kişiye atananlar yayınlanır). Hükümler, yayınlarda
 // söylenen sonuçlara dayanır; her kayıtta kaynak yayın linki vardır.
 const SICIL = {
-  guncelleme: "10 Temmuz 2026",
-  kapsam: { yayin: 48, tahmin: 816, atanmis: 125, yuzlesme: 97 },
+  guncelleme: "11 Temmuz 2026",
+  kapsam: { yayin: 49, tahmin: 825, atanmis: 125, yuzlesme: 98 },
 
   karne: [
     {
@@ -12,7 +12,7 @@ const SICIL = {
       unvan: "Kanalın Kâhini",
       grupPuan: "28+", grupSira: 1,
       sampiyon: { pick: "İspanya → Arjantin", durum: "KARARSIZ",
-        not: "10 Haziran'da İspanya dedi, 28 Haziran'da Arjantin'e döndü, 8 Temmuz'da Arjantin'den de şüpheye düştü. Terk ettiği İspanya turnuvada hâlâ gol yemedi." },
+        not: "10 Haziran'da İspanya dedi, 28 Haziran'da Arjantin'e döndü, 8 Temmuz'da Arjantin'den de şüpheye düştü. Terk ettiği İspanya ise Belçika'yı da eleyip YARI FİNALE çıktı — kupaya iki maç uzakta." },
       tally: { tuttu: 4, kismen: 1, coktu: 3 },
       imza: "Fenerbahçe seçiminde tek başına Aziz Yıldırım dedi — rekor farkla haklı çıktı."
     },
@@ -40,7 +40,8 @@ const SICIL = {
     { t: "10 Haz", olay: "Turnuva ağaçları çizildi: Hasan → Portekiz, Turancan → İngiltere, Hilmi → İspanya.", video: "usNy-VEb-wQ" },
     { t: "28 Haz", olay: "Son 32 ağacında iki isim şampiyonunu değiştirdi: Turancan → Arjantin (finalde Fransa'yı yener), Hilmi → Arjantin.", video: "mEi2Is3ekE0" },
     { t: "6 Tem", olay: "Portekiz elendi (İspanya 1-0, 90+1 Merino) — Hasan'ın şampiyonu turnuvadan düştü, Ronaldo gözyaşlarını tuttu.", video: "wX1PGT1zHto" },
-    { t: "8 Tem", olay: "Turancan: 'Arjantin finale çıkarsa yüzde yüz şampiyon.' Hilmi ise Arjantin'in 19 Temmuz'a kadar tükeneceğinden şüpheli — kendi eski şampiyonu İspanya hâlâ gol yemedi.", video: "_vs_fz92o4M" }
+    { t: "8 Tem", olay: "Turancan: 'Arjantin finale çıkarsa yüzde yüz şampiyon.' Hilmi ise Arjantin'in 19 Temmuz'a kadar tükeneceğinden şüpheli.", video: "_vs_fz92o4M" },
+    { t: "11 Tem", olay: "Yarı final belli oldu: FRANSA-İSPANYA. Yani Hasan'ın 'Fransa şampiyonsa Dembele Ballon d'Or' koşulunun takımı, Hilmi'nin 10 Haziran'da seçip 28 Haziran'da terk ettiği İspanya'yla karşı karşıya. Bu gece: Norveç-İngiltere — Turancan'ın ilk şampiyonu ve 'kimse inanmamıştı' çağrısı aynı sahnede.", video: "SRqMJv8FtBI" }
   ],
 
   kayitlar: [
@@ -199,6 +200,6 @@ const SICIL = {
 
   dun: {
     baslik: "Bu hafta çözülenler",
-    ozet: "Fransa, Fas'ı 2-0 geçti (Mbappe + Dembele): Hasan'ın 'Meksika İngiltere'yi yener' tahmini çöktü — İngiltere Cumartesi çeyrek finalde Norveç'le. Hasan'ın 'Fransa şampiyonsa Dembele Ballon d'Or' koşulu güçlendi. Daha önce: Portekiz'in elenmesiyle Hasan'ın şampiyon tahmini düşmüş, Hilmi'nin 'kilit adam kaleci' ısrarı tutmuştu."
+    ozet: "İspanya, Belçika'yı eledi: yarı final FRANSA-İSPANYA — Hasan'ın Dembele koşulunun takımı, Hilmi'nin terk ettiği İspanya'yla karşılaşıyor. Bu gece Norveç-İngiltere: Turancan'ın 10 Haziran'daki şampiyonu İngiltere ile 'kimse inanmamıştı' dediği Norveç çağrısı aynı maçta. Daha önce: Fransa 2-0 Fas ile Hasan'ın 'Meksika İngiltere'yi yener' tahmini çökmüş, Portekiz'in elenmesiyle şampiyon tahmini düşmüştü."
   }
 };
