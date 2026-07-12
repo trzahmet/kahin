@@ -3,8 +3,8 @@
 // yalnız bağlam kanıtıyla kişiye atananlar yayınlanır). Hükümler, yayınlarda
 // söylenen sonuçlara dayanır; her kayıtta kaynak yayın linki vardır.
 const SICIL = {
-  guncelleme: "11 Temmuz 2026",
-  kapsam: { yayin: 49, tahmin: 825, atanmis: 125, yuzlesme: 98 },
+  guncelleme: "12 Temmuz 2026",
+  kapsam: { yayin: 51, tahmin: 859, atanmis: 127, yuzlesme: 101 },
 
   karne: [
     {
@@ -188,11 +188,15 @@ const SICIL = {
     { kisi: "Hilmi", t: "10 Tem", kat: "sezon", durum: "BEKLIYOR",
       ozet: "Kocaelispor'da Selçuk İnan'ın 7. haftaya kadar görevde kalma ihtimalini %10'un altında gördü.",
       cozum: "2026-27 sezonu başlıyor — takipte.",
-      video: "3Vl3PNsRqQ8", kanit: null }
+      video: "3Vl3PNsRqQ8", kanit: null },
+    { kisi: "Hilmi", t: "11 Tem", kat: "sampiyon", durum: "BEKLIYOR",
+      ozet: "Kalan 5 takım için şampiyonluk yüzdesi verdi: Fransa %40 (açık favori), Arjantin %20, İspanya %20, İngiltere %18, İsviçre en düşük.",
+      cozum: "Final 19 Temmuz — dört yarı finalist belli olunca puanlanacak. Not: Hilmi'nin kendi eski şampiyonu İspanya bu listede ikinci sırada.",
+      video: "uFBXQy-aENs", kanit: null }
   ],
 
   yuzlesmeKosesi: [
-    { t: "10 Tem", olay: "Ugochukwu transferi resmileşince eski 'çöp transfer, kesin gelmez' yorumları hem masada hem superchat'le hatırlatıldı; görüş 'iyi maç oynarsa değişir' diye yumuşatıldı.", video: "3Vl3PNsRqQ8" },
+    { t: "11 Tem", olay: "Sadakat testi: Norveç elenirken bile Turancan takımını disown etmedi — hakem tartışmasında 'ufak takımı kollayın' deyip 'Norveç müthiş oynadı' diye övgüsünü sürdürdü. Kimse 'öve öve bitirmiştin' diye takılmadı; o kendi çağrısının arkasında durdu.", video: "uFBXQy-aENs" },
     { t: "13 Haz", olay: "Katar'a önceki yayında verilen 'sıfır' notu izleyici tarafından hatırlatıldı; ekip 'ilk patlamamız' diye kabul etti (Katar 1-1 İsviçre).", video: "ssRo1VjOSMU" },
     { t: "28 Haz", olay: "D Grubu tahminleri yayında unutuldu; izleyiciler uyarınca sonradan eklendi — Hilmi 2 puan aldı, diğerleri 0.", video: "KVik2_JlLko" },
     { t: "28 Haz", olay: "Ekip, Furkan Elmer'in ayrı tahmin oyununda da sonuncu olduklarını gülerek itiraf etti.", video: "KVik2_JlLko" },
