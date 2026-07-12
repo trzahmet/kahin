@@ -2,7 +2,7 @@
 
 Kanalın 2.124 videosunu (1.904 saat) analiz eden bir boru hattının ürettiği, tek çatı altında yaşayan modüller. Bağımsız hayran çalışmasıdır; HTalks ile resmi bağı yoktur.
 
-**Canlı site:** https://networkailab01-web.github.io/kahin/
+**Canlı site:** https://trzahmet.github.io/kahin/
 
 ## Modüller
 
