@@ -176,7 +176,7 @@
     <div class="menu-hero">
       <div class="etiket">HTalks · Cümle Arası Kapışmalar</div>
       <h1>UWU<span>FUFU</span></h1>
-      <p>Üçlünün 66 yayında, çoğu cümle aralarında ele verdiği tercihlerden çıkan <b id="setSayi">40</b> turnuva. Bir set seç, eledikçe şampiyonu sen belirle.</p>
+      <p>Üçlünün 66 yayında, çoğu cümle aralarında ele verdiği tercihlerden çıkan <b id="setSayi">4</b> dev turnuva — kategori başına ~64 yarışmacı. Gerçek Uwufufu formatı: seç, eledikçe tur tur finale ilerle.</p>
     </div>
     <div class="sekmeler" id="sekmeler"></div>
     <div class="setler" id="setlerGrid"></div>
@@ -257,8 +257,7 @@
         <h3>${s.tema}</h3>
         <p>${s.soru}</p>
         <div class="alt">
-          <span class="tip-rozet">${s.tip === "bracket" ? "🏆 turnuva" : "⚔️ kapışma"}</span>
-          <span>${s.adaylar.length} aday</span>
+          <span class="tip-rozet">🏆 ${s.adaylar.length}'lük turnuva</span>
           <span class="oyna">OYNA →</span>
         </div>
       </button>`; }).join("");
@@ -289,7 +288,9 @@
     if (n <= 2) return "FİNAL";
     if (n <= 4) return "YARI FİNAL";
     if (n <= 8) return "ÇEYREK FİNAL";
-    return "SON " + n;
+    if (n <= 16) return "SON 16";
+    if (n <= 32) return "SON 32";
+    return "SON 64";
   }
 
   function cizDuello() {
