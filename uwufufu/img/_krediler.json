@@ -286,5 +286,431 @@
   "lisans": "CC BY-SA 2.0",
   "sanatci": "Giovanni Batista Rodriguez from San Sebastian-Donostia, Espa",
   "dosya": "File:Miker Merino 2018 (cropped).jpg"
+ },
+ "doner": {
+  "ad": "Döner",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Amin Noubahar",
+  "dosya": "File:Kebab Gerashi.jpg"
+ },
+ "iskender-kebap": {
+  "ad": "İskender Kebap",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "مانفی",
+  "dosya": "File:İskender kebap 1.jpg"
+ },
+ "kokorec": {
+  "ad": "Kokoreç",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Ptyx",
+  "dosya": "File:Ioannina - kokoretsi.jpg"
+ },
+ "cag-kebabi": {
+  "ad": "Cağ Kebabı",
+  "lisans": "CC BY 3.0",
+  "sanatci": "Eaeeae",
+  "dosya": "File:Cağkebabı5.jpg"
+ },
+ "tavuk-kanat": {
+  "ad": "Tavuk Kanat",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "E4024",
+  "dosya": "File:Tavuk kanat or chicken wings.jpg"
+ },
+ "kuzu-incik": {
+  "ad": "Kuzu İncik",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "E4024",
+  "dosya": "File:Kuzu incik (haslama).jpg"
+ },
+ "konya-yag-somunu": {
+  "ad": "Konya Yağ Somunu",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Alparslansendagli",
+  "dosya": "File:Klasik Yağ Somunu.jpg"
+ },
+ "sobiyet": {
+  "ad": "Şöbiyet",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Garrett Ziegler",
+  "dosya": "File:Şöbiyet Baklava.jpg"
+ },
+ "kunefe": {
+  "ad": "Künefe",
+  "lisans": "CC0",
+  "sanatci": "PeleYoetz",
+  "dosya": "File:Knafeh in Nazareth, Israel.png"
+ },
+ "kazandibi": {
+  "ad": "Kazandibi",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Garrett Ziegler",
+  "dosya": "File:Kazandibi Dessert.jpg"
+ },
+ "trilece": {
+  "ad": "Trileçe",
+  "lisans": "CC BY-SA 2.0",
+  "sanatci": "",
+  "dosya": "File:Tres leches cake.jpg"
+ },
+ "antep-fistikli-baklava": {
+  "ad": "Antep Fıstıklı Baklava",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Sakaman",
+  "dosya": "File:Baklava(1).png"
+ },
+ "rus-salatasi": {
+  "ad": "Rus Salatası",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Jacek Halicki",
+  "dosya": "File:2023 Sałatka jarzynowa (1).jpg"
+ },
+ "yaprak-sarma-dolma": {
+  "ad": "Yaprak Sarma / Dolma",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Petar Milošević",
+  "dosya": "File:Postna sarma (vegetarian sarma, Cuisine of Serbia).jpg"
+ },
+ "mercimek-koftesi": {
+  "ad": "Mercimek Köftesi",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Ahzaryamed",
+  "dosya": "File:Mercimekkoftesi.jpg"
+ },
+ "cacik": {
+  "ad": "Cacık",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Petar Milošević",
+  "dosya": "File:Christmas table (Serbian cuisine).jpg"
+ },
+ "ayran": {
+  "ad": "Ayran",
+  "lisans": "CC0",
+  "sanatci": "Hamdigumus",
+  "dosya": "File:Naneli ayran - Dara.jpg"
+ },
+ "magnum-dondurma": {
+  "ad": "Magnum Dondurma",
+  "lisans": "Public domain",
+  "sanatci": "User:Qz10",
+  "dosya": "File:Magnum ice cream.jpg"
+ },
+ "patates-cipsi": {
+  "ad": "Patates Cipsi",
+  "lisans": "Public domain",
+  "sanatci": "Evan-Amos",
+  "dosya": "File:Potato-Chips.jpg"
+ },
+ "leblebi": {
+  "ad": "Leblebi",
+  "lisans": "Public domain",
+  "sanatci": "Physicistjedi",
+  "dosya": "File:Leblebi.jpg"
+ },
+ "cikolatali-gofret": {
+  "ad": "Çikolatalı Gofret",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Satirdan kahraman",
+  "dosya": "File:Ülker Çikolatalı Gofret kutusu.jpg"
+ },
+ "double-big-mac": {
+  "ad": "Double Big Mac",
+  "lisans": "CC0",
+  "sanatci": "Evan-Amos",
+  "dosya": "File:Big Mac hamburger.jpg"
+ },
+ "double-quarter-pounder": {
+  "ad": "Double Quarter Pounder",
+  "lisans": "CC0",
+  "sanatci": "Evan-Amos",
+  "dosya": "File:McDonald's Quarter Pounder with Cheese, United States.jpg"
+ },
+ "triple-cheeseburger": {
+  "ad": "Triple Cheeseburger",
+  "lisans": "CC BY 2.0",
+  "sanatci": "www.snack-nieuws.nl",
+  "dosya": "File:Triple Cheeseburger (36823870863).jpg"
+ },
+ "triple-burger-marka-acik-edilmedi": {
+  "ad": "Triple Burger (marka açık edilmedi)",
+  "lisans": "CC BY-SA 2.0",
+  "sanatci": "nakashi",
+  "dosya": "File:Triple cheese burger, takeout at bex burger, kichijoji.jpg"
+ },
+ "ancuez-hamsi": {
+  "ad": "Ançuez (Hamsi)",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Roger469",
+  "dosya": "File:Pasta d'acciughe nella salsiera.jpg"
+ },
+ "lakerda": {
+  "ad": "Lakerda",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "E4024",
+  "dosya": "File:Hamsi lakerda.jpg"
+ },
+ "istanbul-simidi": {
+  "ad": "İstanbul Simidi",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "E4024",
+  "dosya": "File:Ankara simidi or simit of Ankara.jpg"
+ },
+ "ankara-simidi": {
+  "ad": "Ankara Simidi",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "E4024",
+  "dosya": "File:Ankara simidi or simit of Ankara.jpg"
+ },
+ "burrito-meksika": {
+  "ad": "Burrito (Meksika)",
+  "lisans": "CC BY-SA 2.0",
+  "sanatci": "Bernard DUPONT",
+  "dosya": "File:Burrito al pastor - Bacalar QR.jpg"
+ },
+ "beef-parmigiana-brezilya": {
+  "ad": "Beef Parmigiana (Brezilya)",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "ComidasDoBrasil",
+  "dosya": "File:Frango à parmegiana.jpg"
+ },
+ "coxinha-brezilya": {
+  "ad": "Coxinha (Brezilya)",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Sintegrity",
+  "dosya": "File:Coxinha - iguaria brasileira 01.jpg"
+ },
+ "arjantin-asado": {
+  "ad": "Arjantin Asado",
+  "lisans": "CC BY-SA 2.5",
+  "sanatci": "",
+  "dosya": "File:Argentinean asado.jpg"
+ },
+ "fish-and-chips-iskocya-ingiltere": {
+  "ad": "Fish and Chips (İskoçya/İngiltere)",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Grendelkhan",
+  "dosya": "File:Fish and chips plate with peas.jpg"
+ },
+ "kasule-toulouse-kasesi": {
+  "ad": "Kasule (Toulouse Kasesi)",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "BrokenSphere",
+  "dosya": "File:Bowl of cassoulet.JPG"
+ },
+ "inegol-kofte-kadikoy": {
+  "ad": "İnegöl Köfte (Kadıköy)",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "E4024",
+  "dosya": "File:İnegöl köfte.jpg"
+ },
+ "erik-ten-hag": {
+  "ad": "Erik ten Hag",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Кирилл Венедиктов",
+  "dosya": "File:Erik ten Hag 2017 (cropped2).jpg"
+ },
+ "diego-carlos": {
+  "ad": "Diego Carlos",
+  "lisans": "CC BY 2.0",
+  "sanatci": "James Boyes from UK",
+  "dosya": "File:Diego Carlos (Nantes) (cropped).jpg"
+ },
+ "ante-budimir": {
+  "ad": "Ante Budimir",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Northside",
+  "dosya": "File:Budimir, Ante FCSP 15-16 WP.jpg"
+ },
+ "bulent-uygun": {
+  "ad": "Bülent Uygun",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Ultraslansi",
+  "dosya": "File:Bülent Uygun.jpeg"
+ },
+ "fernando-santos": {
+  "ad": "Fernando Santos",
+  "lisans": "CC BY 2.0",
+  "sanatci": "Beşiktaş JK",
+  "dosya": "File:Fernando Santos 20240116 1.jpg"
+ },
+ "fatih-tekke": {
+  "ad": "Fatih Tekke",
+  "lisans": "CC BY 2.0",
+  "sanatci": "onur türk",
+  "dosya": "File:Fatihtekke.jpg"
+ },
+ "soner-sarikabadayi": {
+  "ad": "Soner Sarıkabadayı",
+  "lisans": "CC BY 3.0",
+  "sanatci": "İşte Benim Stilim",
+  "dosya": "File:Soner Sarıkabadayı - İşte Benim Stilim 2016 (cropped).png"
+ },
+ "ebru-gundes": {
+  "ad": "Ebru Gündeş",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Lubunya",
+  "dosya": "File:Ebru Gündeş 2011 Antalya.jpg"
+ },
+ "tarkan": {
+  "ad": "Tarkan",
+  "lisans": "CC BY 2.0",
+  "sanatci": "Hakki.T (Hakki Topcu)",
+  "dosya": "File:Tarkan (9).jpg"
+ },
+ "ibrahim-tatlises": {
+  "ad": "İbrahim Tatlıses",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Tacirci",
+  "dosya": "File:İbrahim Tatlıses (8 Temmuz 2007).JPG"
+ },
+ "ajda-pekkan": {
+  "ad": "Ajda Pekkan",
+  "lisans": "CC BY-SA 2.0",
+  "sanatci": "Firuza48",
+  "dosya": "File:Ajda Pekkan 2013.jpg"
+ },
+ "zinedine-zidane": {
+  "ad": "Zinedine Zidane",
+  "lisans": "CC BY 4.0",
+  "sanatci": "Hadi Abyar",
+  "dosya": "File:Zinedine Zidane by Tasnim 03.jpg"
+ },
+ "arda-turan": {
+  "ad": "Arda Turan",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Steindy (talk) 10:07, 11 April 2016 (UTC)",
+  "dosya": "File:AUT vs. TUR 2016-03-29 (283).jpg"
+ },
+ "fatih-terim": {
+  "ad": "Fatih Terim",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Steindy (talk) 23:55, 10 April 2016 (UTC)",
+  "dosya": "File:AUT vs. TUR 2016-03-29 (177).jpg"
+ },
+ "casio-g-shock": {
+  "ad": "Casio G-Shock",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Pittigrilli",
+  "dosya": "File:Casio G-Shock GA-100, digital and analog watch (from 2010, photographed in 2023).jpg"
+ },
+ "grand-seiko": {
+  "ad": "Grand Seiko",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Dnalor 01",
+  "dosya": "File:Seiko Grand Quartz 9940-8010 (Twinquartz), 1979.jpg"
+ },
+ "bulova": {
+  "ad": "Bulova",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Dnalor 01",
+  "dosya": "File:Bulova Ambassador Automatic.jpg"
+ },
+ "harry-potter": {
+  "ad": "Harry Potter",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Carlos Cruz",
+  "dosya": "File:Wizarding World of Harry Potter Castle.jpg"
+ },
+ "backrooms": {
+  "ad": "Backrooms",
+  "lisans": "CC0",
+  "sanatci": "Bill Magritz",
+  "dosya": "File:HobbyTown USA Oshkosh interior under construction 2002 (The Backrooms).jpg"
+ },
+ "league-of-legends": {
+  "ad": "League of Legends",
+  "lisans": "CC BY 3.0",
+  "sanatci": "LTA Español",
+  "dosya": "File:2018 League of Legends All-Star Stage.png"
+ },
+ "ilya-topuria": {
+  "ad": "Ilya Topuria",
+  "lisans": "CC BY 4.0",
+  "sanatci": "საქართველოს პრეზიდენტის ადმინისტრაცია",
+  "dosya": "File:Ilia Topuria at the Orbeliani Palace (cropped).jpg"
+ },
+ "khamzat-chimaev": {
+  "ad": "Khamzat Chimaev",
+  "lisans": "CC BY 3.0",
+  "sanatci": "MMAnytt",
+  "dosya": "File:KhamzatChimaev(fighter).png"
+ },
+ "charles-leclerc": {
+  "ad": "Charles Leclerc",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Original:  Gilzetbase\nDerivative work:  DaanTW",
+  "dosya": "File:Charles Leclerc portrait 2020.png"
+ },
+ "toprak-razgatlioglu": {
+  "ad": "Toprak Razgatlıoğlu",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Jearle",
+  "dosya": "File:Toprak Razgatlioglu, 2022.jpg"
+ },
+ "new-york-knicks": {
+  "ad": "New York Knicks",
+  "lisans": "CC BY 4.0",
+  "sanatci": "Unknown authorUnknown author",
+  "dosya": "File:2026 NBA Champions New York Knicks City Hall Ceremony 04.png"
+ },
+ "washington-wizards": {
+  "ad": "Washington Wizards",
+  "lisans": "CC BY 2.0",
+  "sanatci": "Trey Danger",
+  "dosya": "File:Kaunas Žalgiris versus Washington Wizards, 2007.jpg"
+ },
+ "cleveland-cavaliers": {
+  "ad": "Cleveland Cavaliers",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Michael Barera",
+  "dosya": "File:Cleveland Cavaliers vs. Milwaukee Bucks January 2024 09 (Cleveland player introductions).jpg"
+ },
+ "los-angeles-lakers": {
+  "ad": "Los Angeles Lakers",
+  "lisans": "CC BY-SA 2.0",
+  "sanatci": "Tim Wang",
+  "dosya": "File:Carter vs Gasol, Lakers vs Magic.jpg"
+ },
+ "sofi-stadium": {
+  "ad": "SoFi Stadium",
+  "lisans": "CC BY 2.0",
+  "sanatci": "Thank You (21 Millions+) views",
+  "dosya": "File:SoFi Stadium (51126606022).jpg"
+ },
+ "bmo-field-toronto": {
+  "ad": "BMO Field (Toronto)",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "Wladyslaw",
+  "dosya": "File:Toronto - ON - BMO Field.jpg"
+ },
+ "potosi-bolivya": {
+  "ad": "Potosi (Bolivya)",
+  "lisans": "CC0",
+  "sanatci": "Giadrico7",
+  "dosya": "File:Panorama Villa Imperial de Potosí en 1758 por Gaspar de Berrio.jpg"
+ },
+ "taylor-swift": {
+  "ad": "Taylor Swift",
+  "lisans": "CC BY 3.0",
+  "sanatci": "iHeartRadioCA",
+  "dosya": "File:Taylor Swift at the 2023 MTV Video Music Awards 4.png"
+ },
+ "oguzhan-koc": {
+  "ad": "Oğuzhan Koç",
+  "lisans": "CC BY-SA 4.0",
+  "sanatci": "Assassin2005727",
+  "dosya": "File:Oğuzhan Koç (cropped).jpg"
+ },
+ "ersay-uner": {
+  "ad": "Ersay Üner",
+  "lisans": "CC BY-SA 3.0",
+  "sanatci": "MHIRM",
+  "dosya": "File:Ersay Üner - 15. Radyo Boğaziçi Ödülleri (1).jpg"
+ },
+ "rihanna": {
+  "ad": "Rihanna",
+  "lisans": "CC BY 3.0",
+  "sanatci": "SIGMA",
+  "dosya": "File:Rihanna Fenty 2018.png"
  }
 }
