@@ -107,11 +107,13 @@
   .rakip:hover { transform: translateY(-4px); border-color: var(--kat, var(--altin)); box-shadow: 0 16px 46px var(--kat-glow, var(--maks-glow)); }
   .rakip:focus-visible { outline: 3px solid var(--kat, var(--altin)); outline-offset: 3px; }
   .rakip .no { position: absolute; top: 14px; left: 16px; font-family: "Space Mono", monospace; font-size: .7rem; color: var(--soluk); }
-  .medalyon { width: 108px; height: 108px; margin: 0 auto 4px; border-radius: 50%; position: relative;
+  .medalyon { width: 116px; height: 116px; margin: 0 auto 4px; border-radius: 50%; position: relative;
     display: flex; align-items: center; justify-content: center; font-size: 3.3rem; line-height: 1;
     background: radial-gradient(circle at 50% 44%, var(--kat-glow, var(--maks-glow)), transparent 66%); }
   .medalyon::after { content: ""; position: absolute; inset: 6px; border-radius: 50%;
-    border: 1.5px solid var(--kat, var(--altin)); opacity: .55; }
+    border: 1.5px solid var(--kat, var(--altin)); opacity: .55; z-index: 2; pointer-events: none; }
+  .medalyon .foto { position: absolute; inset: 6px; width: calc(100% - 12px); height: calc(100% - 12px);
+    border-radius: 50%; object-fit: cover; z-index: 1; box-shadow: 0 4px 18px rgba(0,0,0,.4); }
   .rakip .ad { font-family: "Anton", sans-serif; font-weight: 400; font-size: clamp(1.5rem, 4.5vw, 2.3rem); line-height: 1.05;
     text-transform: uppercase; letter-spacing: .4px; text-wrap: balance; }
   .rakip .not { margin-top: 14px; font-size: .9rem; color: var(--soluk); line-height: 1.5; }
@@ -133,13 +135,15 @@
   .sampiyon { display: none; text-align: center; padding: 80px 0 60px; }
   .sampiyon.acik { display: block; }
   .sampiyon .kupa { font-size: 3rem; }
-  .samp-medalyon { width: 168px; height: 168px; margin: 0 auto 6px; border-radius: 50%; position: relative;
+  .samp-medalyon { width: 176px; height: 176px; margin: 0 auto 6px; border-radius: 50%; position: relative;
     display: flex; align-items: center; justify-content: center; font-size: 5.4rem; line-height: 1;
     background: radial-gradient(circle at 50% 44%, var(--kat-glow, var(--maks-glow)), transparent 68%);
     animation: zipla 1.8s ease-in-out infinite; }
   .samp-medalyon::after { content: ""; position: absolute; inset: 10px; border-radius: 50%;
-    border: 2px solid var(--kat, var(--altin)); opacity: .6; }
-  .samp-medalyon .mini-kupa { position: absolute; bottom: -6px; right: 6px; font-size: 2.1rem;
+    border: 2px solid var(--kat, var(--altin)); opacity: .6; z-index: 2; pointer-events: none; }
+  .samp-medalyon .foto { position: absolute; inset: 10px; width: calc(100% - 20px); height: calc(100% - 20px);
+    border-radius: 50%; object-fit: cover; z-index: 1; box-shadow: 0 6px 24px rgba(0,0,0,.45); }
+  .samp-medalyon .mini-kupa { position: absolute; bottom: -6px; right: 6px; font-size: 2.1rem; z-index: 3;
     filter: drop-shadow(0 2px 6px rgba(0,0,0,.4)); animation: none; }
   @keyframes zipla { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
   .sampiyon .etiket { font-family: "Space Mono", monospace; font-size: .74rem; letter-spacing: 3px; color: var(--altin);
@@ -209,7 +213,7 @@
   </div>
 </section>
 
-<div class="altbilgi">bağımsız hayran çalışması · içerik kanalın yayınlarındaki bağlamdan damıtıldı · birebir alıntı yoktur</div>
+<div class="altbilgi">bağımsız hayran çalışması · içerik kanalın yayınlarındaki bağlamdan damıtıldı · birebir alıntı yoktur · <a href="https://github.com/trzahmet/kahin/blob/main/uwufufu/img/KREDILER.md" style="color:var(--soluk)">görsel atıfları (CC)</a></div>
 <div class="toast" id="toast">Kopyalandı!</div>
 
 <script src="setler.js"></script>
@@ -237,6 +241,10 @@
   };
   const katStil = k => `--kat:${(KAT[k]||{c:'var(--altin)'}).c};--kat-glow:${(KAT[k]||{g:'var(--maks-glow)'}).g}`;
   const emo = a => a.emoji || "▪";
+  const fotoHTML = (slug, ad) => slug
+    ? `<img class="foto" alt="${(ad||"").replace(/"/g,"&quot;")}" loading="lazy" src="img/${slug}.jpg" data-i="0"
+        onerror="var e=['png','webp'],i=+(this.dataset.i||0);if(i&lt;e.length){this.dataset.i=i+1;this.src='img/${slug}.'+e[i];}else{this.remove();}">`
+    : "";
   function cizSetler() {
     const liste = SETLER.filter(s => aktifKat === "hepsi" || s.kategori === aktifKat);
     $("#setlerGrid").innerHTML = liste.map(s => {
@@ -312,7 +320,7 @@
   function rakipHTML(r, pos) {
     return `<button class="rakip" data-pos="${pos}" tabindex="0">
       <span class="no mono">${pos===0?"A":"B"}</span>
-      <div class="medalyon">${emo(r)}</div>
+      <div class="medalyon"><span class="emo">${emo(r)}</span>${fotoHTML(r.slug, r.ad)}</div>
       <div class="ad">${r.ad}</div>
       <div class="not">${r.not}</div>
     </button>`;
@@ -331,7 +339,7 @@
   function sampiyonEkrani(k) {
     $("#oyun").classList.remove("acik");
     $("#sampiyon").classList.add("acik");
-    $("#sampMedalyon").innerHTML = emo(k) + '<span class="mini-kupa">🏆</span>';
+    $("#sampMedalyon").innerHTML = `<span class="emo">${emo(k)}</span>` + fotoHTML(k.slug, k.ad) + '<span class="mini-kupa">🏆</span>';
     $("#sampAd").textContent = k.ad;
     $("#sampTema").textContent = "“" + oyun.set.tema + "”";
     $("#sampNot").textContent = k.not;
