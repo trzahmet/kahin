@@ -176,7 +176,7 @@
     <div class="menu-hero">
       <div class="etiket">HTalks · Cümle Arası Kapışmalar</div>
       <h1>UWU<span>FUFU</span></h1>
-      <p>Üçlünün 66 yayında, çoğu cümle aralarında ele verdiği tercihlerden çıkan <b id="setSayi">4</b> dev turnuva — kategori başına ~64 yarışmacı. Gerçek Uwufufu formatı: seç, eledikçe tur tur finale ilerle.</p>
+      <p>Üçlünün yayınlarından, çoğu cümle aralarında ele verdiği tercihlerden çıkan <b id="setSayi">4</b> turnuva — kanalda daha önce hiç oynanmamış, kimi tamamen gerçek sayım verisiyle kurulu. Gerçek Uwufufu formatı: seç, eledikçe tur tur finale ilerle.</p>
     </div>
     <div class="sekmeler" id="sekmeler"></div>
     <div class="setler" id="setlerGrid"></div>
@@ -226,7 +226,7 @@
   });
   $("#setSayi").textContent = SETLER.length;
 
-  const KATLAR = [["hepsi","Hepsi"],["yemek","Yemek"],["futbolcu","Futbol"],["uclu","Üçlü & Goygoy"],["kultur","Kültür & Yaşam"]];
+  const KATLAR = [["hepsi","Hepsi"],["veri","📊 Gerçek Veri"],["yemek","Yemek"],["futbolcu","Futbol"],["uclu","Üçlü & Goygoy"],["kultur","Kültür & Yaşam"]];
   let aktifKat = "hepsi";
   function cizSekmeler() {
     $("#sekmeler").innerHTML = KATLAR.map(([k,ad]) =>
@@ -238,6 +238,7 @@
     futbolcu: { c: "#3ec97a", g: "rgba(62,201,122,.26)" },
     uclu:     { c: "#b06cd5", g: "rgba(176,108,213,.28)" },
     kultur:   { c: "#3ec3d0", g: "rgba(62,195,208,.26)" },
+    veri:     { c: "#e5555a", g: "rgba(229,85,90,.28)" },
   };
   const katStil = k => `--kat:${(KAT[k]||{c:'var(--altin)'}).c};--kat-glow:${(KAT[k]||{g:'var(--maks-glow)'}).g}`;
   const emo = a => a.emoji || "▪";
@@ -252,7 +253,7 @@
         + (s.adaylar.length > 5 ? `<span class="arti">+${s.adaylar.length - 5}</span>` : "");
       return `
       <button class="set-kart" data-id="${s.id}" style="${katStil(s.kategori)}">
-        <div class="kat">${s.katAd}</div>
+        <div class="kat">${s.katAd}${s.kategori === 'veri' ? ' · <span style="color:var(--kat)">✓ gerçek sayım</span>' : ''}</div>
         <div class="emoji-serit">${onizleme}</div>
         <h3>${s.tema}</h3>
         <p>${s.soru}</p>
