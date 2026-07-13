@@ -1,8 +1,8 @@
 # Görsel Kaynakları (Wikimedia Commons — CC / kamu malı)
 
-Toplam 119 görsel Wikimedia Commons'tan alınmış, Creative Commons / kamu malı lisanslıdır.
+Toplam 125 görsel.
 
-| Öğe | Kaynak dosya | Lisans | Fotoğrafçı |
+| Öğe | Kaynak | Lisans | Fotoğrafçı |
 |---|---|---|---|
 | Ajda Pekkan | Ajda Pekkan 2013.jpg | CC BY-SA 2.0 | Firuza48 |
 | Alex de Souza | Alexsandro de Souza.jpg | CC0 | Serkan YAKIN - antu.com |
@@ -50,6 +50,7 @@ Derivative work:  DaanTW |
 | Ersin Destanoğlu | Ersin Destanoğlu (2021-22 Süper Lig) - Resim1.png | CC BY 3.0 | beIN SPORTS Türkiye |
 | Fatih Tekke | Fatihtekke.jpg | CC BY 2.0 | onur türk |
 | Fatih Terim | AUT vs. TUR 2016-03-29 (177).jpg | CC BY-SA 3.0 | Steindy (talk) 23:55, 10 April 2016 (UTC) |
+| Fatih Terim & Uğur Uçar ikilisi | Fatih Terim 2018.jpg | CC BY-SA 3.0 | Ирина Рыбакова |
 | Fernando Muslera | Fernando Muslera 2021.jpg | CC BY-SA 3.0 | Анна Нэсси |
 | Fernando Santos | Fernando Santos 20240116 1.jpg | CC BY 2.0 | Beşiktaş JK |
 | Fish and Chips (İskoçya/İngiltere) | Fish and chips plate with peas.jpg | CC BY-SA 4.0 | Grendelkhan |
@@ -72,17 +73,21 @@ Derivative work:  DaanTW |
 | League of Legends | 2018 League of Legends All-Star Stage.png | CC BY 3.0 | LTA Español |
 | Leblebi | Leblebi.jpg | Public domain | Physicistjedi |
 | Lesley Ugochukwu | Lesley Ugochukwu 2023 Luton.jpg | CC BY-SA 4.0 | Oscarfan123 |
+| Lionel Messi | Lionel-Messi-Argentina-2022-FIFA-World-Cup (cropped).jpg | CC BY 4.0 | Hossein Zohrevand |
 | Los Angeles Lakers | Carter vs Gasol, Lakers vs Magic.jpg | CC BY-SA 2.0 | Tim Wang |
 | Magnum Dondurma | Magnum ice cream.jpg | Public domain | User:Qz10 |
 | Malcom | Malcom in Saint-Petersburg, August 2019 (cropped).jpg | CC BY-SA 3.0 | Анна Мейер / ФК «Зенит» |
+| Manuel Neuer | 20180602 FIFA Friendly Match Austria vs. Germany Manuel Neuer 850 0723.jpg | CC BY-SA 4.0 | Granada |
 | Mason Greenwood | Mason Greenwood (cropped).jpeg | CC BY 2.0 | Kane Brooker |
 | Masuaku | Hertha BSC vs. West Ham United 20190731 (184).jpg | CC BY-SA 4.0 | --Steindy (talk) 16:16, 29 August 2019 (UTC) |
+| Mauricio Pochettino | Mauricio Pochettino 2016 (cropped).jpg | CC BY-SA 3.0 | Дмитрий Голубович |
 | Mauro Icardi | Zen-Int (2) - Mauro Icardi (cropped).jpg | CC BY-SA 3.0 | Original:  Вячеслав Евдокимов / Derivative work:  Danyele |
 | Mercimek Köftesi | Mercimekkoftesi.jpg | CC BY-SA 4.0 | Ahzaryamed |
 | Mikel Merino | Miker Merino 2018 (cropped).jpg | CC BY-SA 2.0 | Giovanni Batista Rodriguez from San Sebastian-Donostia, Espa |
 | Mustafa (Beşiktaş forveti) | Mohamed Mustafa January 2022.jpg | CC BY-SA 4.0 | Franco237 |
 | Necip Uysal | Necip Uysal (cropped).jpg | CC BY 2.0 | Beşiktaş JK |
 | New York Knicks | 2026 NBA Champions New York Knicks City Hall Ceremony 04.png | CC BY 4.0 | Unknown authorUnknown author |
+| Nicolás Tagliafico | Nicolas Tagliafico.jpg | CC BY-SA 4.0 | Felipehoyos |
 | Nihat Kahveci | AUT vs. TUR 2016-03-29 (186).jpg | CC BY-SA 3.0 | Steindy (talk) 23:56, 10 April 2016 (UTC) |
 | Oğuzhan Koç | Oğuzhan Koç (cropped).jpg | CC BY-SA 4.0 | Assassin2005727 |
 | Patates Cipsi | Potato-Chips.jpg | Public domain | Evan-Amos |
@@ -97,6 +102,7 @@ Derivative work:  DaanTW |
 | Ronaldinho | Ronaldinho in 2019.jpg | CC BY 2.0 | Marcos Corrêa/PR |
 | Rus Salatası | 2023 Sałatka jarzynowa (1).jpg | CC BY-SA 4.0 | Jacek Halicki |
 | Samuel Eto'o | Sammuel Eto'o Fils 02.jpg | CC BY-SA 4.0 | BACHELOR45 |
+| Sead Kolašinac | 1 Sead Kolašinac 2018 (cropped).jpg | CC BY-SA 4.0 | Chensiyuan |
 | Sergen Yalçın | Sergen Yalcin.jpg | CC BY 3.0 | Klasspor TV |
 | SoFi Stadium | SoFi Stadium (51126606022).jpg | CC BY 2.0 | Thank You (21 Millions+) views |
 | Soner Sarıkabadayı | Soner Sarıkabadayı - İşte Benim Stilim 2016 (cropped).png | CC BY 3.0 | İşte Benim Stilim |

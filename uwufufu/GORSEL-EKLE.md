@@ -1,22 +1,21 @@
 # 🎨 UWUFUFU — GÖRSEL OLUŞTURMA DOSYASI
 
-**Durum:** 119 görsel ben tarafımdan zaten bulundu ve siteye eklendi (gerçek CC fotoğraflar). Aşağıda **senin oluşturman gereken 112 AI görseli** (prompt'larıyla) ve **opsiyonel 36 gerçek fotoğraf** var.
+**Durum:** 125 görsel ben tarafımdan bulundu ve siteye eklendi (gerçek CC fotoğraflar). Senin oluşturman gereken: **112 AI görseli** (prompt'larıyla) + **opsiyonel 30 gerçek fotoğraf**.
 
 ## Nasıl eklenir
-1. Görseli oluştur/indir.
-2. **Tam olarak** `Dosya adı` sütunundaki adla kaydet (ör. `iskender-kebap.jpg`). `.jpg` / `.png` / `.webp` olur.
-3. `uwufufu/img/` klasörüne koy. Site otomatik gösterir; koymadıklarında emoji madalyon kalır (hiçbir şey bozulmaz).
-4. Toplu hazırsa bana ver, ben doğru adlarla commit'lerim.
+1. Görseli oluştur.
+2. **Tam olarak** `Dosya adı` sütunundaki adla kaydet (`.jpg`/`.png`/`.webp`).
+3. `uwufufu/img/` klasörüne koy (ya da toplu bana ver). Site otomatik gösterir; koymadığın emoji madalyon kalır.
 
-**İpucu:** Tüm görseller **kare (1:1)** olsun; kart madalyonu daireseldir, ortadaki özne net dursun. Promptların sonunda stil sabitleri hazır.
+**İpucu:** Kare (1:1), ortadaki özne net. Promptların sonunda stil sabitleri hazır.
 
 ---
 
-## 1) AI İLE OLUŞTURULACAKLAR (112) — promptu görsel aracına yapıştır
+## 1) AI İLE OLUŞTURULACAKLAR (112)
 
 ### YEMEK (30)
 
-| # | Öğe | Dosya adı | Prompt (İngilizce, yapıştırmaya hazır) |
+| # | Öğe | Dosya adı | Prompt (yapıştırmaya hazır) |
 |---|---|---|---|
 | 1 | Acıbadem Tevfik Bey | `acibadem-tevfik-bey.jpg` | Professional food photography of a döner plate served alongside a chilled glass of şalgam (spicy fermented turnip juice), thin-sliced beef döner over rice pilaf, garnished with a grilled pepper, warm restaurant table setting, natural side light, shallow depth of field, square 1:1, centered subject, no text, no watermark, no brand logo. |
 | 2 | Adana Gece Dönercisi | `adana-gece-donercisi.jpg` | Professional food photography of a chicken döner wrap generously drizzled with spicy mayonnaise, thin-sliced grilled chicken wrapped in warm lavash with shredded lettuce, served on paper at a bustling nighttime döner stand, warm string-light ambiance softly blurred in the background, shallow depth of field, square 1:1, centered subject, no text, no watermark, no brand logo. |
@@ -51,7 +50,7 @@
 
 ### KÜLTÜR & YAŞAM (33)
 
-| # | Öğe | Dosya adı | Prompt (İngilizce, yapıştırmaya hazır) |
+| # | Öğe | Dosya adı | Prompt (yapıştırmaya hazır) |
 |---|---|---|---|
 | 1 | 17 (dizi) | `17-dizi.jpg` | A nostalgic symbolic scene of a pair of worn sneakers left side by side on a wooden pier overlooking a calm summer sea at golden hour, with a folded handwritten letter tucked beside them, evoking bittersweet first love and youthful longing, cinematic teen-drama atmosphere, square 1:1, centered subject, no text, no watermark, no brand logo. |
 | 2 | Adana musluk suyu | `adana-musluk-suyu.jpg` | Clean studio product shot of a clear glass filled with fresh cold water being poured from a simple kitchen tap faucet, water droplets glistening in the air, bright clean natural lighting on a white background, refreshing minimalist photography, square 1:1, centered subject, no text, no watermark, no brand logo. |
@@ -89,7 +88,7 @@
 
 ### ÜÇLÜ & GOYGOY (49)
 
-| # | Öğe | Dosya adı | Prompt (İngilizce, yapıştırmaya hazır) |
+| # | Öğe | Dosya adı | Prompt (yapıştırmaya hazır) |
 |---|---|---|---|
 | 1 | 21 Derece Klima Israrı (diğerleri) | `21-derece-klima-israri-digerleri.jpg` | A wall-mounted air conditioner unit with a glowing cool temperature display, blue frost and small icicles forming beneath it, a cartoon figure wrapped in a blanket shivering nearby, comedic editorial illustration style, square 1:1, centered subject, no text, no watermark, no brand logo. |
 | 2 | Ahtapotspor / Palamutspor | `ahtapotspor-palamutspor.jpg` | Two whimsical football club crests facing off, one featuring a cartoon octopus wearing a tiny football kit and the other a cartoon bonito fish in shin guards, symmetrical rivalry composition, bold flat illustration style, square 1:1, centered subject, no text, no watermark, no brand logo. |
@@ -143,11 +142,10 @@
 
 ---
 
-## 2) GERÇEK FOTOĞRAF (opsiyonel, 36) — gerçek kişiler; AI'ye çizdirmek yerine gerçek foto koy
+## 2) GERÇEK FOTOĞRAF (opsiyonel, 30)
+İyi CC portre bulamadığım gerçek kişiler. İstersen gerçek foto koy; koymazsan mevki-ikonu emoji kalır.
 
-Bunlar gerçek/tanınabilir kişiler. Wikimedia'da bunlar için iyi bir CC portre bulamadım; istersen bir gerçek fotoğraf koyabilirsin (koymazsan emoji/mevki ikonu kalır — sorun değil). Telif/kişilik hakkı riskini kabul ettiğini not almıştım.
-
-**FUTBOL:** Baturina → `baturina.jpg`, Calo → `calo.jpg`, Deniz Sümmet → `deniz-summet.jpg`, Edin Džeko → `edin-d-eko.jpg`, Elhanouss → `elhanouss.jpg`, Fatih Terim & Uğur Uçar ikilisi → `fatih-terim-ugur-ucar-ikilisi.jpg`, Hami Mandıralı → `hami-mandirali.jpg`, Hasan Şaş → `hasan-sas.jpg`, John Jader Duran → `john-jader-duran.jpg`, Jorel Hato → `jorel-hato.jpg`, Lionel Messi → `lionel-messi.jpg`, Luka Modrić → `luka-modri.jpg`, Manuel Neuer → `manuel-neuer.jpg`, Mauricio Pochettino → `mauricio-pochettino.jpg`, Merih Demiral → `merih-demiral.jpg`, Nicolás Tagliafico → `nicol-s-tagliafico.jpg`, Pepe → `pepe.jpg`, Sead Kolašinac → `sead-kola-inac.jpg`, Tanju Çolak → `tanju-colak.jpg`, Victor Osimhen → `victor-osimhen.jpg`, Volkan Demirel → `volkan-demirel.jpg`, X Moriba → `x-moriba.jpg`, Yusuf En-Nesyri → `yusuf-en-nesyri.jpg`
+**FUTBOL:** Baturina → `baturina.jpg`, Calo → `calo.jpg`, Deniz Sümmet → `deniz-summet.jpg`, Edin Džeko → `edin-d-eko.jpg`, Elhanouss → `elhanouss.jpg`, Hami Mandıralı → `hami-mandirali.jpg`, Hasan Şaş → `hasan-sas.jpg`, John Jader Duran → `john-jader-duran.jpg`, Jorel Hato → `jorel-hato.jpg`, Luka Modrić → `luka-modri.jpg`, Merih Demiral → `merih-demiral.jpg`, Pepe → `pepe.jpg`, Tanju Çolak → `tanju-colak.jpg`, Victor Osimhen → `victor-osimhen.jpg`, Volkan Demirel → `volkan-demirel.jpg`, X Moriba → `x-moriba.jpg`, Yusuf En-Nesyri → `yusuf-en-nesyri.jpg`
 
 **KÜLTÜR & YAŞAM:** Ahmet Çelik (jokey) → `ahmet-celik-jokey.jpg`, Alp Aksoy → `alp-aksoy.jpg`, Elif Buse Doğan - Yangın Yeri → `elif-buse-dogan-yangin-yeri.jpg`, Kibariye → `kibariye.jpg`, Manifest → `manifest.jpg`, Max Verstappen → `max-verstappen.jpg`, Yağız Kaan Er → `yagiz-kaan-er.jpg`, İlhan İrem → `ilhan-irem.jpg`
 
