@@ -1,0 +1,436 @@
+# Uwufufu — Görsel Durumu
+
+Toplam 1147 aday. 732 tanesinde gerçek fotoğraf var (Wikimedia Commons CC lisanslı ya da kanalın kendi YouTube küçük resmi — hepsi görsel doğrulama turundan geçti). Kalan 415 tanesi emoji madalyonla gösteriliyor: internette lisanslı/uygun bir fotoğraf bulunamadı, bulunan fotoğraf doğrulamada yanlış/alakasız çıktı, ya da (kanalın sunucuları/konuklarıyla ilgili kişisel şaka gibi) uygun bir temsil fotoğrafı aramak anlamlı değildi. AI üretim kullanılmıyor.
+
+Atıflar için `img/KREDILER.md`.
+
+## futbolcu (65)
+
+- 48 takımlı yeni formatın 'kolaylaştırmak yerine zorlaştırması'
+- Ali Akman
+- Arjantin - Cape Verde (Son 32)
+- Arjantin - Mısır (Son 16)
+- Belçika - Senegal (Grup/Son 32)
+- Belçika'nın çeyrek finalde İspanya'ya kaybedip elenmesi
+- Biz Yokken Neler Oldu Gündem Bölümü
+- Brezilya'nın Norveç'e kaybedip elenmesi
+- Cengiz Ünder
+- Cengiz Ünder (2016-17 dönemi)
+- Curaçao
+- Curaçao - Ekvador (Grup)
+- Curaçao'dan Comenencia'nın Almanya'ya attığı tarihi gol
+- Deniz Gül
+- Efe Akman
+- Elhanouss
+- Emin Bayram
+- En Yakışıklı Erkek Uwufufu Gündem Yayını
+- FM24 Kariyer Journeyman Finali
+- Fas kalecisinin penaltı serisinde kendi kalesine attığı top
+- Galatasaray-Karagümrük 2026 Formalar Uwufufusu
+- Ghana-İngiltere'de verilmeyen penaltı tartışması
+- Haiti kalecisinin Kanada'ya attığı talihsiz kendi kalesi
+- Hamza Akman
+- Icardi'nin Beşiktaş'a Gideceği Söylentisi
+- Icardi'nin Galatasaray'dan Ayrılacağı Her Sezon Söylentisi
+- Irankunda'nın Türkiye'ye attığı gol
+- Kanada
+- Kanada - Katar (Grup)
+- Kanada'nın Katar'ı 6-0 yendiği maçtaki goller
+- Kanada'nın tarihi başlangıcın ardından elenmesi
+- Kanada-Bosna Hersek Açılış Şovu Uwufufusu
+- Kenan Yıldız
+- Kevin Pina (Cape Verde)
+- Konyaspor Maçı Kavgaları, Islıklar, İstifalar (BJK-Konyaspor bölümü)
+- Livano Comenencia (Curaçao)
+- Matt Freese'in (ABD) Belçika maçındaki hatası
+- Messi'nin Cape Verde'ye ilk dokunuşla attığı gol
+- Metcalfe'in Türkiye'ye attığı ikinci gol
+- Metehan Baltacı
+- Norveç - Brezilya (Son 16)
+- Oğuz Aydın
+- Paraguay
+- Paraguay'ın Almanya'ya attığı gol
+- Paraguay'ın Almanya'yı eledikten sonra Fransa'ya kaybedip elenmesi
+- Survivor Nagehan Olayı / Böcekler (Gaziantep FK-Fenerbahçe bölümü)
+- Tanju Çolak
+- Taste Atlas Top 100 Yemek Uwufufusu
+- Taylan Antalyalı (erken kariyer)
+- Türkiye'nin 'grupta elenen en pahalı kadro' istatistiği
+- Türkiye'nin puansız şekilde grupta elenmesi
+- Uwufufuda Gergin Anlar (#shorts)
+- Vozinha (Cape Verde kalecisi)
+- Vozinha'nın çalım istatistiğiyle Ronaldo'yu geçmesi
+- Yiğit Efe Demir
+- Yunus Akgün
+- Yusuf Akçiçek
+- Özbekistan'dan Fayzullaev'in Kolombiya'ya kafayla attığı gol
+- İlk 'UWUFUFU Oynuyor' Bölümleri (#3-#8)
+- İsviçre
+- İsviçre - Arjantin (Çeyrek Final)
+- İsviçre'nin 72 yıllık rekor haberi
+- İsviçre'nin çeyrek final yolundaki bir golü
+- İsviçre'nin çeyrek finalde Arjantin'e kaybedip elenmesi
+- Şenol Güneş (TD)
+
+## kultur (144)
+
+- 12'li Keçeli Kalem Seti
+- 17 (dizi)
+- Ados
+- Aga B
+- Ahmet Çelik (jokey)
+- Air Jordan 1
+- Air Jordan 11
+- Air Jordan 4
+- Ali Biçim
+- Ali Cengiz Oyunu
+- Anıl Piyancı
+- Arhan Ata Pilavoğlu
+- Arın Uzun
+- Aspova
+- Aynalı Metal Kalem Kutusu
+- Bana Göre TV – Füg
+- Bana Göre TV – Katarsis (Gökhan Çınar)
+- Ben Tennyson (Ben 10)
+- Berat Denli
+- Bic Tükenmez Kalem (Turuncu)
+- Bilye (Misket)
+- Blok3
+- Cegıd
+- Cem Yılmaz reklam figürü
+- Contra
+- Darth Vader tişörtü
+- Deplasman Gönüllüsü
+- El Ele Tut Zincir Kaç
+- Elif Buse Doğan - Yangın Yeri
+- Emekli Formasıyla Gelen
+- Erinç Bilican
+- Erman Yaşar
+- Ertem Şener
+- Ertem Şener – Canlı Sohbet
+- Eski Açık – Yüz Yüze #5
+- Faber-Castell Kuru Boya
+- Fila Disruptor
+- Formasını Gündelik Hayatta Bile Çıkarmayan
+- FutbolArena – Bir De Buradan Bak #7
+- Fırat Sobutay
+- Fırat Sobutay – Et Döner Turu
+- Gazapizm
+- Gizli Rakip Sempatizanı
+- Gökhan Çınar
+- Hakem Düşmanı
+- HardSpor Ekibi
+- HardSpor – Maç Sonu Yorumu
+- Her Antrenmanı Canlı İzleyen Fanatik
+- Her Golde Komşuyu Uyandıran
+- Her Maçı 'Final' Gibi Yaşayan
+- Houston Rockets
+- Kanepe Teknik Direktörü
+- Kağıttan Gemi Yüzdürme
+- Kehanetlerini Unutmayan
+- Keloğlan
+- Khontkar
+- Kibariye
+- Kolera
+- Koray Koç
+- Koray Koç – Fenerbahçe Gündem Özel Canlı
+- Koray Koç – TAKOZ 12. Bölüm
+- Kuzey Güney
+- Manifest
+- Mantra – Harman 101. Bölüm
+- Max Verstappen
+- Maç Sonrası İstifa İsteyen
+- Maça Geç Gelip Her Şeyi Bilen
+- McDonald's Ronaldinho/Beckham bardakları
+- Mehmet Demirkol
+- Mehmet Demirkol – Galaxy Rehberi
+- Mesut Can Tomay
+- Mesut Can Tomay – Futbol Challenge
+- Motive
+- New Balance 550
+- Nike Air Max 97
+- Nike Air Presto
+- Nike Blazer Mid
+- Niloya
+- No1 (Rota)
+- Onur Tuğrul
+- Pelikan Sulu Boya Tableti
+- Pepee
+- Pergel Seti
+- Philadelphia 76ers
+- Puan Durumu Ezberleyicisi
+- Puma RS-X
+- Puma Suede
+- RTX 5090 ekran kartı
+- Rafadan Tayfa
+- Red Bull Gamerszon Sunucuları
+- Red Bull Gamerszon – Good Game Show
+- Sadece Maç Günü Aktifleşen
+- Saian
+- Server Uraz
+- Sessiz Ama Derin Taraftar
+- Simli Etiket/Sticker Defteri
+- Sinek Avı (Sopa Oyunu)
+- Sinem Ökten
+- Skechers Max Cushioned
+- Socrates Dergi – Atom Yılbaşı Özel
+- Socrates Dergi – Çok Biliyorsun #2
+- Socrates Dergi – Çok Biliyorsun #25 Çeyrek Final
+- Socrates Dergi – Çok Biliyorsun #5
+- Soğuk Savaş Ekibi
+- Soğuk Savaş – Gülersen Kaybedersin
+- T.J. (Recess/Teneffüs)
+- TFT (Teamfight Tactics)
+- TV8 Survivor Panorama Stüdyosu
+- TV8 – Survivor Panorama
+- Tahribad-ı İsyan
+- Tepki
+- Toprak Kağnıcı
+- Totem Watch Party Ekibi
+- Totem – Watch Party (Hasan)
+- Totem – Watch Party (Hilmi)
+- Tottenham stadyum indirim mağazası ganimetleri
+- Tribünde Hiç Küfür Etmeyen Sakin Tip
+- Tuna Tavus
+- Tuna Tavus – Ankara Gece Sokak Lezzetleri
+- Tuna Tavus – Ankara Gece Yemek Turu #1
+- Tuna Tavus – Futbolcuların En Sevdiği Yemekler
+- Twitter Transfer Muhabiri
+- UZI
+- Under Armour Curry
+- Utah Jazz
+- Uğursuz Taraftar
+- VOLE – Acayip Show #1
+- VOLE – Acayip Show #2
+- VOLE – Acayip Show #3
+- Vans Old Skool
+- Winx Club (Bloom)
+- Yalancı Ebe
+- Yağız Kaan Er
+- Young Bego
+- Yüzük Saklama
+- Zürtaa
+- Çelik Çomak
+- İddaa Kuponu Takipçisi
+- İlhan İrem
+- İmzalanan Ajanda/Günlük Defter
+- İstatistik Analisti
+- İstop
+- Şeffaf Plastik Cetvel
+- Şirinler (Smurfler)
+
+## uclu (144)
+
+- '6 maçlık maraton' gecesi açılışı (Beşiktaş-Ankaragücü/PSG-Dortmund)
+- 'Alo, Geldim'
+- 'Asla Yanılmam' Nakaratı
+- 'Ağlama İhtimalim Yüzde 80'
+- 'Bilgi Değil Çıkarım' Savunması
+- 'Cemin'e Sorsana' Refleksi
+- 'Chat Bana Geç Geliyor'
+- 'Eşimi Kıramam'
+- 'Götümden Uydurdum'
+- 'Okuyamıyorum, Özür Dilerim'
+- 'Sağdakini Yiyen Takım Elenir'
+- 27 Yıllık Şişman İtirafı
+- 6 maçlık maraton gecesi (Beşiktaş-Ankaragücü/PSG-Dortmund)
+- 6 maçlık maraton gecesi superchat'i
+- Ali Biçim'in Sürpriz Çıkışı
+- Alper Kul
+- Ankaragücü-Galatasaray gecesi superchat'i
+- Anketi Açıp İptal Etme
+- Antalyaspor-Beşiktaş 'Tribünler' gecesi
+- Antalyaspor-Beşiktaş 'Tribünler' gecesi açılışı
+- Antalyaspor-Beşiktaş 'Tribünler' gecesi superchat'i
+- Atlanan Grup Puanlaması
+- Aykut Kocaman'a Sempati Beslememe (Turancan)
+- Açılış Ses Faciası
+- Babetcan Porta
+- Bahattin Demir Bilek
+- Başkana Seslenme Rol Yapması
+- Bebek İsmi Chat'e Bırakıldı
+- Beşiktaş-Konyaspor 'kavga gecesi' açılışı
+- Beşiktaş-Konyaspor kavga gecesi
+- Beşiktaş-Konyaspor kavga gecesi superchat'i
+- Beşiktaş-Malmö gecesi
+- Beşiktaş-Malmö gecesi superchat'i
+- Biz Yokken Neler Oldu gecesi superchat'i
+- Biz Yokken Neler Oldu gündem özel gecesi
+- Biz Yokken Neler Oldu özel yayını açılışı
+- Bodrumspor-Galatasaray 'Dünya Yemekleri' gecesi açılışı
+- Bodrumspor-Galatasaray 'dünya yemekleri' gecesi
+- Bodrumspor-Galatasaray 'dünya yemekleri' gecesi superchat'i
+- Cezayir Kulisi
+- Cuma Namazı (Hilmi)
+- Dönerli Simit Tost
+- Dördüncü Ses
+- Eltalks Temsilcimiz
+- Enes'in 50 Mesajı
+- Erman Yaşar'ı Reddetme (Hasan)
+- Esat Yontunç
+- Eş Uyandırdı
+- Fenerbahçe-Adana Demirspor 'En İyi Spor Programı' gecesi açılışı
+- Fenerbahçe-Adana Demirspor gecesi superchat'i
+- Fenerbahçe-Bodrumspor gecesi açılışı
+- Fenerbahçe-Karagümrük gecesi
+- Fenerbahçe-Karagümrük gecesi superchat'i
+- Fenerbahçe-Samsunspor gecesi
+- Fenerbahçe-Samsunspor gecesi superchat'i
+- Fenerbahçe-Stuttgart gecesi
+- Fenerbahçe-Stuttgart gecesi superchat'i
+- Filmlere Ağlama İtirafı
+- Franculino
+- Franculino Transfer Paketi
+- Fısfıs İsmail
+- Gabon Milli Takımı'nın A101 Tarafından Satın Alınması
+- Galatasaray-Eyüpspor gecesi superchat'i
+- Galatasaray-Gençlerbirliği gecesi superchat'i
+- Galatasaray-Kasımpaşa 'Teknik Direktör Moda' gecesi açılışı
+- Galatasaray-Kasımpaşa 'moda' gecesi
+- Galatasaray-Kasımpaşa 'moda' gecesi superchat'i
+- Gaziantep FK-Fenerbahçe 'Survivor/böcek' gecesi açılışı
+- Gaziantep FK-Fenerbahçe 'Survivor/böcek' gecesi superchat'i
+- Gaziantep FK-Fenerbahçe 'böcekler' gecesi
+- Gerçek Taylan Abi
+- Giray Altınok
+- Gizli Pembe Ürün
+- Göztepe-Fenerbahçe 'Ali Koç Olayı' gecesi
+- Göztepe-Fenerbahçe 'Ali Koç Olayı' gecesi açılışı
+- Göztepe-Fenerbahçe 'Ali Koç Olayı' gecesi superchat'i
+- Hasan Dede
+- Hasan'ın Hayali Limuzini
+- Hasan'ın Kuduz Aşısı Paniği
+- Hasanço
+- Hatayspor-Fenerbahçe gecesi açılışı
+- Hatayspor-Fenerbahçe gecesi superchat'i
+- Hilmi'nin 'Labım Var' Bahanesi
+- Isabela Hikayesi
+- Kaan Bey'in Tıbbi Yorumu
+- Kanada-Bosna Hersek gecesi açılışı
+- Kasılcan
+- Kelondor Ödülü
+- Kendi Quizini Yazan İzleyici
+- Kendini Fenerbahçeli Zanneden Şizofren Lavuk
+- King
+- Koray Abi Skandalları
+- Lavuk
+- Like Manipülasyonu İtirafları
+- Lise'de Biyolojiden 33 (ortak)
+- Liverpool Çaycısı (lakap)
+- Lucas Torreira Yüzünden Uruguay'a Soğuma (Turancan)
+- Makarnalı Pizza
+- Maç İzlememe Alışkanlığı (Turancan)
+- Mağlubiyet Sonrası Çikolata
+- Mert Nobre
+- Muhammed Turancan Oğuz Çelikay
+- Ondalıklı Puanlama Takıntısı
+- Online Sipariş / Üyelik Vermemek (Hasan)
+- Pilava Ketçap
+- Psikolog Göktuğ
+- Restoran Fiyatı Savunması
+- Sahte Son Dakika Kandırmacası
+- Sahte Teknik Direktör Haberi
+- Sivasspor-Galatasaray gecesi açılışı
+- Sivasspor-Galatasaray gecesi superchat'i
+- Temkincan Portcan
+- Totem 50 Lira
+- Trabzonspor-Kayserispor 'Karadeniz yemekleri' gecesi
+- Transfer = Osuruk Benzetmesi (Hasan)
+- Troll Transfer Haberi
+- Turabi'den Nefret (Survivor)
+- Turan Port Lakabı
+- Turancan'ın Terlememesi İddiası
+- Turancan'ın Totemi
+- Turancığım
+- Turanort
+- Turi
+- Türkiye-Karadağ gecesi
+- Türkiye-Karadağ gecesi açılışı
+- Türkiye-Karadağ gecesi superchat'i
+- Uydurma Duyum Kaynağı
+- Uyuyakalan Hilmi
+- Yanlış Saat Yüzleşmesi
+- Yanlışlıkla Yayına Girdik
+- Yemek Cezası Geleneği
+- Yoğurt Soslu Rulo Cips
+- Zayıflama İğnesi Reddi (Hasan)
+- Zecorner Kayserispor-Galatasaray 'Yeni Sezon Formalar' gecesi açılışı
+- Zecorner Kayserispor-Galatasaray 'formalar' gecesi
+- Çaykur Rizespor-Fenerbahçe gecesi
+- Çaykur Rizespor-Fenerbahçe gecesi superchat'i
+- Ünlü Yayıncı Turancan Çelikay
+- İkisi de Patlamadı
+- İlmciğim / İlmi
+- İsmi Unutulan Kulüp Sahibi
+- İsviçre-Bosna Hersek gecesi
+- İsviçre-Bosna Hersek gecesi açılışı
+- İsviçre-Bosna Hersek gecesi superchat'i
+
+## veri (11)
+
+- 'Averaj yetmez' → 'ihtimal hep vardı'
+- 'Bu genç kaleci hazır değil' → 'gelişimini takip ediyordum'
+- 'Bu sakatlık uzun sürer' → 'iyileşme hızlıydı zaten'
+- 'Gerek yok' → 'zaten bekliyordum'
+- 'Kadro eksik' → 'derinlik varmış'
+- 'Kolay olmaz' → 'ben de öyle demiştim'
+- 'Rakip kolay değil' → 'ben de öyle düşünmüştüm'
+- Antalyaspor-Galatasaray gecesi
+- Göztepe-Beşiktaş gecesi
+- Türkiye-Karadağ deplasmanı
+- Ç.Rizespor-Fenerbahçe gecesi
+
+## yemek (51)
+
+- 'Ben zaten yemek yedim' yalanıyla hesaptan kaçma girişimi
+- 'Sen öde, ben havale atarım' klasiği
+- 3'ü 1 arada hazır kahve
+- Acıbadem Tevfik Bey
+- Americano
+- Anchovy'li Pizza
+- Aspava
+- Avliya (Bayrampaşa)
+- Açma
+- Bazlama
+- Berabere biten maçta tabağı yarı yarıya paylaşma
+- Bumbar
+- Buzlu Türk Kahvesi
+- Chicatana (kızıl uçan karınca sosu)
+- Deplasman yolunda hep aynı büfeden tost alma
+- Durian
+- Emekliye zorunlu veda yemeği ısmarlatma
+- Espresso
+- Eti Gong (Çilekli)
+- Ev usulü mercimek çorbası
+- Ev yapımı erişte
+- Filtre kahve
+- Francala
+- Freddo espresso
+- Fugu (balon balığı)
+- Gol gelene kadar aynı koltukta aynı çerezi yeme
+- Grup sohbetinde 'ben ısmarlıyorum' deyip sonradan unutma
+- Kayseri usulü yoğun tarçınlı mırra
+- Kelle beyni kızartması
+- Kızarmış ağustosböceği
+- Kızarmış yılan
+- Maç günü sabahına özel 'uğurlu kahvaltı' hazırlama
+- Mırra
+- Natto
+- Necdet Usta (Çeşme Kokoreç)
+- Nişan/söz yemeğinde 'bu sefer sen ödersin' diyaloğu
+- Nohut Tozlu Sokak Simidi
+- Nohutlu pilav
+- Ramazan pidesi
+- Sade granül kahve (Nescafe tarzı)
+- Sahlepli füzyon kahve
+- Simit
+- Soğuk demleme (cold brew)
+- Stat girişinde mutlaka simit-ayran alma
+- Sütlaçlı Dondurma
+- Yeni işe girende hoşgeldin yemeği ısmarlama zorunluluğu
+- Yoğurtlu Kıymalı Makarna
+- Yufka
+- İlk maaşla ofise börek-simit ısmarlama
+- İnce kenarlı Antep pidesi
+- Şampiyonluk gecesi sokakta dağıtılan tatlılar
+
