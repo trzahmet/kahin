@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>ARŞİV WRAPPED — HTalks · 4,5 Yıl</title>
+<title>HTalks Wrapped</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📼</text></svg>">
 <style>
 :root{--gold:#ffb020;--red:#ff3b5c;--blue:#3b8bff;--ok:#35c46f;--gs:#ff7043;--fb:#ffd54d}
@@ -64,7 +64,7 @@ html,body{height:100%;background:#05060b;color:#fff;overflow:hidden;
 <body>
 <div class="progress" id="prog"></div>
 <div class="stage" id="stage"></div>
-<div class="hint">dokun → ilerle</div>
+<div class="hint">dokun ya da → tuşuyla ilerle</div>
 <div class="tapzone" id="tap"></div>
 
 <script>
@@ -95,7 +95,7 @@ const CARDS = [
      <div class="bar" style="height:45%"><b>238</b><span>'25</span></div>
      <div class="bar" style="height:48%"><b>250</b><span>'26*</span></div>
    </div>
-   <div class="sub" style="margin-top:5vh">Toplam <b>1.092</b> kez. Viral bir an değil —<br>bir dünya görüşü. <b>*2026 daha yarısında rekor peşinde.</b></div>`},
+   <div class="sub" style="margin-top:5vh">Beş sezonda toplam <b>980</b> kez. Viral bir an değil —<br>bir dünya görüşü. <b>*2026 daha yarısında rekor peşinde.</b></div>`},
  {dur:6000, html:`
    <div class="eyebrow">arşiv bir doğum belgesi buldu</div>
    <div class="title">"TEMKİNCAN"<br>doğduğu an kayıtlarda.</div>
@@ -171,6 +171,11 @@ function go(i){
 document.getElementById('tap').addEventListener('click',e=>{
   const x=e.clientX/innerWidth;
   go(x<0.3?Math.max(0,cur-1):cur+1);
+});
+// klavye: → / boşluk ileri, ← geri (dokunma/tık davranışı aynen korunur)
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key===' '||e.code==='Space'){e.preventDefault();go(cur+1);}
+  else if(e.key==='ArrowLeft'){e.preventDefault();go(Math.max(0,cur-1));}
 });
 let konfOn=false;
 function konfeti(){

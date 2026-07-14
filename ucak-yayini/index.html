@@ -218,6 +218,28 @@
 
   footer { margin-top: 44px; text-align: center; font-size: .72rem; color: var(--soluk); }
   footer a { color: var(--soluk); }
+
+  /* ---- YOĞUN HAFTA / ÖZEL KARTLAR / GİZLİ MOD ---- */
+  .yogun-banner {
+    display: none; margin: 0 0 14px; text-align: center; font-family: "Space Mono", monospace;
+    font-size: .78rem; letter-spacing: 2px; color: var(--kirmizi); background: var(--kirmizi-glow);
+    border: 1px solid var(--kirmizi); border-radius: 10px; padding: 8px 12px;
+  }
+  .oyuncu-karti.yogun { border-color: var(--kirmizi); box-shadow: 0 0 0 1px var(--kirmizi), 0 8px 30px var(--kirmizi-glow); }
+  .gizli-mod-satir {
+    display: flex; align-items: center; gap: 10px; margin-top: 14px; font-size: .82rem; color: var(--soluk);
+    cursor: pointer; user-select: none;
+  }
+  .gizli-mod-satir input { accent-color: var(--altin); width: 16px; height: 16px; cursor: pointer; }
+  .tahmin-satir button.secili-gizli { border-color: var(--mavi); color: var(--mavi); }
+  .tahmin-satir .gizli-onay { font-size: .78rem; color: var(--mavi); font-family: "Space Mono", monospace; }
+  .bp-not {
+    margin-top: 12px; font-size: .82rem; color: var(--soluk); background: var(--panel);
+    border: 1px dashed var(--cizgi); border-radius: 10px; padding: 10px 14px; line-height: 1.55;
+  }
+  .bp-kaynak { margin-top: 8px; font-size: .68rem; text-align: right; }
+  .bp-kaynak a { color: var(--soluk); text-decoration: none; border-bottom: 1px dotted var(--soluk); margin-left: 10px; }
+  .bp-durum.istisna-rozet { color: var(--kirmizi); }
 </style>
 </head>
 <body>
@@ -231,16 +253,16 @@
     <div class="hero">
       <div class="rozet">HTalks · Gerçek Kanal Kuralı</div>
       <h1>UÇAK<br>YAYINI<br><span>SİMÜLATÖRÜ</span></h1>
-      <p>HTalks'ın kendi yayınlarında (birden fazla bölümde bağımsız olarak doğrulanmış) kullandığı gerçek "uçak yayını açılır mı" formülü. İsim gerçek, sayılar gerçek — tahmin senin.</p>
+      <p>HTalks'ın kendi yayınlarında (birden fazla bölümde bağımsız olarak doğrulanmış) kullandığı gerçek "uçak yayını açılır mı" formülü. İsim gerçek, sayılar gerçek — tahmin senin. Listedeki hiçbir isim Türkiye'de oynamadı: soru hep "İLK kez gelse açılır mı?"</p>
       <div class="kural-kutu">
-        <div><b>Kural:</b> HTalks bir transfer için "Canlı Uçak Takip" özel yayını açmadan önce şu formülü kullanıyor (kendi yayınlarında defalarca teyit edildi):</div>
+        <div><b>Kural:</b> HTalks bir transfer için "Canlı Uçak Takip" özel yayını açmadan önce şu formülü kullanıyor (yayın arşivinde dakika referanslarıyla, birden fazla bölümde mealen teyitli):</div>
         <div class="formul">Piyasa Değeri (M€) × Instagram (M takipçi) ≥ 25</div>
-        <div class="kaynak">Yoğun transfer haftalarında baraj 50'ye çıkarılıyor. Kaynak: HTalks yayın arşivi, çoklu bölüm ("bizim barem 25 miydi", "50 puana uçak yayını olur" vb. gerçek alıntılar).</div>
+        <div class="kaynak">Ek kurallar: yoğun transfer haftalarında baraj 50'ye çıkıyor · yabancı teknik direktörlere formül işlemiyor (hepsine açılıyor) · bir isim için de sabit "asla açılmaz" kararı var. Bu haftanın gerçek örneği: Trossard, Beşiktaş'a imzaladı (14 Tem) — 18M€ × 2M = 36 ≥ 25 → açılır.</div>
       </div>
     </div>
 
     <div class="oyuncu-ekle">
-      <label>Kimler oynuyor? (aynı ekrandan sırayla tahmin girin — canlı yayında 3 kişi birlikte oynayabilir)</label>
+      <label>Kimler oynuyor? (aynı ekrandan sırayla tahmin girin — 1-6 kişi, canlı yayında ideali 3)</label>
       <div class="hizli-ekle">
         <button data-hizli="Hasan">+ Hasan</button>
         <button data-hizli="Turancan">+ Turancan</button>
@@ -255,8 +277,10 @@
       <button data-n="5">5</button>
       <button data-n="10" class="aktif">10</button>
       <button data-n="15">15</button>
-      <button data-n="30">30 (hepsi)</button>
+      <button data-n="hepsi" id="hepsiBtn">Hepsi</button>
     </div>
+
+    <label class="gizli-mod-satir"><input type="checkbox" id="gizliMod"> Gizli mod: seçimler sonuca kadar saklansın (kopya çekmek yok)</label>
 
     <button class="basla-btn" id="baslaBtn">Uçuşa Hazırlan ✈️</button>
   </section>
@@ -267,7 +291,8 @@
       <span id="turEtiket">TUR 1/10</span>
       <span class="skor-mini" id="skorMini"></span>
     </div>
-    <div class="oyuncu-karti">
+    <div class="yogun-banner" id="yogunBanner">🔥 YOĞUN TRANSFER HAFTASI — BARAJ 50'YE ÇIKTI</div>
+    <div class="oyuncu-karti" id="oyuncuKarti">
       <div class="medalyon" id="oyuncuMedalyon"><span class="emo">⚽</span></div>
       <h2 id="oyuncuAd">—</h2>
       <div class="takim" id="oyuncuTakim">—</div>
@@ -300,6 +325,8 @@
         </div>
       </div>
     </div>
+    <div class="bp-not" id="bpNot" style="display:none"></div>
+    <div class="bp-kaynak" id="bpKaynak"></div>
     <div class="tahmin-sonuclari" id="tahminSonuclari"></div>
     <button class="sonraki-btn" id="sonrakiBtn">Sıradaki Tur →</button>
   </section>
@@ -328,13 +355,18 @@
 
   const RENKLER = ["#f0b34a", "#5c9dd6", "#3ec97a", "#b06cd5", "#e5555a", "#3ec3d0"];
   const BARAJ = 25;
+  const YOGUN_BARAJ = 50;
+  const YOGUN_OLASILIK = 0.2; // her normal turun yoğun haftaya denk gelme şansı
 
   let oyuncular = []; // {id, ad, renk}
   let turSayisi = 10;
-  let sirali = [];    // OYUNCULAR karışık, oynanacak sıra
+  let sirali = [];    // {kart, yogun} — oynanacak sıra
   let turIndex = 0;
   let skor = {};       // {oyuncuId: dogru_sayisi}
   let mevcutTahminler = {}; // {oyuncuId: 'olur'|'olmaz'|undefined} — bu tur için
+  let gizliMod = false;
+
+  $("#hepsiBtn").textContent = "Hepsi (" + OYUNCULAR.length + ")";
 
   function idUret() { return "p" + Math.random().toString(36).slice(2, 9); }
 
@@ -384,7 +416,7 @@
     btn.onclick = () => {
       $$("#turSayisiSecim button").forEach(b => b.classList.remove("aktif"));
       btn.classList.add("aktif");
-      turSayisi = btn.dataset.n === "30" ? OYUNCULAR.length : parseInt(btn.dataset.n, 10);
+      turSayisi = btn.dataset.n === "hepsi" ? OYUNCULAR.length : parseInt(btn.dataset.n, 10);
     };
   });
 
@@ -399,8 +431,12 @@
 
   $("#baslaBtn").onclick = () => {
     if (oyuncular.length === 0) return;
+    oyuncular.forEach((o, i) => { o.ad = (o.ad || "").trim() || ("Oyuncu " + (i + 1)); });
+    oyuncuSatiriCiz();
+    gizliMod = $("#gizliMod").checked;
     skor = {}; oyuncular.forEach(o => skor[o.id] = 0);
-    sirali = karistir(OYUNCULAR).slice(0, Math.min(turSayisi, OYUNCULAR.length));
+    sirali = karistir(OYUNCULAR).slice(0, Math.min(turSayisi, OYUNCULAR.length))
+      .map(kart => ({ kart, yogun: kart.tip === "normal" && Math.random() < YOGUN_OLASILIK }));
     turIndex = 0;
     $("#kurulumEkrani").style.display = "none";
     $("#finalEkrani").style.display = "none";
@@ -415,11 +451,13 @@
 
   function turuCiz() {
     mevcutTahminler = {};
-    const oy = sirali[turIndex];
+    const { kart: oy, yogun } = sirali[turIndex];
     $("#turEtiket").textContent = `TUR ${turIndex + 1}/${sirali.length}`;
     skorMiniCiz();
     $("#oyuncuAd").textContent = oy.ad;
     $("#oyuncuTakim").textContent = oy.takim;
+    $("#yogunBanner").style.display = yogun ? "block" : "none";
+    $("#oyuncuKarti").classList.toggle("yogun", yogun);
     const medalyon = $("#oyuncuMedalyon");
     medalyon.innerHTML = `<span class="emo">⚽</span>` + (oy.slug
       ? `<img class="foto" alt="${oy.ad}" loading="lazy" src="../uwufufu/img/${oy.slug}.jpg" data-i="0"
@@ -428,7 +466,7 @@
 
     $("#tahminListesi").innerHTML = oyuncular.map(o => `
       <div class="tahmin-satir" data-oyuncu="${o.id}">
-        <span class="ad"><span class="renk-nokta" style="background:${o.renk}"></span>${o.ad}</span>
+        <span class="ad"><span class="renk-nokta" style="background:${o.renk}"></span>${o.ad} <span class="gizli-onay"></span></span>
         <span class="secenekler">
           <button data-cevap="olur">OLUR ✈️</button>
           <button data-cevap="olmaz">OLMAZ 🚫</button>
@@ -441,8 +479,12 @@
       satir.querySelectorAll("button").forEach(btn => {
         btn.onclick = () => {
           mevcutTahminler[oid] = btn.dataset.cevap;
-          satir.querySelectorAll("button").forEach(b => b.classList.remove("secili-olur", "secili-olmaz"));
-          btn.classList.add(btn.dataset.cevap === "olur" ? "secili-olur" : "secili-olmaz");
+          satir.querySelectorAll("button").forEach(b => b.classList.remove("secili-olur", "secili-olmaz", "secili-gizli"));
+          if (gizliMod) {
+            satir.querySelector(".gizli-onay").textContent = "✓ seçti";
+          } else {
+            btn.classList.add(btn.dataset.cevap === "olur" ? "secili-olur" : "secili-olmaz");
+          }
           sonucBtnGuncelle();
         };
       });
@@ -458,18 +500,39 @@
   }
 
   $("#sonucuGorBtn").onclick = () => {
-    const oy = sirali[turIndex];
-    const puan = +(oy.piyasa_degeri_milyon_eur * oy.instagram_takipci_milyon).toFixed(1);
-    const gercekCevap = puan >= BARAJ ? "olur" : "olmaz";
+    const { kart: oy, yogun } = sirali[turIndex];
+    const baraj = yogun ? YOGUN_BARAJ : BARAJ;
+    let gercekCevap, puan = null;
+
+    if (oy.tip === "td") {
+      gercekCevap = "olur"; // yabancı hocalara formül işlemez — hepsine açılır
+    } else {
+      puan = +(oy.piyasa_degeri_milyon_eur * oy.instagram_takipci_milyon).toFixed(1);
+      gercekCevap = oy.tip === "istisna" ? "olmaz" : (puan >= baraj ? "olur" : "olmaz");
+    }
     const hazirMi = gercekCevap === "olur";
 
-    $("#bpDurum").textContent = hazirMi ? "UÇUŞA HAZIR ✈️" : "İPTAL 🚫";
-    $("#bpDurum").className = "bp-durum " + (hazirMi ? "hazir" : "iptal");
+    $("#bpDurum").textContent = oy.tip === "istisna" ? "İPTAL 🚫 — SABİT İSTİSNA"
+      : (hazirMi ? "UÇUŞA HAZIR ✈️" : "İPTAL 🚫");
+    $("#bpDurum").className = "bp-durum " + (hazirMi ? "hazir" : "iptal") + (oy.tip === "istisna" ? " istisna-rozet" : "");
     $("#bpOyuncu").textContent = `${oy.ad} · ${oy.takim}`;
-    $("#bpDeger").textContent = "€" + oy.piyasa_degeri_milyon_eur + "M";
-    $("#bpInsta").textContent = oy.instagram_takipci_milyon + "M";
-    $("#bpPuan").textContent = puan;
-    $("#bpEsik").textContent = "baraj: " + BARAJ + (oy.kaynak_piyasa ? "" : "");
+    if (oy.tip === "td") {
+      $("#bpDeger").textContent = "—";
+      $("#bpInsta").textContent = "—";
+      $("#bpPuan").textContent = "∞";
+      $("#bpEsik").textContent = "formül işlemez (yabancı hoca)";
+    } else {
+      $("#bpDeger").textContent = "€" + oy.piyasa_degeri_milyon_eur + "M";
+      $("#bpInsta").textContent = oy.instagram_takipci_milyon + "M";
+      $("#bpPuan").textContent = puan;
+      $("#bpEsik").textContent = "baraj: " + baraj + (yogun ? " (yoğun hafta!)" : "");
+    }
+
+    const not = $("#bpNot");
+    if (oy.durum) { not.textContent = oy.durum; not.style.display = "block"; }
+    else { not.style.display = "none"; }
+    $("#bpKaynak").innerHTML = (oy.kaynak_piyasa ? `<a href="${oy.kaynak_piyasa}" target="_blank" rel="noopener">Transfermarkt ↗</a>` : "")
+      + (oy.kaynak_instagram ? `<a href="${oy.kaynak_instagram}" target="_blank" rel="noopener">Instagram ↗</a>` : "");
 
     $("#tahminSonuclari").innerHTML = oyuncular.map(o => {
       const dogru = mevcutTahminler[o.id] === gercekCevap;

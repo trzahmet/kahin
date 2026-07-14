@@ -1,6 +1,6 @@
 # Görsel Kaynakları
 
-Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi YouTube video küçük resmi.
+Toplam 746 görsel: 566 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi YouTube video küçük resmi.
 
 ## Wikimedia Commons (CC / kamu malı)
 
@@ -19,6 +19,7 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | ABD - Belçika (Son 16) | File:Belgium national football team (matches with opponents).png | CC BY-SA 4.0 | Kareldorado |
 | ABD'nin ev sahibi olarak Belçika'ya 1-4 kaybedip elenmesi | File:Starting XI USMNT v Belgium Mar 28 2026-10.jpg | CC BY-SA 4.0 | Bryan Berlin |
 | ABD'nin grupta attığı rekor 8 gollük seriden bir vuruş | File:Starting XI USMNT v Belgium Mar 28 2026-10.jpg | CC BY-SA 4.0 | Bryan Berlin |
+| Adam Wharton | File:Fredrikstad Fotballklubb v Crystal Palace FC, 28 August 2025 B06 (cropped).jpg | CC BY 4.0 | MichaelEmilio |
 | Adana Gece Dönercisi | File:Doner Kebab, sols carn i lletuga..jpg | CC BY-SA 4.0 | Francesc Fort |
 | Adana musluk suyu | File:Drinking water tap, Split, Mertojak.jpg | CC0 | PeterTrain |
 | Adem Ljajic | File:FWC 2018 - Group E - SRB v BRA - Photo 060.jpg | CC BY-SA 3.0 | Voltmetro |
@@ -36,6 +37,7 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Aile Boyu Taraftarlık Mirasçısı | File:Het Fwced Cymru.jpg | CC BY-SA 4.0 | Stefanik |
 | Aile Boyu Tek Kişilik Pizza | File:Pizza 2023.jpg | CC BY-SA 4.0 | Yakshitha |
 | Ajda Pekkan | File:Ajda Pekkan 2013.jpg | CC BY-SA 2.0 | Firuza48 |
+| Alejandro Garnacho | File:Alejandro Garnacho 7 August 2022 (cropped).jpg | CC BY-SA 4.0 | Ardfern |
 | Alex de Souza | File:Alexsandro de Souza.jpg | CC0 | Serkan YAKIN - antu.com |
 | Alex Teixeira | File:Алекс Тейшейра - Alex Teixeira (21615984884).jpg | CC BY-SA 2.0 | Aleksandr Osipov from Ukraine |
 | Ali Koç Olayı (Göztepe-Fenerbahçe bölümü) | File:Ali Koç and board members 20180605 (10).jpg | CC BY-SA 4.0 | Sakhalinio |
@@ -49,10 +51,12 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Alvaro Morata | File:Álvaro Morata in 2025.jpg | CC BY 4.0 | Biso |
 | Amir Murillo | File:CINvNY 2017-08-15 - Felipe Campanholi Martins, Michael Amir Murillo (27501793147).jpg | CC BY 2.0 | Hayden Schiff from Cincinnati, USA |
 | Analı kızlı | File:"Madre e hija" (sopa turca).jpg | CC BY-SA 4.0 | E4024 |
+| Angelo Stiller | File:Angelo Stiller Ecuador v Germany 25 June 2026-233 (cropped).jpg | CC BY-SA 4.0 | Bryan Berlin |
 | Ankara Simidi | File:Ankara simidi or simit of Ankara.jpg | CC BY-SA 4.0 | E4024 |
 | Annenin kuru fasulye-pilavı | File:Kuru Fasulye pilav.jpg | CC BY-SA 4.0 | Satirdan kahraman |
 | Ante Budimir | File:Budimir, Ante FCSP 15-16 WP.jpg | CC BY-SA 3.0 | Northside |
 | Antep Fıstıklı Baklava | File:Baklava(1).png | CC BY-SA 4.0 | Sakaman |
+| Antoine Griezmann | File:FRA-ARG (10) (cropped).jpg | CC BY-SA 3.0 | Антон Зайцев |
 | Ançuez (Hamsi) | File:Pasta d'acciughe nella salsiera.jpg | CC BY-SA 3.0 | Roger469 |
 | Arda Güler | File:Arda Güler Fenerbahçe Forması İle lig kupası maçında.jpg | CC BY-SA 4.0 | Mintone97 |
 | Arda Güler'in Kiralık Süper Lig Dönüşü | File:Arda Güler Fenerbahçe Forması İle lig kupası maçında.jpg | CC BY-SA 4.0 | Mintone97 |
@@ -78,6 +82,7 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Balut | File:Balut K. Sheppard.jpg | CC BY-SA 2.0 | Karen Sheppard |
 | Bankamatik Faresi (lakap) | File:Decomposed House Mouse (10069532536).jpg | CC BY 2.0 | NY State IPM Program  at Cornell University from New York, USA |
 | Bankamatik Faresi Benzetmesi (Wenger/Klopp) | File:25th Laureus World Sports Awards - Red Carpet - Arsène Wenger - 240422 192850 (cropped).jpg | CC BY-SA 4.0 | Barcex |
+| Bart Verbruggen | File:Netherlands v Tunisia 2026 World Cup - 55374501166.jpg | CC BY-SA 4.0 | elisfkc3 |
 | Barış Alper Yılmaz | File:Barış Alper Yılmaz.jpg | CC BY-SA 3.0 | Анна Нэсси |
 | Baturina | File:FC Salzburg gegen GNK Dinamo Zagreb (UEFA Championsleague 2022-10-05) 52.jpg | CC BY-SA 4.0 | Werner100359 |
 | Beef Parmigiana (Brezilya) | File:Frango à parmegiana.jpg | CC BY-SA 4.0 | ComidasDoBrasil |
@@ -122,6 +127,7 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | CL Canlı Takip gecesi açılışı | File:Trofeo UEFA Champions League.jpg | CC BY 2.0 | David Flores |
 | CL Canlı Takip gecesi superchat'i | File:Trofeo UEFA Champions League.jpg | CC BY 2.0 | David Flores |
 | CL Canlı Takip VAR Kayıtları Muhabbeti | File:Baldomero Toledo checks VAR - Seattle Sounders vs. Sporting Kansas City.jpg | CC BY-SA 4.0 | SounderBruce |
+| Christopher Nkunku | File:2022-07-30 Fußball, Männer, DFL-Supercup, RB Leipzig - FC Bayern München 1DX 3321 by Stepro (cropped).jpg | CC BY-SA 4.0 | Steffen Prößdorf |
 | Cleveland Cavaliers | File:Cleveland Cavaliers vs. Milwaukee Bucks January 2024 09 (Cleveland player introductions).jpg | CC BY-SA 4.0 | Michael Barera |
 | Converse Chuck Taylor All Star | File:Converse All Star Blue High (4649851894).jpg | CC BY 2.0 | Magnus D from London, United Kingdom |
 | Cortado | File:Cortado - LOAM 2023-08-22.jpg | CC0 | Andy Li |
@@ -202,6 +208,7 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Fish and Chips (İskoçya/İngiltere) | File:Fish and chips plate with peas.jpg | CC BY-SA 4.0 | Grendelkhan |
 | Flat white | File:Charlecote Park flat white coffee Warwickshire England.jpg | CC BY-SA 4.0 | Acabashi |
 | Florentino Perez'in Olise Pazarlığı | File:25th Laureus World Sports Awards - Red Carpet - Florentino Pérez - 240422 194803.jpg | CC BY-SA 4.0 | Barcex |
+| Florian Wirtz | File:Florian Wirtz Ecuador v Germany 25 June 2026-181 (cropped).jpg | CC BY-SA 4.0 | Bryan Berlin |
 | Focaccia | File:Focaccia Crust.jpg | CC BY-SA 4.0 | Fred Benenson |
 | Football Manager (FM26) | File:Football-Manager-2021.jpg | CC BY-SA 4.0 | Sports Interactive |
 | Fosforlu Kalem (Boss Kalem) | File:Highlighters.jpg | CC BY 2.0 | Jeremy Keith from Brighton &amp; Hove, United Kingdom |
@@ -215,12 +222,14 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Galatasaray-Bodrumspor gecesi | File:Ali Sami Yen Spor Kompleksi Galatasaray Store.JPG | CC BY-SA 3.0 | LardoBalsamico |
 | Galatasaray-Eyüpspor gecesi | File:Ali Sami Yen Spor Kompleksi Galatasaray Store.JPG | CC BY-SA 3.0 | LardoBalsamico |
 | Gianluigi Buffon | File:Gianluigi Buffon (2014).jpg | CC BY 3.0 | Puma |
+| Giorgi Mamardashvili | File:Liverpool Players 04012026 (5) - Mamardashvili.jpg | CC0 | Timmy96 |
 | Gizli Dizi İzleyicisi | File:Person watching television on couch.tiff | Public domain | CDC |
 | Gol sonrası herkese şeker/çikolata dağıtma | File:013 Austrian chocolates in Vienna - assorted fancy chocolate pralines.jpg | CC BY 3.0 | Marek Ślusarczyk (Tupungato) Photo portfolio |
 | Grand Seiko | File:Seiko Grand Quartz 9940-8010 (Twinquartz), 1979.jpg | CC BY-SA 3.0 | Dnalor 01 |
 | Grip Kurşun Kalem | File:Faber-Castell Grip Matic 0.7.jpg | CC BY-SA 4.0 | Mr Yukio |
 | Grup Karışıklığı | File:Businesswoman with beautiful curly hair in black uniform typing messages on her smartphone near window at home. (51533296489).jpg | CC BY 2.0 | Nenad Stojkovic |
 | Gusano kırmızı kurdu (mezcal solucanı) | File:Gusano rojo del maguey; Comadia redtenbacheri.jpg | CC BY 4.0 | Brook |
+| Gustavo Hamer | File:Guga Wiki 2.45.jpg | CC BY-SA 4.0 | KlaasHamer |
 | Gustavo Henrique | File:Gustavo Henrique (Press Conference, August 2022).png | CC BY 3.0 | Sportreport |
 | Gönye-İletki Seti | File:Joonlaud.jpg | CC BY-SA 4.0 | Johhhannna |
 | Haaland'ın aynı maçtaki kafa golü | File:Erling Haaland 2023.jpg | CC BY-SA 4.0 | Jacek Stanislawek |
@@ -247,8 +256,14 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Ilya Topuria | File:Ilia Topuria at the Orbeliani Palace (cropped).jpg | CC BY 4.0 | საქართველოს პრეზიდენტის ადმინისტრაცია |
 | Inspector Gadget (Müfettiş Gadget) | File:INSPECTOR GADGET ON THE JOB (287240761).jpg | CC BY 2.0 | aka Tman from Guelph.........Ontario, CANADA |
 | Irish coffee | File:Irish Coffee - T @ Hove 2023-09-07.jpg | CC0 | Andy Li |
+| Isco | File:Liver-RM (5) (cropped).jpg | CC BY-SA 3.0 | Антон Зайцев |
 | Ispanaklı Pasta | File:2010 Greek Fest 060.JPG | CC BY-SA 3.0 | Tvagelos |
 | Ivan Perišić | File:Ivan Perišić (cropped).jpg | CC BY-SA 3.0 | Антон Зайцев |
+| Jadon Sancho | File:Manchester United v Liverpool, 22 August 2022 (33) (cropped).jpg | CC BY-SA 4.0 | Ardfern |
+| James Rodríguez | File:James Rodriguez 2018.jpg | CC BY-SA 3.0 | Rufus46 |
+| Jarrad Branthwaite | File:Celebration! (54493257432) (Jarrad Branthwaite).jpg | CC BY 2.0 | Pete from Liverpool, UK |
+| Jesse Lingard | File:240609 FC 서울 팬사인회 (Jesse Lingard).jpg | CC BY-SA 4.0 | Explicit |
+| João Félix | File:Joao Felix Croatia v Portugal 2 July 2026-007.jpg | CC BY-SA 4.0 | Bryan Berlin |
 | İbrahim Maza | File:Ibrahim Maza 27 mars 2026.png | CC0 | Shawarmael7alouin |
 | İbrahim Tatlıses | File:İbrahim Tatlıses (8 Temmuz 2007).JPG | CC BY-SA 3.0 | Tacirci |
 | İnegöl Köfte (Kadıköy) | File:İnegöl köfte.jpg | CC BY-SA 4.0 | E4024 |
@@ -270,11 +285,13 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Jude Bellingham | File:25th Laureus World Sports Awards - Red Carpet - Jude Bellingham - 240422 190551-2 (cropped).jpg | CC BY-SA 4.0 | Barcex |
 | Julián Álvarez | File:Julian Alvarez Argentina v Egypt 7 July 2026-065.jpg | CC BY-SA 4.0 | Bryan Berlin |
 | Julián Álvarez'in Maradona ile aynı istatistiğe ulaştığı gol | File:Julian Alvarez Argentina v Egypt 7 July 2026-065.jpg | CC BY-SA 4.0 | Bryan Berlin |
+| Jürgen Klopp (TD) | File:Jürgen Klopp, Liverpool vs. Chelsea, UEFA Super Cup 2019-08-14 04.jpg | CC BY 4.0 | Mehdi Bolourian |
 | Kabak çiçeği dolması | File:Etli kabak çiçeği dolması.jpg | CC BY-SA 4.0 | E4024 |
 | Kanada-Bosna Hersek gecesi | File:Canada vs costa rica world cup qualifying 1-0.jpg | CC BY-SA 4.0 | Khoshhat |
 | Kapsül kahve (Nespresso tarzı) | File:Capsules Nespresso 2007.jpg | CC BY-SA 4.0 | Nicolas Richoffer |
 | Karadamlalı Türk kahvesi | File:Turkish Coffee - Lavash 2023-12-13.jpg | CC0 | Andy Li |
 | Kareli Matematik Defteri | File:Diagram on graph paper (3740136939).jpg | CC BY 2.0 | gwire |
+| Karim Benzema | File:Karim Benzema Pick.jpg | CC BY 4.0 | Zack |
 | Karnıyarık | File:Karnıyarık ingredients.png | CC BY-SA 4.0 | GeoO |
 | Karışık dolma (yaprak/biber/patlıcan) | File:Vegetarian Culinary Festival in Poznań (2019, dolma).jpg | CC BY-SA 4.0 | MOs810 |
 | Kasule (Toulouse Kasesi) | File:Bowl of cassoulet.JPG | CC BY-SA 3.0 | BrokenSphere |
@@ -322,20 +339,24 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Lionel Messi | File:Lionel-Messi-Argentina-2022-FIFA-World-Cup (cropped).jpg | CC BY 4.0 | Hossein Zohrevand |
 | Lisandro Martínez | File:Lisandro Martínez Manchester United v Brighton & Hove Albion, 7 August 2022 (05) (cropped).jpg | CC BY-SA 4.0 | Ardfern |
 | Lisandro Martínez'in Arjantin'deki ilk Dünya Kupası golü | File:Argentina - Colombia 2022 (119).jpg | CC BY-SA 3.0 | jmmuguerza |
+| Lorenzo Pellegrini | File:FC Salzburg gegen AS Roma Pellegrini.jpg | CC BY-SA 4.0 | Werner100359 |
 | Loris Karius | File:Loris-Karius-2015-07.jpg | CC BY-SA 3.0 | Fuguito |
 | Los Angeles Lakers | File:Carter vs Gasol, Lakers vs Magic.jpg | CC BY-SA 2.0 | Tim Wang |
+| Luis Suárez | File:Luis Suárez 2026 (cropped).jpg | Public domain | The White House |
 | Luiz Gustavo | File:Luiz Gustavo 8 Mart 2018.jpg | CC BY-SA 4.0 | Werner100359 |
 | Luka Modrić | File:Luka Modric - Croatia vs. Portugal, 10th June 2013.jpg | CC BY-SA 3.0 | Fanny Schertzer |
 | Lutefisk | File:Preparing for Christmas 1950 (JOKAMT2Kot06-6).tif | CC BY 4.0 | Erkki Voutilainen |
 | Magnum Dondurma | File:Magnum ice cream.jpg | Public domain | User:Qz10 |
 | Malcom | File:Malcom in Saint-Petersburg, August 2019 (cropped).jpg | CC BY-SA 3.0 | Анна Мейер / ФК «Зенит» |
 | Manuel Neuer | File:20180602 FIFA Friendly Match Austria vs. Germany Manuel Neuer 850 0723.jpg | CC BY-SA 4.0 | Granada |
+| Manuel Ugarte | File:M.UGARTE.jpg | CC BY 4.0 | Atmedia25 |
 | Mario Gomez | File:20180602 FIFA Friendly Match Austria vs. Germany Mario Gómez 850 0762.jpg | CC BY-SA 4.0 | Granada |
 | Mason Greenwood | File:Mason Greenwood (cropped).jpeg | CC BY 2.0 | Kane Brooker |
 | Masuaku | File:Hertha BSC vs. West Ham United 20190731 (184).jpg | CC BY-SA 4.0 | --Steindy (talk) 16:16, 29 August 2019 (UTC) |
 | Mauricio Pochettino | File:Mauricio Pochettino 2016 (cropped).jpg | CC BY-SA 3.0 | Дмитрий Голубович |
 | Mauro Icardi | File:Zen-Int (2) - Mauro Icardi (cropped).jpg | CC BY-SA 3.0 | Original:  Вячеслав Евдокимов / Derivative work:  Danyele |
 | Max Kruse | File:1LIVE Krone 2014 Max Kruse.jpg | CC BY-SA 4.0 | Superbass |
+| Maximilian Beier | File:Maximilian Beier Ecuador v Germany 25 June 2026-152.jpg | CC BY-SA 4.0 | Bryan Berlin |
 | Maç boyunca hep aynı markanın gazozunu içme | File:Sevda Gazozcusu bottle collection Istanbul 2026.jpg | CC BY-SA 4.0 | Furkan Akkurt |
 | Maç öncesi mutlaka mercimek çorbası içme âdeti | File:Mercimek çorbası (Lentil soup) ingredients.png | CC BY-SA 4.0 | GeoO |
 | Maç öncesi sokak lezzeti (kokoreç/midye) siparişi | File:Come to kokorec -) turkish food - panoramio.jpg | CC BY 3.0 | Bir_Ege_Hikayesi © |
@@ -345,6 +366,7 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Meksika'nın ev sahibi avantajına rağmen elenmesi | File:Adidas Mexico national football team home jersey.JPG | CC BY-SA 3.0 | BrokenSphere |
 | Meksika-Güney Afrika gecesi | File:Adidas Mexico national football team home jersey.JPG | CC BY-SA 3.0 | BrokenSphere |
 | Meksika-Güney Afrika gecesi açılışı | File:Adidas Mexico national football team home jersey.JPG | CC BY-SA 3.0 | BrokenSphere |
+| Memphis Depay | File:Memphis Depay 2019.jpg | CC BY-SA 4.0 | Derivative work:  Joe Sins |
 | Mendil Kapmaca | File:Children playing game with handkerchief on stick in school yard, Washington, D.C. LCCN2001703698.jpg | Public domain | Johnston, Frances Benjamin, 1864-1952, photographer |
 | Menemen 'En Kötü Yemek' İlan Edildi | File:Cooking a menemen.jpg | CC BY-SA 4.0 | E4024 |
 | Menengiç kahvesi | File:Kezwan.JPG | CC BY-SA 3.0 | MikaelF |
@@ -382,6 +404,7 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Nestory Irankunda (Avustralya) | File:Chris Richards Nestory Irankunda Australia v USA 19 June 2026-227.jpg | CC BY-SA 4.0 | Bryan Berlin |
 | New Balance 990 | File:New Balance Women's 990 Running Shoes.jpg | CC BY 2.0 | slgckgc |
 | New York Knicks | File:2026 NBA Champions New York Knicks City Hall Ceremony 04.png | CC BY 4.0 | Unknown authorUnknown author |
+| Neymar | File:Neymar Junior Brazil V Morocco 13 June 2026-40.jpg | CC BY-SA 4.0 | Bryan Berlin |
 | Neymar'ın Süper Lig'e Geleceği Şakaları | File:20180610 FIFA Friendly Match Austria vs. Brazil Neymar 850 1705.jpg | CC BY-SA 4.0 | Granada |
 | Nicolás Tagliafico | File:Nicolas Tagliafico.jpg | CC BY-SA 4.0 | Felipehoyos |
 | Nihat Kahveci | File:AUT vs. TUR 2016-03-29 (186).jpg | CC BY-SA 3.0 | Steindy (talk) 23:56, 10 April 2016 (UTC) |
@@ -408,6 +431,7 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Panini Takas Ritüeli | File:Héctor Chumpitaz México 70 (Panini).jpg | Public domain | Panini |
 | Papiss Cisse | File:Newcastle United vs Arsenal, 29 August 2015 (01).JPG | CC BY-SA 3.0 | Ardfern |
 | Patates Cipsi | File:Potato-Chips.jpg | Public domain | Evan-Amos |
+| Paul Pogba | File:Paul Pogba at the 2025 Cannes Film Festival 02.jpg | CC BY-SA 4.0 | Gabriel Hutchinson |
 | Pep Guardiola | File:Pep Guardiola 2015.jpg | CC BY-SA 3.0 | Богдан Заяц |
 | Pepe | File:Nani and Pepe.png | CC BY 3.0 | Agência Lusa |
 | PES / PlayStation 3 retro arayışı | File:Gamescom 2009 - PS3 (5202).jpg | CC BY-SA 4.0 | Raimond Spekking |
@@ -453,6 +477,7 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Sepetli Kalemtıraş | File:1970s Swiss pencil sharpener Gedess.jpg | CC BY 4.0 | R. Henrik Nilsson |
 | Serdar Aziz | File:Serdar Aziz'14.JPG | CC BY-SA 3.0 | Ultraslansi |
 | Sergen Yalçın | File:Sergen Yalcin.jpg | CC BY 3.0 | Klasspor TV |
+| Sergio Ramos | File:Sergio Ramos Interview 2021 (cropped).jpg | CC BY 3.0 | Real Madrid |
 | Seçim Akşamı Özel Yayını | File:Eduskuntavaalit 1970.jpg | Public domain | Leif Öster |
 | Sinema Mısırı | File:Popcorn 11.jpg | CC BY-SA 4.0 | Gaurav Dhwaj Khadka |
 | Sneijder'in Beşiktaş'a Transfer Olacağı Söylentisi | File:Wesley Sneijder '14-15.JPG | CC BY-SA 4.0 | Ultraslansi |
@@ -506,6 +531,7 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Viktor Gyökeres | File:Viktor Gyökeres 2018.jpg | CC BY 2.0 | James Boyes from UK |
 | Vincent Aboubakar | File:Vincent Aboubakar in 2023 (cropped).jpg | CC BY 2.0 | Beşiktaş JK |
 | Vincenzo Montella (TD) | File:Vincenzo Montella ICC 2016.jpg | CC BY-SA 2.0 | goatling from Wherever my imagination can afford to go |
+| Vinícius Júnior | File:Vinícius Júnior Brazil V Morocco 13 June 2026-207 (cropped).jpg | CC BY-SA 4.0 | Bryan Berlin |
 | Virgil van Dijk | File:Virgil van Dijk 2015.jpg | CC BY-SA 2.0 | Brian Hargadon |
 | Vitor Pereira (TD) | File:Vítor-Pereira-Corinthians-2022.jpg | Public domain | SOCCER DIGITAL |
 | Viyana 10. Bezirk | File:Blick über Wien-Favoriten 01.jpg | CC BY-SA 4.0 | Geolina163 |
@@ -522,11 +548,13 @@ Toplam 718 görsel: 538 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi 
 | Yaprak Sarma / Dolma | File:Postna sarma (vegetarian sarma, Cuisine of Serbia).jpg | CC BY-SA 4.0 | Petar Milošević |
 | Yağ Satarım Bal Satarım | File:Duck run.jpg | CC BY-SA 4.0 | Favour chishimba |
 | Younes Belhanda | File:Younès Belhanda - beIN-Sports-Reklam (2021).png | CC BY 3.0 | beIN SPORTS Türkiye |
+| Yves Bissouma | File:Bissouma 2018.jpg | CC BY 2.0 | James Boyes from UK |
 | Zaha'nın Galatasaray'a Erken Geleceği Söylentisi | File:Wilfried Zaha 01-02-2014 1.jpg | CC BY-SA 2.0 | https://www.flickr.com/photos/joncandy/ |
 | Zeki Murat Göle Kombini | File:ZekiM.GoeleAssistantcoach.jpg | CC BY-SA 3.0 | Original:  Sakhalinio Derivative work:  FootyBystander |
 | Zeytinyağlı taze fasulye | File:Etsiz taze fasulye.jpg | CC BY-SA 4.0 | E4024 |
 | Zincir kafe usulü sütlü kahve | File:Caffè Latte at Sainsbury's Low Hall, Chingford, London 1.jpg | CC BY-SA 4.0 | Acabashi |
 | Zinedine Zidane | File:Zinedine Zidane by Tasnim 03.jpg | CC BY 4.0 | Hadi Abyar |
+| Zinédine Zidane (TD) | File:Zinedine Zidane by Tasnim 03.jpg | CC BY 4.0 | Hadi Abyar |
 | Zuckerberg vs Kapalı Çarşı Halıcısı | File:Business making, Istanbul Grand Bazaar (456333936).jpg | CC BY-SA 2.0 | Fulvio Spada from Torino, Italy |
 | Zıpzıp (Rampadan Kayma) | File:Playground for children with slide and toboggan à Cotonou-Bénin.jpg | CC BY-SA 4.0 | Adoscam |
 | Çatallaşmış Ses | File:AKG C214 Condenser microphone.jpg | CC BY-SA 3.0 | Lucasbosch |

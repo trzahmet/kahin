@@ -70,7 +70,7 @@
   <a class="geri" href="../">← modüller</a>
   <header>
     <h1>📋 TAHMİN SİCİLİ</h1>
-    <div class="alt">Hasan · Turancan · Hilmi — Dünya Kupası 2026 karnesi.<br>Kanalın 47 canlı yayınını baştan sona izleyen yapay zekanın tuttuğu kayıt.</div>
+    <div class="alt">Hasan · Turancan · Hilmi — Dünya Kupası 2026 karnesi.<br>Kanalın 51 canlı yayınını baştan sona izleyen yapay zekanın tuttuğu kayıt.</div>
     <div class="guncel" id="guncel"></div>
   </header>
 
@@ -107,7 +107,10 @@
 <script src="data.js"></script>
 <script>
   const yt = id => id ? `https://youtu.be/${id}` : null;
-  const R = d => `<span class="rozet r-${d}">${d === 'COKTU' ? 'ÇÖKTÜ' : d}</span>`;
+  // CSS sınıf adları ASCII kalır; ekranda Türkçe karakterli hali gösterilir.
+  const ascii = s => s.replace(/Ç/g, 'C').replace(/Ö/g, 'O').replace(/Ü/g, 'U').replace(/Ş/g, 'S').replace(/İ/g, 'I').replace(/Ğ/g, 'G');
+  const AD = { COKTU: 'ÇÖKTÜ', BEKLIYOR: 'BEKLİYOR' };
+  const R = d => `<span class="rozet r-${ascii(d)}">${AD[d] || d}</span>`;
 
   document.getElementById('guncel').textContent = 'Son güncelleme: ' + SICIL.guncelleme + ' · her yayından sonra yenilenir';
   document.getElementById('kapsam').textContent = SICIL.kapsam.yayin + ' Dünya Kupası dönemi yayınının (tespit edilen ' + SICIL.kapsam.tahmin + ' tahminin kişiye atanabilen ' + SICIL.kapsam.atanmis + " tanesi)";
@@ -129,14 +132,14 @@
     </div>`).join('');
 
   document.getElementById('evrim').innerHTML = SICIL.sampiyonEvrimi.map(e =>
-    `<div class="ev"><span class="t">${e.t}</span>${e.olay} <a href="${yt(e.video)}" target="_blank">yayın ↗</a></div>`).join('');
+    `<div class="ev"><span class="t">${e.t}</span>${e.olay}${e.video ? ` <a href="${yt(e.video)}" target="_blank">yayın ↗</a>` : ''}</div>`).join('');
 
   const durumlar = ['Tümü', 'TUTTU', 'KISMEN', 'COKTU', 'BEKLIYOR'];
   const kisiler = ['Herkes', 'Hasan', 'Turancan', 'Hilmi'];
   let fd = 'Tümü', fk = 'Herkes';
   function cizFiltre() {
     document.getElementById('filtreler').innerHTML =
-      durumlar.map(d => `<div class="f ${fd === d ? 'on' : ''}" onclick="fd='${d}';ciz()">${d === 'COKTU' ? 'ÇÖKTÜ' : d}</div>`).join('') +
+      durumlar.map(d => `<div class="f ${fd === d ? 'on' : ''}" onclick="fd='${d}';ciz()">${AD[d] || d}</div>`).join('') +
       '<div style="width:12px"></div>' +
       kisiler.map(k => `<div class="f ${fk === k ? 'on' : ''}" onclick="fk='${k}';ciz()">${k}</div>`).join('');
   }

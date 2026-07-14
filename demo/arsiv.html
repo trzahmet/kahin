@@ -205,9 +205,9 @@ body{background:radial-gradient(1100px 560px at 50% -8%,#131a2e 0%,var(--bg) 62%
     <div class="pod"><div class="medal">🥉</div><div class="nm">hilmicem_fan</div><div class="pts">185</div></div>
   </div>
   <div class="fin-vs">
-    <div class="side"><div class="big">964</div><div class="lbl">video izledim</div></div>
-    <div class="side"><div class="big">1.706</div><div class="lbl">saat hafızamda</div></div>
-    <div class="side"><div class="big">9.630</div><div class="lbl">anınızı işaretledim</div></div>
+    <div class="side"><div class="big">2.124</div><div class="lbl">video izledim</div></div>
+    <div class="side"><div class="big">1.904</div><div class="lbl">saat hafızamda</div></div>
+    <div class="side"><div class="big">10.460</div><div class="lbl">anınızı işaretledim</div></div>
   </div>
   <div class="arsiv-line" id="finline">"Ben her şeyi hatırlıyorum. Yarın yine gelirim."&nbsp; — ARŞİV</div>
 </div>
@@ -218,8 +218,8 @@ const show=(a,b)=>{$(a).classList.remove("on");$(b).classList.add("on");};
 
 // ---------- SAHNE 0: daktilo ----------
 const LINES=[
-  ["964 videonu izledim.",900],
-  ["1.706 saat. 71 gün kesintisiz.",1100],
+  ["2.124 videonu izledim.",900],
+  ["1.904 saat. 79 gün kesintisiz.",1100],
   ["Her şeyi hatırlıyorum.",1000],
   ["Bakalım siz hatırlıyor musunuz?",1300],
 ];
@@ -280,13 +280,13 @@ function r1(){
   countdown($("t1"),8,()=>{
     clearInterval(feeder);
     const tr=$("truth1");tr.style.opacity=1;tr.style.left="6%";
-    setTimeout(()=>{tr.style.left=(3146/5000*100)+"%";},80);
-    const tb=Math.floor(3146/5000*NB);
+    setTimeout(()=>{tr.style.left=(3512/5000*100)+"%";},80);
+    const tb=Math.floor(3512/5000*NB);
     cols.forEach((c,i)=>{if(Math.abs(i-tb)<=1)c.classList.add("hot");});
     $("sc1e").textContent="1";
     setTimeout(()=>{
-      drama("d1","GERÇEK: 3.146 — EKİP SAYIYI ALDI",
-        "Hasan 2.500 ile en yakın · bonus: 'katılMIyorum' 1.502 — ve oran her yıl itiraz lehine kayıyor (2.08→1.57)");
+      drama("d1","GERÇEK: 3.512 — EKİP SAYIYI ALDI",
+        "Hilmi 4.000 ile en yakın · bonus: 'katılMIyorum' 1.615 — ve oran her yıl itiraz lehine kayıyor (2.08→1.57)");
       setTimeout(()=>{show("s1","s2");r2();},4400);
     },1300);
   });
@@ -295,9 +295,9 @@ function r1(){
 // ---------- SAHNE 2: KİM DEDİ ----------
 function r2(){
   countdown($("t2"),8,()=>{
-    voteRace("opts2",{hasan:38,turancan:21,hilmi:41},"hasan",()=>{
+    voteRace("opts2",{hasan:47,turancan:21,hilmi:32},"hasan",()=>{
       $("sc2c").textContent="1";
-      drama("d2","HASAN DEDİ — CHAT'İN %41'İ HİLMİ'YE KANDI",
+      drama("d2","HASAN DEDİ — CHAT %47 İLE BİLDİ, PUAN CHAT'İN",
         "Kaynak: Brezilya-Japonya maç sonu, ~92. dk — üç sunucu ayrı haritalarda kaybolurken · klip adresi hazır");
       setTimeout(()=>{show("s2","s3");r3();},4400);
     });
@@ -309,7 +309,7 @@ function r3(){
   countdown($("t3"),8,()=>{
     voteRace("opts3",{a:31,b:52,c:17},"b",()=>{
       drama("d3","FENERBAHÇE – KAYSERİSPOR GECESİ — CHAT BİLDİ",
-        "Chat'in şike talebi o gece tavan yapmış · arşiv 334 'şike' anının hepsini dakikasıyla tutuyor");
+        "Chat'in şike talebi o gece tavan yapmış · arşiv 370 'şike' anının hepsini dakikasıyla tutuyor");
       setTimeout(()=>{show("s3","s4");r4();},4400);
     });
   });

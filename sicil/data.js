@@ -1,5 +1,5 @@
 // TAHMİN SİCİLİ — veri seti v1 (9 Temmuz 2026)
-// Kaynak: 47 DK-dönemi yayınının transkript çıkarımı (802 tahmin tespit edildi;
+// Kaynak: 51 DK-dönemi yayınının transkript çıkarımı (859 tahmin tespit edildi;
 // yalnız bağlam kanıtıyla kişiye atananlar yayınlanır). Hükümler, yayınlarda
 // söylenen sonuçlara dayanır; her kayıtta kaynak yayın linki vardır.
 const SICIL = {
@@ -22,7 +22,7 @@ const SICIL = {
       grupPuan: "10", grupSira: 3,
       sampiyon: { pick: "İngiltere → Arjantin", durum: "YAŞIYOR",
         not: "10 Haziran'da İngiltere (final: İspanya-İngiltere) dedi; 28 Haziran'da Arjantin'e geçti; 8 Temmuz'da 'Arjantin finale çıkarsa %100 şampiyon' diye perçinledi. İkisi de hâlâ kupada." },
-      tally: { tuttu: 4, kismen: 1, coktu: 5 },
+      tally: { tuttu: 2, kismen: 1, coktu: 4 },
       imza: "K Grubu'nun tüm sıralamasını tam bildi; ama Türkiye'ye '9 puanla lider' dedi."
     },
     {
@@ -42,7 +42,7 @@ const SICIL = {
     { t: "6 Tem", olay: "Portekiz elendi (İspanya 1-0, 90+1 Merino) — Hasan'ın şampiyonu turnuvadan düştü, Ronaldo gözyaşlarını tuttu.", video: "wX1PGT1zHto" },
     { t: "8 Tem", olay: "Turancan: 'Arjantin finale çıkarsa yüzde yüz şampiyon.' Hilmi ise Arjantin'in 19 Temmuz'a kadar tükeneceğinden şüpheli.", video: "_vs_fz92o4M" },
     { t: "11 Tem", olay: "Yarı final belli oldu: FRANSA-İSPANYA. Yani Hasan'ın 'Fransa şampiyonsa Dembele Ballon d'Or' koşulunun takımı, Hilmi'nin 10 Haziran'da seçip 28 Haziran'da terk ettiği İspanya'yla karşı karşıya. Bu gece: Norveç-İngiltere — Turancan'ın ilk şampiyonu ve 'kimse inanmamıştı' çağrısı aynı sahnede.", video: "SRqMJv8FtBI" },
-    { t: "11 Tem", olay: "Norveç 1-2 İngiltere (uzatmada; Bellingham 90+3). Turancan'ın 'kimse inanmadı' Norveç çağrısı yarı finalin bir adım önünde bitti — ama İngiltere yarı finalde, yani Turancan'ın 10 Haziran'daki İLK şampiyonu hâlâ yarışta. Yarı finaller: Fransa-İspanya ve İngiltere-(Arjantin/İsviçre).", video: null }
+    { t: "11 Tem", olay: "Norveç 1-2 İngiltere (kazandıran gol Bellingham'dan, 90+3'te). Turancan'ın 'kimse inanmadı' Norveç çağrısı yarı finalin bir adım önünde bitti — ama İngiltere yarı finalde, yani Turancan'ın 10 Haziran'daki İLK şampiyonu hâlâ yarışta. Yarı finaller: Fransa-İspanya ve İngiltere-(Arjantin/İsviçre).", video: null }
   ],
 
   kayitlar: [
@@ -73,7 +73,7 @@ const SICIL = {
       video: "usNy-VEb-wQ", kanit: "7jgCcB60ONA" },
     { kisi: "Hilmi", t: "10 Haz", kat: "turnuva", durum: "COKTU",
       ozet: "Türkiye'nin son 32 turunda Mısır'la eşleşeceğini öngördü.",
-      cozum: "Türkiye ilk iki maçını kaybedip 0 puan ve 0 golle grup aşamasında elendi.",
+      cozum: "Türkiye ilk iki maçını golsüz kaybetti; son maçta ABD'yi 3-2 yenmesine rağmen 3 puanla grup aşamasında elendi.",
       video: "usNy-VEb-wQ", kanit: "U3i9qYWwzoE" },
     { kisi: "Hilmi", t: "10 Haz", kat: "turnuva", durum: "COKTU",
       ozet: "Portekiz'in kolay bir yoldan yarı finale çıkıp orada İngiltere'ye kaybedeceğini öngördü (Ronaldo'nun ağladığı sahneyle).",
@@ -89,15 +89,15 @@ const SICIL = {
       video: "usNy-VEb-wQ", kanit: "e6xPTfo4qCA" },
     { kisi: "Turancan", t: "10 Haz", kat: "turnuva", durum: "COKTU",
       ozet: "Türkiye'nin çeyrek finale kadar çıkacağını işaretledi; grup aşamasını da 9 puanla lider bitirecekti (13 Haziran'da tekrar etti).",
-      cozum: "Türkiye Avustralya'ya 2-0, Paraguay'a ağır skorla kaybederek ilk iki maç sonunda elendi.",
+      cozum: "Türkiye Avustralya'ya 2-0, Paraguay'a 1-0 kaybetti; son maçtaki 3-2'lik ABD galibiyeti yetmedi, grubu 3 puanla son sırada bitirip elendi.",
       video: "usNy-VEb-wQ", kanit: "U3i9qYWwzoE" },
     { kisi: "Hasan", t: "14 Haz", kat: "turnuva", durum: "KISMEN",
       ozet: "Avustralya yenilgisi sonrası: 'Paraguay'ı tartışmasız yeneriz, ABD'ye de yenilmeyiz' dedi.",
-      cozum: "Paraguay'a ağır yenilgi geldi (çöktü); ölü maçta ABD 3-2 yenildi (tuttu).",
+      cozum: "Paraguay'a 1-0 yenildi (çöktü); son maçta ABD 3-2 yenildi (tuttu).",
       video: "bO4XZAbdmQ8", kanit: "Q3veOupQsVk" },
     { kisi: "Turancan", t: "22 Haz", kat: "turnuva", durum: "TUTTU",
       ozet: "Norveç'in H Grubu'nu (Uruguay'ın önünde) lider bitireceğini savundu — turnuva öncesi ağaçlarda bunu kimse yazmamıştı.",
-      cozum: "Norveç grubu lider bitirdi; sonra Fildişi'ni ve BREZİLYA'yı eledi. Yolculuk çeyrek finalde İngiltere'ye uzatmada 1-2 bitti — yarı finalin bir adım önünde. Turnuva öncesi kimse yazmazken buraya kadar gelmesi çağrıyı fazlasıyla haklı çıkardı.",
+      cozum: "Norveç grubu lider bitirdi; sonra Fildişi'ni ve BREZİLYA'yı eledi. Yolculuk çeyrek finalde İngiltere'ye 90+3'te gelen golle 1-2 bitti — yarı finalin bir adım önünde. Turnuva öncesi kimse yazmazken buraya kadar gelmesi çağrıyı fazlasıyla haklı çıkardı.",
       video: "-OC5KTxz7Ig", kanit: "KVik2_JlLko" },
     { kisi: "Hilmi", t: "18 Haz", kat: "skor", durum: "KISMEN",
       ozet: "İsviçre'nin Bosna Hersek'i tek farkla yeneceğini tahmin etti.",
@@ -155,7 +155,7 @@ const SICIL = {
       video: "6kgw0KhCfz0", kanit: null },
     { kisi: "Hasan", t: "5 Tem", kat: "turnuva", durum: "COKTU",
       ozet: "Meksika'nın İngiltere'yi 90 dakikada yenip turnuvada tarih yazacağını söyledi.",
-      cozum: "İngiltere turu geçti: Cumartesi gecesi çeyrek finalde Norveç'le oynuyor; Meksika turnuva dışı.",
+      cozum: "İngiltere turu geçti ve çeyrek finalde Norveç'i 2-1 yendi; Meksika turnuva dışı.",
       video: "H9wsL6yVgyM", kanit: "3Vl3PNsRqQ8" },
     { kisi: "Turancan", t: "8 Tem", kat: "turnuva", durum: "BEKLIYOR",
       ozet: "'Arjantin finale çıkarsa, rakip Fransa bile olsa yüzde yüz şampiyon' dedi.",
@@ -170,7 +170,7 @@ const SICIL = {
       cozum: "Uzun vadeli takipte.",
       video: "aI40uEGGXuY", kanit: null },
     { kisi: "Hilmi", t: "1 Tem", kat: "oyuncu", durum: "BEKLIYOR",
-      ozet: "Kasım Oattara'nın Beşiktaş'ta sol bek pozisyonunu 10 yıl boyunca kilitleyeceğini öngördü.",
+      ozet: "Kasım Ouattara'nın Beşiktaş'ta sol bek pozisyonunu 10 yıl boyunca kilitleyeceğini öngördü.",
       cozum: "En uzun vadeli tahmin — sicilde saklanacak.",
       video: "8fckW0xyH7k", kanit: null },
     { kisi: "Turancan", t: "13 Haz", kat: "oyuncu", durum: "BEKLIYOR",
@@ -196,7 +196,7 @@ const SICIL = {
   ],
 
   yuzlesmeKosesi: [
-    { t: "11 Tem", olay: "Sadakat testi: Norveç elenirken bile Turancan takımını disown etmedi — hakem tartışmasında 'ufak takımı kollayın' deyip 'Norveç müthiş oynadı' diye övgüsünü sürdürdü. Kimse 'öve öve bitirmiştin' diye takılmadı; o kendi çağrısının arkasında durdu.", video: "uFBXQy-aENs" },
+    { t: "11 Tem", olay: "Sadakat testi: Norveç elenirken bile Turancan takımını reddetmedi — hakem tartışmasında 'ufak takımı kollayın' deyip 'Norveç müthiş oynadı' diye övgüsünü sürdürdü. Kimse 'öve öve bitirmiştin' diye takılmadı; o kendi çağrısının arkasında durdu.", video: "uFBXQy-aENs" },
     { t: "13 Haz", olay: "Katar'a önceki yayında verilen 'sıfır' notu izleyici tarafından hatırlatıldı; ekip 'ilk patlamamız' diye kabul etti (Katar 1-1 İsviçre).", video: "ssRo1VjOSMU" },
     { t: "28 Haz", olay: "D Grubu tahminleri yayında unutuldu; izleyiciler uyarınca sonradan eklendi — Hilmi 2 puan aldı, diğerleri 0.", video: "KVik2_JlLko" },
     { t: "28 Haz", olay: "Ekip, Furkan Elmer'in ayrı tahmin oyununda da sonuncu olduklarını gülerek itiraf etti.", video: "KVik2_JlLko" },
@@ -205,6 +205,6 @@ const SICIL = {
 
   dun: {
     baslik: "Bu hafta çözülenler",
-    ozet: "Norveç 1-2 İngiltere (uzatma): Turancan'ın 'kimse inanmadı' Norveç çağrısı Brezilya'yı eledikten sonra yarı finalin bir adım önünde bitti — ama İngiltere yarı finalde, yani Turancan'ın 10 Haziran'daki İLK şampiyonu hâlâ yarışta. Yarı finaller: Fransa-İspanya (Hasan'ın Dembele takımı vs Hilmi'nin terk ettiği İspanya) ve İngiltere-(Arjantin/İsviçre). Daha önce: İspanya Belçika'yı, Fransa Fas'ı geçti; Hasan'ın 'Meksika İngiltere'yi yener' tahmini çökmüştü."
+    ozet: "Norveç 1-2 İngiltere (90+3): Turancan'ın 'kimse inanmadı' Norveç çağrısı Brezilya'yı eledikten sonra yarı finalin bir adım önünde bitti — ama İngiltere yarı finalde, yani Turancan'ın 10 Haziran'daki İLK şampiyonu hâlâ yarışta. Yarı finaller: Fransa-İspanya (Hasan'ın Dembele takımı vs Hilmi'nin terk ettiği İspanya) ve İngiltere-(Arjantin/İsviçre). Daha önce: İspanya Belçika'yı, Fransa Fas'ı geçti; Hasan'ın 'Meksika İngiltere'yi yener' tahmini çökmüştü."
   }
 };
