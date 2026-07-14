@@ -1,39 +1,39 @@
 window.OYUNCULAR = [
  {
-  "ad": "Kylian Mbappé",
+  "ad": "Jadon Sancho",
+  "takim": "Borussia Dortmund",
+  "slug": "jadon-sancho",
+  "piyasa_degeri_milyon_eur": 60,
+  "instagram_takipci_milyon": 18,
+  "kaynak_piyasa": "https://www.transfermarkt.us/jadon-sancho/profil/spieler/418912",
+  "kaynak_instagram": "https://www.instagram.com/jadonsancho/"
+ },
+ {
+  "ad": "Florian Wirtz",
+  "takim": "Bayer Leverkusen",
+  "slug": "florian-wirtz",
+  "piyasa_degeri_milyon_eur": 110,
+  "instagram_takipci_milyon": 16,
+  "kaynak_piyasa": "https://www.transfermarkt.us/florian-wirtz/profil/spieler/654381",
+  "kaynak_instagram": "https://www.instagram.com/florian_wirtz/"
+ },
+ {
+  "ad": "Vinícius Júnior",
   "takim": "Real Madrid",
-  "slug": "kylian-mbappe",
-  "piyasa_degeri_milyon_eur": 180,
-  "instagram_takipci_milyon": 134.6,
-  "kaynak_piyasa": "https://www.transfermarkt.us/kylian-mbappe/profil/spieler/342229",
-  "kaynak_instagram": "https://hypeauditor.com/instagram/k.mbappe/"
+  "slug": "vinicius-junior",
+  "piyasa_degeri_milyon_eur": 85,
+  "instagram_takipci_milyon": 53,
+  "kaynak_piyasa": "https://www.transfermarkt.us/vinicius-junior/profil/spieler/360214",
+  "kaynak_instagram": "https://www.instagram.com/viniciusjr/"
  },
  {
-  "ad": "Erling Haaland",
-  "takim": "Manchester City",
-  "slug": "erling-haaland",
-  "piyasa_degeri_milyon_eur": 200,
-  "instagram_takipci_milyon": 64.6,
-  "kaynak_piyasa": "https://www.transfermarkt.us/erling-haaland/profil/spieler/418560",
-  "kaynak_instagram": "https://instastatistics.com/erling"
- },
- {
-  "ad": "Lionel Messi",
-  "takim": "Inter Miami",
-  "slug": "lionel-messi",
-  "piyasa_degeri_milyon_eur": 15,
-  "instagram_takipci_milyon": 512,
-  "kaynak_piyasa": "https://www.transfermarkt.us/lionel-messi/profil/spieler/28003",
-  "kaynak_instagram": "https://hypeauditor.com/instagram/leomessi/"
- },
- {
-  "ad": "Cristiano Ronaldo",
-  "takim": "Al Nassr",
-  "slug": "cristiano-ronaldo",
-  "piyasa_degeri_milyon_eur": 10,
-  "instagram_takipci_milyon": 676,
-  "kaynak_piyasa": "https://www.transfermarkt.us/cristiano-ronaldo/profil/spieler/8198",
-  "kaynak_instagram": "https://hypeauditor.com/instagram/cristiano/"
+  "ad": "Jude Bellingham",
+  "takim": "Real Madrid",
+  "slug": "jude-bellingham",
+  "piyasa_degeri_milyon_eur": 120,
+  "instagram_takipci_milyon": 19,
+  "kaynak_piyasa": "https://www.transfermarkt.us/jude-bellingham/profil/spieler/595306",
+  "kaynak_instagram": "https://www.instagram.com/judebell/"
  },
  {
   "ad": "Victor Osimhen",
@@ -72,31 +72,31 @@ window.OYUNCULAR = [
   "kaynak_instagram": "https://www.instagram.com/orkunkokcu/"
  },
  {
-  "ad": "Milan Škriniar",
-  "takim": "Fenerbahçe",
-  "slug": "milan-skriniar",
-  "piyasa_degeri_milyon_eur": 10,
-  "instagram_takipci_milyon": 1,
-  "kaynak_piyasa": "https://www.transfermarkt.us/milan-skriniar/profil/spieler/204069",
-  "kaynak_instagram": "https://www.instagram.com/milanskriniar/"
+  "ad": "Bukayo Saka",
+  "takim": "Arsenal",
+  "slug": "bukayo-saka",
+  "piyasa_degeri_milyon_eur": 85,
+  "instagram_takipci_milyon": 17,
+  "kaynak_piyasa": "https://www.transfermarkt.us/bukayo-saka/profil/spieler/417622",
+  "kaynak_instagram": "https://www.instagram.com/bukayosaka/"
  },
  {
-  "ad": "Ciro Immobile",
-  "takim": "Beşiktaş",
-  "slug": "ciro-immobile",
-  "piyasa_degeri_milyon_eur": 1.8,
-  "instagram_takipci_milyon": 2,
-  "kaynak_piyasa": "https://www.transfermarkt.us/ciro-immobile/profil/spieler/105521",
-  "kaynak_instagram": "https://www.instagram.com/ciroimmobile17/"
+  "ad": "Alejandro Garnacho",
+  "takim": "Manchester United",
+  "slug": "alejandro-garnacho",
+  "piyasa_degeri_milyon_eur": 65,
+  "instagram_takipci_milyon": 15,
+  "kaynak_piyasa": "https://www.transfermarkt.us/alejandro-garnacho/profil/spieler/586594",
+  "kaynak_instagram": "https://www.instagram.com/alejandrogarnacho/"
  },
  {
-  "ad": "Jhon Duran",
-  "takim": "Al-Nassr",
-  "slug": "jhon-duran",
-  "piyasa_degeri_milyon_eur": 15,
-  "instagram_takipci_milyon": 1,
-  "kaynak_piyasa": "https://www.transfermarkt.us/jhon-duran/profil/spieler/649317",
-  "kaynak_instagram": "https://www.instagram.com/jaderduran9/"
+  "ad": "Declan Rice",
+  "takim": "Arsenal",
+  "slug": "declan-rice",
+  "piyasa_degeri_milyon_eur": 100,
+  "instagram_takipci_milyon": 21,
+  "kaynak_piyasa": "https://www.transfermarkt.us/declan-rice/profil/spieler/394516",
+  "kaynak_instagram": "https://www.instagram.com/declanrice/"
  },
  {
   "ad": "Nathan Aké",
@@ -144,13 +144,13 @@ window.OYUNCULAR = [
   "kaynak_instagram": "https://www.instagram.com/nglkante/?hl=en"
  },
  {
-  "ad": "Anderson Talisca",
-  "takim": "Fenerbahçe",
-  "slug": "anderson-talisca",
-  "piyasa_degeri_milyon_eur": 7,
-  "instagram_takipci_milyon": 3,
-  "kaynak_piyasa": "https://www.transfermarkt.us/talisca/profil/spieler/258626",
-  "kaynak_instagram": "https://www.instagram.com/andersontalisca/"
+  "ad": "Phil Foden",
+  "takim": "Manchester City",
+  "slug": "phil-foden",
+  "piyasa_degeri_milyon_eur": 100,
+  "instagram_takipci_milyon": 27,
+  "kaynak_piyasa": "https://www.transfermarkt.us/phil-foden/profil/spieler/356421",
+  "kaynak_instagram": "https://www.instagram.com/philfoden10/"
  },
  {
   "ad": "Alvaro Morata",
@@ -198,49 +198,49 @@ window.OYUNCULAR = [
   "kaynak_instagram": "https://www.instagram.com/ferdikadioglu/"
  },
  {
-  "ad": "İrfan Can Kahveci",
-  "takim": "Fenerbahçe",
-  "slug": "irfan-can-kahveci",
-  "piyasa_degeri_milyon_eur": 3,
-  "instagram_takipci_milyon": 1.61,
-  "kaynak_piyasa": "https://www.transfermarkt.us/irfan-can-kahveci/profil/spieler/216603",
-  "kaynak_instagram": "https://instastatistics.com/irfan"
- },
- {
-  "ad": "Cenk Tosun",
-  "takim": "Beşiktaş",
-  "slug": "cenk-tosun",
-  "piyasa_degeri_milyon_eur": 0.3,
-  "instagram_takipci_milyon": 1,
-  "kaynak_piyasa": "https://www.transfermarkt.us/cenk-tosun/profil/spieler/45671",
-  "kaynak_instagram": "https://www.instagram.com/cenktosun/"
- },
- {
-  "ad": "Bertuğ Yıldırım",
-  "takim": "Beşiktaş",
-  "slug": "bertug-yildirim",
-  "piyasa_degeri_milyon_eur": 7,
-  "instagram_takipci_milyon": 0.139,
-  "kaynak_piyasa": "https://www.transfermarkt.us/bertug-yildirim/profil/spieler/672803",
-  "kaynak_instagram": "https://www.instagram.com/bertugyildirim99/"
- },
- {
-  "ad": "Cengiz Ünder",
-  "takim": "Fenerbahçe",
-  "slug": "cengiz-under",
-  "piyasa_degeri_milyon_eur": 4,
-  "instagram_takipci_milyon": 1,
-  "kaynak_piyasa": "https://www.transfermarkt.us/cengiz-under/profil/spieler/341647",
-  "kaynak_instagram": "https://www.instagram.com/cengizunder/"
- },
- {
-  "ad": "Arda Güler",
-  "takim": "Real Madrid",
-  "slug": "arda-guler",
-  "piyasa_degeri_milyon_eur": 90,
+  "ad": "João Félix",
+  "takim": "Barcelona",
+  "slug": "joao-felix",
+  "piyasa_degeri_milyon_eur": 75,
   "instagram_takipci_milyon": 18,
-  "kaynak_piyasa": "https://www.transfermarkt.us/arda-guler/profil/spieler/861410",
-  "kaynak_instagram": "https://www.instagram.com/ardaguler/"
+  "kaynak_piyasa": "https://www.transfermarkt.us/joao-felix/profil/spieler/465462",
+  "kaynak_instagram": "https://www.instagram.com/joaofelix/"
+ },
+ {
+  "ad": "Moussa Bissuma",
+  "takim": "Galatasaray",
+  "slug": "moussa-bissuma",
+  "piyasa_degeri_milyon_eur": 28,
+  "instagram_takipci_milyon": 2.1,
+  "kaynak_piyasa": "https://www.transfermarkt.us/moussa-bissuma/profil/spieler/390268",
+  "kaynak_instagram": "https://www.instagram.com/moussabissuma/"
+ },
+ {
+  "ad": "Riccardo Singo",
+  "takim": "Galatasaray",
+  "slug": "riccardo-singo",
+  "piyasa_degeri_milyon_eur": 30,
+  "instagram_takipci_milyon": 1.3,
+  "kaynak_piyasa": "https://www.transfermarkt.us/riccardo-singo/profil/spieler/388957",
+  "kaynak_instagram": "https://www.instagram.com/riccardomsingo/"
+ },
+ {
+  "ad": "Antonie Griezmann",
+  "takim": "Atlético Madrid",
+  "slug": "antoine-griezmann",
+  "piyasa_degeri_milyon_eur": 55,
+  "instagram_takipci_milyon": 23,
+  "kaynak_piyasa": "https://www.transfermarkt.us/antoine-griezmann/profil/spieler/125781",
+  "kaynak_instagram": "https://www.instagram.com/antgriezmann/"
+ },
+ {
+  "ad": "Manuel Ugarte",
+  "takim": "Paris Saint-Germain",
+  "slug": "manuel-ugarte",
+  "piyasa_degeri_milyon_eur": 30,
+  "instagram_takipci_milyon": 1.3,
+  "kaynak_piyasa": "https://www.transfermarkt.us/manuel-ugarte/profil/spieler/573203",
+  "kaynak_instagram": "https://www.instagram.com/manuelugarte/"
  },
  {
   "ad": "Merih Demiral",
