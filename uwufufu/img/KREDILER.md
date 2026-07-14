@@ -1,6 +1,6 @@
 # Görsel Kaynakları
 
-Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi YouTube video küçük resmi (gerçek veri turnuvaları için). Her görsel bir doğrulama turundan geçti (isim/temayla eşleşme kontrolü).
+Toplam 703 görsel: 523 Wikimedia Commons (CC / kamu malı), 180 kanalın kendi YouTube video küçük resmi (gerçek veri turnuvaları için). Her görsel bir doğrulama turundan geçti (isim/temayla eşleşme kontrolü).
 
 ## Wikimedia Commons (CC / kamu malı)
 
@@ -8,16 +8,8 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 |---|---|---|---|
 | '2,5 Üst' Bağımlılığı | File:Sport gambling.jpg | CC BY-SA 4.0 | Temfack sonfack |
 | 'Ben öderim, sen bana sonra atarsın' diyip unutulan hesap | File:Bill Vishwanand 2026-01-28.jpg | CC0 | Sakurakat |
-| 'Bu derbi berabere biter' → 'ilk yarı öyle gidiyordu' | File:Esteghlal v Persepolis - Derby 104 16 (Mehr, 25 Sep 2024).jpg | CC BY 4.0 | Behnam Yousefi |
-| 'Bu forma tasarımı tutmaz' → 'aslında sade hali güzeldi' | File:Argentina nat football team alternate kit 2026.jpg | CC BY-SA 4.0 | Fernando Martello |
-| 'Bu golcü krize girer' → 'form dönüşü bekliyordum' | File:Hanley Town v Lichfield City, 2 August 2025 - 20.jpg | CC BY-SA 4.0 | Dominic Nelson |
-| 'Bu isim gelmez' → 'zaten bekliyordum' | File:A crystal ball at work.jpg | CC BY-SA 4.0 | PLBechly |
-| 'Bu penaltı verilmez' → 'haklı kararmış' | File:Boston breakers penalty kick 2011.jpg | CC BY 2.0 | Jay |
 | 'Bu sezon iddialı değiliz' → 'aslında şampiyonluk hesabı var' | File:Premier League Trophy at Manchester's National Football Museum (Ank Kumar) 01.jpg | CC BY-SA 4.0 | Ank Kumar |
-| 'Bu stoper satılmaz' → 'teklif çok yüksekti demek ki' | File:MohammedAblayeContract.jpg | Public domain | Alhosniomani20 at English Wikipedia |
-| 'Erken' → 'potansiyeli açıktı' | File:Youth training at a football field 08.jpg | CC BY-SA 4.0 | Alameen khalid200 |
 | 'İmza Atarım' Rol Yapması | File:2016 ContractSignning.jpg | CC BY-SA 4.0 | Lthompson28 |
-| 'Play-off gelmez' → 'zaten bekleniyordu' | File:2018-05-26 Aston Villa V Fulham, Championship play-off final, Wembley (1).JPG | CC BY-SA 4.0 | Kolforn (Kolforn) I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wikimedia project scope.     This file is licensed under the Creative Commons Attri |
 | 'Sarayın İnterneti' | File:Netgear N300 wireless router n03.jpg | CC BY 2.5 | Marie-Lan Nguyen |
 | 'Sigorta Attı' Bahanesi | File:Electrical panel and subpanel with cover removed from subpanel.jpg | CC BY-SA 3.0 | Gvolk |
 | 21 Derece Klima Israrı (diğerleri) | File:Panasonic AIR CONDITIONER REMOTE CONTROL A75C442.jpg | CC BY-SA 4.0 | Dinkun Chen |
@@ -134,7 +126,6 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Cristian Romero | File:Cristian Gabriel Romero (cropped 3).jpg | CC BY-SA 2.0 | Agencia de Noticias ANDES |
 | Cristiano Ronaldo | File:Argentine - Portugal - Cristiano Ronaldo.jpg | CC BY-SA 3.0 | Ludovic Péron |
 | Dalgona kahve | File:Dalgona Coffee, Homemade, Vadodara - 16.jpg | CC BY-SA 4.0 | Bhagyashri Wakhale |
-| Damla Damla Duyum | File:Water drop art vijayanrajapuram 06.jpg | CC BY-SA 4.0 | Vijayanrajapuram |
 | Davinson Sanchez | File:Davinson Sanchez header (45272402092) (cropped).jpg | CC BY-SA 2.0 | Matt Garrity from West Palm Beach, United States |
 | Devre arasında mutlaka çay demleme molası | File:Büyükada Cay (81585233).jpeg | CC BY 3.0 | Kristof Zerbe |
 | Dibek kahvesi | File:Dibek-zeytinli-imbros.JPG | Public domain | Mehmetaergun |
@@ -218,7 +209,6 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Fırında tavuk-patates (annenin tarifi) | File:Chicken breast baked in parchment on fried potato pancake, with mixed vegetables - Massachusetts.jpg | CC0 | Daderot |
 | Galatasaray-Bodrumspor gecesi | File:Ali Sami Yen Spor Kompleksi Galatasaray Store.JPG | CC BY-SA 3.0 | LardoBalsamico |
 | Galatasaray-Eyüpspor gecesi | File:Ali Sami Yen Spor Kompleksi Galatasaray Store.JPG | CC BY-SA 3.0 | LardoBalsamico |
-| Galatasaray-Gençlerbirliği gecesi | File:Ali Sami Yen Spor Kompleksi Galatasaray Store.JPG | CC BY-SA 3.0 | LardoBalsamico |
 | Gianluigi Buffon | File:Gianluigi Buffon (2014).jpg | CC BY 3.0 | Puma |
 | Gizli Dizi İzleyicisi | File:Person watching television on couch.tiff | Public domain | CDC |
 | Gol sonrası herkese şeker/çikolata dağıtma | File:013 Austrian chocolates in Vienna - assorted fancy chocolate pralines.jpg | CC BY 3.0 | Marek Ślusarczyk (Tupungato) Photo portfolio |
@@ -231,10 +221,8 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Haaland'ın aynı maçtaki kafa golü | File:Erling Haaland 2023.jpg | CC BY-SA 4.0 | Jacek Stanislawek |
 | Haaland'ın Brezilya'ya attığı son dakika golü | File:Erling Haaland 2023.jpg | CC BY-SA 4.0 | Jacek Stanislawek |
 | Haggis | File:Boiling haggis for Burns night.jpg | CC BY-SA 4.0 | Lirazelf |
-| Hakan Çalhanoğlu | File:AUT vs. TUR 2016-03-29 (339).jpg | CC BY-SA 3.0 | Steindy (talk) 10:14, 11 April 2016 (UTC) |
 | Hakan Çalhanoğlu'nun Süper Lig'e Dönüşü | File:AUT vs. TUR 2016-03-29 (306).jpg | CC BY-SA 3.0 | Steindy (talk) 10:22, 11 April 2016 (UTC) |
 | Hakarl | File:Hakarl near Bjarnahöfn in Iceland.JPG | CC BY-SA 3.0 | Chris 73 |
-| Halı saha maçı sonrası kaybedenin lahmacun ısmarlaması | File:Sebzeli Lahmacun with quartered lemon.png | CC BY-SA 4.0 | Rumana22 |
 | Halı sahada kaybeden takımın ayran/kola ısmarlaması | File:Ayran in a beer glass.jpg | CC BY-SA 4.0 | E4024 |
 | Harry Kane | File:Harry Kane 2023.jpg | CC BY 2.0 | Number 10 |
 | Harry Potter | File:Wizarding World of Harry Potter Castle.jpg | CC BY-SA 3.0 | Carlos Cruz |
@@ -287,7 +275,6 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Kavanozdan ev yapımı reçel kahvaltısı | File:-2020-01-05 Homemade rasberry jam, Trimingham (2).JPG | CC BY-SA 4.0 | Kolforn (Kolforn) I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wikimedia project scope.     This file is licensed under the Creative Commons Attri |
 | Kaza Kamerası | File:Car Dashcam.jpg | CC BY 4.0 | Danielrayyan09 |
 | Kazandibi | File:Kazandibi Dessert.jpg | CC BY-SA 4.0 | Garrett Ziegler |
-| Kazanılan her maçtan sonra aynı tatlıyla kutlama | File:A lot of baklava.jpg | CC BY-SA 4.0 | E4024 |
 | Kedi Alerjisi Esprisi | File:20231125 housecat south meadows PD100306.jpg | CC BY-SA 4.0 | Paul Danese |
 | Kelle paça | File:Broth Khash in Bahar 1.jpg | CC BY-SA 4.0 | Shams948 |
 | Kendi Kurbanını Kendin Kesmek İstemesi | File:Based on that tradition, Hajj pilgrims sacrifice a sheep, goat, cow or camel and give away the meat to the poor. - Flickr - Al Jazeera English.jpg | CC BY-SA 2.0 | Fadi El Benni of Al Jazeera English |
@@ -408,7 +395,6 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Panini Takas Ritüeli | File:Héctor Chumpitaz México 70 (Panini).jpg | Public domain | Panini |
 | Papiss Cisse | File:Newcastle United vs Arsenal, 29 August 2015 (01).JPG | CC BY-SA 3.0 | Ardfern |
 | Patates Cipsi | File:Potato-Chips.jpg | Public domain | Evan-Amos |
-| Penaltı anında bardağı elden bırakmama | File:Blue glass with carbonated water.jpg | CC0 | W.carter |
 | Pep Guardiola | File:Pep Guardiola 2015.jpg | CC BY-SA 3.0 | Богдан Заяц |
 | Pepe | File:Nani and Pepe.png | CC BY 3.0 | Agência Lusa |
 | PES / PlayStation 3 retro arayışı | File:Gamescom 2009 - PS3 (5202).jpg | CC BY-SA 4.0 | Raimond Spekking |
@@ -424,15 +410,12 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Radyo Spikeri Ruhlu Anlatıcı | File:Martti Jukola reporting from a sports event, 1930s.jpg | Public domain | Archives of the Finnish Broadcasting Company Yle |
 | Rafael Leao | File:LeaoFCSalzburg2022(cropped).jpg | CC BY-SA 4.0 | Werner100359 |
 | Rakip takım forması giyip döner yeme cezası | File:Doner Kebab, sols carn i lletuga..jpg | CC BY-SA 4.0 | Francesc Fort |
-| Ramazan döneminde maç saatine göre ayarlanan iftar menüsü | File:Iftar.jpg | CC BY-SA 3.0 | Fanny Schertzer |
 | Reebok Classic Leather | File:Classics Freestyle & ClassicLeather ReebokClassics.jpg | CC BY-SA 4.0 | ReebokUSA |
-| Referandum Draması | File:Ballot Drop Box Boston.jpg | CC BY-SA 4.0 | Whoisjohngalt |
 | Ricardo Quaresma | File:Ricardo Quaresma 2017.jpg | CC BY-SA 3.0 | Кирилл Венедиктов |
 | Rihanna | File:Rihanna Fenty 2018.png | CC BY 3.0 | SIGMA |
 | Ristretto | File:Doppio ristretto Chiang Mai.jpg | CC BY-SA 3.0 | Takeaway |
 | Robert Lewandowski | File:Robert Lewandowski 2018, JAP-POL (cropped).jpg | CC BY-SA 3.0 | Светлана Бекетова |
 | Roberto Carlos | File:Roberto Carlos in Tehran.jpg | CC BY 4.0 | Hossein Heidarpour |
-| Roberto Carlos (TD denemesi) | File:25th Laureus World Sports Awards - Red Carpet - Roberto Carlos - 240422 192822.jpg | CC BY-SA 4.0 | Barcex |
 | Roberto Soldado | File:Roberto Soldado (2).jpg | CC BY-SA 2.0 | Jon Candy from Cardiff, Wales |
 | Rocky Mountain oysters | File:Criadillas de Choto- Madrid.jpg | CC BY-SA 3.0 | Tamorlan |
 | Rodrigo Becao | File:Rodrigo Becão 50 Kasımpaşa SK 20260130.jpg | CC BY 4.0 | Zafer |
@@ -451,7 +434,6 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Scooby-Doo | File:1980 3D View Master model J with Scooby Doo disks Made in Belgium.jpg | CC BY 4.0 | R. Henrik Nilsson |
 | Sead Kolašinac | File:1 Sead Kolašinac 2018 (cropped).jpg | CC BY-SA 4.0 | Chensiyuan |
 | Seksek | File:Hopscotch Kilt.jpg | CC BY-SA 2.0 | RyAwesome |
-| Selobant Rulo | File:Adhesive tapes clear.JPG | Public domain | BarberJP |
 | Semih Kılıçsoy | File:Semih Kılıçsoy 20231008.jpg | CC BY 2.0 | Beşiktaş JK |
 | Semih Kılıçsoy'un Yurt Dışına Transferi | File:Semih Kılıçsoy 20231008.jpg | CC BY 2.0 | Beşiktaş JK |
 | Sepetli Kalemtıraş | File:1970s Swiss pencil sharpener Gedess.jpg | CC BY 4.0 | R. Henrik Nilsson |
@@ -459,7 +441,6 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Sergen Yalçın | File:Sergen Yalcin.jpg | CC BY 3.0 | Klasspor TV |
 | Seçim Akşamı Özel Yayını | File:Eduskuntavaalit 1970.jpg | Public domain | Leif Öster |
 | Sinema Mısırı | File:Popcorn 11.jpg | CC BY-SA 4.0 | Gaurav Dhwaj Khadka |
-| Sivasspor-Galatasaray gecesi | File:4eylul.jpg | CC BY-SA 4.0 | Recepsivas |
 | Sneijder'in Beşiktaş'a Transfer Olacağı Söylentisi | File:Wesley Sneijder '14-15.JPG | CC BY-SA 4.0 | Ultraslansi |
 | SoFi Stadium | File:SoFi Stadium (51126606022).jpg | CC BY 2.0 | Thank You (21 Millions+) views |
 | Sokrat St | File:Sokrat ST - AÜAKS - 23.11.18.jpg | CC BY-SA 4.0 | Onur |
@@ -481,13 +462,11 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Tayyip Talha Sanuç | File:Tayyip Talha Sanuç.jpg | CC BY 2.0 | Beşiktaş JK |
 | Taş-Kağıt-Makas Turnuvası | File:Rock-paper-scissors (paper).png | CC BY-SA 3.0 | Sertion |
 | Tel Dikişli Kareli Defter | File:Spiralblock-aufgeschlagen.jpg | CC BY-SA 3.0 | Chrkl |
-| Telefonla Tebrik | File:2 Telephone Call-boxes beside The Shire Hall.jpg | CC BY-SA 4.0 | Victuallers |
 | Termo Yapıştırıcı (Stick Yapıştırıcı) | File:FABER-CASTELL glue stick.jpg | CC BY-SA 4.0 | Nalinc3 |
 | TikTok Yüzünden Soruyu Kaçırma (Turancan) | File:Douyin user.jpg | CC BY-SA 4.0 | XIAOTINGWANG |
 | Tom ve Jerry | File:TOM & JERRY NAJBOLJI PRIJATELJI STARI PLAKAT.webp | Public domain | Unknown authorUnknown author |
 | Toprak Razgatlıoğlu | File:Toprak Razgatlioglu, 2022.jpg | CC BY-SA 4.0 | Jearle |
 | Tortilla | File:Corn tortilla, medium flour tortilla, and folded large flour tortilla.jpg | CC BY 4.0 | Vigilantcosmicpenguin |
-| Trabzonspor-Kayserispor gecesi | File:Akyazı.jpg | CC BY-SA 4.0 | Tqac |
 | Trileçe | File:Tres leches cake.jpg | CC BY-SA 2.0 |  |
 | Triple Burger (marka açık edilmedi) | File:Triple cheese burger, takeout at bex burger, kichijoji.jpg | CC BY-SA 2.0 | nakashi |
 | Triple Cheeseburger | File:Triple Cheeseburger (36823870863).jpg | CC BY 2.0 | www.snack-nieuws.nl |
@@ -495,7 +474,6 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Turancan'ın Klima 25+ Derece Israrı | File:Air Conditioners.jpg | CC BY-SA 4.0 | Eliomak Consults &amp; Engineering Ltd |
 | Turancan'ın Limanı | File:DDG59lights.jpg | Public domain | United States Navy photo by Mass Communication Specialist James E. Foehl |
 | Turancan'ın Su İçme PR'ı | File:No. 168 Water Glass, 1871 (CH 18731961).jpg | Public domain | Made by J. &amp; L. Lobmeyr GmbH |
-| Tuvalet Anekdotu | File:Premier Inn bathroom toilet, Horsham, West Sussex.jpg | CC BY-SA 4.0 | Acabashi |
 | Türk kahvesi (orta şekerli) | File:Turkish Coffee - Lavash 2023-12-13.jpg | CC0 | Andy Li |
 | Türk kahvesi (sade) | File:Turkish Coffee - Lavash 2023-12-13.jpg | CC0 | Andy Li |
 | Türk kahvesi (şekerli) | File:Turkish Coffee - Lavash 2023-12-13.jpg | CC0 | Andy Li |
@@ -512,7 +490,6 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Vietnam kahvesi (cà phê sữa đá) | File:CÀ PHÊ SỮA PHA PHIN.jpg | CC BY 4.0 | Souradeep.Dasgupta |
 | Viktor Gyökeres | File:Viktor Gyökeres 2018.jpg | CC BY 2.0 | James Boyes from UK |
 | Vincent Aboubakar | File:Vincent Aboubakar in 2023 (cropped).jpg | CC BY 2.0 | Beşiktaş JK |
-| Vincenzo Montella (Milli Takım) | File:Vincenzo Montella ICC 2016.jpg | CC BY-SA 2.0 | goatling from Wherever my imagination can afford to go |
 | Vincenzo Montella (TD) | File:Vincenzo Montella ICC 2016.jpg | CC BY-SA 2.0 | goatling from Wherever my imagination can afford to go |
 | Virgil van Dijk | File:Virgil van Dijk 2015.jpg | CC BY-SA 2.0 | Brian Hargadon |
 | Vitor Pereira (TD) | File:Vítor-Pereira-Corinthians-2022.jpg | Public domain | SOCCER DIGITAL |
@@ -531,7 +508,6 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Yağ Satarım Bal Satarım | File:Duck run.jpg | CC BY-SA 4.0 | Favour chishimba |
 | Younes Belhanda | File:Younès Belhanda - beIN-Sports-Reklam (2021).png | CC BY 3.0 | beIN SPORTS Türkiye |
 | Zaha'nın Galatasaray'a Erken Geleceği Söylentisi | File:Wilfried Zaha 01-02-2014 1.jpg | CC BY-SA 2.0 | https://www.flickr.com/photos/joncandy/ |
-| Zecorner Kayserispor-Galatasaray gecesi | File:Kayseri Kadir Has Stadium 10.jpg | CC BY 3.0 | Валерий Дед |
 | Zeki Murat Göle Kombini | File:ZekiM.GoeleAssistantcoach.jpg | CC BY-SA 3.0 | Original:  Sakhalinio Derivative work:  FootyBystander |
 | Zeytinyağlı taze fasulye | File:Etsiz taze fasulye.jpg | CC BY-SA 4.0 | E4024 |
 | Zincir kafe usulü sütlü kahve | File:Caffè Latte at Sainsbury's Low Hall, Chingford, London 1.jpg | CC BY-SA 4.0 | Acabashi |
@@ -551,13 +527,12 @@ Toplam 732 görsel: 548 Wikimedia Commons (CC / kamu malı), 184 kanalın kendi 
 | Ürdün'den Ali Olwan'ın Avusturya'ya attığı gol | File:Asian Nations Cup - Jordan and South Korea (60).jpg | CC BY 4.0 | M.Sadegh Nikgostar |
 | Şanışer | File:Sokrat ST - AÜAKS - 23.11.18.jpg | CC BY-SA 4.0 | Onur |
 | Şehinşah | File:Şehinşah ikarus.png | CC BY-SA 4.0 | Zencefilli |
-| Şenol Güneş | File:Şenol Güneş, Aug 2017.jpg | CC0 | Senol Sengül |
 | Şöbiyet | File:Şöbiyet Baklava.jpg | CC BY-SA 4.0 | Garrett Ziegler |
 | Škriniar | File:Vestiário do PSG (2).jpg | CC BY-SA 2.0 | Ryan Brookes |
 
 ## YouTube video küçük resimleri (gerçek veri turnuvaları)
 
-Bu görseller kanalın kendi arşivindeki gerçek videoların YouTube küçük resimleridir — Almanak motorunun ham sayımından doğrudan eşleştirilmiştir.
+Bu görseller kanalın kendi arşivindeki gerçek videoların YouTube küçük resimleridir.
 
 | Öğe | Video |
 |---|---|
@@ -569,7 +544,6 @@ Bu görseller kanalın kendi arşivindeki gerçek videoların YouTube küçük r
 | ALİ BİÇİM VS HASAN ARDA KAŞIKÇI \| FUTBOL CHALLENGE | https://www.youtube.com/watch?v=wkS4_WolsP0 |
 | Antalyaspor-Beşiktaş \| Maç Sonu Değerlendirmesi \| Uwufufu | https://www.youtube.com/watch?v=tYwQf0Pu_aI |
 | Arda Güler, Brezilyalı Falcı, Dua Lipa, Heimlich \| Harman 99. Bölüm \|  | https://www.youtube.com/watch?v=E5z1aTJSM5I |
-| Arda Turan & Beşiktaş, Müezzin, Ferdi Tayfur \| Harman 34. Bölüm \| Erma | https://www.youtube.com/watch?v=YNA_hFAcpfE |
 | Arjantin-Avusturya \| Maç Sonu Değerlendirmesi | https://www.youtube.com/watch?v=-OC5KTxz7Ig |
 | Arjantin-Mısır \| Maç Sonu Değerlendirmesi | https://www.youtube.com/watch?v=7jgCcB60ONA |
 | Avrupa Ligi Playoff İlk Maçlar \| Maç Sonu Değerlendirmesi | https://www.youtube.com/watch?v=plvedtvJ-10 |
@@ -603,7 +577,6 @@ Bu görseller kanalın kendi arşivindeki gerçek videoların YouTube küçük r
 | Brezilya-Norveç \| Maç Sonu Değerlendirmesi | https://www.youtube.com/watch?v=e6xPTfo4qCA |
 | Ciro Immobile ÖZEL Yayını \| Canlı Uçak Takip \| Cenk Tosun Fenerbahçe'd | https://www.youtube.com/watch?v=vk18CnFIgR0 |
 | CL Canlı Takip \| Var Kayıtları \| Muhabbet - Uwufufu | https://www.youtube.com/watch?v=LViak8tUyXw |
-| Coca Cola ile Günün Maçı \| İspanya - İngiltere | https://www.youtube.com/watch?v=aqWgc3C8u-g |
 | D.Zagreb-Fenerbahçe \| Kayserispor-Beşiktaş \| Maç Sonu Değerlendirmeler | https://www.youtube.com/watch?v=6BHQ_c4NmaU |
 | Derbi, Ester Exposito, 8 Mart, Adana, Burcu Güneş \| Harman 83. Bölüm \| | https://www.youtube.com/watch?v=4BZtgDUMk4Q |
 | Draft \| 2024-2025 Süper Lig Futbolcuları \| En İyi İlk 11'ler | https://www.youtube.com/watch?v=tcEyAL0LTY0 |
@@ -645,7 +618,6 @@ Bu görseller kanalın kendi arşivindeki gerçek videoların YouTube küçük r
 | FM24 KARİYER #S2B9 \| JOURNEYMAN MODU \| KOCAELİYE KUPA GELİYOR MU? | https://www.youtube.com/watch?v=58Qd4r_uj_g |
 | FM24 KARİYER #S3B2  \| JOURNEYMAN MODU \| GENÇLERBİRLİĞİ İLE İLK ŞAMPİYO | https://www.youtube.com/watch?v=THt7ggb4YSY |
 | FM24 KARİYER #S3B7 \| JOURNEYMAN MODU \| MUHTEŞEM SEZON BAŞLIYOR! | https://www.youtube.com/watch?v=_6KKij4qPyQ |
-| FM24 KARİYER #S4B8 \| JOURNEYMAN FİNAL SEZONU \| HEDEFLER İÇİN YOL AYRIM | https://www.youtube.com/watch?v=ci4RiTxdcxY |
 | Galatasaray - Alanyaspor \| Maç Sonu Değerlendirmesi \| Murat Ağırel Son | https://www.youtube.com/watch?v=rxar_Upey9w |
 | Galatasaray - Gaziantep FK \| Maç Sonu Değerlendirmesi | https://www.youtube.com/watch?v=AEV6oxkeSbI |
 | Galatasaray - Kasımpaşa \| Maç Sonu Değerlendirmesi \| Teknik Direktör M | https://www.youtube.com/watch?v=uZOor5dsfXo |
@@ -744,4 +716,3 @@ Bu görseller kanalın kendi arşivindeki gerçek videoların YouTube küçük r
 | Zecorner Kayserispor-Galatasaray \| Maç Sonu Değerlendirmesi \| Yeni Sez | https://www.youtube.com/watch?v=xqyVJ-XO0O8 |
 | Çarklı Draft \| Avrupa Ligi - Şampiyonlar Ligi \| En İyi İlk 11'ler | https://www.youtube.com/watch?v=VXdI8b2fPcI |
 | Şampiyon Galatasaray, Gökhan Kırdar, Epilasyon \| Harman 92. Bölüm \| Er | https://www.youtube.com/watch?v=g6wYwce6E1Q |
-| Şenol Güneş & Volkan Demirel, Yunus Akgün, SAYGI1 \| Harman 32. Bölüm \| | https://www.youtube.com/watch?v=bFRwzm7Hmec |

@@ -1,10 +1,10 @@
 # Uwufufu — Görsel Durumu
 
-Toplam 1147 aday. 732 tanesinde gerçek fotoğraf var (Wikimedia Commons CC lisanslı ya da kanalın kendi YouTube küçük resmi — hepsi görsel doğrulama turundan geçti). Kalan 415 tanesi emoji madalyonla gösteriliyor: internette lisanslı/uygun bir fotoğraf bulunamadı, bulunan fotoğraf doğrulamada yanlış/alakasız çıktı, ya da (kanalın sunucuları/konuklarıyla ilgili kişisel şaka gibi) uygun bir temsil fotoğrafı aramak anlamlı değildi. AI üretim kullanılmıyor.
+Toplam 1074 benzersiz aday (17 turnuva, her biri tam 64 yarışmacı). 703 tanesinde gerçek fotoğraf var. Kalan 371 tanesi emoji madalyonla gösteriliyor. AI üretim kullanılmıyor.
 
 Atıflar için `img/KREDILER.md`.
 
-## futbolcu (65)
+## futbolcu (66)
 
 - 48 takımlı yeni formatın 'kolaylaştırmak yerine zorlaştırması'
 - Ali Akman
@@ -63,6 +63,7 @@ Atıflar için `img/KREDILER.md`.
 - Yiğit Efe Demir
 - Yunus Akgün
 - Yusuf Akçiçek
+- Zecorner Kayserispor-Galatasaray Yeni Sezon Formalar Uwufufusu
 - Özbekistan'dan Fayzullaev'in Kolombiya'ya kafayla attığı gol
 - İlk 'UWUFUFU Oynuyor' Bölümleri (#3-#8)
 - İsviçre
@@ -72,7 +73,7 @@ Atıflar için `img/KREDILER.md`.
 - İsviçre'nin çeyrek finalde Arjantin'e kaybedip elenmesi
 - Şenol Güneş (TD)
 
-## kultur (144)
+## kultur (135)
 
 - 12'li Keçeli Kalem Seti
 - 17 (dizi)
@@ -86,13 +87,11 @@ Atıflar için `img/KREDILER.md`.
 - Ali Cengiz Oyunu
 - Anıl Piyancı
 - Arhan Ata Pilavoğlu
-- Arın Uzun
 - Aspova
 - Aynalı Metal Kalem Kutusu
 - Bana Göre TV – Füg
 - Bana Göre TV – Katarsis (Gökhan Çınar)
 - Ben Tennyson (Ben 10)
-- Berat Denli
 - Bic Tükenmez Kalem (Turuncu)
 - Bilye (Misket)
 - Blok3
@@ -104,7 +103,6 @@ Atıflar için `img/KREDILER.md`.
 - El Ele Tut Zincir Kaç
 - Elif Buse Doğan - Yangın Yeri
 - Emekli Formasıyla Gelen
-- Erinç Bilican
 - Erman Yaşar
 - Ertem Şener
 - Ertem Şener – Canlı Sohbet
@@ -119,7 +117,6 @@ Atıflar için `img/KREDILER.md`.
 - Gizli Rakip Sempatizanı
 - Gökhan Çınar
 - Hakem Düşmanı
-- HardSpor Ekibi
 - HardSpor – Maç Sonu Yorumu
 - Her Antrenmanı Canlı İzleyen Fanatik
 - Her Golde Komşuyu Uyandıran
@@ -163,7 +160,6 @@ Atıflar için `img/KREDILER.md`.
 - Puma Suede
 - RTX 5090 ekran kartı
 - Rafadan Tayfa
-- Red Bull Gamerszon Sunucuları
 - Red Bull Gamerszon – Good Game Show
 - Sadece Maç Günü Aktifleşen
 - Saian
@@ -177,16 +173,12 @@ Atıflar için `img/KREDILER.md`.
 - Socrates Dergi – Çok Biliyorsun #2
 - Socrates Dergi – Çok Biliyorsun #25 Çeyrek Final
 - Socrates Dergi – Çok Biliyorsun #5
-- Soğuk Savaş Ekibi
 - Soğuk Savaş – Gülersen Kaybedersin
 - T.J. (Recess/Teneffüs)
 - TFT (Teamfight Tactics)
-- TV8 Survivor Panorama Stüdyosu
 - TV8 – Survivor Panorama
 - Tahribad-ı İsyan
 - Tepki
-- Toprak Kağnıcı
-- Totem Watch Party Ekibi
 - Totem – Watch Party (Hasan)
 - Totem – Watch Party (Hilmi)
 - Tottenham stadyum indirim mağazası ganimetleri
@@ -219,35 +211,27 @@ Atıflar için `img/KREDILER.md`.
 - Şeffaf Plastik Cetvel
 - Şirinler (Smurfler)
 
-## uclu (144)
+## uclu (122)
 
 - '6 maçlık maraton' gecesi açılışı (Beşiktaş-Ankaragücü/PSG-Dortmund)
 - 'Alo, Geldim'
 - 'Asla Yanılmam' Nakaratı
 - 'Ağlama İhtimalim Yüzde 80'
-- 'Bilgi Değil Çıkarım' Savunması
 - 'Cemin'e Sorsana' Refleksi
-- 'Chat Bana Geç Geliyor'
 - 'Eşimi Kıramam'
-- 'Götümden Uydurdum'
 - 'Okuyamıyorum, Özür Dilerim'
 - 'Sağdakini Yiyen Takım Elenir'
 - 27 Yıllık Şişman İtirafı
 - 6 maçlık maraton gecesi (Beşiktaş-Ankaragücü/PSG-Dortmund)
 - 6 maçlık maraton gecesi superchat'i
-- Ali Biçim'in Sürpriz Çıkışı
 - Alper Kul
 - Ankaragücü-Galatasaray gecesi superchat'i
-- Anketi Açıp İptal Etme
 - Antalyaspor-Beşiktaş 'Tribünler' gecesi
 - Antalyaspor-Beşiktaş 'Tribünler' gecesi açılışı
 - Antalyaspor-Beşiktaş 'Tribünler' gecesi superchat'i
-- Atlanan Grup Puanlaması
 - Aykut Kocaman'a Sempati Beslememe (Turancan)
 - Açılış Ses Faciası
 - Babetcan Porta
-- Bahattin Demir Bilek
-- Başkana Seslenme Rol Yapması
 - Bebek İsmi Chat'e Bırakıldı
 - Beşiktaş-Konyaspor 'kavga gecesi' açılışı
 - Beşiktaş-Konyaspor kavga gecesi
@@ -260,12 +244,9 @@ Atıflar için `img/KREDILER.md`.
 - Bodrumspor-Galatasaray 'Dünya Yemekleri' gecesi açılışı
 - Bodrumspor-Galatasaray 'dünya yemekleri' gecesi
 - Bodrumspor-Galatasaray 'dünya yemekleri' gecesi superchat'i
-- Cezayir Kulisi
 - Cuma Namazı (Hilmi)
 - Dönerli Simit Tost
-- Dördüncü Ses
 - Eltalks Temsilcimiz
-- Enes'in 50 Mesajı
 - Erman Yaşar'ı Reddetme (Hasan)
 - Esat Yontunç
 - Eş Uyandırdı
@@ -291,7 +272,6 @@ Atıflar için `img/KREDILER.md`.
 - Gaziantep FK-Fenerbahçe 'Survivor/böcek' gecesi açılışı
 - Gaziantep FK-Fenerbahçe 'Survivor/böcek' gecesi superchat'i
 - Gaziantep FK-Fenerbahçe 'böcekler' gecesi
-- Gerçek Taylan Abi
 - Giray Altınok
 - Gizli Pembe Ürün
 - Göztepe-Fenerbahçe 'Ali Koç Olayı' gecesi
@@ -304,17 +284,12 @@ Atıflar için `img/KREDILER.md`.
 - Hatayspor-Fenerbahçe gecesi açılışı
 - Hatayspor-Fenerbahçe gecesi superchat'i
 - Hilmi'nin 'Labım Var' Bahanesi
-- Isabela Hikayesi
-- Kaan Bey'in Tıbbi Yorumu
 - Kanada-Bosna Hersek gecesi açılışı
 - Kasılcan
 - Kelondor Ödülü
-- Kendi Quizini Yazan İzleyici
 - Kendini Fenerbahçeli Zanneden Şizofren Lavuk
 - King
-- Koray Abi Skandalları
 - Lavuk
-- Like Manipülasyonu İtirafları
 - Lise'de Biyolojiden 33 (ortak)
 - Liverpool Çaycısı (lakap)
 - Lucas Torreira Yüzünden Uruguay'a Soğuma (Turancan)
@@ -326,17 +301,14 @@ Atıflar için `img/KREDILER.md`.
 - Ondalıklı Puanlama Takıntısı
 - Online Sipariş / Üyelik Vermemek (Hasan)
 - Pilava Ketçap
-- Psikolog Göktuğ
 - Restoran Fiyatı Savunması
 - Sahte Son Dakika Kandırmacası
-- Sahte Teknik Direktör Haberi
 - Sivasspor-Galatasaray gecesi açılışı
 - Sivasspor-Galatasaray gecesi superchat'i
 - Temkincan Portcan
 - Totem 50 Lira
-- Trabzonspor-Kayserispor 'Karadeniz yemekleri' gecesi
+- Trabzonspor-Kayserispor 'Karadeniz Yemekleri' gecesi açılışı
 - Transfer = Osuruk Benzetmesi (Hasan)
-- Troll Transfer Haberi
 - Turabi'den Nefret (Survivor)
 - Turan Port Lakabı
 - Turancan'ın Terlememesi İddiası
@@ -347,15 +319,13 @@ Atıflar için `img/KREDILER.md`.
 - Türkiye-Karadağ gecesi
 - Türkiye-Karadağ gecesi açılışı
 - Türkiye-Karadağ gecesi superchat'i
-- Uydurma Duyum Kaynağı
 - Uyuyakalan Hilmi
 - Yanlış Saat Yüzleşmesi
 - Yanlışlıkla Yayına Girdik
 - Yemek Cezası Geleneği
 - Yoğurt Soslu Rulo Cips
 - Zayıflama İğnesi Reddi (Hasan)
-- Zecorner Kayserispor-Galatasaray 'Yeni Sezon Formalar' gecesi açılışı
-- Zecorner Kayserispor-Galatasaray 'formalar' gecesi
+- Zecorner Kayserispor-Galatasaray 'formalar' gecesi superchat'i
 - Çaykur Rizespor-Fenerbahçe gecesi
 - Çaykur Rizespor-Fenerbahçe gecesi superchat'i
 - Ünlü Yayıncı Turancan Çelikay
@@ -366,21 +336,11 @@ Atıflar için `img/KREDILER.md`.
 - İsviçre-Bosna Hersek gecesi açılışı
 - İsviçre-Bosna Hersek gecesi superchat'i
 
-## veri (11)
+## veri (1)
 
-- 'Averaj yetmez' → 'ihtimal hep vardı'
-- 'Bu genç kaleci hazır değil' → 'gelişimini takip ediyordum'
-- 'Bu sakatlık uzun sürer' → 'iyileşme hızlıydı zaten'
-- 'Gerek yok' → 'zaten bekliyordum'
-- 'Kadro eksik' → 'derinlik varmış'
-- 'Kolay olmaz' → 'ben de öyle demiştim'
-- 'Rakip kolay değil' → 'ben de öyle düşünmüştüm'
-- Antalyaspor-Galatasaray gecesi
-- Göztepe-Beşiktaş gecesi
 - Türkiye-Karadağ deplasmanı
-- Ç.Rizespor-Fenerbahçe gecesi
 
-## yemek (51)
+## yemek (47)
 
 - 'Ben zaten yemek yedim' yalanıyla hesaptan kaçma girişimi
 - 'Sen öde, ben havale atarım' klasiği
@@ -392,7 +352,6 @@ Atıflar için `img/KREDILER.md`.
 - Avliya (Bayrampaşa)
 - Açma
 - Bazlama
-- Berabere biten maçta tabağı yarı yarıya paylaşma
 - Bumbar
 - Buzlu Türk Kahvesi
 - Chicatana (kızıl uçan karınca sosu)
@@ -413,7 +372,6 @@ Atıflar için `img/KREDILER.md`.
 - Kelle beyni kızartması
 - Kızarmış ağustosböceği
 - Kızarmış yılan
-- Maç günü sabahına özel 'uğurlu kahvaltı' hazırlama
 - Mırra
 - Natto
 - Necdet Usta (Çeşme Kokoreç)
@@ -425,12 +383,10 @@ Atıflar için `img/KREDILER.md`.
 - Sahlepli füzyon kahve
 - Simit
 - Soğuk demleme (cold brew)
-- Stat girişinde mutlaka simit-ayran alma
 - Sütlaçlı Dondurma
 - Yeni işe girende hoşgeldin yemeği ısmarlama zorunluluğu
 - Yoğurtlu Kıymalı Makarna
 - Yufka
 - İlk maaşla ofise börek-simit ısmarlama
 - İnce kenarlı Antep pidesi
-- Şampiyonluk gecesi sokakta dağıtılan tatlılar
 
