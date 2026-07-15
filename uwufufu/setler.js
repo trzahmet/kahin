@@ -1255,781 +1255,195 @@ window.SETLER = [
     "adaylar": [
       {
         "ad": "Fenerbahçe-Kayserispor | Maç Sonu Değerlendirmesi | Çarklı Kadro Kurma",
-        "not": "27 kez \"sike\" geçti (20.04.2025)",
+        "not": "27 kez \"şike\" — 20.04.2025 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "fenerbahce-kayserispor-mac-sonu-degerlendirmesi-"
       },
       {
         "ad": "Çarklı Draft | Avrupa Ligi - Şampiyonlar Ligi | En İyi İlk 11'ler",
-        "not": "25 kez \"sike\" geçti (09.06.2025)",
+        "not": "25 kez \"şike\" — 09.06.2025 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "carkli-draft-avrupa-ligi-sampiyonlar-ligi-en-iyi"
       },
       {
         "ad": "Adana Demirspor - Galatasaray | Maç Sonu Değerlendirmesi | UEL Fikstür",
-        "not": "21 kez \"sike\" geçti (31.08.2024)",
+        "not": "21 kez \"şike\" — 31.08.2024 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "adana-demirspor-galatasaray-mac-sonu-degerlendir"
       },
       {
-        "ad": "Galatasaray - Alanyaspor | Maç Sonu Değerlendirmesi | Murat Ağırel Son",
-        "not": "10 kez \"sike\" geçti (25.11.2023)",
-        "emoji": "⚽",
-        "slug": "galatasaray-alanyaspor-mac-sonu-degerlendirmesi-"
-      },
-      {
-        "ad": "Gündem Yayını | Bayern - Real, Nuri Şahin, Devin Özek",
-        "not": "7 kez \"sike\" geçti (02.05.2024)",
-        "emoji": "⚽",
-        "slug": "gundem-yayini-bayern-real-nuri-sahin-devin-ozek"
-      },
-      {
-        "ad": "Mehmet Demirkol | Hasan'ın Masası #2",
-        "not": "6 kez \"sike\" geçti (16.01.2025)",
-        "emoji": "📺",
-        "slug": "mehmet-demirkol-hasan-in-masasi-2"
-      },
-      {
-        "ad": "FM24 Ekiple Draft #2 | KURAL : SADECE FRANSIZLAR",
-        "not": "6 kez \"sike\" geçti (19.11.2023)",
-        "emoji": "📺",
-        "slug": "fm24-ekiple-draft-2-kural-sadece-fransizlar"
-      },
-      {
-        "ad": "F.Karagümrük-Beşiktaş | Maç Sonu Değerlendirmesi | Ödev Takımlar",
-        "not": "6 kez \"sike\" geçti (30.11.2025)",
-        "emoji": "⚽",
-        "slug": "f-karagumruk-besiktas-mac-sonu-degerlendirmesi-o"
-      },
-      {
-        "ad": "Eyüpspor-Galatasaray | Maç Sonu Değerlendirmesi | Draftlı Kadro Kurma",
-        "not": "5 kez \"sike\" geçti (27.04.2025)",
-        "emoji": "⚽",
-        "slug": "eyupspor-galatasaray-mac-sonu-degerlendirmesi-dr"
-      },
-      {
-        "ad": "FM24 KARİYER #S3B7 | JOURNEYMAN MODU | MUHTEŞEM SEZON BAŞLIYOR!",
-        "not": "5 kez \"sike\" geçti (05.04.2024)",
-        "emoji": "📺",
-        "slug": "fm24-kariyer-s3b7-journeyman-modu-muhtesem-sezon"
-      },
-      {
-        "ad": "Beşiktaş - Kasımpaşa | Maç Sonu Değerlendirmesi | Bronckhorst'ta Pürüz",
-        "not": "5 kez \"sike\" geçti (05.01.2024)",
-        "emoji": "⚽",
-        "slug": "besiktas-kasimpasa-mac-sonu-degerlendirmesi-bron"
-      },
-      {
-        "ad": "Draft | 2024-2025 Süper Lig Futbolcuları | En İyi İlk 11'ler",
-        "not": "5 kez \"sike\" geçti (04.01.2026)",
-        "emoji": "⚽",
-        "slug": "draft-2024-2025-super-lig-futbolculari-en-iyi-il"
-      },
-      {
-        "ad": "Fenerbahçe-Kasımpaşa | Maç Sonu Değerlendirmesi",
-        "not": "5 kez \"sike\" geçti (16.02.2025)",
-        "emoji": "⚽",
-        "slug": "fenerbahce-kasimpasa-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Galatasaray-Beşiktaş | Maç Sonu Değerlendirmesi w/@KorayGökYT",
-        "not": "5 kez \"sike\" geçti (28.10.2024)",
-        "emoji": "⚽",
-        "slug": "galatasaray-besiktas-mac-sonu-degerlendirmesi-w-"
-      },
-      {
-        "ad": "Eyüpspor-Beşiktaş | Maç Sonu Değerlendirmesi",
-        "not": "4 kez \"sike\" geçti (21.02.2025)",
-        "emoji": "⚽",
-        "slug": "eyupspor-besiktas-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Derbi, Ester Exposito, 8 Mart, Adana, Burcu Güneş | Harman 83. Bölüm |",
-        "not": "4 kez \"sike\" geçti (09.03.2026)",
-        "emoji": "📺",
-        "slug": "derbi-ester-exposito-8-mart-adana-burcu-gunes-ha"
-      },
-      {
-        "ad": "UECL MAÇ SONU CANLI YAYIN TAM KAYIT!",
-        "not": "4 kez \"sike\" geçti (21.09.2023)",
-        "emoji": "⚽",
-        "slug": "uecl-mac-sonu-canli-yayin-tam-kayit"
-      },
-      {
-        "ad": "\"Beşiktaş'ın Bitmeyen Talihsizliği\" videosunu izliyoruz. w/@YigitTezca",
-        "not": "4 kez \"sike\" geçti (13.11.2023)",
-        "emoji": "📺",
-        "slug": "besiktas-in-bitmeyen-talihsizligi-videosunu-izli"
-      },
-      {
-        "ad": "Beşiktaş - Trabzonspor | Maç Sonu Değerlendirmesi",
-        "not": "4 kez \"sike\" geçti (04.02.2024)",
-        "emoji": "⚽",
-        "slug": "besiktas-trabzonspor-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Gündem Yayını | Transferde Son Gelişmeler, Outtara, Ugochukwu",
-        "not": "4 kez \"sike\" geçti (02.07.2026)",
-        "emoji": "🎙️",
-        "slug": "gundem-yayini-transferde-son-gelismeler-outtara-"
-      },
-      {
-        "ad": "HTalks Videocast | Benim Hocam Bielsa #1",
-        "not": "4 kez \"sike\" geçti (03.10.2023)",
-        "emoji": "📺",
-        "slug": "htalks-videocast-benim-hocam-bielsa-1"
-      },
-      {
-        "ad": "HALİL UMUT MELER, ANKARAGÜCÜ, OLAYLAR, ŞİMDİ NE OLACAK?\n20231211|4871|",
-        "not": "4 kez \"sike\" geçti (11.12.2023)",
-        "emoji": "📺",
-        "slug": "halil-umut-meler-ankaragucu-olaylar-simdi-ne-ola"
-      },
-      {
-        "ad": "KASIMPAŞA - FENERBAHÇE MAÇ ÖNÜ 🔥 @HTalksYoutube",
-        "not": "4 kez \"sike\" geçti (15.09.2024)",
-        "emoji": "⚽",
-        "slug": "kasimpasa-fenerbahce-mac-onu-htalksyoutube"
-      },
-      {
-        "ad": "Galatasaray - Ç.Rizespor | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "4 kez \"sike\" geçti (14.09.2024)",
-        "emoji": "⚽",
-        "slug": "galatasaray-c-rizespor-mac-sonu-degerlendirmesi-"
-      },
-      {
-        "ad": "Avrupa Ligi Playoff İlk Maçlar | Maç Sonu Değerlendirmesi",
-        "not": "4 kez \"sike\" geçti (13.02.2025)",
-        "emoji": "⚽",
-        "slug": "avrupa-ligi-playoff-ilk-maclar-mac-sonu-degerlen"
-      },
-      {
-        "ad": "Ciro Immobile ÖZEL Yayını | Canlı Uçak Takip | Cenk Tosun Fenerbahçe'd",
-        "not": "4 kez \"sike\" geçti (12.07.2024)",
-        "emoji": "📺",
-        "slug": "ciro-immobile-ozel-yayini-canli-ucak-takip-cenk-"
-      },
-      {
-        "ad": "Sivasspor-Fenerbahçe | Maç Sonu Değerlendirmesi",
-        "not": "4 kez \"sike\" geçti (13.04.2025)",
-        "emoji": "⚽",
-        "slug": "sivasspor-fenerbahce-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Galatasaray - Sivasspor | Maç Sonu Değerlendirmesi | Türkiye ve Dünyad",
-        "not": "3 kez \"sike\" geçti (05.05.2024)",
-        "emoji": "⚽",
-        "slug": "galatasaray-sivasspor-mac-sonu-degerlendirmesi-t"
-      },
-      {
-        "ad": "Fenerbahçe-Rangers | Maç Sonu Değerlendirmesi",
-        "not": "3 kez \"sike\" geçti (06.03.2025)",
-        "emoji": "⚽",
-        "slug": "fenerbahce-rangers-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Galatasaray - Gaziantep FK | Maç Sonu Değerlendirmesi",
-        "not": "3 kez \"sike\" geçti (29.01.2024)",
-        "emoji": "⚽",
-        "slug": "galatasaray-gaziantep-fk-mac-sonu-degerlendirmes"
-      },
-      {
-        "ad": "HTalks Moments #4 | Ağustos Ayı En İyi Anlar",
-        "not": "3 kez \"sike\" geçti (15.09.2024)",
-        "emoji": "📺",
-        "slug": "htalks-moments-4-agustos-ayi-en-iyi-anlar"
-      },
-      {
-        "ad": "Fenerbahçe - Kasımpaşa | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "3 kez \"sike\" geçti (24.02.2024)",
-        "emoji": "⚽",
-        "slug": "fenerbahce-kasimpasa-mac-sonu-degerlendirmesi-uw"
-      },
-      {
         "ad": "H-TALK SHOW: Wonderkidwin",
-        "not": "19 kez \"garibanlik\" geçti (20.08.2022)",
+        "not": "19 kez \"şike\" — 20.08.2022 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "h-talk-show-wonderkidwin"
       },
       {
         "ad": "Fenerbahçe-F.Karagümrük | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "14 kez \"garibanlik\" geçti (19.10.2025)",
+        "not": "14 kez \"şike\" — 19.10.2025 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "fenerbahce-f-karagumruk-mac-sonu-degerlendirmesi"
       },
       {
         "ad": "Antalyaspor-Beşiktaş | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "13 kez \"garibanlik\" geçti (08.11.2025)",
+        "not": "13 kez \"şike\" — 08.11.2025 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "antalyaspor-besiktas-mac-sonu-degerlendirmesi-uw"
       },
       {
         "ad": "Barış Alper, Harman Ekspres, El Bilal Toure | Harman 58. Bölüm | Erman",
-        "not": "12 kez \"garibanlik\" geçti (25.08.2025)",
+        "not": "12 kez \"şike\" — 25.08.2025 yayınında arşiv zirvesi.",
         "emoji": "📺",
         "slug": "baris-alper-harman-ekspres-el-bilal-toure-harman"
       },
       {
         "ad": "Beşiktaş - Ankaragücü | PSG - Dortmund | Maç Sonu Değerlendirmesi | To",
-        "not": "12 kez \"garibanlik\" geçti (08.05.2024)",
+        "not": "12 kez \"şike\" — 08.05.2024 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "besiktas-ankaragucu-psg-dortmund-mac-sonu-degerl"
       },
       {
         "ad": "FM 26 Journeyman S2B1 | \"ALIŞMAK SEVMEKTEN ZOR\" @KorayKoc-KK",
-        "not": "11 kez \"garibanlik\" geçti (12.02.2026)",
+        "not": "11 kez \"şike\" — 12.02.2026 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "fm-26-journeyman-s2b1-alismak-sevmekten-zor-kora"
       },
       {
         "ad": "HTALKS FIRAT SOBUTAY HATAY SANDIK İÇİ  HATAY SOKAK LEZZETLERİ İZLİYOR!",
-        "not": "11 kez \"garibanlik\" geçti (21.12.2025)",
+        "not": "11 kez \"şike\" — 21.12.2025 yayınında arşiv zirvesi.",
         "emoji": "📺",
         "slug": "htalks-firat-sobutay-hatay-sandik-ici-hatay-soka"
       },
       {
         "ad": "Fenerbahçe-Gençlerbirliği | Maç Sonu Değerlendirmesi",
-        "not": "11 kez \"garibanlik\" geçti (09.02.2026)",
+        "not": "11 kez \"şike\" — 09.02.2026 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "fenerbahce-genclerbirligi-mac-sonu-degerlendirme"
       },
       {
+        "ad": "Galatasaray - Alanyaspor | Maç Sonu Değerlendirmesi | Murat Ağırel Son",
+        "not": "10 kez \"şike\" — 25.11.2023 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "galatasaray-alanyaspor-mac-sonu-degerlendirmesi-"
+      },
+      {
         "ad": "H-TALK SHOW: Tolunay Ören",
-        "not": "10 kez \"garibanlik\" geçti (15.07.2022)",
+        "not": "10 kez \"şike\" — 15.07.2022 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "h-talk-show-tolunay-oren"
       },
       {
         "ad": "CL Canlı Takip | Var Kayıtları | Muhabbet - Uwufufu",
-        "not": "10 kez \"garibanlik\" geçti (12.03.2024)",
+        "not": "10 kez \"şike\" — 12.03.2024 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "cl-canli-takip-var-kayitlari-muhabbet-uwufufu"
       },
       {
         "ad": "Galatasaray-Göztepe | Maç Sonu Değerlendirmesi",
-        "not": "10 kez \"garibanlik\" geçti (04.01.2025)",
+        "not": "10 kez \"şike\" — 04.01.2025 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "galatasaray-goztepe-mac-sonu-degerlendirmesi"
       },
       {
         "ad": "Son Açıklamalar, Lansmanlar, Adalı vs Arat | Gece Yayını",
-        "not": "10 kez \"garibanlik\" geçti (17.11.2023)",
+        "not": "10 kez \"şike\" — 17.11.2023 yayınında arşiv zirvesi.",
         "emoji": "📺",
         "slug": "son-aciklamalar-lansmanlar-adali-vs-arat-gece-ya"
       },
       {
         "ad": "HTALKS UWUFUFU  SÜPER LİGE GELMİŞ EN KÖTÜ FUTBOLCU SEÇİYOR? #SEÇİYORUZ",
-        "not": "9 kez \"garibanlik\" geçti (11.07.2025)",
+        "not": "9 kez \"şike\" — 11.07.2025 yayınında arşiv zirvesi.",
         "emoji": "📺",
         "slug": "htalks-uwufufu-super-lige-gelmis-en-kotu-futbolc"
       },
       {
         "ad": "HTalks Münazara #2 | Messi mi? Ronaldo mu? Maradona mı?",
-        "not": "9 kez \"garibanlik\" geçti (16.05.2024)",
+        "not": "9 kez \"şike\" — 16.05.2024 yayınında arşiv zirvesi.",
         "emoji": "📺",
         "slug": "htalks-munazara-2-messi-mi-ronaldo-mu-maradona-m"
       },
       {
         "ad": "Biz Yokken Neler Oldu? | Gündem | Uwufufu",
-        "not": "9 kez \"garibanlik\" geçti (04.08.2024)",
+        "not": "9 kez \"şike\" — 04.08.2024 yayınında arşiv zirvesi.",
         "emoji": "🎙️",
         "slug": "biz-yokken-neler-oldu-gundem-uwufufu"
       },
       {
         "ad": "Fenerbahçe - Adana Demirspor | Maç Sonu Değerlendirmesi | Uwufufu: En ",
-        "not": "9 kez \"garibanlik\" geçti (10.08.2024)",
+        "not": "9 kez \"şike\" — 10.08.2024 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "fenerbahce-adana-demirspor-mac-sonu-degerlendirm"
       },
       {
         "ad": "Gündem Yayını | Salih Özcan, Son Transfer Haberleri, Neymar İlk 11",
-        "not": "8 kez \"garibanlik\" geçti (05.07.2026)",
+        "not": "8 kez \"şike\" — 05.07.2026 yayınında arşiv zirvesi.",
         "emoji": "🎙️",
         "slug": "gundem-yayini-salih-ozcan-son-transfer-haberleri"
       },
       {
         "ad": "HTALKS 3 BÜYÜKLERE GELMİŞ EN KÖTÜ FUTBOLCUYU SEÇİYOR (SON 20 YIL)|UWUF",
-        "not": "8 kez \"garibanlik\" geçti (23.11.2025)",
+        "not": "8 kez \"şike\" — 23.11.2025 yayınında arşiv zirvesi.",
         "emoji": "📺",
         "slug": "htalks-3-buyuklere-gelmis-en-kotu-futbolcuyu-sec"
       },
       {
         "ad": "FM 26 Journeyman S2B2 | \"SALINA SALINA SİNSİCE\" @KorayKoc-KK",
-        "not": "8 kez \"garibanlik\" geçti (20.02.2026)",
+        "not": "8 kez \"şike\" — 20.02.2026 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "fm-26-journeyman-s2b2-salina-salina-sinsice-kora"
       },
       {
         "ad": "Young Boys - Galatasaray  | Maç Sonu Değerlendirmesi | Transfer Gündem",
-        "not": "8 kez \"garibanlik\" geçti (21.08.2024)",
+        "not": "8 kez \"şike\" — 21.08.2024 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "young-boys-galatasaray-mac-sonu-degerlendirmesi-"
       },
       {
         "ad": "Beşiktaş-Galatasaray | Maç Önü Değerlendirmesi",
-        "not": "8 kez \"garibanlik\" geçti (07.03.2026)",
+        "not": "8 kez \"şike\" — 07.03.2026 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "besiktas-galatasaray-mac-onu-degerlendirmesi"
       },
       {
+        "ad": "Gündem Yayını | Bayern - Real, Nuri Şahin, Devin Özek",
+        "not": "7 kez \"şike\" — 02.05.2024 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "gundem-yayini-bayern-real-nuri-sahin-devin-ozek"
+      },
+      {
         "ad": "FM24 KARİYER #S2B9 | JOURNEYMAN MODU | KOCAELİYE KUPA GELİYOR MU?",
-        "not": "7 kez \"garibanlik\" geçti (16.02.2024)",
+        "not": "7 kez \"şike\" — 16.02.2024 yayınında arşiv zirvesi.",
         "emoji": "📺",
         "slug": "fm24-kariyer-s2b9-journeyman-modu-kocaeliye-kupa"
       },
       {
         "ad": "Fenerbahçe-Nice | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "7 kez \"garibanlik\" geçti (02.10.2025)",
+        "not": "7 kez \"şike\" — 02.10.2025 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "fenerbahce-nice-mac-sonu-degerlendirmesi-uwufufu"
       },
       {
         "ad": "FM 26 Journeyman S1B8 | \"YALANIN BATSIN\" @KorayKoc-KK",
-        "not": "7 kez \"garibanlik\" geçti (09.01.2026)",
+        "not": "7 kez \"şike\" — 09.01.2026 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "fm-26-journeyman-s1b8-yalanin-batsin-koraykoc-kk"
       },
       {
         "ad": "Gaziantep FK - Fenerbahçe | Maç Sonu Değerlendirmesi | Survivor Nageha",
-        "not": "7 kez \"garibanlik\" geçti (07.02.2024)",
+        "not": "7 kez \"şike\" — 07.02.2024 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "gaziantep-fk-fenerbahce-mac-sonu-degerlendirmesi"
       },
       {
-        "ad": "Kocaelispor-Fenerbahçe | Maç Sonu Değerlendirmesi | Avrupa Transfer Dö",
-        "not": "6 kez \"garibanlik\" geçti (02.02.2026)",
-        "emoji": "⚽",
-        "slug": "kocaelispor-fenerbahce-mac-sonu-degerlendirmesi-"
-      },
-      {
-        "ad": "GÜNDEM ÖZEL / NE VAR NE YOK? @HTalksYoutube ile",
-        "not": "6 kez \"garibanlik\" geçti (26.07.2024)",
-        "emoji": "🎙️",
-        "slug": "gundem-ozel-ne-var-ne-yok-htalksyoutube-ile"
-      },
-      {
-        "ad": "En iyi meze? #Seçiyoruz",
-        "not": "6 kez \"garibanlik\" geçti (05.07.2025)",
+        "ad": "Mehmet Demirkol | Hasan'ın Masası #2",
+        "not": "6 kez \"şike\" — 16.01.2025 yayınında arşiv zirvesi.",
         "emoji": "📺",
-        "slug": "en-iyi-meze-seciyoruz"
+        "slug": "mehmet-demirkol-hasan-in-masasi-2"
       },
       {
-        "ad": "Benim Hocam Bielsa #11 | Halil Umut Meler, Galatasaray, Ferhat Göçer",
-        "not": "6 kez \"garibanlik\" geçti (16.12.2023)",
+        "ad": "FM24 Ekiple Draft #2 | KURAL : SADECE FRANSIZLAR",
+        "not": "6 kez \"şike\" — 19.11.2023 yayınında arşiv zirvesi.",
         "emoji": "📺",
-        "slug": "benim-hocam-bielsa-11-halil-umut-meler-galatasar"
-      },
-      {
-        "ad": "Veganlar gariban mıdır? #shorts",
-        "not": "6 kez \"garibanlik\" geçti (07.01.2025)",
-        "emoji": "📺",
-        "slug": "veganlar-gariban-midir-shorts"
-      },
-      {
-        "ad": "FM24 KARİYER #S3B2  | JOURNEYMAN MODU | GENÇLERBİRLİĞİ İLE İLK ŞAMPİYO",
-        "not": "6 kez \"garibanlik\" geçti (15.03.2024)",
-        "emoji": "📺",
-        "slug": "fm24-kariyer-s3b2-journeyman-modu-genclerbirligi"
-      },
-      {
-        "ad": "'Bu sezon iddialı değiliz' → 'aslında şampiyonluk hesabı var'",
-        "not": "Bir ay arayla söylenen iki cümle arasındaki tam tersi dönüş, klasik bir çark örneği olarak anıldı.",
-        "emoji": "📺",
-        "slug": "bu-sezon-iddiali-degiliz-aslinda-sampiyonluk-hes"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "kategori": "veri",
-    "katAd": "Gerçek Veri",
-    "tema": "Katılmıyorum & Tezahürat Geceleri — Sence Hangisi?",
-    "soru": "'Katılmıyorum!' fırtınalarının koptuğu geceler ve unutulmaz deplasman tezahüratları. Sayılar gerçek, seçim senin: sence hangisi daha ikonik?",
-    "tip": "bracket",
-    "adaylar": [
-      {
-        "ad": "Milli Maç Canlı Takip | Son Transfer Gelişmeleri",
-        "not": "23 kez \"katilmiyorum\" geçti (09.09.2024)",
-        "emoji": "⚽",
-        "slug": "milli-mac-canli-takip-son-transfer-gelismeleri"
-      },
-      {
-        "ad": "Beşiktaş-Fenerbahçe | Maç Sonu Değerlendirmesi",
-        "not": "18 kez \"katilmiyorum\" geçti (07.12.2024)",
-        "emoji": "⚽",
-        "slug": "besiktas-fenerbahce-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Tammy Abraham ve Jhon Duran Özel Yayını | Duble Canlı Uçak Takip",
-        "not": "15 kez \"katilmiyorum\" geçti (01.07.2025)",
-        "emoji": "📺",
-        "slug": "tammy-abraham-ve-jhon-duran-ozel-yayini-duble-ca"
-      },
-      {
-        "ad": "Galatasaray - Kasımpaşa | Maç Sonu Değerlendirmesi | Teknik Direktör M",
-        "not": "13 kez \"katilmiyorum\" geçti (28.09.2024)",
-        "emoji": "⚽",
-        "slug": "galatasaray-kasimpasa-mac-sonu-degerlendirmesi-t"
-      },
-      {
-        "ad": "HTalks İle Anketli Yılın Enleri Ödül Töreni | En İyi ve En Kötü Takım",
-        "not": "12 kez \"katilmiyorum\" geçti (27.12.2024)",
-        "emoji": "📺",
-        "slug": "htalks-ile-anketli-yilin-enleri-odul-toreni-en-i"
-      },
-      {
-        "ad": "Beşiktaş-Başakşehir | Maç Sonu Değerlendirmesi",
-        "not": "11 kez \"katilmiyorum\" geçti (12.04.2025)",
-        "emoji": "⚽",
-        "slug": "besiktas-basaksehir-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Galatasaray-Samsunspor | Maç Sonu Değerlendirmesi | Dünya Kupası Grupl",
-        "not": "11 kez \"katilmiyorum\" geçti (05.12.2025)",
-        "emoji": "⚽",
-        "slug": "galatasaray-samsunspor-mac-sonu-degerlendirmesi-"
-      },
-      {
-        "ad": "İ.Eyüpspor-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "10 kez \"katilmiyorum\" geçti (13.09.2025)",
-        "emoji": "⚽",
-        "slug": "i-eyupspor-galatasaray-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "E.Frankfurt-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "10 kez \"katilmiyorum\" geçti (18.09.2025)",
-        "emoji": "⚽",
-        "slug": "e-frankfurt-galatasaray-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Galatasaray-Eyüpspor | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "10 kez \"katilmiyorum\" geçti (01.12.2024)",
-        "emoji": "⚽",
-        "slug": "galatasaray-eyupspor-mac-sonu-degerlendirmesi-uw"
-      },
-      {
-        "ad": "Fenerbahçe - Pendikspor | Maç Sonu Değerlendirmesi",
-        "not": "10 kez \"katilmiyorum\" geçti (10.03.2024)",
-        "emoji": "⚽",
-        "slug": "fenerbahce-pendikspor-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Rangers-Fenerbahçe | Maç Sonu Değerlendirmesi",
-        "not": "10 kez \"katilmiyorum\" geçti (14.03.2025)",
-        "emoji": "⚽",
-        "slug": "rangers-fenerbahce-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Avrupa Ligi Playoff İlk Tur Rövanş Maçları | Maç Önü Değerlendirmesi",
-        "not": "10 kez \"katilmiyorum\" geçti (20.02.2025)",
-        "emoji": "⚽",
-        "slug": "avrupa-ligi-playoff-ilk-tur-rovans-maclari-mac-o"
-      },
-      {
-        "ad": "Kayserispor-Fenerbahçe | Maç Sonu Değerlendirmesi",
-        "not": "10 kez \"katilmiyorum\" geçti (23.11.2024)",
-        "emoji": "⚽",
-        "slug": "kayserispor-fenerbahce-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Gürcistan-Türkiye | Maç Sonu Değerlendirmesi | Fenerbahçe Hoca Adaylar",
-        "not": "9 kez \"katilmiyorum\" geçti (04.09.2025)",
-        "emoji": "⚽",
-        "slug": "gurcistan-turkiye-mac-sonu-degerlendirmesi-fener"
-      },
-      {
-        "ad": "Başakşehir FK - Fenerbahçe | Maç Sonu Değerlendirmesi",
-        "not": "9 kez \"katilmiyorum\" geçti (24.01.2024)",
-        "emoji": "⚽",
-        "slug": "basaksehir-fk-fenerbahce-mac-sonu-degerlendirmes"
-      },
-      {
-        "ad": "Fenerbahçe-Göztepe | Maç Sonu Değerlendirmesi",
-        "not": "9 kez \"katilmiyorum\" geçti (26.01.2025)",
-        "emoji": "⚽",
-        "slug": "fenerbahce-goztepe-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Kasımpaşa-Beşiktaş | Galatasaray-Göztepe | Maç Sonu Değerlendirmesi",
-        "not": "9 kez \"katilmiyorum\" geçti (26.10.2025)",
-        "emoji": "⚽",
-        "slug": "kasimpasa-besiktas-galatasaray-goztepe-mac-sonu-"
-      },
-      {
-        "ad": "Alanyaspor-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "9 kez \"katilmiyorum\" geçti (09.03.2025)",
-        "emoji": "⚽",
-        "slug": "alanyaspor-galatasaray-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Galatasaray Sezon Değerlendirmesi, Kadro Nasıl Olmalı? | Küme Düşen So",
-        "not": "8 kez \"katilmiyorum\" geçti (17.05.2026)",
-        "emoji": "📺",
-        "slug": "galatasaray-sezon-degerlendirmesi-kadro-nasil-ol"
-      },
-      {
-        "ad": "Galatasaray-Liverpool | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"katilmiyorum\" geçti (30.09.2025)",
-        "emoji": "⚽",
-        "slug": "galatasaray-liverpool-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Galatasaray-Sivasspor | Maç Sonu Değerlendirmesi | Sizden Gelen Sorula",
-        "not": "8 kez \"katilmiyorum\" geçti (03.05.2025)",
-        "emoji": "⚽",
-        "slug": "galatasaray-sivasspor-mac-sonu-degerlendirmesi-s"
-      },
-      {
-        "ad": "Fenerbahçe-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"katilmiyorum\" geçti (01.12.2025)",
-        "emoji": "⚽",
-        "slug": "fenerbahce-galatasaray-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Bayern - Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"katilmiyorum\" geçti (08.11.2023)",
-        "emoji": "⚽",
-        "slug": "bayern-galatasaray-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Göztepe-Beşiktaş | Maç Sonu Değerlendirmesi | Sizden Gelen Sorular",
-        "not": "8 kez \"katilmiyorum\" geçti (19.04.2025)",
-        "emoji": "⚽",
-        "slug": "goztepe-besiktas-mac-sonu-degerlendirmesi-sizden"
-      },
-      {
-        "ad": "Trabzonspor-Beşiktaş | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"katilmiyorum\" geçti (14.12.2025)",
-        "emoji": "⚽",
-        "slug": "trabzonspor-besiktas-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Eyüpspor-Fenerbahçe| Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"katilmiyorum\" geçti (20.12.2024)",
-        "emoji": "⚽",
-        "slug": "eyupspor-fenerbahce-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Galatasaray-Fenerbahçe | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"katilmiyorum\" geçti (24.02.2025)",
-        "emoji": "⚽",
-        "slug": "galatasaray-fenerbahce-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Galatasaray-Konyaspor | Maç Sonu Değerlendirmesi | Kulüplerin Online M",
-        "not": "8 kez \"katilmiyorum\" geçti (22.09.2025)",
-        "emoji": "⚽",
-        "slug": "galatasaray-konyaspor-mac-sonu-degerlendirmesi-k"
-      },
-      {
-        "ad": "Galatasaray-Juventus | Maç Sonu Değerlendirmesi",
-        "not": "11 kez \"chant\" geçti (17.02.2026)",
-        "emoji": "⚽",
-        "slug": "galatasaray-juventus-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "TURANCAN'I KİM DAHA İYİ TANIYOR?",
-        "not": "6 kez \"chant\" geçti (22.05.2026)",
-        "emoji": "📺",
-        "slug": "turancan-i-kim-daha-iyi-taniyor"
-      },
-      {
-        "ad": "ALİ BİÇİM VS HASAN ARDA KAŞIKÇI | FUTBOL CHALLENGE",
-        "not": "6 kez \"chant\" geçti (17.03.2025)",
-        "emoji": "📺",
-        "slug": "ali-bicim-vs-hasan-arda-kasikci-futbol-challenge"
-      },
-      {
-        "ad": "Gündem Yayını | Transferde Son Gelişmeler, Hacıosmanoğlu Son Açıklamal",
-        "not": "6 kez \"chant\" geçti (25.06.2026)",
-        "emoji": "🎙️",
-        "slug": "gundem-yayini-transferde-son-gelismeler-haciosma"
-      },
-      {
-        "ad": "BİLİNMESİ İMKANSIZ ÜNLÜ! | KAFAYI YEDİRTEN TAHMİNİ OYUNU 😡",
-        "not": "5 kez \"chant\" geçti (30.04.2026)",
-        "emoji": "📺",
-        "slug": "bilinmesi-imkansiz-unlu-kafayi-yedirten-tahmini-"
-      },
-      {
-        "ad": "FM 26 Journeyman S1B2 | \"GÜLÜMSE KADERİNE\"",
-        "not": "5 kez \"chant\" geçti (14.11.2025)",
-        "emoji": "📺",
-        "slug": "fm-26-journeyman-s1b2-gulumse-kaderine"
-      },
-      {
-        "ad": "HİLMİ'Yİ KİM DAHA İYİ TANIYOR?",
-        "not": "5 kez \"chant\" geçti (29.05.2026)",
-        "emoji": "📺",
-        "slug": "hilmi-yi-kim-daha-iyi-taniyor"
-      },
-      {
-        "ad": "Galatasaray-Konyaspor | Maç Sonu Değerlendirmesi",
-        "not": "5 kez \"chant\" geçti (25.01.2025)",
-        "emoji": "⚽",
-        "slug": "galatasaray-konyaspor-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "YazıYorum #4 | Korku Anıları",
-        "not": "4 kez \"chant\" geçti (04.05.2024)",
-        "emoji": "📺",
-        "slug": "yaziyorum-4-korku-anilari"
-      },
-      {
-        "ad": "Lausanne-Beşiktaş | Maç Sonu Değerlendirmesi",
-        "not": "4 kez \"chant\" geçti (21.08.2025)",
-        "emoji": "⚽",
-        "slug": "lausanne-besiktas-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "FM 26 Journeyman S1B6 | \"KIZIMIZ OLACAKTI\"",
-        "not": "4 kez \"chant\" geçti (12.12.2025)",
-        "emoji": "📺",
-        "slug": "fm-26-journeyman-s1b6-kizimiz-olacakti"
-      },
-      {
-        "ad": "Başakşehir-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "4 kez \"chant\" geçti (12.01.2025)",
-        "emoji": "⚽",
-        "slug": "basaksehir-galatasaray-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Euro 2024 Yarı Finallere Ön Bakış | Transfer Gelişmeleri | Uwufufu",
-        "not": "4 kez \"chant\" geçti (08.07.2024)",
-        "emoji": "📺",
-        "slug": "euro-2024-yari-finallere-on-bakis-transfer-gelis"
-      },
-      {
-        "ad": "İsviçre-Bosna Hersek| Maç Sonu Değerlendirmesi, Uwufufu",
-        "not": "4 kez \"chant\" geçti (18.06.2026)",
-        "emoji": "⚽",
-        "slug": "isvicre-bosna-hersek-mac-sonu-degerlendirmesi-uw"
-      },
-      {
-        "ad": "Gündem Yayını | İsmail Kartal Yeniden Fenerbahçe'de, Kocaman'dan Vazge",
-        "not": "4 kez \"chant\" geçti (18.06.2026)",
-        "emoji": "🎙️",
-        "slug": "gundem-yayini-ismail-kartal-yeniden-fenerbahce-d"
-      },
-      {
-        "ad": "Fenerbahçe Sezon Değerlendirmesi, Kadro Nasıl Olmalı? | Başkan ve Hoca",
-        "not": "4 kez \"chant\" geçti (16.05.2026)",
-        "emoji": "📺",
-        "slug": "fenerbahce-sezon-degerlendirmesi-kadro-nasil-olm"
-      },
-      {
-        "ad": "Monaco-Galatasaray | Maç Önü Değerlendirmesi",
-        "not": "4 kez \"chant\" geçti (09.12.2025)",
-        "emoji": "⚽",
-        "slug": "monaco-galatasaray-mac-onu-degerlendirmesi"
-      },
-      {
-        "ad": "Fenerbahçe -- Spartak Trnava | Maç Sonu Değerlendirmesi |  Lugano - Be",
-        "not": "4 kez \"chant\" geçti (14.12.2023)",
-        "emoji": "⚽",
-        "slug": "fenerbahce-spartak-trnava-mac-sonu-degerlendirme"
-      },
-      {
-        "ad": "Beşiktaş-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "4 kez \"chant\" geçti (07.03.2026)",
-        "emoji": "⚽",
-        "slug": "besiktas-galatasaray-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Gaziantep FK-Beşiktaş | Maç Sonu Değerlendirmesi",
-        "not": "4 kez \"chant\" geçti (01.05.2026)",
-        "emoji": "⚽",
-        "slug": "gaziantep-fk-besiktas-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "FM 26 Journeyman S1B1 | \"PİLOTTUR BU BÖLÜM\"",
-        "not": "4 kez \"chant\" geçti (07.11.2025)",
-        "emoji": "📺",
-        "slug": "fm-26-journeyman-s1b1-pilottur-bu-bolum"
-      },
-      {
-        "ad": "Trabzonspor-Galatasaray | Maç Önü Değerlendirmesi",
-        "not": "4 kez \"chant\" geçti (04.04.2026)",
-        "emoji": "⚽",
-        "slug": "trabzonspor-galatasaray-mac-onu-degerlendirmesi"
-      },
-      {
-        "ad": "Fenerbahçe-Galatasaray | Maç Önü Değerlendirmesi",
-        "not": "4 kez \"chant\" geçti (01.12.2025)",
-        "emoji": "⚽",
-        "slug": "fenerbahce-galatasaray-mac-onu-degerlendirmesi"
-      },
-      {
-        "ad": "BİRBİRİMİZİ NE KADAR TANIYORUZ? @KorayKoc-KK",
-        "not": "4 kez \"chant\" geçti (20.03.2026)",
-        "emoji": "⚽",
-        "slug": "birbirimizi-ne-kadar-taniyoruz-koraykoc-kk"
-      },
-      {
-        "ad": "Beşiktaş-Malmö deplasmanı",
-        "not": "İskandinav taraftar grubunun organize koreografisi uzun uzun anlatıldı.",
-        "emoji": "⚽",
-        "slug": "besiktas-malmo-deplasmani"
-      },
-      {
-        "ad": "Beşiktaş-PSG/Dortmund gecesi",
-        "not": "Aynı akşam iki farklı Avrupa atmosferi karşılaştırıldı.",
-        "emoji": "⚽",
-        "slug": "besiktas-psg-dortmund-gecesi"
-      },
-      {
-        "ad": "Fenerbahçe-Nice deplasmanı",
-        "not": "Fransız tribününün sessiz ama disiplinli desteği dikkat çekti.",
-        "emoji": "⚽",
-        "slug": "fenerbahce-nice-deplasmani"
-      },
-      {
-        "ad": "Fenerbahçe-Stuttgart deplasmanı",
-        "not": "Alman tribününün ritmik tezahüratı örnek gösterildi.",
-        "emoji": "⚽",
-        "slug": "fenerbahce-stuttgart-deplasmani"
-      },
-      {
-        "ad": "Beşiktaş-Ankaragücü gecesi (aynı akşam Avrupa maçı)",
-        "not": "İç saha ile dış saha atmosferi kıyaslandı.",
-        "emoji": "⚽",
-        "slug": "besiktas-ankaragucu-gecesi-ayni-aksam-avrupa-mac"
-      },
-      {
-        "ad": "Kanada-Bosna Hersek gecesi",
-        "not": "Kuzey Amerika'daki göçmen Bosna taraftar kitlesinin sesi konuşuldu.",
-        "emoji": "⚽",
-        "slug": "kanada-bosna-hersek-gecesi"
-      },
-      {
-        "ad": "Meksika-Güney Afrika gecesi",
-        "not": "Meksika tribününün 'ole' dalgası örnek verildi.",
-        "emoji": "⚽",
-        "slug": "meksika-guney-afrika-gecesi"
-      },
-      {
-        "ad": "Türkiye-Karadağ deplasmanı",
-        "not": "Deplasmana giden az sayıdaki taraftarın sesi 'gurur verici' bulundu.",
-        "emoji": "⚽",
-        "slug": "turkiye-karadag-deplasmani"
-      },
-      {
-        "ad": "İsviçre-Bosna Hersek gecesi",
-        "not": "Karışık göçmen taraftar kitlesinin iki dilli tezahüratı ilgi çekti.",
-        "emoji": "⚽",
-        "slug": "isvicre-bosna-hersek-gecesi"
-      },
-      {
-        "ad": "Galatasaray-Bodrumspor gecesi",
-        "not": "Yemek turnuvası arasına sıkışan bir deplasman anısı bile konuşuldu.",
-        "emoji": "⚽",
-        "slug": "galatasaray-bodrumspor-gecesi"
-      },
-      {
-        "ad": "Fenerbahçe-Adana Demirspor gecesi",
-        "not": "İç saha tribününün deplasman kürsüsüne göndermesi anlatıldı.",
-        "emoji": "⚽",
-        "slug": "fenerbahce-adana-demirspor-gecesi"
+        "slug": "fm24-ekiple-draft-2-kural-sadece-fransizlar"
       }
     ]
   },
@@ -2043,147 +1457,45 @@ window.SETLER = [
     "adaylar": [
       {
         "ad": "H-TALK SHOW: Engin Kehale",
-        "not": "24 kez \"macko\" geçti (06.12.2022)",
+        "not": "24 kez \"maçko\" — 06.12.2022 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "h-talk-show-engin-kehale"
       },
       {
         "ad": "Alanyaspor-Fenerbahçe | Maç Sonu Değerlendirmesi | Afrika Kupası Final",
-        "not": "20 kez \"macko\" geçti (18.01.2026)",
+        "not": "20 kez \"maçko\" — 18.01.2026 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "alanyaspor-fenerbahce-mac-sonu-degerlendirmesi-a"
       },
       {
         "ad": "Gaziantep FK-Galatasaray | Maç Sonu Değerlendirmesi | Lige Bakış",
-        "not": "16 kez \"macko\" geçti (08.08.2025)",
+        "not": "16 kez \"maçko\" — 08.08.2025 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "gaziantep-fk-galatasaray-mac-sonu-degerlendirmes"
       },
       {
         "ad": "D.Zagreb-Fenerbahçe | Kayserispor-Beşiktaş | Maç Sonu Değerlendirmeler",
-        "not": "13 kez \"macko\" geçti (24.09.2025)",
+        "not": "13 kez \"maçko\" — 24.09.2025 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "d-zagreb-fenerbahce-kayserispor-besiktas-mac-son"
       },
       {
         "ad": "Zecorner Kayserispor-Galatasaray | Maç Sonu Değerlendirmesi | Yeni Sez",
-        "not": "12 kez \"macko\" geçti (24.08.2025)",
+        "not": "12 kez \"maçko\" — 24.08.2025 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "zecorner-kayserispor-galatasaray-mac-sonu-degerl"
       },
       {
         "ad": "Trabzonspor-Fenerbahçe | Maç Sonu Değerlendirmesi | Aşk",
-        "not": "11 kez \"macko\" geçti (14.02.2026)",
+        "not": "11 kez \"maçko\" — 14.02.2026 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "trabzonspor-fenerbahce-mac-sonu-degerlendirmesi-"
       },
       {
         "ad": "Fenerbahçe-Kayserispor | Kocaelispor-Galatasaray | Maç Sonu Değerlendi",
-        "not": "11 kez \"macko\" geçti (09.11.2025)",
+        "not": "11 kez \"maçko\" — 09.11.2025 yayınında arşiv zirvesi.",
         "emoji": "⚽",
         "slug": "fenerbahce-kayserispor-kocaelispor-galatasaray-m"
-      },
-      {
-        "ad": "Fenerbahçe-Konyaspor | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "10 kez \"macko\" geçti (15.12.2025)",
-        "emoji": "⚽",
-        "slug": "fenerbahce-konyaspor-mac-sonu-degerlendirmesi-uw"
-      },
-      {
-        "ad": "Galatasaray-Gençlerbirliği | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "10 kez \"macko\" geçti (22.11.2025)",
-        "emoji": "⚽",
-        "slug": "galatasaray-genclerbirligi-mac-sonu-degerlendirm"
-      },
-      {
-        "ad": "Beşiktaş-Başakşehir FK | Maç Sonu Değerlendirmesi | Sizden Gelen Sorul",
-        "not": "10 kez \"macko\" geçti (13.09.2025)",
-        "emoji": "⚽",
-        "slug": "besiktas-basaksehir-fk-mac-sonu-degerlendirmesi-"
-      },
-      {
-        "ad": "Monaco-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "9 kez \"macko\" geçti (09.12.2025)",
-        "emoji": "⚽",
-        "slug": "monaco-galatasaray-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Göztepe-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "9 kez \"macko\" geçti (08.04.2026)",
-        "emoji": "⚽",
-        "slug": "goztepe-galatasaray-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Beşiktaş-Kayserispor | Maç Sonu Değerlendirmesi\n20260119|7686|284090|s",
-        "not": "9 kez \"macko\" geçti (19.01.2026)",
-        "emoji": "⚽",
-        "slug": "besiktas-kayserispor-mac-sonu-degerlendirmesi-20"
-      },
-      {
-        "ad": "Gençlerbirliği-Beşiktaş | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"macko\" geçti (15.03.2026)",
-        "emoji": "⚽",
-        "slug": "genclerbirligi-besiktas-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Galatasaray-Karagümrük | Maç Sonu Değerlendirmesi | 2026 Formalar Uwuf",
-        "not": "8 kez \"macko\" geçti (15.08.2025)",
-        "emoji": "⚽",
-        "slug": "galatasaray-karagumruk-mac-sonu-degerlendirmesi-"
-      },
-      {
-        "ad": "Galatasaray-Başakşehir | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"macko\" geçti (14.03.2026)",
-        "emoji": "⚽",
-        "slug": "galatasaray-basaksehir-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Samsunspor-Galatasaray, Fenerbahçe-Başakşehir, Trabzonspor-Göztepe | M",
-        "not": "8 kez \"macko\" geçti (02.05.2026)",
-        "emoji": "⚽",
-        "slug": "samsunspor-galatasaray-fenerbahce-basaksehir-tra"
-      },
-      {
-        "ad": "Beşiktaş-Trabzonspor | Maç Önü Değerlendirmesi",
-        "not": "8 kez \"macko\" geçti (09.05.2026)",
-        "emoji": "⚽",
-        "slug": "besiktas-trabzonspor-mac-onu-degerlendirmesi"
-      },
-      {
-        "ad": "Galatasaray-Kayserispor | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"macko\" geçti (01.02.2026)",
-        "emoji": "⚽",
-        "slug": "galatasaray-kayserispor-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Beşiktaş-Alanyaspor | Rizespor-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"macko\" geçti (08.02.2026)",
-        "emoji": "⚽",
-        "slug": "besiktas-alanyaspor-rizespor-galatasaray-mac-son"
-      },
-      {
-        "ad": "Benfica-Fenerbahçe | Maç Sonu Değerlendirmesi",
-        "not": "7 kez \"macko\" geçti (27.08.2025)",
-        "emoji": "⚽",
-        "slug": "benfica-fenerbahce-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Liverpool-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "7 kez \"macko\" geçti (18.03.2026)",
-        "emoji": "⚽",
-        "slug": "liverpool-galatasaray-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Trabzonspor-Fenerbahçe | Maç Önü Değerlendirmesi",
-        "not": "7 kez \"macko\" geçti (14.02.2026)",
-        "emoji": "⚽",
-        "slug": "trabzonspor-fenerbahce-mac-onu-degerlendirmesi"
-      },
-      {
-        "ad": "Fenerbahçe-Stuttgart | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "7 kez \"macko\" geçti (23.10.2025)",
-        "emoji": "⚽",
-        "slug": "fenerbahce-stuttgart-mac-sonu-degerlendirmesi-uw"
       },
       {
         "ad": "I Grubu 3. Maçlar | Maç Sonu Değerlendirmesi",
@@ -2192,10 +1504,88 @@ window.SETLER = [
         "slug": "i-grubu-3-maclar-mac-sonu-degerlendirmesi"
       },
       {
+        "ad": "Fenerbahçe-Konyaspor | Maç Sonu Değerlendirmesi | Uwufufu",
+        "not": "10 kez \"maçko\" — 15.12.2025 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "fenerbahce-konyaspor-mac-sonu-degerlendirmesi-uw"
+      },
+      {
+        "ad": "Galatasaray-Gençlerbirliği | Maç Sonu Değerlendirmesi | Uwufufu",
+        "not": "10 kez \"maçko\" — 22.11.2025 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "galatasaray-genclerbirligi-mac-sonu-degerlendirm"
+      },
+      {
+        "ad": "Beşiktaş-Başakşehir FK | Maç Sonu Değerlendirmesi | Sizden Gelen Sorul",
+        "not": "10 kez \"maçko\" — 13.09.2025 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "besiktas-basaksehir-fk-mac-sonu-degerlendirmesi-"
+      },
+      {
         "ad": "Arjantin-Avusturya | Maç Sonu Değerlendirmesi",
         "not": "10 kez geçti (22.06.2026)",
         "emoji": "⚽",
         "slug": "arjantin-avusturya-mac-sonu-degerlendirmesi"
+      },
+      {
+        "ad": "Monaco-Galatasaray | Maç Sonu Değerlendirmesi",
+        "not": "9 kez \"maçko\" — 09.12.2025 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "monaco-galatasaray-mac-sonu-degerlendirmesi"
+      },
+      {
+        "ad": "Göztepe-Galatasaray | Maç Sonu Değerlendirmesi",
+        "not": "9 kez \"maçko\" — 08.04.2026 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "goztepe-galatasaray-mac-sonu-degerlendirmesi"
+      },
+      {
+        "ad": "Beşiktaş-Kayserispor | Maç Sonu Değerlendirmesi\n20260119|7686|284090|s",
+        "not": "9 kez \"maçko\" — 19.01.2026 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "besiktas-kayserispor-mac-sonu-degerlendirmesi-20"
+      },
+      {
+        "ad": "Gençlerbirliği-Beşiktaş | Maç Sonu Değerlendirmesi",
+        "not": "8 kez \"maçko\" — 15.03.2026 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "genclerbirligi-besiktas-mac-sonu-degerlendirmesi"
+      },
+      {
+        "ad": "Galatasaray-Karagümrük | Maç Sonu Değerlendirmesi | 2026 Formalar Uwuf",
+        "not": "8 kez \"maçko\" — 15.08.2025 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "galatasaray-karagumruk-mac-sonu-degerlendirmesi-"
+      },
+      {
+        "ad": "Galatasaray-Başakşehir | Maç Sonu Değerlendirmesi",
+        "not": "8 kez \"maçko\" — 14.03.2026 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "galatasaray-basaksehir-mac-sonu-degerlendirmesi"
+      },
+      {
+        "ad": "Samsunspor-Galatasaray, Fenerbahçe-Başakşehir, Trabzonspor-Göztepe | M",
+        "not": "8 kez \"maçko\" — 02.05.2026 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "samsunspor-galatasaray-fenerbahce-basaksehir-tra"
+      },
+      {
+        "ad": "Beşiktaş-Trabzonspor | Maç Önü Değerlendirmesi",
+        "not": "8 kez \"maçko\" — 09.05.2026 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "besiktas-trabzonspor-mac-onu-degerlendirmesi"
+      },
+      {
+        "ad": "Galatasaray-Kayserispor | Maç Sonu Değerlendirmesi",
+        "not": "8 kez \"maçko\" — 01.02.2026 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "galatasaray-kayserispor-mac-sonu-degerlendirmesi"
+      },
+      {
+        "ad": "Beşiktaş-Alanyaspor | Rizespor-Galatasaray | Maç Sonu Değerlendirmesi",
+        "not": "8 kez \"maçko\" — 08.02.2026 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "besiktas-alanyaspor-rizespor-galatasaray-mac-son"
       },
       {
         "ad": "HTalks ile 2024'e Veda | Yılın En Akılda Kalanları",
@@ -2204,118 +1594,34 @@ window.SETLER = [
         "slug": "htalks-ile-2024-e-veda-yilin-en-akilda-kalanlari"
       },
       {
+        "ad": "Benfica-Fenerbahçe | Maç Sonu Değerlendirmesi",
+        "not": "7 kez \"maçko\" — 27.08.2025 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "benfica-fenerbahce-mac-sonu-degerlendirmesi"
+      },
+      {
+        "ad": "Liverpool-Galatasaray | Maç Sonu Değerlendirmesi",
+        "not": "7 kez \"maçko\" — 18.03.2026 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "liverpool-galatasaray-mac-sonu-degerlendirmesi"
+      },
+      {
+        "ad": "Trabzonspor-Fenerbahçe | Maç Önü Değerlendirmesi",
+        "not": "7 kez \"maçko\" — 14.02.2026 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "trabzonspor-fenerbahce-mac-onu-degerlendirmesi"
+      },
+      {
+        "ad": "Fenerbahçe-Stuttgart | Maç Sonu Değerlendirmesi | Uwufufu",
+        "not": "7 kez \"maçko\" — 23.10.2025 yayınında arşiv zirvesi.",
+        "emoji": "⚽",
+        "slug": "fenerbahce-stuttgart-mac-sonu-degerlendirmesi-uw"
+      },
+      {
         "ad": "İspanya-Portekiz | Maç Sonu Değerlendirmesi",
         "not": "6 kez geçti (06.07.2026)",
         "emoji": "⚽",
         "slug": "ispanya-portekiz-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Gündem Yayını | Nathan Ake, Transferde Son Gelişmeler, Kalan Son 32 Ma",
-        "not": "5 kez geçti (03.07.2026)",
-        "emoji": "🎙️",
-        "slug": "gundem-yayini-nathan-ake-transferde-son-gelismel"
-      },
-      {
-        "ad": "E Grubu 3. Maçlar | Maç Sonu Değerlendirmesi",
-        "not": "5 kez geçti (25.06.2026)",
-        "emoji": "⚽",
-        "slug": "e-grubu-3-maclar-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Türkiye - Paraguay Maç Sonu",
-        "not": "5 kez geçti (20.06.2026)",
-        "emoji": "⚽",
-        "slug": "turkiye-paraguay-mac-sonu"
-      },
-      {
-        "ad": "Belçika-Mısır | Maç Sonu Değerlendirmesi, Kelon d'Or Ödülü",
-        "not": "5 kez geçti (15.06.2026)",
-        "emoji": "⚽",
-        "slug": "belcika-misir-mac-sonu-degerlendirmesi-kelon-d-o"
-      },
-      {
-        "ad": "Meksika-Güney Afrika | Maç Sonu Değerlendirmesi, Açılış Şovu, Uwufufu",
-        "not": "5 kez geçti (11.06.2026)",
-        "emoji": "⚽",
-        "slug": "meksika-guney-afrika-mac-sonu-degerlendirmesi-ac"
-      },
-      {
-        "ad": "Paraguay-Fransa | Maç Sonu Değerlendirmesi",
-        "not": "4 kez geçti (04.07.2026)",
-        "emoji": "⚽",
-        "slug": "paraguay-fransa-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Katar-İsviçre | Maç Sonu Değerlendirmesi, Türkiye Maç Önü",
-        "not": "4 kez geçti (13.06.2026)",
-        "emoji": "⚽",
-        "slug": "katar-isvicre-mac-sonu-degerlendirmesi-turkiye-m"
-      },
-      {
-        "ad": "İngiltere-D.Kongo | Maç Sonu Değerlendirmesi",
-        "not": "3 kez geçti (01.07.2026)",
-        "emoji": "⚽",
-        "slug": "ingiltere-d-kongo-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "B Grubu 3. Maçlar | Maç Sonu Değerlendirmesi",
-        "not": "3 kez geçti (24.06.2026)",
-        "emoji": "⚽",
-        "slug": "b-grubu-3-maclar-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Hollanda-İsveç | Maç Sonu Değerlendirmesi, Türkiye Neden Elendi?",
-        "not": "3 kez geçti (20.06.2026)",
-        "emoji": "⚽",
-        "slug": "hollanda-isvec-mac-sonu-degerlendirmesi-turkiye-"
-      },
-      {
-        "ad": "Türkiye-Avustralya | Maç Sonu Değerlendirmesi",
-        "not": "3 kez geçti (14.06.2026)",
-        "emoji": "⚽",
-        "slug": "turkiye-avustralya-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "En İyi Atıştırmalık? #Seçiyoruz",
-        "not": "3 kez geçti (13.03.2024)",
-        "emoji": "📺",
-        "slug": "en-iyi-atistirmalik-seciyoruz"
-      },
-      {
-        "ad": "Arjantin-Mısır | Maç Sonu Değerlendirmesi",
-        "not": "2 kez geçti (07.07.2026)",
-        "emoji": "⚽",
-        "slug": "arjantin-misir-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Türkiye - ABD Maç Sonu",
-        "not": "2 kez geçti (26.06.2026)",
-        "emoji": "⚽",
-        "slug": "turkiye-abd-mac-sonu"
-      },
-      {
-        "ad": "İspanya-Avusturya | Maç Sonu Değerlendirmesi",
-        "not": "2 kez geçti (02.07.2026)",
-        "emoji": "⚽",
-        "slug": "ispanya-avusturya-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "İngiltere-Gana | Maç Sonu Değerlendirmesi",
-        "not": "2 kez geçti (23.06.2026)",
-        "emoji": "⚽",
-        "slug": "ingiltere-gana-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Brezilya-Norveç | Maç Sonu Değerlendirmesi",
-        "not": "2 kez geçti (05.07.2026)",
-        "emoji": "⚽",
-        "slug": "brezilya-norvec-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Güney Afrika-Kanada | Maç Sonu Değerlendirmesi",
-        "not": "2 kez geçti (28.06.2026)",
-        "emoji": "⚽",
-        "slug": "guney-afrika-kanada-mac-sonu-degerlendirmesi"
       },
       {
         "ad": "Gündem Yayını | Transferde Son Gelişmeler, Grup Tahminleriyle Yüzleşme",
@@ -2330,494 +1636,16 @@ window.SETLER = [
         "slug": "galatasaray-basaksehir-fk-mac-sonu-degerlendirme"
       },
       {
-        "ad": "Beşiktaş, Jose Mourinho, Gülse Birsel | Harman 23. Bölüm | Erman Yaşar",
-        "not": "4 kez geçti (21.10.2024)",
-        "emoji": "📺",
-        "slug": "besiktas-jose-mourinho-gulse-birsel-harman-23-bo"
+        "ad": "Gündem Yayını | Nathan Ake, Transferde Son Gelişmeler, Kalan Son 32 Ma",
+        "not": "5 kez geçti (03.07.2026)",
+        "emoji": "🎙️",
+        "slug": "gundem-yayini-nathan-ake-transferde-son-gelismel"
       },
       {
-        "ad": "Osimhen, Şenol Güneş, Milli Ara, Ancelotti | Harman 17. Bölüm | Erman ",
-        "not": "4 kez geçti (02.09.2024)",
-        "emoji": "📺",
-        "slug": "osimhen-senol-gunes-milli-ara-ancelotti-harman-1"
-      },
-      {
-        "ad": "Leroy Sane Özel Yayını | Canlı Uçak Takip",
-        "not": "4 kez geçti (11.06.2025)",
-        "emoji": "📺",
-        "slug": "leroy-sane-ozel-yayini-canli-ucak-takip"
-      },
-      {
-        "ad": "Başakşehir FK-Galatasaray | Beşiktaş-Gençlerbirliği | Maç Sonu Değerle",
-        "not": "3 kez geçti (18.10.2025)",
+        "ad": "E Grubu 3. Maçlar | Maç Sonu Değerlendirmesi",
+        "not": "5 kez geçti (25.06.2026)",
         "emoji": "⚽",
-        "slug": "basaksehir-fk-galatasaray-besiktas-genclerbirlig"
-      },
-      {
-        "ad": "Samsunspor-Fenerbahçe | Maç Sonu Değerlendirmesi | Trabzonspor Değerle",
-        "not": "3 kez geçti (05.10.2025)",
-        "emoji": "⚽",
-        "slug": "samsunspor-fenerbahce-mac-sonu-degerlendirmesi-t"
-      },
-      {
-        "ad": "Şampiyon Galatasaray, Gökhan Kırdar, Epilasyon | Harman 92. Bölüm | Er",
-        "not": "3 kez geçti (11.05.2026)",
-        "emoji": "📺",
-        "slug": "sampiyon-galatasaray-gokhan-kirdar-epilasyon-har"
-      },
-      {
-        "ad": "Aziz Yıldırım vs. Ali Koç | Yüzleşme Sonrası Değerlendirme",
-        "not": "2 kez geçti (08.06.2024)",
-        "emoji": "📺",
-        "slug": "aziz-yildirim-vs-ali-koc-yuzlesme-sonrasi-degerl"
-      },
-      {
-        "ad": "H-TALK SHOW: UMUT NAYİR",
-        "not": "2 kez geçti (16.10.2022)",
-        "emoji": "⚽",
-        "slug": "h-talk-show-umut-nayir"
-      },
-      {
-        "ad": "Brann-Fenerbahçe | Maç Önü Değerlendirmesi",
-        "not": "2 kez geçti (11.12.2025)",
-        "emoji": "⚽",
-        "slug": "brann-fenerbahce-mac-onu-degerlendirmesi"
-      },
-      {
-        "ad": "En İyi Tatlı? #Seçiyoruz",
-        "not": "2 kez geçti (31.03.2024)",
-        "emoji": "📺",
-        "slug": "en-iyi-tatli-seciyoruz"
-      },
-      {
-        "ad": "19 Mayıs, Metin Diyadin, Dünya Kupası Konseri | Harman 93. Bölüm | Erm",
-        "not": "2 kez geçti (18.05.2026)",
-        "emoji": "📺",
-        "slug": "19-mayis-metin-diyadin-dunya-kupasi-konseri-harm"
-      },
-      {
-        "ad": "HTalks Videocast | Benim Hocam Bielsa #6 | Sakatat, En İyi Cipsler, Es",
-        "not": "2 kez geçti (10.11.2023)",
-        "emoji": "📺",
-        "slug": "htalks-videocast-benim-hocam-bielsa-6-sakatat-en"
-      },
-      {
-        "ad": "Arda Güler, Brezilyalı Falcı, Dua Lipa, Heimlich | Harman 99. Bölüm | ",
-        "not": "2 kez geçti (26.06.2026)",
-        "emoji": "📺",
-        "slug": "arda-guler-brezilyali-falci-dua-lipa-heimlich-ha"
-      },
-      {
-        "ad": "HTALKS EN GÜÇLÜ HAYVANI  SEÇİYOR (1VS1’DE KİM ALIR)|UWUFUFU #Seçiyoruz",
-        "not": "2 kez geçti (28.02.2026)",
-        "emoji": "📺",
-        "slug": "htalks-en-guclu-hayvani-seciyor-1vs1-de-kim-alir"
-      },
-      {
-        "ad": "FM 26 Journeyman S1B3 | \"BEN OLMAYINCA\"",
-        "not": "2 kez geçti (21.11.2025)",
-        "emoji": "📺",
-        "slug": "fm-26-journeyman-s1b3-ben-olmayinca"
-      },
-      {
-        "ad": "Kasımpaşa - Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "2 kez geçti (17.03.2024)",
-        "emoji": "⚽",
-        "slug": "kasimpasa-galatasaray-mac-sonu-degerlendirmesi"
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "kategori": "futbolcu",
-    "katAd": "Futbol",
-    "tema": "Futbolcu: Genç Yetenekler & Sert Yorumlar Turnuvası",
-    "soru": "Yıldızı erken parlayan genç yetenekler ve HTalks'ın sert yorumlarına hedef olanlar. Sence hangisi daha akılda kalıcı?",
-    "tip": "bracket",
-    "adaylar": [
-      {
-        "ad": "Arda Güler",
-        "not": "Genç yaşta Fenerbahçe'den Real Madrid'e transferiyle abartılı övgülerin odağı oldu.",
-        "emoji": "🎯",
-        "slug": "arda-guler"
-      },
-      {
-        "ad": "Kenan Yıldız",
-        "not": "Juventus altyapısından A takıma yükselişiyle 'gelecek yıldızı' etiketini erken aldı.",
-        "emoji": "⚽",
-        "slug": "kenan-yildiz"
-      },
-      {
-        "ad": "Semih Kılıçsoy",
-        "not": "BJK altyapısından çıkıp genç yaşta A takımda forma şansı bulunca çok konuşuldu.",
-        "emoji": "🥅",
-        "slug": "semih-kilicsoy"
-      },
-      {
-        "ad": "Yusuf Akçiçek",
-        "not": "Genç yaşta savunmadaki performansıyla erken övgü topladı.",
-        "emoji": "🛡️",
-        "slug": "yusuf-akcicek"
-      },
-      {
-        "ad": "Ahmed Kutucu",
-        "not": "GS altyapısından yükselen, kısa sürede çok konuşulan santrfor adayı.",
-        "emoji": "🥅",
-        "slug": "ahmed-kutucu"
-      },
-      {
-        "ad": "Efe Akman",
-        "not": "Genç kaleci olarak erken yaşta ilgi gören isimlerden.",
-        "emoji": "🧤",
-        "slug": "efe-akman"
-      },
-      {
-        "ad": "Deniz Gül",
-        "not": "Genç yaşta gösterdiği performansla adından söz ettirdi.",
-        "emoji": "⚽",
-        "slug": "deniz-gul"
-      },
-      {
-        "ad": "Berkan Kutlu",
-        "not": "Genç yaşta orta sahadaki oyun okumasıyla övgü topladı.",
-        "emoji": "🎯",
-        "slug": "berkan-kutlu"
-      },
-      {
-        "ad": "Yiğit Efe Demir",
-        "not": "GS altyapısından çıkan, erken yaşta A takım fırsatı bulan savunmacı.",
-        "emoji": "🛡️",
-        "slug": "yigit-efe-demir"
-      },
-      {
-        "ad": "Tayyip Talha Sanuç",
-        "not": "GS'nin genç kalecisi olarak erken dönemde umut vaat etti.",
-        "emoji": "🧤",
-        "slug": "tayyip-talha-sanuc"
-      },
-      {
-        "ad": "Levent Mercan",
-        "not": "Genç yaşta BJK'de forma şansı bulan savunma oyuncusu.",
-        "emoji": "🛡️",
-        "slug": "levent-mercan"
-      },
-      {
-        "ad": "Eren Elmalı",
-        "not": "BJK altyapısından yükselen sol bek olarak dikkat çekti.",
-        "emoji": "🛡️",
-        "slug": "eren-elmali"
-      },
-      {
-        "ad": "Bertuğ Yıldırım",
-        "not": "Genç yaşta BJK formasıyla attığı gollerle övgü topladı.",
-        "emoji": "🥅",
-        "slug": "bertug-yildirim"
-      },
-      {
-        "ad": "Metehan Baltacı",
-        "not": "GS altyapısından çıkan, orta saha yeteneğiyle övülen genç isim.",
-        "emoji": "🎯",
-        "slug": "metehan-baltaci"
-      },
-      {
-        "ad": "Emirhan Topçu",
-        "not": "Genç yaşta savunmadaki istikrarıyla dikkat çekti.",
-        "emoji": "🛡️",
-        "slug": "emirhan-topcu"
-      },
-      {
-        "ad": "Salih Özcan",
-        "not": "Genç yaşta Almanya'ya transferiyle 'iyi yetişti' övgüsü aldı.",
-        "emoji": "🎯",
-        "slug": "salih-ozcan"
-      },
-      {
-        "ad": "Orkun Kökçü",
-        "not": "Feyenoord'da genç yaşta kaptanlık bandı takmasıyla övgü topladı.",
-        "emoji": "🎯",
-        "slug": "orkun-kokcu"
-      },
-      {
-        "ad": "Ferdi Kadıoğlu",
-        "not": "Genç yaşta Fenerbahçe altyapısından yükselişiyle konuşuldu.",
-        "emoji": "🛡️",
-        "slug": "ferdi-kadioglu"
-      },
-      {
-        "ad": "Barış Alper Yılmaz",
-        "not": "Genç yaşta hız ve enerjisiyle övgü toplayan kanat oyuncusu.",
-        "emoji": "⚽",
-        "slug": "baris-alper-yilmaz"
-      },
-      {
-        "ad": "Yunus Akgün",
-        "not": "Genç yaşta gösterdiği performansla milli takıma kadar yükseldi.",
-        "emoji": "⚽",
-        "slug": "yunus-akgun"
-      },
-      {
-        "ad": "Ali Akman",
-        "not": "Genç yaşta İtalya'ya transferiyle büyük beklenti yarattı.",
-        "emoji": "🥅",
-        "slug": "ali-akman"
-      },
-      {
-        "ad": "Emin Bayram",
-        "not": "GS altyapısından çıkan, genç yaşta forma şansı bulan orta saha oyuncusu.",
-        "emoji": "🎯",
-        "slug": "emin-bayram"
-      },
-      {
-        "ad": "Cengiz Ünder (2016-17 dönemi)",
-        "not": "Genç yaşta Başakşehir'deki performansıyla büyük övgü toplayıp Roma'ya transfer oldu.",
-        "emoji": "⚽",
-        "slug": "cengiz-under-2016-17-donemi"
-      },
-      {
-        "ad": "Enes Ünal (erken kariyer)",
-        "not": "Genç yaşta gösterdiği gol yeteneğiyle Avrupa'nın radarına erken girdi.",
-        "emoji": "🥅",
-        "slug": "enes-unal-erken-kariyer"
-      },
-      {
-        "ad": "Taylan Antalyalı (erken kariyer)",
-        "not": "Genç yaşta orta sahadaki enerjisiyle övgü topladı.",
-        "emoji": "🎯",
-        "slug": "taylan-antalyali-erken-kariyer"
-      },
-      {
-        "ad": "Oğuz Aydın",
-        "not": "Genç yaşta Fenerbahçe formasıyla dikkat çeken kanat oyuncusu.",
-        "emoji": "⚽",
-        "slug": "oguz-aydin"
-      },
-      {
-        "ad": "Mert Müldür (erken kariyer)",
-        "not": "Genç yaşta Sassuolo'ya transferiyle 'iyi yetişti' övgüsü aldı.",
-        "emoji": "🛡️",
-        "slug": "mert-muldur-erken-kariyer"
-      },
-      {
-        "ad": "İsmail Yüksek",
-        "not": "Genç yaşta FB altyapısından yükselen orta saha oyuncusu.",
-        "emoji": "🎯",
-        "slug": "ismail-yuksek"
-      },
-      {
-        "ad": "Hamza Akman",
-        "not": "Genç yaşta savunmadaki performansıyla övgü toplayan isim.",
-        "emoji": "🛡️",
-        "slug": "hamza-akman"
-      },
-      {
-        "ad": "Doğukan Sinik",
-        "not": "Genç yaşta hızıyla dikkat çeken kanat oyuncusu.",
-        "emoji": "⚽",
-        "slug": "dogukan-sinik"
-      },
-      {
-        "ad": "Radamel Falcao",
-        "not": "GS'deki sakatlık dönemi sonrası beklenen performansı gösterememesi eleştiri konusu oldu.",
-        "emoji": "🥅",
-        "slug": "radamel-falcao"
-      },
-      {
-        "ad": "Papiss Cisse",
-        "not": "BJK formasıyla geçirdiği kısa ve düşük performanslı dönem hafızalarda kaldı.",
-        "emoji": "🥅",
-        "slug": "papiss-cisse"
-      },
-      {
-        "ad": "Roberto Soldado",
-        "not": "BJK'deki gol sıkıntısı taraftar ve yorumcuların ortak şikayeti oldu.",
-        "emoji": "🥅",
-        "slug": "roberto-soldado"
-      },
-      {
-        "ad": "Jose Sosa",
-        "not": "GS'deki bazı maçlarda enerjisiz görüntüsü eleştiri konusu oldu.",
-        "emoji": "🎯",
-        "slug": "jose-sosa"
-      },
-      {
-        "ad": "Younes Belhanda",
-        "not": "GS'de sahadaki tempo ve motivasyon eksikliğiyle özdeşleşen klasik bir eleştiri figürü.",
-        "emoji": "🎯",
-        "slug": "younes-belhanda"
-      },
-      {
-        "ad": "Adem Ljajic",
-        "not": "GS'deki disiplin ve konsantrasyon sorunları sık sık gündeme geldi.",
-        "emoji": "⚽",
-        "slug": "adem-ljajic"
-      },
-      {
-        "ad": "Max Kruse",
-        "not": "FB'de performans dalgalanmaları ve disiplin haberleriyle eleştirildi.",
-        "emoji": "🥅",
-        "slug": "max-kruse"
-      },
-      {
-        "ad": "Rachid Ghezzal",
-        "not": "BJK'deki formsuz dönemi taraftarı çileden çıkardı.",
-        "emoji": "⚽",
-        "slug": "rachid-ghezzal"
-      },
-      {
-        "ad": "Nabil Fekir",
-        "not": "BJK'de sakatlık ve süreklilik sorunları nedeniyle eleştirildi.",
-        "emoji": "🎯",
-        "slug": "nabil-fekir"
-      },
-      {
-        "ad": "Mesut Özil",
-        "not": "FB'deki kariyerinin son evresinde fiziksel durum ve performans tartışması yaşandı.",
-        "emoji": "🎯",
-        "slug": "mesut-ozil"
-      },
-      {
-        "ad": "Wesley Sneijder",
-        "not": "GS'de kariyerinin son yıllarında beklenen katkıyı verememesi eleştirildi.",
-        "emoji": "🎯",
-        "slug": "wesley-sneijder"
-      },
-      {
-        "ad": "Mario Gomez",
-        "not": "GS'deki sakatlık dönemi sonrası gol üretimindeki düşüş eleştiri konusu oldu.",
-        "emoji": "🥅",
-        "slug": "mario-gomez"
-      },
-      {
-        "ad": "Alex Teixeira",
-        "not": "BJK'ye geldiği dönemde beklenen yıldızlaşmayı gösterememesi eleştirildi.",
-        "emoji": "⚽",
-        "slug": "alex-teixeira"
-      },
-      {
-        "ad": "Loris Karius",
-        "not": "BJK'deki kalecilik performansı zaman zaman sert eleştiri aldı.",
-        "emoji": "🧤",
-        "slug": "loris-karius"
-      },
-      {
-        "ad": "Domagoj Vida",
-        "not": "BJK'de savunmadaki konsantrasyon hataları tepki çekti.",
-        "emoji": "🛡️",
-        "slug": "domagoj-vida"
-      },
-      {
-        "ad": "Luiz Gustavo",
-        "not": "FB'deki sakatlık ve performans dönemi eleştiri konusu oldu.",
-        "emoji": "🎯",
-        "slug": "luiz-gustavo"
-      },
-      {
-        "ad": "Gustavo Henrique",
-        "not": "FB'de savunmadaki hatalar zaman zaman eleştirildi.",
-        "emoji": "🛡️",
-        "slug": "gustavo-henrique"
-      },
-      {
-        "ad": "Serdar Aziz",
-        "not": "Milli takım ve kulüp performansında zaman zaman sert eleştirilerin hedefi oldu.",
-        "emoji": "🛡️",
-        "slug": "serdar-aziz"
-      },
-      {
-        "ad": "Caner Erkin",
-        "not": "Disiplinsizlik haberleri ve sahadaki tepkileriyle sık sık eleştiri konusu oldu.",
-        "emoji": "🛡️",
-        "slug": "caner-erkin"
-      },
-      {
-        "ad": "Arda Turan",
-        "not": "Kariyerinin son döneminde sahadaki ve saha dışındaki tartışmalarla gündeme geldi.",
-        "emoji": "⚽",
-        "slug": "arda-turan"
-      },
-      {
-        "ad": "Volkan Demirel (TD)",
-        "not": "Antalyaspor'daki teknik direktörlük döneminde sonuç odaklı sert eleştiriler aldı.",
-        "emoji": "📋",
-        "slug": "volkan-demirel-td"
-      },
-      {
-        "ad": "Şenol Güneş (TD)",
-        "not": "Milli takım döneminde bazı maç sonrası taktik tercihleri tartışıldı.",
-        "emoji": "📋",
-        "slug": "senol-gunes-td"
-      },
-      {
-        "ad": "Vitor Pereira (TD)",
-        "not": "FB'deki bazı maçlardaki rotasyon ve taktik tercihleri eleştirildi.",
-        "emoji": "📋",
-        "slug": "vitor-pereira-td"
-      },
-      {
-        "ad": "Jorge Jesus (TD)",
-        "not": "FB'deki ikinci döneminde beklenti-performans farkı nedeniyle eleştirildi.",
-        "emoji": "📋",
-        "slug": "jorge-jesus-td"
-      },
-      {
-        "ad": "Okan Buruk (TD)",
-        "not": "Bazı Avrupa maçlarındaki taktik tercihleri tartışma yarattı.",
-        "emoji": "📋",
-        "slug": "okan-buruk-td"
-      },
-      {
-        "ad": "İrfan Can Kahveci",
-        "not": "Form dalgalanmaları dönem dönem eleştiri konusu oldu.",
-        "emoji": "🎯",
-        "slug": "irfan-can-kahveci"
-      },
-      {
-        "ad": "Cengiz Ünder",
-        "not": "Sakatlık sonrası dönemde eski performansını gösterememesi eleştirildi.",
-        "emoji": "⚽",
-        "slug": "cengiz-under"
-      },
-      {
-        "ad": "Rodrigo Becao",
-        "not": "FB'de savunmadaki konsantrasyon hataları sert yorumlara neden oldu.",
-        "emoji": "🛡️",
-        "slug": "rodrigo-becao"
-      },
-      {
-        "ad": "Dusan Tadic",
-        "not": "FB'ye geldiği ilk sezonda beklenen liderlik katkısını tam gösterememesi tartışıldı.",
-        "emoji": "🎯",
-        "slug": "dusan-tadic"
-      },
-      {
-        "ad": "Dries Mertens",
-        "not": "Yaşı nedeniyle başta şüpheyle karşılanıp sonra üstün performansla sevildi.",
-        "emoji": "🥅",
-        "slug": "dries-mertens"
-      },
-      {
-        "ad": "Edin Dzeko",
-        "not": "Kariyerinin geç döneminde transfer edilmesi eleştirilip sonra gol katkısıyla takdir topladı.",
-        "emoji": "🥅",
-        "slug": "edin-dzeko"
-      },
-      {
-        "ad": "Fatih Terim",
-        "not": "Defalarca 'kurtarıcı' olarak görülüp sonraki dönemlerde eleştiri hedefi oldu.",
-        "emoji": "⚽",
-        "slug": "fatih-terim"
-      },
-      {
-        "ad": "Emre Belözoğlu",
-        "not": "Oyuncu olarak sevilip teknik direktörlük döneminde eleştiri aldı.",
-        "emoji": "📋",
-        "slug": "emre-belozoglu"
-      },
-      {
-        "ad": "Falcao",
-        "not": "Geldiğinde büyük heyecan yaratıp sakatlık sonrası dönemde eleştiri topladı.",
-        "emoji": "🥅",
-        "slug": "falcao"
+        "slug": "e-grubu-3-maclar-mac-sonu-degerlendirmesi"
       }
     ]
   },
@@ -3054,400 +1882,6 @@ window.SETLER = [
       }
     ],
     "id": 14
-  },
-  {
-    "id": 15,
-    "kategori": "futbolcu",
-    "katAd": "Futbol",
-    "tema": "Futbolcu: DK-2026 Çılgın Anlar & Sürprizler Turnuvası",
-    "soru": "DK-2026'nın en çılgın maçı, kimsenin beklemediği kahramanı, sürpriz takımı — hangisi en akılda kalanı?",
-    "tip": "bracket",
-    "adaylar": [
-      {
-        "ad": "Almanya - Paraguay (Son 32)",
-        "not": "1-1 bitti, 4-3 penaltılarla Paraguay kazandı; uzatmada VAR'ın iptal ettiği gol ve teknik direktörün öfkeli tepkisiyle akıllara kazındı.",
-        "emoji": "🇩🇪🇵🇾",
-        "slug": "almanya-paraguay-son-32"
-      },
-      {
-        "ad": "Hollanda - Fas (Son 32)",
-        "not": "1-1 bitti, 3-2 penaltılarla Fas kazandı; seride kalecinin kurtardığı topu kendi kalesine sokması sahneyi komediye çevirdi.",
-        "emoji": "🇳🇱🇲🇦",
-        "slug": "hollanda-fas-son-32"
-      },
-      {
-        "ad": "Arjantin - Mısır (Son 16)",
-        "not": "Arjantin 2 gol geriden gelip 3-2 kazandı; iptal edilen gol ve verilmeyen penaltı yüzünden Mısır resmi şikayette bulundu.",
-        "emoji": "🇦🇷🇪🇬",
-        "slug": "arjantin-misir-son-16"
-      },
-      {
-        "ad": "Arjantin - Cape Verde (Son 32)",
-        "not": "Dünya şampiyonu Arjantin, debütant Cape Verde'yi ancak uzatmalarda 3-2 geçebildi.",
-        "emoji": "🇦🇷🇨🇻",
-        "slug": "arjantin-cape-verde-son-32"
-      },
-      {
-        "ad": "Norveç - Brezilya (Son 16)",
-        "not": "Favori Brezilya'yı 2-1 mağlup eden Norveç, 28 yıl sonra döndüğü turnuvada tarih yazdı.",
-        "emoji": "🇳🇴🇧🇷",
-        "slug": "norvec-brezilya-son-16"
-      },
-      {
-        "ad": "ABD - Belçika (Son 16)",
-        "not": "Ev sahibi ABD 1-4 mağlup oldu; kalecinin devasa hatasıyla gelen gol sosyal medyayı salladı.",
-        "emoji": "🇺🇸🇧🇪",
-        "slug": "abd-belcika-son-16"
-      },
-      {
-        "ad": "Kanada - Katar (Grup)",
-        "not": "6-0'lık skorla Kanada tarihinin ilk Dünya Kupası galibiyetini aldı; ev sahibi coşkusu zirve yaptı.",
-        "emoji": "🇨🇦🇶🇦",
-        "slug": "kanada-katar-grup"
-      },
-      {
-        "ad": "Almanya - Curaçao (Grup)",
-        "not": "Almanya 7-1 kazandı ama birkaç hafta sonra kendisi Paraguay'a elenince bu skor ironik bir şekilde yeniden gündeme geldi.",
-        "emoji": "🇩🇪🇨🇼",
-        "slug": "almanya-curacao-grup"
-      },
-      {
-        "ad": "Avustralya - Türkiye (Grup)",
-        "not": "2-0'lık sürpriz galibiyetle başlayan Avustralya'nın maçı, Türk taraftar için turnuvanın en acı 90 dakikasıydı.",
-        "emoji": "🇦🇺🇹🇷",
-        "slug": "avustralya-turkiye-grup"
-      },
-      {
-        "ad": "Curaçao - Ekvador (Grup)",
-        "not": "0-0 biten maçta Curaçao kalecisi Eloy Room'un 15 kurtarışı, favori Ekvador'u çaresiz bıraktı.",
-        "emoji": "🇨🇼🇪🇨",
-        "slug": "curacao-ekvador-grup"
-      },
-      {
-        "ad": "Fransa - Paraguay (Son 16)",
-        "not": "Mbappé'nin, Doué'nin kazandırdığı penaltıdan attığı golle Fransa kazandı; Paraguay'ın dev avcılığı burada sona erdi.",
-        "emoji": "🇫🇷🇵🇾",
-        "slug": "fransa-paraguay-son-16"
-      },
-      {
-        "ad": "İsviçre - Arjantin (Çeyrek Final)",
-        "not": "3-1'lik skor uzatmalarda geldi; İsviçre için 72 yıllık bir bekleyişin sonuydu.",
-        "emoji": "🇨🇭🇦🇷",
-        "slug": "isvicre-arjantin-ceyrek-final"
-      },
-      {
-        "ad": "Belçika - Senegal (Grup/Son 32)",
-        "not": "Hakemin sahaya gidip tekrar izlediği pozisyon yüzünden VAR incelemesi 7 dakikayı buldu; penaltı kararı büyük tartışma yarattı.",
-        "emoji": "🇧🇪🇸🇳",
-        "slug": "belcika-senegal-grup-son-32"
-      },
-      {
-        "ad": "İngiltere - Norveç (Çeyrek Final)",
-        "not": "2-1'lik skorla Norveç'in rüya koşusunu bitiren maç, iki tarafın da yıldızlarının (Bellingham - Haaland) düellosuna sahne oldu.",
-        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿🇳🇴",
-        "slug": "ingiltere-norvec-ceyrek-final"
-      },
-      {
-        "ad": "Mısır - Avustralya (Son 32)",
-        "not": "Penaltılara giden bu maçla Mısır, 1934'ten beri ilk kez son 16'ya yükseldi.",
-        "emoji": "🇪🇬🇦🇺",
-        "slug": "misir-avustralya-son-32"
-      },
-      {
-        "ad": "Ali Koç Olayı (Göztepe-Fenerbahçe bölümü)",
-        "not": "Maç sonu değerlendirmesi sırasında başkanlık gündemiyle ilgili tartışma canlı yayına damga vurdu.",
-        "emoji": "🗣️",
-        "slug": "ali-koc-olayi-goztepe-fenerbahce-bolumu"
-      },
-      {
-        "ad": "Survivor Nagehan Olayı / Böcekler (Gaziantep FK-Fenerbahçe bölümü)",
-        "not": "Yayın sırasında yaşanan ilginç anlar bölüm başlığına kadar girdi.",
-        "emoji": "🐛",
-        "slug": "survivor-nagehan-olayi-bocekler-gaziantep-fk-fen"
-      },
-      {
-        "ad": "Konyaspor Maçı Kavgaları, Islıklar, İstifalar (BJK-Konyaspor bölümü)",
-        "not": "Gerilimli bir maç sonrası yayın, format tarihinin en gergin bölümlerinden biri oldu.",
-        "emoji": "😡",
-        "slug": "konyaspor-maci-kavgalari-isliklar-istifalar-bjk-"
-      },
-      {
-        "ad": "Seçim Akşamı Özel Yayını",
-        "not": "Normal spor içeriğinin dışına çıkılan, seçim gündeminin konuşulduğu özel bir yayın.",
-        "emoji": "🗳️",
-        "slug": "secim-aksami-ozel-yayini"
-      },
-      {
-        "ad": "En Yakışıklı Erkek Uwufufu Gündem Yayını",
-        "not": "Format dışı, tamamen eğlenceye yönelik bir gündem bölümü.",
-        "emoji": "😎",
-        "slug": "en-yakisikli-erkek-uwufufu-gundem-yayini"
-      },
-      {
-        "ad": "CL Canlı Takip VAR Kayıtları Muhabbeti",
-        "not": "Şampiyonlar Ligi maçları canlı takip edilirken VAR kararları üzerine uzun tartışmalar yaşandı.",
-        "emoji": "📺",
-        "slug": "cl-canli-takip-var-kayitlari-muhabbeti"
-      },
-      {
-        "ad": "Biz Yokken Neler Oldu Gündem Bölümü",
-        "not": "Ekibin bir süre yayında olmadığı dönemin ardından geçmişi değerlendirdiği özel bölüm.",
-        "emoji": "📰",
-        "slug": "biz-yokken-neler-oldu-gundem-bolumu"
-      },
-      {
-        "ad": "FM24 Kariyer Journeyman Finali",
-        "not": "Football Manager kariyer serisinin final bölümüyle Uwufufu'nun birleştiği nadir bölümlerden biri.",
-        "emoji": "🎮",
-        "slug": "fm24-kariyer-journeyman-finali"
-      },
-      {
-        "ad": "Uwufufuda Gergin Anlar (#shorts)",
-        "not": "Bracket oylaması sırasında sunucular arasında yaşanan gerginlik kısa video olarak paylaşıldı.",
-        "emoji": "😬",
-        "slug": "uwufufuda-gergin-anlar-shorts"
-      },
-      {
-        "ad": "İlk 'UWUFUFU Oynuyor' Bölümleri (#3-#8)",
-        "not": "Formatın kendisinin doğduğu, sunucuların birbirine karşı oynadığı ilk deneme bölümleri.",
-        "emoji": "🕹️",
-        "slug": "ilk-uwufufu-oynuyor-bolumleri-3-8"
-      },
-      {
-        "ad": "Zecorner Kayserispor-Galatasaray Yeni Sezon Formalar Uwufufusu",
-        "not": "Sezon başı format yeniliğiyle dikkat çeken bölüm.",
-        "emoji": "👕",
-        "slug": "zecorner-kayserispor-galatasaray-yeni-sezon-form"
-      },
-      {
-        "ad": "Galatasaray-Karagümrük 2026 Formalar Uwufufusu",
-        "not": "Gelecek sezon formalarının konuşulduğu ileri tarihli özel bölüm.",
-        "emoji": "👕",
-        "slug": "galatasaray-karagumruk-2026-formalar-uwufufusu"
-      },
-      {
-        "ad": "Taste Atlas Top 100 Yemek Uwufufusu",
-        "not": "Maç değerlendirmesiyle uluslararası bir yemek listesinin birleştiği farklı bir bölüm.",
-        "emoji": "🍽️",
-        "slug": "taste-atlas-top-100-yemek-uwufufusu"
-      },
-      {
-        "ad": "Kanada-Bosna Hersek Açılış Şovu Uwufufusu",
-        "not": "Milli takım kupa atmosferinde açılış törenini de değerlendiren özel bölüm.",
-        "emoji": "🎉",
-        "slug": "kanada-bosna-hersek-acilis-sovu-uwufufusu"
-      },
-      {
-        "ad": "Cape Verde",
-        "not": "525 bin nüfuslu ada ülkesi ilk kez finallere katıldı, gruptan çıktı ve İspanya'yı bile 0-0'da durdurdu; Arjantin'i uzatmaya götürüp gönülleri fethetti.",
-        "emoji": "🇨🇻",
-        "slug": "cape-verde"
-      },
-      {
-        "ad": "Curaçao",
-        "not": "Tarihin en küçük nüfuslu Dünya Kupası ülkesi (~150 bin); Almanya'ya 1-7 yenilmesine rağmen sonra Ekvador'u 0-0'da durdurup kalecisiyle (15 kurtarış) manşetlere çıktı.",
-        "emoji": "🇨🇼",
-        "slug": "curacao"
-      },
-      {
-        "ad": "Ürdün",
-        "not": "Ülke tarihinde ilk kez finallere katıldı, ilk Dünya Kupası golünü de attı; Orta Doğu futbolunun yeni gururu oldu.",
-        "emoji": "🇯🇴",
-        "slug": "urdun"
-      },
-      {
-        "ad": "Özbekistan",
-        "not": "Orta Asya'dan bir Dünya Kupası'na katılan ilk ülke; Kolombiya karşısında tarihi golünü attı.",
-        "emoji": "🇺🇿",
-        "slug": "ozbekistan"
-      },
-      {
-        "ad": "Norveç",
-        "not": "1998'den beri ilk kez finallere döndü, Haaland liderliğinde favori Brezilya'yı eleyip çeyrek finale kadar gitti.",
-        "emoji": "🇳🇴",
-        "slug": "norvec"
-      },
-      {
-        "ad": "Fas",
-        "not": "Hollanda'yı penaltılarla eleyip 2022'deki yarı final hikayesinin devamı gibi bir çeyrek final koşusu daha yaptı.",
-        "emoji": "🇲🇦",
-        "slug": "fas"
-      },
-      {
-        "ad": "Paraguay",
-        "not": "5 kez şampiyon Almanya'yı penaltılarla eleyip son 16'ya kadar giden 'dev avcısı' takım oldu.",
-        "emoji": "🇵🇾",
-        "slug": "paraguay"
-      },
-      {
-        "ad": "Mısır",
-        "not": "1934'ten beri ilk kez son 16'ya yükseldi; Arjantin'e karşı 2-0 öne geçip inanılmaz bir mücadele verdi.",
-        "emoji": "🇪🇬",
-        "slug": "misir"
-      },
-      {
-        "ad": "Avustralya",
-        "not": "Türkiye'yi 2-0 mağlup ederek turnuvaya patlamayla girdi, gruptan çıkıp son 32'de Mısır'a penaltılarla veda etti.",
-        "emoji": "🇦🇺",
-        "slug": "avustralya"
-      },
-      {
-        "ad": "Kanada",
-        "not": "Ev sahibi olarak tarihinin ilk Dünya Kupası galibiyetini Katar'ı 6-0 yenerek aldı, üç katılımında ilk kez son 32'ye yükseldi.",
-        "emoji": "🇨🇦",
-        "slug": "kanada"
-      },
-      {
-        "ad": "İsviçre",
-        "not": "72 yıl aradan sonra ilk kez çeyrek finale çıktı - Dünya Kupası tarihindeki en uzun çeyrek final arası rekoruydu.",
-        "emoji": "🇨🇭",
-        "slug": "isvicre"
-      },
-      {
-        "ad": "Meksika",
-        "not": "Ev sahibi olarak grup tarihinde ilk kez 3 galibiyeti 3 clean sheet'le tamamladı; hiç böylesine iddialı başlamamıştı.",
-        "emoji": "🇲🇽",
-        "slug": "meksika"
-      },
-      {
-        "ad": "ABD",
-        "not": "1930'daki ilk turnuvadan beri ilk kez gruba iki galibiyetle başladı ve grupta rekor 8 gol attı.",
-        "emoji": "🇺🇸",
-        "slug": "abd"
-      },
-      {
-        "ad": "Erling Haaland",
-        "not": "Norveç'i 28 yıl sonra döndüğü turnuvada çeyrek finale taşıdı, gol kralı yarışında zirvedeydi.",
-        "emoji": "🥅",
-        "slug": "erling-haaland"
-      },
-      {
-        "ad": "Vozinha (Cape Verde kalecisi)",
-        "not": "Turnuva istatistiklerinde başarılı çalım sayısıyla Cristiano Ronaldo'yu bile geride bırakınca viral oldu.",
-        "emoji": "🧤",
-        "slug": "vozinha-cape-verde-kalecisi"
-      },
-      {
-        "ad": "Eloy Room (Curaçao kalecisi)",
-        "not": "Ekvador karşısında yaptığı 15 kurtarışla, nüfusu 150 bin olan ülkesini maçtan puanla çıkardı.",
-        "emoji": "🧤",
-        "slug": "eloy-room-curacao-kalecisi"
-      },
-      {
-        "ad": "Livano Comenencia (Curaçao)",
-        "not": "Almanya'ya attığı eşitlik golüyle ülkesinin tüm zamanların ilk Dünya Kupası golünü kaydetti.",
-        "emoji": "⚽",
-        "slug": "livano-comenencia-curacao"
-      },
-      {
-        "ad": "Ali Olwan (Ürdün)",
-        "not": "Ülkesinin ilk Dünya Kupası katılımında, ilk Dünya Kupası golünü atan isim oldu.",
-        "emoji": "⚽",
-        "slug": "ali-olwan-urdun"
-      },
-      {
-        "ad": "Abbosbek Fayzullaev (Özbekistan)",
-        "not": "Kolombiya karşısında kafayla attığı golle Orta Asya'nın Dünya Kupası tarihindeki ilk golüne imza attı.",
-        "emoji": "⚽",
-        "slug": "abbosbek-fayzullaev-ozbekistan"
-      },
-      {
-        "ad": "Kevin Pina (Cape Verde)",
-        "not": "Uruguay'a attığı golle debütant Cape Verde'nin sürpriz koşusuna katkı verdi.",
-        "emoji": "⚽",
-        "slug": "kevin-pina-cape-verde"
-      },
-      {
-        "ad": "Nestory Irankunda (Avustralya)",
-        "not": "20 yaşında, üç savunmacıya rağmen Türkiye'ye attığı golle ülkesinin en genç Dünya Kupası golcüsü oldu.",
-        "emoji": "⚽",
-        "slug": "nestory-irankunda-avustralya"
-      },
-      {
-        "ad": "Lisandro Martínez",
-        "not": "Genelde stoperliğiyle bilinen Lisandro, Arjantin formasıyla kariyerinin ilk Dünya Kupası golünü buldu.",
-        "emoji": "🛡️",
-        "slug": "lisandro-mart-nez"
-      },
-      {
-        "ad": "Jude Bellingham",
-        "not": "Attığı gollerle İngiltere'nin 1986'dan kalma tek turnuva rekoruna ortak oldu.",
-        "emoji": "🎯",
-        "slug": "jude-bellingham"
-      },
-      {
-        "ad": "Julián Álvarez",
-        "not": "İstatistikçilerin 'Maradona'yla eşleşti' diye not düştüğü performansıyla sessiz sedasız öne çıktı.",
-        "emoji": "🥅",
-        "slug": "juli-n-lvarez"
-      },
-      {
-        "ad": "Désiré Doué",
-        "not": "Mbappé, Dembélé ve Olise gibi yıldızların gölgesinde kalmadan, Paraguay maçındaki kilit penaltıyı kazanarak Fransa'yı son 16'da kurtardı.",
-        "emoji": "⚽",
-        "slug": "d-sir-dou"
-      },
-      {
-        "ad": "Lamine Yamal",
-        "not": "18 yaşında, sakatlık endişeleriyle başladığı turnuvada İspanya'yı yarı finale taşıyan kadronun parçası oldu.",
-        "emoji": "⚽",
-        "slug": "lamine-yamal"
-      },
-      {
-        "ad": "Fas kalecisinin penaltı serisinde kendi kalesine attığı top",
-        "not": "Hollanda'ya karşı penaltı serisinde bir vuruşu kurtardıktan sonra topu topuğuyla kendi ağlarına gönderdi; anında meme malzemesi oldu.",
-        "emoji": "🙈",
-        "slug": "fas-kalecisinin-penalti-serisinde-kendi-kalesine"
-      },
-      {
-        "ad": "Matt Freese'in (ABD) Belçika maçındaki hatası",
-        "not": "Ev sahibi kalecinin pas hatası doğrudan gole dönüştü, ABD'nin son 16 hüsranının sembolü haline geldi.",
-        "emoji": "😬",
-        "slug": "matt-freese-in-abd-belcika-macindaki-hatasi"
-      },
-      {
-        "ad": "Haiti kalecisinin Kanada'ya attığı talihsiz kendi kalesi",
-        "not": "Josue Duverger'in kaleden çıkış hatası, sosyal medyada 'yılın en garip anları' listelerine girdi.",
-        "emoji": "😅",
-        "slug": "haiti-kalecisinin-kanada-ya-attigi-talihsiz-kend"
-      },
-      {
-        "ad": "Belçika-Senegal'deki 7 dakikalık VAR molası",
-        "not": "Hakemin sahaya gidip tekrar izlediği pozisyon yüzünden oyun uzun süre durdu; seyirci tribünlerde ıslıkla protesto etti.",
-        "emoji": "⏱️",
-        "slug": "belcika-senegal-deki-7-dakikalik-var-molasi"
-      },
-      {
-        "ad": "Mısır Federasyonu'nun Arjantin maçı sonrası resmi şikayeti",
-        "not": "İptal edilen gol ve verilmeyen penaltı kararlarına Mısır Futbol Federasyonu FIFA'ya resmi itirazda bulunacak kadar sinirlendi.",
-        "emoji": "📝",
-        "slug": "misir-federasyonu-nun-arjantin-maci-sonrasi-resm"
-      },
-      {
-        "ad": "Nagelsmann'ın VAR kararına 'şaka gibi' tepkisi",
-        "not": "Almanya'nın Paraguay'a elenmesine yol açan iptal gol kararını basın toplantısında sert biçimde eleştirdi.",
-        "emoji": "📋",
-        "slug": "nagelsmann-in-var-kararina-saka-gibi-tepkisi"
-      },
-      {
-        "ad": "Ghana-İngiltere'de verilmeyen penaltı tartışması",
-        "not": "Sert bir müdahaleye rağmen VAR'ın penaltı vermemesi, 0-0 biten maçın en çok konuşulan anı oldu.",
-        "emoji": "🚫",
-        "slug": "ghana-ingiltere-de-verilmeyen-penalti-tartismasi"
-      },
-      {
-        "ad": "Türkiye'nin 'grupta elenen en pahalı kadro' istatistiği",
-        "not": "Transfermarkt'a göre 474 milyon euroluk kadrosuyla Türkiye, grup aşamasında elenen en değerli takım unvanını aldı - acı bir gurur tablosu.",
-        "emoji": "💸",
-        "slug": "turkiye-nin-grupta-elenen-en-pahali-kadro-istati"
-      },
-      {
-        "ad": "Vozinha'nın çalım istatistiğiyle Ronaldo'yu geçmesi",
-        "not": "Bir kaleci olarak turnuvanın en çok başarılı çalımı yapan isimler arasına girmesi istatistik sitelerinde şaşkınlık yarattı.",
-        "emoji": "🧤",
-        "slug": "vozinha-nin-calim-istatistigiyle-ronaldo-yu-gecm"
-      }
-    ]
   },
   {
     "kategori": "uclu",

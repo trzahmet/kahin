@@ -3,7 +3,7 @@
 // yalnız bağlam kanıtıyla kişiye atananlar yayınlanır). Hükümler, yayınlarda
 // söylenen sonuçlara dayanır; her kayıtta kaynak yayın linki vardır.
 const SICIL = {
-  guncelleme: "12 Temmuz 2026",
+  guncelleme: "15 Temmuz 2026",
   kapsam: { yayin: 51, tahmin: 859, atanmis: 127, yuzlesme: 101 },
 
   karne: [
@@ -12,7 +12,7 @@ const SICIL = {
       unvan: "Kanalın Kâhini",
       grupPuan: "28+", grupSira: 1,
       sampiyon: { pick: "İspanya → Arjantin", durum: "KARARSIZ",
-        not: "10 Haziran'da İspanya dedi, 28 Haziran'da Arjantin'e döndü, 8 Temmuz'da Arjantin'den de şüpheye düştü. Terk ettiği İspanya ise Belçika'yı da eleyip YARI FİNALE çıktı — kupaya iki maç uzakta." },
+        not: "10 Haziran'da İspanya dedi, 28 Haziran'da Arjantin'e döndü, 8 Temmuz'da Arjantin'den de şüpheye düştü. Terk ettiği İspanya ise Belçika'yı ve Fransa'yı da eleyip FİNALE çıktı — kupaya tek maç uzakta." },
       tally: { tuttu: 4, kismen: 1, coktu: 3 },
       imza: "Fenerbahçe seçiminde tek başına Aziz Yıldırım dedi — rekor farkla haklı çıktı."
     },
@@ -31,7 +31,7 @@ const SICIL = {
       grupPuan: "12", grupSira: 2,
       sampiyon: { pick: "Portekiz", durum: "ÇÖKTÜ",
         not: "6 Temmuz'da İspanya-Portekiz (1-0, 90+1 Merino) ile şampiyon tahmini turnuvadan elendi." },
-      tally: { tuttu: 0, kismen: 2, coktu: 6 },
+      tally: { tuttu: 0, kismen: 2, coktu: 7 },
       imza: "Senegal'e yarı final, ABD'ye çeyrek final, Meksika'ya İngiltere galibiyeti yazdı — üçü de gitti."
     }
   ],
@@ -42,7 +42,8 @@ const SICIL = {
     { t: "6 Tem", olay: "Portekiz elendi (İspanya 1-0, 90+1 Merino) — Hasan'ın şampiyonu turnuvadan düştü, Ronaldo gözyaşlarını tuttu.", video: "wX1PGT1zHto" },
     { t: "8 Tem", olay: "Turancan: 'Arjantin finale çıkarsa yüzde yüz şampiyon.' Hilmi ise Arjantin'in 19 Temmuz'a kadar tükeneceğinden şüpheli.", video: "_vs_fz92o4M" },
     { t: "11 Tem", olay: "Yarı final belli oldu: FRANSA-İSPANYA. Yani Hasan'ın 'Fransa şampiyonsa Dembele Ballon d'Or' koşulunun takımı, Hilmi'nin 10 Haziran'da seçip 28 Haziran'da terk ettiği İspanya'yla karşı karşıya. Bu gece: Norveç-İngiltere — Turancan'ın ilk şampiyonu ve 'kimse inanmamıştı' çağrısı aynı sahnede.", video: "SRqMJv8FtBI" },
-    { t: "11 Tem", olay: "Norveç 1-2 İngiltere (kazandıran gol Bellingham'dan, 90+3'te). Turancan'ın 'kimse inanmadı' Norveç çağrısı yarı finalin bir adım önünde bitti — ama İngiltere yarı finalde, yani Turancan'ın 10 Haziran'daki İLK şampiyonu hâlâ yarışta. Yarı finaller: Fransa-İspanya ve İngiltere-(Arjantin/İsviçre).", video: null }
+    { t: "11 Tem", olay: "Norveç 1-2 İngiltere (kazandıran gol Bellingham'dan, 90+3'te). Turancan'ın 'kimse inanmadı' Norveç çağrısı yarı finalin bir adım önünde bitti — ama İngiltere yarı finalde, yani Turancan'ın 10 Haziran'daki İLK şampiyonu hâlâ yarışta. Yarı finaller: Fransa-İspanya ve İngiltere-(Arjantin/İsviçre).", video: null },
+    { t: "14 Tem", olay: "Fransa 0-2 İspanya (22' Oyarzabal penaltı, 58' Pedro Porro) — Hasan'ın Dembele/Fransa şampiyonluk koşulu çöktü; Hilmi'nin 10 Haziran'da seçip 28 Haziran'da TERK ETTİĞİ İspanya finale yükseldi. Diğer yarı final İngiltere-Arjantin bugün (15 Tem) oynanıyor — Turancan'ın iki şampiyon adayı da bu maçta karşı karşıya, final rakibi belirlenecek.", video: "PkkYh9lL4_c" }
   ],
 
   kayitlar: [
@@ -159,8 +160,8 @@ const SICIL = {
       video: "H9wsL6yVgyM", kanit: "3Vl3PNsRqQ8" },
     { kisi: "Turancan", t: "8 Tem", kat: "turnuva", durum: "BEKLIYOR",
       ozet: "'Arjantin finale çıkarsa, rakip Fransa bile olsa yüzde yüz şampiyon' dedi.",
-      cozum: "Arjantin çeyrek finalde — takipte.",
-      video: "_vs_fz92o4M", kanit: null },
+      cozum: "Fransa yarı finalde İspanya'ya elendi (14 Tem, 0-2) — 'rakip Fransa bile olsa' koşulu artık test edilemeyecek, ama esas iddia sürüyor: Arjantin bugün (15 Tem) yarı finalde İngiltere'yle oynuyor, sonuç bekleniyor.",
+      video: "_vs_fz92o4M", kanit: "PkkYh9lL4_c" },
     { kisi: "Hasan", t: "7 Tem", kat: "sezon", durum: "BEKLIYOR",
       ozet: "Beşiktaş güçlü kadrosuna rağmen şampiyonluğa yetişemeyecek; en iyi ihtimalle ~75 puanla ikincilik dedi.",
       cozum: "2026-27 sezonu — uzun vadeli takipte.",
@@ -181,18 +182,18 @@ const SICIL = {
       ozet: "İngiltere 60 yıl sonra kupayı kazanırsa Ballon d'Or'un Harry Kane'e gideceğini söyledi.",
       cozum: "Koşul canlı: İngiltere hâlâ turnuvada.",
       video: "sVR8mv4AIPc", kanit: null },
-    { kisi: "Hasan", t: "26 Haz", kat: "oyuncu", durum: "BEKLIYOR",
+    { kisi: "Hasan", t: "26 Haz", kat: "oyuncu", durum: "COKTU",
       ozet: "Fransa şampiyon olursa Dembele'nin (turnuvada 4 gol) Ballon d'Or'u garantileyeceğini söyledi.",
-      cozum: "Koşul güçlendi: Fransa, Fas'ı 2-0 geçip üst üste 3. kez yarı finale çıktı — ikinci golü yine Dembele attı.",
-      video: "HCfRvcR8RxI", kanit: "3Vl3PNsRqQ8" },
+      cozum: "Fransa yarı finalde İspanya'ya 0-2 kaybetti (14 Tem, Dallas — 22' Oyarzabal penaltı, 58' Pedro Porro) — şampiyonluk ihtimali bitti, koşul hiç gerçekleşmeyecek.",
+      video: "HCfRvcR8RxI", kanit: "PkkYh9lL4_c" },
     { kisi: "Hilmi", t: "10 Tem", kat: "sezon", durum: "BEKLIYOR",
       ozet: "Kocaelispor'da Selçuk İnan'ın 7. haftaya kadar görevde kalma ihtimalini %10'un altında gördü.",
       cozum: "2026-27 sezonu başlıyor — takipte.",
       video: "3Vl3PNsRqQ8", kanit: null },
     { kisi: "Hilmi", t: "11 Tem", kat: "sampiyon", durum: "BEKLIYOR",
       ozet: "Kalan 5 takım için şampiyonluk yüzdesi verdi: Fransa %40 (açık favori), Arjantin %20, İspanya %20, İngiltere %18, İsviçre en düşük.",
-      cozum: "Final 19 Temmuz — dört yarı finalist belli olunca puanlanacak. Not: Hilmi'nin kendi eski şampiyonu İspanya bu listede ikinci sırada.",
-      video: "uFBXQy-aENs", kanit: null }
+      cozum: "Fransa (en yüksek yüzdesi) yarı finalde İspanya'ya elendi (14 Tem, 0-2) — favorisi ilk turda düştü. İspanya finale yükseldi; rakibi bugünkü (15 Tem) İngiltere-Arjantin yarı finalinin galibi. Final 19 Temmuz'da netleşecek.",
+      video: "uFBXQy-aENs", kanit: "PkkYh9lL4_c" }
   ],
 
   yuzlesmeKosesi: [
@@ -205,6 +206,6 @@ const SICIL = {
 
   dun: {
     baslik: "Bu hafta çözülenler",
-    ozet: "Norveç 1-2 İngiltere (90+3): Turancan'ın 'kimse inanmadı' Norveç çağrısı Brezilya'yı eledikten sonra yarı finalin bir adım önünde bitti — ama İngiltere yarı finalde, yani Turancan'ın 10 Haziran'daki İLK şampiyonu hâlâ yarışta. Yarı finaller: Fransa-İspanya (Hasan'ın Dembele takımı vs Hilmi'nin terk ettiği İspanya) ve İngiltere-(Arjantin/İsviçre). Daha önce: İspanya Belçika'yı, Fransa Fas'ı geçti; Hasan'ın 'Meksika İngiltere'yi yener' tahmini çökmüştü."
+    ozet: "Fransa 0-2 İspanya (14 Tem, yarı final): Hasan'ın Dembele/Fransa şampiyonluk koşulu çöktü; Hilmi'nin 10 Haziran'da seçip sonra terk ettiği İspanya finale yükseldi — kupaya tek maç uzakta. Diğer yarı final İngiltere-Arjantin bugün (15 Tem) oynanıyor: Turancan'ın 10 Haziran'daki ilk şampiyonu (İngiltere) ve 28 Haziran'dan beri sarıldığı ikinci şampiyonu (Arjantin) aynı sahada — hangisi kazanırsa Turancan'ın çağrısı finale taşınmış olacak. Final 19 Temmuz."
   }
 };

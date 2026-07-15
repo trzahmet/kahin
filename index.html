@@ -6,7 +6,7 @@
 <title>HTalks Evreni — bağımsız hayran modülleri</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔮</text></svg>">
 <style>
-  :root { --bg:#0c0f14; --panel:#151a23; --line:#2a3446; --text:#e8edf5; --dim:#8b96a8; --mavi:#5dade2; --mor:#a06cd5; --altin:#d4af37; }
+  :root { --bg:#0c0f14; --panel:#151a23; --line:#2a3446; --text:#e8edf5; --dim:#8b96a8; --mavi:#5dade2; }
   * { margin:0; padding:0; box-sizing:border-box; }
   body { background:var(--bg); color:var(--text); font-family:-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.5; }
   .wrap { max-width:760px; margin:0 auto; padding:40px 16px 80px; }
@@ -17,14 +17,11 @@
   .moduller { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; }
   a.mod { display:block; background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:20px; text-decoration:none; color:var(--text); transition:transform .15s, border-color .15s; }
   a.mod:hover { transform:translateY(-3px); border-color:var(--mavi); }
-  a.mod.pasif { opacity:.55; pointer-events:none; }
   .mod .ikon { font-size:1.8rem; }
   .mod h2 { font-size:1.1rem; margin:8px 0 4px; }
   .mod p { font-size:.85rem; color:var(--dim); }
   .etiket { display:inline-block; font-size:.65rem; font-weight:700; letter-spacing:1px; border-radius:4px; padding:2px 8px; margin-top:10px; }
   .canli { background:rgba(46,204,113,.15); color:#2ecc71; }
-  .demo { background:rgba(243,156,18,.15); color:#f39c12; }
-  .yakinda { background:rgba(160,108,213,.15); color:var(--mor); }
   .istat { margin-top:8px; font-size:.72rem; color:var(--mavi); letter-spacing:.5px; }
   footer { margin-top:44px; text-align:center; font-size:.75rem; color:var(--dim); }
 </style>
@@ -53,7 +50,7 @@
       <div class="ikon">⚔️</div>
       <h2>Uwufufu</h2>
       <p>Tercihler turnuvası. Seç, eledikçe şampiyonu belirle.</p>
-      <div class="istat">33 turnuva · 1408 aday</div>
+      <div class="istat">30 turnuva · 1152 aday</div>
       <span class="etiket canli">CANLI</span>
     </a>
     <a class="mod" href="wrapped/htalks.html">
@@ -82,30 +79,6 @@
       <p>Top 50 liste, yıllara göre büyüme, format kırılımı — kanalın tüm arşivi taranmış hâliyle.</p>
       <div class="istat">489M gerçek izlenme</div>
       <span class="etiket canli">CANLI</span>
-    </a>
-    <a class="mod" href="demo/arsiv.html">
-      <div class="ikon">🏛️</div>
-      <h2>ARŞİV Oyunu</h2>
-      <p>Kanal hafızasına karşı yarış: kaç kere söylendi, kim dedi, hangi gece?</p>
-      <span class="etiket demo">DEMO</span>
-    </a>
-    <a class="mod pasif" href="#">
-      <div class="ikon">📡</div>
-      <h2>VS Arena (canlı mod)</h2>
-      <p>Uwufufu'nun yayın sürümü: ekip yayında açar, izleyiciler telefondan oylar, kazanan ekranda.</p>
-      <span class="etiket yakinda">YAKINDA</span>
-    </a>
-    <a class="mod pasif" href="#">
-      <div class="ikon">❓</div>
-      <h2>Günün Sorusu</h2>
-      <p>Arşivden her gün tek soru. Serini koru, kartını paylaş.</p>
-      <span class="etiket yakinda">YAKINDA</span>
-    </a>
-    <a class="mod" href="demo/arena.html">
-      <div class="ikon">🎪</div>
-      <h2>ARENA (demo)</h2>
-      <p>Canlı yayın oylama sahnesi — VS Arena'nın yayın modu prototipi.</p>
-      <span class="etiket demo">DEMO</span>
     </a>
   </div>
   <footer>Bağımsız hayran çalışmasıdır; HTalks ile resmi bağı yoktur. Görsel/veri politikası: birebir alıntı yok, dakika-referanslı özet var.</footer>
