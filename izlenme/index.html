@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Kaçı Bildin? — HTalks İzlenme Tahmini</title>
+<meta name="description" content="İki HTalks videosundan hangisi daha çok izlendi? Kâhinliğini test et, seriyi bozma.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔮</text></svg>">
+<style>
+  :root {
+    --gece:#0a0e13; --panel:#121924; --panel2:#1a2431; --cizgi:#263141;
+    --metin:#f3eee4; --soluk:#8b97a7; --altin:#f0b34a; --altin-parlak:#ffd484;
+    --yesil:#3ecf8e; --kirmizi:#e5555a; --golge:rgba(0,0,0,.45);
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --gece:#f4efe4; --panel:#fffdf8; --panel2:#f6f0e4; --cizgi:#e0d7c6;
+      --metin:#191c22; --soluk:#6d7480; --altin:#b07714; --altin-parlak:#cf8f1c;
+      --yesil:#1f9d64; --kirmizi:#c33a40; --golge:rgba(80,60,20,.12); }
+  }
+  :root[data-theme="dark"] { --gece:#0a0e13; --panel:#121924; --panel2:#1a2431; --cizgi:#263141;
+    --metin:#f3eee4; --soluk:#8b97a7; --altin:#f0b34a; --altin-parlak:#ffd484;
+    --yesil:#3ecf8e; --kirmizi:#e5555a; --golge:rgba(0,0,0,.45); }
+  :root[data-theme="light"] { --gece:#f4efe4; --panel:#fffdf8; --panel2:#f6f0e4; --cizgi:#e0d7c6;
+    --metin:#191c22; --soluk:#6d7480; --altin:#b07714; --altin-parlak:#cf8f1c;
+    --yesil:#1f9d64; --kirmizi:#c33a40; --golge:rgba(80,60,20,.12); }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--gece); color:var(--metin); font-family:-apple-system,"Segoe UI",Roboto,sans-serif;
+    min-height:100vh; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; }
+  .ust-link { position:fixed; top:16px; left:16px; z-index:40; font-size:.82rem; color:var(--soluk);
+    text-decoration:none; font-weight:600; background:var(--panel); border:1px solid var(--cizgi);
+    padding:8px 14px; border-radius:20px; }
+  .ust-link:hover { color:var(--metin); border-color:var(--altin); }
+  .tema-dugme { position:fixed; top:16px; right:16px; z-index:40; width:38px; height:38px; border-radius:50%;
+    background:var(--panel); border:1px solid var(--cizgi); color:var(--metin); font-size:1rem; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; }
+
+  .sahne { max-width:640px; margin:0 auto; padding:76px 16px 40px; text-align:center; }
+  .baslik { font-size:1.5rem; font-weight:900; letter-spacing:.5px; }
+  .baslik .k { color:var(--altin); }
+  .alt { color:var(--soluk); font-size:.9rem; margin-top:8px; max-width:44ch; margin-left:auto; margin-right:auto; }
+
+  .skorbar { display:flex; justify-content:center; gap:28px; margin:22px 0 8px; }
+  .skor-hane { text-align:center; }
+  .skor-hane .n { font-size:1.7rem; font-weight:900; font-variant-numeric:tabular-nums; }
+  .skor-hane.seri .n { color:var(--altin-parlak); }
+  .skor-hane .l { font-size:.66rem; letter-spacing:1.5px; text-transform:uppercase; color:var(--soluk); font-weight:700; margin-top:2px; }
+
+  .oyun { margin-top:24px; position:relative; }
+  .kartlar { display:flex; align-items:center; gap:10px; }
+  .vs { font-size:1rem; font-weight:900; color:var(--soluk); flex:0 0 auto; width:28px; }
+  .kart { flex:1; background:var(--panel); border:1px solid var(--cizgi); border-radius:16px; overflow:hidden;
+    text-align:left; cursor:pointer; transition:transform .15s, border-color .15s, box-shadow .15s;
+    position:relative; }
+  .kart:hover:not(.kilit) { transform:translateY(-3px); border-color:var(--altin); }
+  .kart.kilit { cursor:default; }
+  .kart .thumb-wrap { position:relative; width:100%; aspect-ratio:16/9; background:var(--panel2); overflow:hidden; }
+  .kart .thumb-wrap img { width:100%; height:100%; object-fit:cover; display:block; }
+  .kart .gov { padding:12px 14px 14px; }
+  .kart .baslik-metin { font-size:.86rem; font-weight:700; line-height:1.32;
+    display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; min-height:3.5em; }
+  .kart .tarih { font-size:.68rem; color:var(--soluk); margin-top:8px; font-weight:600; letter-spacing:.3px; }
+  .kart .sayac { font-size:1.5rem; font-weight:900; font-variant-numeric:tabular-nums; margin-top:6px;
+    opacity:0; transform:translateY(6px); transition:opacity .3s, transform .3s; }
+  .kart.acik .sayac { opacity:1; transform:none; }
+  .kart .sayac.dogru { color:var(--yesil); }
+  .kart .sayac.yanlis { color:var(--kirmizi); }
+  .kart .rozet { position:absolute; top:10px; right:10px; background:rgba(0,0,0,.65); color:#fff;
+    font-size:.65rem; font-weight:800; padding:3px 8px; border-radius:10px; letter-spacing:.5px;
+    opacity:0; transition:opacity .3s; backdrop-filter:blur(4px); }
+  .kart.acik .rozet { opacity:1; }
+  .kart.acik.dogru { border-color:var(--yesil); box-shadow:0 0 0 1px var(--yesil); }
+  .kart.acik.yanlis { border-color:var(--kirmizi); box-shadow:0 0 0 1px var(--kirmizi); }
+  .kart .rozet.dogru { background:var(--yesil); color:#06231a; }
+  .kart .rozet.yanlis { background:var(--kirmizi); color:#2a0a0b; }
+
+  .devam { margin-top:22px; }
+  .devam button { background:var(--altin); color:#1a1204; border:none; border-radius:12px; padding:13px 30px;
+    font-size:.95rem; font-weight:800; cursor:pointer; transition:transform .15s; }
+  .devam button:hover { transform:scale(1.04); }
+
+  .oyun-bitti { margin-top:24px; background:var(--panel); border:1px solid var(--cizgi); border-radius:18px;
+    padding:32px 22px; display:none; }
+  .oyun-bitti.gorunur { display:block; }
+  .oyun-bitti .em { font-size:2.6rem; }
+  .oyun-bitti h2 { font-size:1.35rem; margin-top:10px; }
+  .oyun-bitti .rekor-metin { color:var(--soluk); font-size:.88rem; margin-top:8px; }
+  .oyun-bitti .yeniden { margin-top:20px; }
+  .oyun-bitti .yeniden button { background:var(--panel2); color:var(--metin); border:1px solid var(--cizgi);
+    border-radius:12px; padding:11px 26px; font-size:.9rem; font-weight:700; cursor:pointer; }
+  .oyun-bitti .yeniden button:hover { border-color:var(--altin); }
+
+  .rekor-satir { display:flex; justify-content:center; gap:6px; margin-top:14px; font-size:.78rem; color:var(--soluk); }
+  .rekor-satir b { color:var(--altin-parlak); }
+
+  footer { text-align:center; padding:40px 16px 60px; color:var(--soluk); font-size:.72rem; }
+
+  @media (max-width:480px) {
+    .kartlar { flex-direction:column; }
+    .vs { width:auto; padding:2px 0; }
+    .kart .baslik-metin { -webkit-line-clamp:2; min-height:2.4em; }
+  }
+</style>
+</head>
+<body>
+<a class="ust-link" href="../">← HTalks Evreni</a>
+<button class="tema-dugme" id="temaDugme">🌙</button>
+
+<div class="sahne">
+  <div class="baslik">🔮 <span class="k">Kaçı Bildin?</span></div>
+  <div class="alt">İki HTalks videosu. Hangisi daha çok izlendi? Kâhinliğini test et — bir yanlış, seri biter.</div>
+
+  <div class="skorbar">
+    <div class="skor-hane seri">
+      <div class="n" id="seriNo">0</div>
+      <div class="l">Seri</div>
+    </div>
+    <div class="skor-hane">
+      <div class="n" id="rekorNo">0</div>
+      <div class="l">Rekor</div>
+    </div>
+  </div>
+
+  <div class="oyun" id="oyunAlani">
+    <div class="kartlar" id="kartlar"></div>
+    <div class="devam" id="devamAlani" style="display:none">
+      <button id="devamBtn">Sıradaki →</button>
+    </div>
+  </div>
+
+  <div class="oyun-bitti" id="oyunBitti">
+    <div class="em">💀</div>
+    <h2>Kâhinlik bitti.</h2>
+    <div class="rekor-metin" id="bittiMetin"></div>
+    <div class="yeniden"><button id="yenidenBtn">Yeniden Dene</button></div>
+  </div>
+
+  <div class="rekor-satir">📼 <b id="havuzSayi">0</b> video · gerçek YouTube izlenme verisi</div>
+</div>
+
+<footer>Bu bir fan çalışması. Sayılar gerçek — YouTube herkese açık verisinden.</footer>
+
+<script src="data.js"></script>
+<script>
+const KEY = 'htalks_izlenme_rekor';
+let havuz = (window.HTALKS_VIDEOS || []).filter(v => v.v >= 1000 && v.t.length >= 8);
+document.getElementById('havuzSayi').textContent = havuz.length.toLocaleString('tr-TR');
+
+let seri = 0;
+let rekor = parseInt(localStorage.getItem(KEY) || '0', 10);
+let sol, sag, kilitli = false;
+
+function fmt(n){ return n.toLocaleString('tr-TR'); }
+function thumb(id){ return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`; }
+function tarihFmt(d){
+  if(!d || d.length !== 8) return '';
+  return `${d.slice(6,8)}.${d.slice(4,6)}.${d.slice(0,4)}`;
+}
+function rastgele(haric){
+  let v;
+  do { v = havuz[Math.floor(Math.random()*havuz.length)]; } while(haric && v.id === haric.id);
+  return v;
+}
+
+function kartHTML(v, taraf){
+  return `
+    <div class="kart" data-taraf="${taraf}">
+      <div class="thumb-wrap"><img src="${thumb(v.id)}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>
+      <div class="gov">
+        <div class="baslik-metin">${v.t}</div>
+        <div class="tarih">${tarihFmt(v.d)}</div>
+        <div class="sayac" data-taraf="${taraf}"></div>
+      </div>
+      <div class="rozet"></div>
+    </div>`;
+}
+
+function yeniTur(oncekiKazanan){
+  kilitli = false;
+  document.getElementById('devamAlani').style.display = 'none';
+  sol = oncekiKazanan || rastgele();
+  sag = rastgele(sol);
+  document.getElementById('kartlar').innerHTML =
+    kartHTML(sol, 'sol') + `<div class="vs">VS</div>` + kartHTML(sag, 'sag');
+  document.querySelectorAll('.kart').forEach(k => {
+    k.addEventListener('click', () => sec(k.dataset.taraf), { once: true });
+  });
+}
+
+function sec(taraf){
+  if (kilitli) return;
+  kilitli = true;
+  const dogruTaraf = sol.v >= sag.v ? 'sol' : 'sag';
+  const dogru = taraf === dogruTaraf;
+
+  ['sol','sag'].forEach(t => {
+    const kart = document.querySelector(`.kart[data-taraf="${t}"]`);
+    const v = t === 'sol' ? sol : sag;
+    const bu = t === dogruTaraf ? 'dogru' : 'yanlis';
+    kart.classList.add('acik', bu);
+    kart.classList.add('kilit');
+    kart.querySelector('.sayac').textContent = fmt(v.v);
+    kart.querySelector('.sayac').classList.add(bu);
+    kart.querySelector('.rozet').textContent = t === dogruTaraf ? '👑 EN ÇOK' : '';
+    kart.querySelector('.rozet').classList.add(bu);
+  });
+
+  if (dogru) {
+    seri++;
+    document.getElementById('seriNo').textContent = seri;
+    if (seri > rekor) {
+      rekor = seri;
+      localStorage.setItem(KEY, rekor);
+      document.getElementById('rekorNo').textContent = rekor;
+    }
+    document.getElementById('devamAlani').style.display = 'block';
+    document.getElementById('devamBtn').onclick = () => {
+      const kazanan = dogruTaraf === 'sol' ? sol : sag;
+      yeniTur(kazanan);
+    };
+  } else {
+    setTimeout(() => bitir(), 900);
+  }
+}
+
+function bitir(){
+  document.getElementById('oyunAlani').style.display = 'none';
+  document.getElementById('oyunBitti').classList.add('gorunur');
+  const mesaj = seri === 0
+    ? `İlk turda düştün. Rekor: <b>${rekor}</b>.`
+    : seri >= rekor
+      ? `Yeni rekor: <b>${seri}</b>! 🏆`
+      : `Seri: <b>${seri}</b> · Rekor: <b>${rekor}</b>`;
+  document.getElementById('bittiMetin').innerHTML = mesaj;
+}
+
+document.getElementById('yenidenBtn').addEventListener('click', () => {
+  seri = 0;
+  document.getElementById('seriNo').textContent = '0';
+  document.getElementById('oyunBitti').classList.remove('gorunur');
+  document.getElementById('oyunAlani').style.display = 'block';
+  yeniTur();
+});
+
+document.getElementById('rekorNo').textContent = rekor;
+
+// tema
+const temaDugme = document.getElementById('temaDugme');
+function temaUygula(t){
+  document.documentElement.setAttribute('data-theme', t);
+  temaDugme.textContent = t === 'light' ? '☀️' : '🌙';
+  localStorage.setItem('htalks_tema', t);
+}
+temaDugme.addEventListener('click', () => {
+  const simdiki = document.documentElement.getAttribute('data-theme') ||
+    (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  temaUygula(simdiki === 'dark' ? 'light' : 'dark');
+});
+temaUygula(localStorage.getItem('htalks_tema') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+
+yeniTur();
+</script>
+</body>
+</html>

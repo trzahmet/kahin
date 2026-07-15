@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>En Çok İzlenenler — HTalks Arşivi</title>
+<meta name="description" content="HTalks kanalının 2.155 videosu, 489 milyon gerçek izlenme. Top 50 liste, yıllara göre büyüme, kategori kırılımı.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+<style>
+  :root {
+    --gece:#0a0e13; --panel:#121924; --panel2:#1a2431; --cizgi:#263141;
+    --metin:#f3eee4; --soluk:#8b97a7; --altin:#f0b34a; --altin-parlak:#ffd484;
+    --yesil:#3ecf8e; --kirmizi:#e5555a; --mavi:#5c9dd6; --golge:rgba(0,0,0,.45);
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --gece:#f4efe4; --panel:#fffdf8; --panel2:#f6f0e4; --cizgi:#e0d7c6;
+      --metin:#191c22; --soluk:#6d7480; --altin:#b07714; --altin-parlak:#cf8f1c;
+      --yesil:#1f9d64; --kirmizi:#c33a40; --mavi:#2f6fa8; --golge:rgba(80,60,20,.12); }
+  }
+  :root[data-theme="dark"] { --gece:#0a0e13; --panel:#121924; --panel2:#1a2431; --cizgi:#263141;
+    --metin:#f3eee4; --soluk:#8b97a7; --altin:#f0b34a; --altin-parlak:#ffd484;
+    --yesil:#3ecf8e; --kirmizi:#e5555a; --mavi:#5c9dd6; --golge:rgba(0,0,0,.45); }
+  :root[data-theme="light"] { --gece:#f4efe4; --panel:#fffdf8; --panel2:#f6f0e4; --cizgi:#e0d7c6;
+    --metin:#191c22; --soluk:#6d7480; --altin:#b07714; --altin-parlak:#cf8f1c;
+    --yesil:#1f9d64; --kirmizi:#c33a40; --mavi:#2f6fa8; --golge:rgba(80,60,20,.12); }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body { background:var(--gece); color:var(--metin); font-family:-apple-system,"Segoe UI",Roboto,sans-serif;
+    line-height:1.55; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; }
+  .kabuk { max-width:900px; margin:0 auto; padding:0 18px; }
+  .mono { font-variant-numeric:tabular-nums; }
+
+  .ust-link { position:fixed; top:16px; left:16px; z-index:40; font-size:.82rem; color:var(--soluk);
+    text-decoration:none; font-weight:600; background:var(--panel); border:1px solid var(--cizgi);
+    padding:8px 14px; border-radius:20px; }
+  .ust-link:hover { color:var(--metin); border-color:var(--altin); }
+  .tema-dugme { position:fixed; top:16px; right:16px; z-index:40; width:38px; height:38px; border-radius:50%;
+    background:var(--panel); border:1px solid var(--cizgi); color:var(--metin); font-size:1rem; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; }
+
+  .hero { padding:96px 0 40px; text-align:center; }
+  .hero .etiket { font-size:.72rem; letter-spacing:4px; color:var(--altin); text-transform:uppercase; font-weight:800; margin-bottom:16px; }
+  .hero h1 { font-size:clamp(2rem,7vw,3.4rem); font-weight:900; line-height:1.1; letter-spacing:.3px; }
+  .hero h1 .k { color:var(--altin-parlak); }
+  .hero .spot { color:var(--soluk); max-width:520px; margin:18px auto 0; font-size:1rem; }
+
+  .skorbord { display:grid; grid-template-columns:repeat(3,1fr); gap:0; max-width:600px; margin:36px auto 0;
+    background:var(--panel); border:1px solid var(--cizgi); border-radius:16px; overflow:hidden; }
+  .skorbord .hane { padding:18px 8px; text-align:center; }
+  .skorbord .hane + .hane { border-left:1px solid var(--cizgi); }
+  .skorbord .rakam { font-size:clamp(1.5rem,5.5vw,2.3rem); font-weight:900; color:var(--altin-parlak); }
+  .skorbord .ad { font-size:.66rem; letter-spacing:1.5px; text-transform:uppercase; color:var(--soluk); font-weight:700; margin-top:6px; }
+
+  .bolum { padding:52px 0 8px; }
+  .bolum-bas { display:flex; align-items:baseline; gap:12px; margin-bottom:24px; }
+  .bolum-bas h2 { font-size:1.3rem; font-weight:900; }
+  .bolum-bas .say { font-size:.78rem; color:var(--soluk); font-weight:600; }
+
+  /* yıl grafiği */
+  .yil-grafik { display:flex; align-items:flex-end; gap:14px; height:200px; padding:0 6px 30px; }
+  .yil-cubuk { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; position:relative; }
+  .yil-cubuk .gov { width:100%; max-width:64px; background:linear-gradient(180deg,var(--altin-parlak),var(--altin)); border-radius:8px 8px 0 0;
+    position:relative; min-height:4px; }
+  .yil-cubuk .deger { position:absolute; top:-24px; left:50%; transform:translateX(-50%); font-size:.74rem; font-weight:800; white-space:nowrap; }
+  .yil-cubuk .etiket { position:absolute; bottom:-26px; left:50%; transform:translateX(-50%); font-size:.72rem; color:var(--soluk); font-weight:700; }
+
+  /* kategori barları */
+  .kat-liste { display:flex; flex-direction:column; gap:14px; }
+  .kat-satir { display:grid; grid-template-columns:110px 1fr 90px; align-items:center; gap:12px; }
+  .kat-satir .ad { font-size:.86rem; font-weight:700; }
+  .kat-satir .bar-bg { height:10px; background:var(--panel2); border-radius:6px; overflow:hidden; }
+  .kat-satir .bar-fg { height:100%; background:linear-gradient(90deg,var(--altin),var(--altin-parlak)); border-radius:6px; }
+  .kat-satir .say { font-size:.78rem; color:var(--soluk); text-align:right; }
+
+  /* top 50 liste */
+  .top-liste { display:flex; flex-direction:column; gap:8px; }
+  .top-satir { display:grid; grid-template-columns:34px 84px 1fr auto; align-items:center; gap:12px;
+    background:var(--panel); border:1px solid var(--cizgi); border-radius:12px; padding:8px 12px; text-decoration:none; color:var(--metin);
+    transition:border-color .15s, transform .15s; }
+  .top-satir:hover { border-color:var(--altin); transform:translateX(2px); }
+  .top-satir .sira { font-size:.9rem; font-weight:900; color:var(--soluk); text-align:center; }
+  .top-satir:nth-child(1) .sira { color:#ffd700; }
+  .top-satir:nth-child(2) .sira { color:#c8ccd4; }
+  .top-satir:nth-child(3) .sira { color:#cd7f32; }
+  .top-satir .thumb { width:84px; aspect-ratio:16/9; border-radius:7px; overflow:hidden; background:var(--panel2); }
+  .top-satir .thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+  .top-satir .info { min-width:0; }
+  .top-satir .baslik { font-size:.84rem; font-weight:700; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .top-satir .tarih { font-size:.68rem; color:var(--soluk); margin-top:2px; }
+  .top-satir .izl { font-size:.88rem; font-weight:900; color:var(--altin-parlak); white-space:nowrap; }
+
+  .filtre-satir { display:flex; gap:8px; margin-bottom:18px; flex-wrap:wrap; }
+  .filtre-satir button { background:var(--panel); border:1px solid var(--cizgi); color:var(--soluk);
+    border-radius:20px; padding:7px 14px; font-size:.78rem; font-weight:700; cursor:pointer; }
+  .filtre-satir button.aktif { background:var(--altin); color:#1a1204; border-color:var(--altin); }
+
+  footer { text-align:center; padding:52px 16px 60px; color:var(--soluk); font-size:.75rem; }
+</style>
+</head>
+<body>
+<a class="ust-link" href="../">← HTalks Evreni</a>
+<button class="tema-dugme" id="temaDugme">🌙</button>
+
+<div class="kabuk">
+  <div class="hero">
+    <div class="etiket">gerçek YouTube verisi · Temmuz 2026</div>
+    <h1>En Çok <span class="k">İzlenenler</span></h1>
+    <p class="spot">Kanalın tamamı tek tek tarandı. Tahmin değil — 2.155 videonun kendi izlenme sayısı, kendi arşivinden.</p>
+
+    <div class="skorbord">
+      <div class="hane"><div class="rakam mono" id="sTotalVideos">—</div><div class="ad">video</div></div>
+      <div class="hane"><div class="rakam mono" id="sTotalViews">—</div><div class="ad">toplam izlenme</div></div>
+      <div class="hane"><div class="rakam mono" id="sAvgViews">—</div><div class="ad">video başına ort.</div></div>
+    </div>
+  </div>
+
+  <div class="bolum">
+    <div class="bolum-bas"><h2>📈 Yıllara Göre Büyüme</h2><span class="say">video başına ortalama izlenme</span></div>
+    <div class="yil-grafik" id="yilGrafik"></div>
+  </div>
+
+  <div class="bolum">
+    <div class="bolum-bas"><h2>🗂️ Format Kırılımı</h2><span class="say">toplam izlenmeye göre</span></div>
+    <div class="kat-liste" id="katListe"></div>
+  </div>
+
+  <div class="bolum">
+    <div class="bolum-bas"><h2>🏆 Top 50</h2><span class="say" id="topSay"></span></div>
+    <div class="filtre-satir">
+      <button class="aktif" data-f="all">Tümü</button>
+      <button data-f="streams">Canlı Yayın</button>
+      <button data-f="videos">Uzun Video</button>
+      <button data-f="clip">Klip / Shorts</button>
+    </div>
+    <div class="top-liste" id="topListe"></div>
+  </div>
+</div>
+
+<footer>Bu bir fan çalışması. Sayılar gerçek — YouTube herkese açık verisinden, Temmuz 2026 taraması.</footer>
+
+<script src="data.js"></script>
+<script>
+const data = window.HTALKS_VIDEOS || [];
+function fmt(n){ return n.toLocaleString('tr-TR'); }
+function fmtKisa(n){
+  if(n >= 1000000) return (n/1000000).toFixed(1).replace('.0','') + 'M';
+  if(n >= 1000) return Math.round(n/1000) + 'B';
+  return String(n);
+}
+function tarihFmt(d){
+  if(!d || d.length !== 8) return '';
+  return `${d.slice(6,8)}.${d.slice(4,6)}.${d.slice(0,4)}`;
+}
+function thumb(id){ return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`; }
+
+const totalViews = data.reduce((a,v)=>a+v.v,0);
+const totalVideos = data.length;
+document.getElementById('sTotalVideos').textContent = fmt(totalVideos);
+document.getElementById('sTotalViews').textContent = fmtKisa(totalViews);
+document.getElementById('sAvgViews').textContent = fmtKisa(Math.round(totalViews/totalVideos));
+
+// yıl grafiği
+const yilVeri = {};
+data.forEach(v => {
+  const y = v.d.slice(0,4);
+  if(!yilVeri[y]) yilVeri[y] = {count:0, views:0};
+  yilVeri[y].count++; yilVeri[y].views += v.v;
+});
+const yillar = Object.keys(yilVeri).sort();
+const maxOrt = Math.max(...yillar.map(y => yilVeri[y].views/yilVeri[y].count));
+const yilGrafik = document.getElementById('yilGrafik');
+yillar.forEach(y => {
+  const ort = yilVeri[y].views/yilVeri[y].count;
+  const yukseklik = Math.max(6, (ort/maxOrt)*140);
+  const el = document.createElement('div');
+  el.className = 'yil-cubuk';
+  el.innerHTML = `<div class="gov" style="height:${yukseklik}px"><div class="deger">${fmtKisa(Math.round(ort))}</div></div><div class="etiket">${y}</div>`;
+  yilGrafik.appendChild(el);
+});
+
+// kategori
+const katAd = {streams:'Canlı Yayın', videos:'Uzun Video', clip:'Klip / Shorts'};
+const katVeri = {};
+data.forEach(v => {
+  if(!katVeri[v.c]) katVeri[v.c] = {count:0, views:0};
+  katVeri[v.c].count++; katVeri[v.c].views += v.v;
+});
+const katMax = Math.max(...Object.values(katVeri).map(k=>k.views));
+const katListe = document.getElementById('katListe');
+Object.entries(katVeri).sort((a,b)=>b[1].views-a[1].views).forEach(([k,d]) => {
+  const el = document.createElement('div');
+  el.className = 'kat-satir';
+  el.innerHTML = `
+    <div class="ad">${katAd[k]||k}</div>
+    <div class="bar-bg"><div class="bar-fg" style="width:${(d.views/katMax*100)}%"></div></div>
+    <div class="say">${d.count} video · ${fmtKisa(d.views)}</div>`;
+  katListe.appendChild(el);
+});
+
+// top 50
+let aktifFiltre = 'all';
+function renderTop(){
+  const filtreli = (aktifFiltre === 'all' ? data : data.filter(v => v.c === aktifFiltre))
+    .slice().sort((a,b)=>b.v-a.v).slice(0,50);
+  document.getElementById('topSay').textContent = `${filtreli.length} video`;
+  const topListe = document.getElementById('topListe');
+  topListe.innerHTML = '';
+  filtreli.forEach((v,i) => {
+    const a = document.createElement('a');
+    a.className = 'top-satir';
+    a.href = `https://youtube.com/watch?v=${v.id}`;
+    a.target = '_blank'; a.rel = 'noopener';
+    a.innerHTML = `
+      <div class="sira">${i+1}</div>
+      <div class="thumb"><img src="${thumb(v.id)}" loading="lazy" alt="" referrerpolicy="no-referrer"></div>
+      <div class="info"><div class="baslik">${v.t}</div><div class="tarih">${tarihFmt(v.d)}</div></div>
+      <div class="izl">${fmtKisa(v.v)}</div>`;
+    topListe.appendChild(a);
+  });
+}
+document.querySelectorAll('.filtre-satir button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filtre-satir button').forEach(b=>b.classList.remove('aktif'));
+    btn.classList.add('aktif');
+    aktifFiltre = btn.dataset.f;
+    renderTop();
+  });
+});
+renderTop();
+
+// tema
+const temaDugme = document.getElementById('temaDugme');
+function temaUygula(t){
+  document.documentElement.setAttribute('data-theme', t);
+  temaDugme.textContent = t === 'light' ? '☀️' : '🌙';
+  localStorage.setItem('htalks_tema', t);
+}
+temaDugme.addEventListener('click', () => {
+  const simdiki = document.documentElement.getAttribute('data-theme') ||
+    (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  temaUygula(simdiki === 'dark' ? 'light' : 'dark');
+});
+temaUygula(localStorage.getItem('htalks_tema') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+</script>
+</body>
+</html>
