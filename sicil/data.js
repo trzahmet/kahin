@@ -13,8 +13,8 @@ const SICIL = {
       grupPuan: "28+", grupSira: 1,
       sampiyon: { pick: "İspanya → Arjantin", durum: "KARARSIZ",
         not: "10 Haziran'da İspanya dedi, 28 Haziran'da Arjantin'e döndü, 8 Temmuz'da Arjantin'den de şüpheye düştü. Terk ettiği İspanya ise Belçika'yı ve Fransa'yı da eleyip FİNALE çıktı — kupaya tek maç uzakta." },
-      tally: { tuttu: 4, kismen: 1, coktu: 3 },
-      imza: "Fenerbahçe seçiminde tek başına Aziz Yıldırım dedi — rekor farkla haklı çıktı."
+      tally: { tuttu: 2, kismen: 1, coktu: 3 },
+      imza: "Herkes Haaland derken Norveç'in kilit adamının kalecisi olacağını tek başına bildi — Brezilya'yı eleyen kurtarışı önceden gördü."
     },
     {
       kisi: "Turancan",
@@ -22,7 +22,7 @@ const SICIL = {
       grupPuan: "10", grupSira: 3,
       sampiyon: { pick: "İngiltere → Arjantin", durum: "YAŞIYOR",
         not: "10 Haziran'da İngiltere (final: İspanya-İngiltere) dedi; 28 Haziran'da Arjantin'e geçti; 8 Temmuz'da 'Arjantin finale çıkarsa %100 şampiyon' diye perçinledi. İkisi de hâlâ kupada." },
-      tally: { tuttu: 2, kismen: 1, coktu: 4 },
+      tally: { tuttu: 2, kismen: 1, coktu: 3 },
       imza: "K Grubu'nun tüm sıralamasını tam bildi; ama Türkiye'ye '9 puanla lider' dedi."
     },
     {
@@ -31,7 +31,7 @@ const SICIL = {
       grupPuan: "12", grupSira: 2,
       sampiyon: { pick: "Portekiz", durum: "ÇÖKTÜ",
         not: "6 Temmuz'da İspanya-Portekiz (1-0, 90+1 Merino) ile şampiyon tahmini turnuvadan elendi." },
-      tally: { tuttu: 0, kismen: 2, coktu: 7 },
+      tally: { tuttu: 0, kismen: 2, coktu: 6 },
       imza: "Senegal'e yarı final, ABD'ye çeyrek final, Meksika'ya İngiltere galibiyeti yazdı — üçü de gitti."
     }
   ],
@@ -48,18 +48,6 @@ const SICIL = {
 
   kayitlar: [
     // ---- ÇÖZÜLMÜŞLER ----
-    { kisi: "Hilmi", t: "7 Haz", kat: "gündem", durum: "TUTTU",
-      ozet: "Fenerbahçe başkanlık seçiminde yayın boyunca ısrarla Aziz Yıldırım'ın kazanacağını savundu; sosyal medya havasına karşı kongre tabanının farklı oy kullanacağını söyledi.",
-      cozum: "Aziz Yıldırım 17.245 oyla (~%63) rekor farkla kazandı. Hasan ve Turancan yanıldıklarını canlı yayında kabul etti.",
-      video: "LyI-srs5zjQ", kanit: "LyI-srs5zjQ" },
-    { kisi: "Hasan", t: "5 Haz", kat: "gündem", durum: "COKTU",
-      ozet: "Fenerbahçe seçiminin 'fiilen bittiğini', Hakan Safi'nin kazanacağını savundu; sonraki günlerde oranı %57-61'e kadar çıkardı.",
-      cozum: "Aziz Yıldırım rekor farkla kazandı.",
-      video: "B5nfcMAP4bI", kanit: "LyI-srs5zjQ" },
-    { kisi: "Turancan", t: "7 Haz", kat: "gündem", durum: "COKTU",
-      ozet: "Hakan Safi'nin seçimi kazanacağını söyledi; yayın ilerledikçe iddiasını büyüttü.",
-      cozum: "Aziz Yıldırım rekor farkla kazandı; yayında katılım-eşiği teorisi de tutmadı.",
-      video: "LyI-srs5zjQ", kanit: "LyI-srs5zjQ" },
     { kisi: "Hasan", t: "10 Haz", kat: "turnuva", durum: "COKTU",
       ozet: "Turnuva ağacında şampiyon olarak Portekiz'i gösterdi.",
       cozum: "Portekiz son 16'da İspanya'ya 1-0 elendi (90+1 Merino).",
@@ -116,10 +104,6 @@ const SICIL = {
       ozet: "Meksika-Ekvador'un 90 dakikada berabere bitip uzatmada Meksika'nın kazanacağını söyledi.",
       cozum: "Kazananı bildi — Meksika turu geçip son 16'da İngiltere'yle eşleşti; uzatma senaryosu transkriptlerden doğrulanamadı.",
       video: "-e904IkD6uw", kanit: "8fckW0xyH7k" },
-    { kisi: "Hilmi", t: "13 Haz", kat: "kanal", durum: "TUTTU",
-      ozet: "Kanalın Dünya Kupası bitmeden 740.000 aboneye ulaşacağını söyledi.",
-      cozum: "Kanal Temmuz başında ~746 bin aboneye ulaştı — turnuva bitmeden hedef geçildi.",
-      video: "KIuwYKd-Q8k", kanit: "KIuwYKd-Q8k" },
     // ---- KANALIN KENDİ PUANLAMASI (28 Haz yüzleşme yayını) ----
     { kisi: "Hilmi", t: "28 Haz", kat: "grup karnesi", durum: "TUTTU",
       ozet: "12 grubun toplamında en yüksek puanı toplayarak grup tahminlerinin açık ara birincisi oldu (E Grubu'nu neredeyse tam bildi).",
@@ -138,22 +122,6 @@ const SICIL = {
       cozum: "Grup 'üzücü' bitti; Özbekistan güveni Hasan'a puan kaybettirdi — yayında espri konusu oldu.",
       video: "KVik2_JlLko", kanit: "KVik2_JlLko" },
     // ---- BEKLEYENLER ----
-    { kisi: "Turancan", t: "7 Tem", kat: "transfer", durum: "BEKLIYOR",
-      ozet: "Malcom'un Fenerbahçe'ye transferinin GERÇEKLEŞMEYECEĞİNİ iddia etti — temenni değil öngörü olduğunu özellikle vurguladı.",
-      cozum: "Transfer penceresi açık — takipte.",
-      video: "7jgCcB60ONA", kanit: null },
-    { kisi: "Hasan", t: "4 Haz", kat: "transfer", durum: "BEKLIYOR",
-      ozet: "Merih Demiral'in bu yaz KESİN olarak Fenerbahçe'ye transfer olacağını söyledi.",
-      cozum: "Transfer penceresi açık — takipte.",
-      video: "6kgw0KhCfz0", kanit: null },
-    { kisi: "Hasan", t: "4 Haz", kat: "transfer", durum: "BEKLIYOR",
-      ozet: "Hakan Çalhanoğlu'nun İnter'den Fenerbahçe'ye geleceğini, gelirse Kante'nin kadrodan çıkarılacağını öngördü.",
-      cozum: "Transfer penceresi açık — takipte.",
-      video: "6kgw0KhCfz0", kanit: null },
-    { kisi: "Hilmi", t: "4 Haz", kat: "transfer", durum: "BEKLIYOR",
-      ozet: "John Duran'ın Galatasaray'la anlaştığını, sadece açıklamanın bekletildiğini 'duyduğunu' söyledi.",
-      cozum: "Resmi açıklama yok — takipte.",
-      video: "6kgw0KhCfz0", kanit: null },
     { kisi: "Hasan", t: "5 Tem", kat: "turnuva", durum: "COKTU",
       ozet: "Meksika'nın İngiltere'yi 90 dakikada yenip turnuvada tarih yazacağını söyledi.",
       cozum: "İngiltere turu geçti ve çeyrek finalde Norveç'i 2-1 yendi; Meksika turnuva dışı.",
@@ -162,18 +130,6 @@ const SICIL = {
       ozet: "'Arjantin finale çıkarsa, rakip Fransa bile olsa yüzde yüz şampiyon' dedi.",
       cozum: "Fransa yarı finalde İspanya'ya elendi (14 Tem, 0-2) — 'rakip Fransa bile olsa' koşulu artık test edilemeyecek, ama esas iddia sürüyor: Arjantin bugün (15 Tem) yarı finalde İngiltere'yle oynuyor, sonuç bekleniyor.",
       video: "_vs_fz92o4M", kanit: "PkkYh9lL4_c" },
-    { kisi: "Hasan", t: "7 Tem", kat: "sezon", durum: "BEKLIYOR",
-      ozet: "Beşiktaş güçlü kadrosuna rağmen şampiyonluğa yetişemeyecek; en iyi ihtimalle ~75 puanla ikincilik dedi.",
-      cozum: "2026-27 sezonu — uzun vadeli takipte.",
-      video: "7jgCcB60ONA", kanit: null },
-    { kisi: "Hasan", t: "23 Haz", kat: "gündem", durum: "BEKLIYOR",
-      ozet: "Sergen Yalçın'ın birkaç yıl içinde yeniden Beşiktaş'ın başına döneceğini söyledi.",
-      cozum: "Uzun vadeli takipte.",
-      video: "aI40uEGGXuY", kanit: null },
-    { kisi: "Hilmi", t: "1 Tem", kat: "oyuncu", durum: "BEKLIYOR",
-      ozet: "Kasım Ouattara'nın Beşiktaş'ta sol bek pozisyonunu 10 yıl boyunca kilitleyeceğini öngördü.",
-      cozum: "En uzun vadeli tahmin — sicilde saklanacak.",
-      video: "8fckW0xyH7k", kanit: null },
     { kisi: "Turancan", t: "13 Haz", kat: "oyuncu", durum: "BEKLIYOR",
       ozet: "'Niş tahmin': Türkiye'nin Dünya Kupası'ndaki ilk golünü Zeki Çelik atacaktı.",
       cozum: "Türkiye'nin ilk golü ABD maçında (3-2) geldi; golcü verisi bir sonraki güncellemede netleşecek.",
@@ -186,10 +142,6 @@ const SICIL = {
       ozet: "Fransa şampiyon olursa Dembele'nin (turnuvada 4 gol) Ballon d'Or'u garantileyeceğini söyledi.",
       cozum: "Fransa yarı finalde İspanya'ya 0-2 kaybetti (14 Tem, Dallas — 22' Oyarzabal penaltı, 58' Pedro Porro) — şampiyonluk ihtimali bitti, koşul hiç gerçekleşmeyecek.",
       video: "HCfRvcR8RxI", kanit: "PkkYh9lL4_c" },
-    { kisi: "Hilmi", t: "10 Tem", kat: "sezon", durum: "BEKLIYOR",
-      ozet: "Kocaelispor'da Selçuk İnan'ın 7. haftaya kadar görevde kalma ihtimalini %10'un altında gördü.",
-      cozum: "2026-27 sezonu başlıyor — takipte.",
-      video: "3Vl3PNsRqQ8", kanit: null },
     { kisi: "Hilmi", t: "11 Tem", kat: "sampiyon", durum: "BEKLIYOR",
       ozet: "Kalan 5 takım için şampiyonluk yüzdesi verdi: Fransa %40 (açık favori), Arjantin %20, İspanya %20, İngiltere %18, İsviçre en düşük.",
       cozum: "Fransa (en yüksek yüzdesi) yarı finalde İspanya'ya elendi (14 Tem, 0-2) — favorisi ilk turda düştü. İspanya finale yükseldi; rakibi bugünkü (15 Tem) İngiltere-Arjantin yarı finalinin galibi. Final 19 Temmuz'da netleşecek.",
@@ -199,9 +151,7 @@ const SICIL = {
   yuzlesmeKosesi: [
     { t: "11 Tem", olay: "Sadakat testi: Norveç elenirken bile Turancan takımını reddetmedi — hakem tartışmasında 'ufak takımı kollayın' deyip 'Norveç müthiş oynadı' diye övgüsünü sürdürdü. Kimse 'öve öve bitirmiştin' diye takılmadı; o kendi çağrısının arkasında durdu.", video: "uFBXQy-aENs" },
     { t: "13 Haz", olay: "Katar'a önceki yayında verilen 'sıfır' notu izleyici tarafından hatırlatıldı; ekip 'ilk patlamamız' diye kabul etti (Katar 1-1 İsviçre).", video: "ssRo1VjOSMU" },
-    { t: "28 Haz", olay: "D Grubu tahminleri yayında unutuldu; izleyiciler uyarınca sonradan eklendi — Hilmi 2 puan aldı, diğerleri 0.", video: "KVik2_JlLko" },
-    { t: "28 Haz", olay: "Ekip, Furkan Elmer'in ayrı tahmin oyununda da sonuncu olduklarını gülerek itiraf etti.", video: "KVik2_JlLko" },
-    { t: "7 Haz", olay: "Seçim gecesi Hasan ve Turancan, Hilmi karşısında yanıldıklarını canlı yayında kabul etti.", video: "LyI-srs5zjQ" }
+    { t: "28 Haz", olay: "D Grubu tahminleri yayında unutuldu; izleyiciler uyarınca sonradan eklendi — Hilmi 2 puan aldı, diğerleri 0.", video: "KVik2_JlLko" }
   ],
 
   dun: {

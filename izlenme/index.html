@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Kaçı Bildin? — HTalks İzlenme Tahmini</title>
-<meta name="description" content="İki HTalks videosundan hangisi daha çok izlendi? Kâhinliğini test et, seriyi bozma.">
+<title>Kaçı Bildin? — HTalks Veri Tahmini</title>
+<meta name="description" content="İzlenme, süre, şike sayacı — HTalks arşivinin gerçek verisiyle tahmin oyunu. Kâhinliğini test et, seriyi bozma.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔮</text></svg>">
 <style>
   :root {
@@ -41,6 +41,11 @@
   .baslik .k { color:var(--altin); }
   .alt { color:var(--soluk); font-size:.9rem; margin-top:8px; max-width:44ch; margin-left:auto; margin-right:auto; }
 
+  .kat-rozet { display:inline-flex; align-items:center; gap:6px; margin-top:18px; background:var(--panel);
+    border:1px solid var(--cizgi); border-radius:20px; padding:7px 16px; font-size:.78rem; font-weight:800;
+    color:var(--altin-parlak); letter-spacing:.3px; }
+  .soru-metin { margin-top:10px; font-size:1rem; font-weight:800; }
+
   .skorbar { display:flex; justify-content:center; gap:28px; margin:22px 0 8px; }
   .skor-hane { text-align:center; }
   .skor-hane .n { font-size:1.7rem; font-weight:900; font-variant-numeric:tabular-nums; }
@@ -60,8 +65,7 @@
   .kart .gov { padding:12px 14px 14px; }
   .kart .baslik-metin { font-size:.86rem; font-weight:700; line-height:1.32;
     display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; min-height:3.5em; }
-  .kart .tarih { font-size:.68rem; color:var(--soluk); margin-top:8px; font-weight:600; letter-spacing:.3px; }
-  .kart .sayac { font-size:1.5rem; font-weight:900; font-variant-numeric:tabular-nums; margin-top:6px;
+  .kart .sayac { font-size:1.5rem; font-weight:900; font-variant-numeric:tabular-nums; margin-top:10px;
     opacity:0; transform:translateY(6px); transition:opacity .3s, transform .3s; }
   .kart.acik .sayac { opacity:1; transform:none; }
   .kart .sayac.dogru { color:var(--yesil); }
@@ -109,7 +113,7 @@
 
 <div class="sahne">
   <div class="baslik">🔮 <span class="k">Kaçı Bildin?</span></div>
-  <div class="alt">İki HTalks videosu. Hangisi daha çok izlendi? Kâhinliğini test et — bir yanlış, seri biter.</div>
+  <div class="alt">HTalks arşivinin gerçek verisiyle tahmin oyunu — izlenme, süre, şike sayacı. Kâhinliğini test et, bir yanlış seri biter.</div>
 
   <div class="skorbar">
     <div class="skor-hane seri">
@@ -123,7 +127,9 @@
   </div>
 
   <div class="oyun" id="oyunAlani">
-    <div class="kartlar" id="kartlar"></div>
+    <div class="kat-rozet" id="katRozet"></div>
+    <div class="soru-metin" id="soruMetin"></div>
+    <div class="kartlar" id="kartlar" style="margin-top:16px"></div>
     <div class="devam" id="devamAlani" style="display:none">
       <button id="devamBtn">Sıradaki →</button>
     </div>
@@ -136,53 +142,85 @@
     <div class="yeniden"><button id="yenidenBtn">Yeniden Dene</button></div>
   </div>
 
-  <div class="rekor-satir">📼 <b id="havuzSayi">0</b> video · gerçek YouTube izlenme verisi</div>
+  <div class="rekor-satir">📼 <b id="havuzSayi">0</b> veri noktası · <span id="katSayi">0</span> kategori · gerçek arşiv verisi</div>
 </div>
 
-<footer>Bu bir fan çalışması. Sayılar gerçek — YouTube herkese açık verisinden.</footer>
+<footer>Bu bir fan çalışması. Sayılar gerçek — YouTube herkese açık verisinden ve temiz transkript sayımından.</footer>
 
 <script src="data.js"></script>
+<script src="kelime-data.js"></script>
 <script>
 const KEY = 'htalks_izlenme_rekor';
-let havuz = (window.HTALKS_VIDEOS || []).filter(v => v.v >= 1000 && v.t.length >= 8);
-document.getElementById('havuzSayi').textContent = havuz.length.toLocaleString('tr-TR');
+
+function sureFmt(sn){
+  const s = Math.round(sn);
+  if (s < 60) return s + ' sn';
+  const dk = Math.floor(s/60), kalanSn = s%60;
+  if (dk < 60) return dk + ':' + String(kalanSn).padStart(2,'0');
+  const sa = Math.floor(dk/60), kalanDk = dk%60;
+  return sa + ' sa ' + kalanDk + ' dk';
+}
+function thumb(id){ return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`; }
+
+const KATEGORILER = [
+  {
+    ad: '📊 İzlenme Sayısı', soru: 'Hangisi daha çok izlendi?',
+    havuz: (window.HTALKS_VIDEOS || []).filter(v => v.v >= 1000 && v.t.length >= 8),
+    deger: v => v.v, gosterAd: v => v.t, gosterId: v => v.id,
+    fmt: n => n.toLocaleString('tr-TR'), rozetMetin: 'EN ÇOK İZLENEN'
+  },
+  {
+    ad: '⏱️ Video Süresi', soru: 'Hangisi daha uzun sürüyor?',
+    havuz: (window.HTALKS_VIDEOS || []).filter(v => v.s >= 20 && v.t.length >= 8),
+    deger: v => v.s, gosterAd: v => v.t, gosterId: v => v.id,
+    fmt: sureFmt, rozetMetin: 'EN UZUN'
+  },
+  {
+    ad: '⚽ Şike Sayacı', soru: 'Hangi gecede "şike" daha çok söylendi?',
+    havuz: (window.SIKE_GECELER || []),
+    deger: v => v.n, gosterAd: v => v.t, gosterId: v => v.id,
+    fmt: n => n + ' kez', rozetMetin: 'EN ÇOK'
+  },
+];
+const havuzToplam = KATEGORILER.reduce((a,k)=>a+k.havuz.length, 0);
+document.getElementById('havuzSayi').textContent = havuzToplam.toLocaleString('tr-TR');
+document.getElementById('katSayi').textContent = KATEGORILER.length;
 
 let seri = 0;
 let rekor = parseInt(localStorage.getItem(KEY) || '0', 10);
-let sol, sag, kilitli = false;
+let aktifKat, sol, sag, kilitli = false;
 
-function fmt(n){ return n.toLocaleString('tr-TR'); }
-function thumb(id){ return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`; }
-function tarihFmt(d){
-  if(!d || d.length !== 8) return '';
-  return `${d.slice(6,8)}.${d.slice(4,6)}.${d.slice(0,4)}`;
+function rastgeleKategori(){
+  return KATEGORILER[Math.floor(Math.random()*KATEGORILER.length)];
 }
-function rastgele(haric){
-  let v;
-  do { v = havuz[Math.floor(Math.random()*havuz.length)]; } while(haric && v.id === haric.id);
-  return v;
+function rastgeleIki(havuz){
+  const a = havuz[Math.floor(Math.random()*havuz.length)];
+  let b;
+  do { b = havuz[Math.floor(Math.random()*havuz.length)]; } while (b === a);
+  return [a, b];
 }
 
-function kartHTML(v, taraf){
+function kartHTML(v, taraf, kat){
   return `
     <div class="kart" data-taraf="${taraf}">
-      <div class="thumb-wrap"><img src="${thumb(v.id)}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>
+      <div class="thumb-wrap"><img src="${thumb(kat.gosterId(v))}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>
       <div class="gov">
-        <div class="baslik-metin">${v.t}</div>
-        <div class="tarih">${tarihFmt(v.d)}</div>
+        <div class="baslik-metin">${kat.gosterAd(v)}</div>
         <div class="sayac" data-taraf="${taraf}"></div>
       </div>
       <div class="rozet"></div>
     </div>`;
 }
 
-function yeniTur(oncekiKazanan){
+function yeniTur(){
   kilitli = false;
   document.getElementById('devamAlani').style.display = 'none';
-  sol = oncekiKazanan || rastgele();
-  sag = rastgele(sol);
+  aktifKat = rastgeleKategori();
+  [sol, sag] = rastgeleIki(aktifKat.havuz);
+  document.getElementById('katRozet').textContent = aktifKat.ad;
+  document.getElementById('soruMetin').textContent = aktifKat.soru;
   document.getElementById('kartlar').innerHTML =
-    kartHTML(sol, 'sol') + `<div class="vs">VS</div>` + kartHTML(sag, 'sag');
+    kartHTML(sol, 'sol', aktifKat) + `<div class="vs">VS</div>` + kartHTML(sag, 'sag', aktifKat);
   document.querySelectorAll('.kart').forEach(k => {
     k.addEventListener('click', () => sec(k.dataset.taraf), { once: true });
   });
@@ -191,7 +229,8 @@ function yeniTur(oncekiKazanan){
 function sec(taraf){
   if (kilitli) return;
   kilitli = true;
-  const dogruTaraf = sol.v >= sag.v ? 'sol' : 'sag';
+  const solDeger = aktifKat.deger(sol), sagDeger = aktifKat.deger(sag);
+  const dogruTaraf = solDeger >= sagDeger ? 'sol' : 'sag';
   const dogru = taraf === dogruTaraf;
 
   ['sol','sag'].forEach(t => {
@@ -200,9 +239,9 @@ function sec(taraf){
     const bu = t === dogruTaraf ? 'dogru' : 'yanlis';
     kart.classList.add('acik', bu);
     kart.classList.add('kilit');
-    kart.querySelector('.sayac').textContent = fmt(v.v);
+    kart.querySelector('.sayac').textContent = aktifKat.fmt(aktifKat.deger(v));
     kart.querySelector('.sayac').classList.add(bu);
-    kart.querySelector('.rozet').textContent = t === dogruTaraf ? '👑 EN ÇOK' : '';
+    kart.querySelector('.rozet').textContent = t === dogruTaraf ? '👑 ' + aktifKat.rozetMetin : '';
     kart.querySelector('.rozet').classList.add(bu);
   });
 
@@ -215,10 +254,7 @@ function sec(taraf){
       document.getElementById('rekorNo').textContent = rekor;
     }
     document.getElementById('devamAlani').style.display = 'block';
-    document.getElementById('devamBtn').onclick = () => {
-      const kazanan = dogruTaraf === 'sol' ? sol : sag;
-      yeniTur(kazanan);
-    };
+    document.getElementById('devamBtn').onclick = () => yeniTur();
   } else {
     setTimeout(() => bitir(), 900);
   }

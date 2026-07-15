@@ -1249,403 +1249,233 @@ window.SETLER = [
     "id": 5,
     "kategori": "veri",
     "katAd": "Gerçek Veri",
-    "tema": "Şike & Gariban Geceleri — Sence En Efsanesi?",
-    "soru": "Arşivin 'şike/rezalet' ve 'garibanlık' yüklü geceleri karşı karşıya — yanlarındaki sayaçlar gerçek arşiv verisi, ama doğru cevap yok: sence hangi gece daha efsane?",
+    "tema": "Şike Geceleri — Sence En Efsanesi?",
+    "soru": "Arşivin şike/rezalet yüklü geceleri karşı karşıya — yanlarındaki sayaçlar temiz transkriptten yeniden sayıldı, doğru cevap yok: sence hangi gece daha efsane?",
     "tip": "bracket",
     "adaylar": [
       {
-        "ad": "Fenerbahçe-Kayserispor | Maç Sonu Değerlendirmesi | Çarklı Kadro Kurma",
-        "not": "27 kez \"şike\" — 20.04.2025 yayınında arşiv zirvesi.",
+        "ad": "Adana Demirspor - Galatasaray | Maç Sonu Değerlendirmesi | UEL Fikstür İncelemes",
+        "not": "33 kez \"şike\" — 31.08.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "fenerbahce-kayserispor-mac-sonu-degerlendirmesi-"
+        "slug": "adana-demirspor-galatasaray-mac-sonu-degerlendirmesi-uel-fik",
+        "vid": "a9eBDnizjpA"
       },
       {
         "ad": "Çarklı Draft | Avrupa Ligi - Şampiyonlar Ligi | En İyi İlk 11'ler",
-        "not": "25 kez \"şike\" — 09.06.2025 yayınında arşiv zirvesi.",
+        "not": "23 kez \"şike\" — 09.06.2025 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "carkli-draft-avrupa-ligi-sampiyonlar-ligi-en-iyi"
+        "slug": "carkli-draft-avrupa-ligi-sampiyonlar-ligi-en-i-yi-i-lk-11-le",
+        "vid": "VXdI8b2fPcI"
       },
       {
-        "ad": "Adana Demirspor - Galatasaray | Maç Sonu Değerlendirmesi | UEL Fikstür",
-        "not": "21 kez \"şike\" — 31.08.2024 yayınında arşiv zirvesi.",
+        "ad": "Fenerbahçe-Kayserispor | Maç Sonu Değerlendirmesi | Çarklı Kadro Kurma",
+        "not": "23 kez \"şike\" — 20.04.2025 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "adana-demirspor-galatasaray-mac-sonu-degerlendir"
+        "slug": "fenerbahce-kayserispor-mac-sonu-degerlendirmesi-carkli-kadro",
+        "vid": "4TQh3UZuXlY"
       },
       {
-        "ad": "H-TALK SHOW: Wonderkidwin",
-        "not": "19 kez \"şike\" — 20.08.2022 yayınında arşiv zirvesi.",
+        "ad": "Fenerbahçe-Trabzonspor | Maç Sonu Değerlendirmesi | 12 Dev Adam Final Takip",
+        "not": "9 kez \"şike\" — 14.09.2025 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "h-talk-show-wonderkidwin"
+        "slug": "fenerbahce-trabzonspor-mac-sonu-degerlendirmesi-12-dev-adam-",
+        "vid": "uOWBwoCB0AA"
       },
       {
-        "ad": "Fenerbahçe-F.Karagümrük | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "14 kez \"şike\" — 19.10.2025 yayınında arşiv zirvesi.",
+        "ad": "Galatasaray - Alanyaspor | Maç Sonu Değerlendirmesi | Murat Ağırel Son Yazısı, S",
+        "not": "8 kez \"şike\" — 25.11.2023 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "fenerbahce-f-karagumruk-mac-sonu-degerlendirmesi"
+        "slug": "galatasaray-alanyaspor-mac-sonu-degerlendirmesi-murat-agirel",
+        "vid": "rxar_Upey9w"
       },
       {
-        "ad": "Antalyaspor-Beşiktaş | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "13 kez \"şike\" — 08.11.2025 yayınında arşiv zirvesi.",
+        "ad": "FM24 KARİYER #S3B7 | JOURNEYMAN MODU | MUHTEŞEM SEZON BAŞLIYOR!",
+        "not": "6 kez \"şike\" — 05.04.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "antalyaspor-besiktas-mac-sonu-degerlendirmesi-uw"
+        "slug": "fm24-kari-yer-s3b7-journeyman-modu-muhtesem-sezon-basliyor",
+        "vid": "_6KKij4qPyQ"
       },
       {
-        "ad": "Barış Alper, Harman Ekspres, El Bilal Toure | Harman 58. Bölüm | Erman",
-        "not": "12 kez \"şike\" — 25.08.2025 yayınında arşiv zirvesi.",
-        "emoji": "📺",
-        "slug": "baris-alper-harman-ekspres-el-bilal-toure-harman"
-      },
-      {
-        "ad": "Beşiktaş - Ankaragücü | PSG - Dortmund | Maç Sonu Değerlendirmesi | To",
-        "not": "12 kez \"şike\" — 08.05.2024 yayınında arşiv zirvesi.",
+        "ad": "Süper Kupa Canlı Takip | Son Gelişmeler, Açıklamalar, Tören",
+        "not": "6 kez \"şike\" — 07.04.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "besiktas-ankaragucu-psg-dortmund-mac-sonu-degerl"
+        "slug": "super-kupa-canli-takip-son-gelismeler-aciklamalar-toren",
+        "vid": "oek6abjVfp0"
       },
       {
-        "ad": "FM 26 Journeyman S2B1 | \"ALIŞMAK SEVMEKTEN ZOR\" @KorayKoc-KK",
-        "not": "11 kez \"şike\" — 12.02.2026 yayınında arşiv zirvesi.",
+        "ad": "Beşiktaş - Trabzonspor | Maç Sonu Değerlendirmesi",
+        "not": "6 kez \"şike\" — 04.02.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "fm-26-journeyman-s2b1-alismak-sevmekten-zor-kora"
+        "slug": "besiktas-trabzonspor-mac-sonu-degerlendirmesi",
+        "vid": "Ou0vMW1ghbc"
       },
       {
-        "ad": "HTALKS FIRAT SOBUTAY HATAY SANDIK İÇİ  HATAY SOKAK LEZZETLERİ İZLİYOR!",
-        "not": "11 kez \"şike\" — 21.12.2025 yayınında arşiv zirvesi.",
-        "emoji": "📺",
-        "slug": "htalks-firat-sobutay-hatay-sandik-ici-hatay-soka"
-      },
-      {
-        "ad": "Fenerbahçe-Gençlerbirliği | Maç Sonu Değerlendirmesi",
-        "not": "11 kez \"şike\" — 09.02.2026 yayınında arşiv zirvesi.",
+        "ad": "Avrupa Ligi Playoff İlk Maçlar | Maç Sonu Değerlendirmesi",
+        "not": "6 kez \"şike\" — 13.02.2025 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "fenerbahce-genclerbirligi-mac-sonu-degerlendirme"
+        "slug": "avrupa-ligi-playoff-i-lk-maclar-mac-sonu-degerlendirmesi",
+        "vid": "plvedtvJ-10"
       },
       {
-        "ad": "Galatasaray - Alanyaspor | Maç Sonu Değerlendirmesi | Murat Ağırel Son",
-        "not": "10 kez \"şike\" — 25.11.2023 yayınında arşiv zirvesi.",
+        "ad": "Son Gelişmeleri Canlı Değerlendiriyoruz | Yemek Videoları",
+        "not": "5 kez \"şike\" — 19.03.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "galatasaray-alanyaspor-mac-sonu-degerlendirmesi-"
+        "slug": "son-gelismeleri-canli-degerlendiriyoruz-yemek-videolari",
+        "vid": "ggufXjJ1gRY"
       },
       {
-        "ad": "H-TALK SHOW: Tolunay Ören",
-        "not": "10 kez \"şike\" — 15.07.2022 yayınında arşiv zirvesi.",
+        "ad": "F.Karagümrük-Beşiktaş | Maç Sonu Değerlendirmesi | Ödev Takımlar",
+        "not": "5 kez \"şike\" — 30.11.2025 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "h-talk-show-tolunay-oren"
+        "slug": "f-karagumruk-besiktas-mac-sonu-degerlendirmesi-odev-takimlar",
+        "vid": "UVR75e7vkYs"
       },
       {
-        "ad": "CL Canlı Takip | Var Kayıtları | Muhabbet - Uwufufu",
-        "not": "10 kez \"şike\" — 12.03.2024 yayınında arşiv zirvesi.",
+        "ad": "Sakaryaspor - Bodrumspor Canlı Takip | Anadolu Takımlı Ünlüler | Beşiktaş ve Fen",
+        "not": "5 kez \"şike\" — 30.05.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "cl-canli-takip-var-kayitlari-muhabbet-uwufufu"
-      },
-      {
-        "ad": "Galatasaray-Göztepe | Maç Sonu Değerlendirmesi",
-        "not": "10 kez \"şike\" — 04.01.2025 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "galatasaray-goztepe-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Son Açıklamalar, Lansmanlar, Adalı vs Arat | Gece Yayını",
-        "not": "10 kez \"şike\" — 17.11.2023 yayınında arşiv zirvesi.",
-        "emoji": "📺",
-        "slug": "son-aciklamalar-lansmanlar-adali-vs-arat-gece-ya"
-      },
-      {
-        "ad": "HTALKS UWUFUFU  SÜPER LİGE GELMİŞ EN KÖTÜ FUTBOLCU SEÇİYOR? #SEÇİYORUZ",
-        "not": "9 kez \"şike\" — 11.07.2025 yayınında arşiv zirvesi.",
-        "emoji": "📺",
-        "slug": "htalks-uwufufu-super-lige-gelmis-en-kotu-futbolc"
-      },
-      {
-        "ad": "HTalks Münazara #2 | Messi mi? Ronaldo mu? Maradona mı?",
-        "not": "9 kez \"şike\" — 16.05.2024 yayınında arşiv zirvesi.",
-        "emoji": "📺",
-        "slug": "htalks-munazara-2-messi-mi-ronaldo-mu-maradona-m"
-      },
-      {
-        "ad": "Biz Yokken Neler Oldu? | Gündem | Uwufufu",
-        "not": "9 kez \"şike\" — 04.08.2024 yayınında arşiv zirvesi.",
-        "emoji": "🎙️",
-        "slug": "biz-yokken-neler-oldu-gundem-uwufufu"
-      },
-      {
-        "ad": "Fenerbahçe - Adana Demirspor | Maç Sonu Değerlendirmesi | Uwufufu: En ",
-        "not": "9 kez \"şike\" — 10.08.2024 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "fenerbahce-adana-demirspor-mac-sonu-degerlendirm"
-      },
-      {
-        "ad": "Gündem Yayını | Salih Özcan, Son Transfer Haberleri, Neymar İlk 11",
-        "not": "8 kez \"şike\" — 05.07.2026 yayınında arşiv zirvesi.",
-        "emoji": "🎙️",
-        "slug": "gundem-yayini-salih-ozcan-son-transfer-haberleri"
-      },
-      {
-        "ad": "HTALKS 3 BÜYÜKLERE GELMİŞ EN KÖTÜ FUTBOLCUYU SEÇİYOR (SON 20 YIL)|UWUF",
-        "not": "8 kez \"şike\" — 23.11.2025 yayınında arşiv zirvesi.",
-        "emoji": "📺",
-        "slug": "htalks-3-buyuklere-gelmis-en-kotu-futbolcuyu-sec"
-      },
-      {
-        "ad": "FM 26 Journeyman S2B2 | \"SALINA SALINA SİNSİCE\" @KorayKoc-KK",
-        "not": "8 kez \"şike\" — 20.02.2026 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "fm-26-journeyman-s2b2-salina-salina-sinsice-kora"
-      },
-      {
-        "ad": "Young Boys - Galatasaray  | Maç Sonu Değerlendirmesi | Transfer Gündem",
-        "not": "8 kez \"şike\" — 21.08.2024 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "young-boys-galatasaray-mac-sonu-degerlendirmesi-"
-      },
-      {
-        "ad": "Beşiktaş-Galatasaray | Maç Önü Değerlendirmesi",
-        "not": "8 kez \"şike\" — 07.03.2026 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "besiktas-galatasaray-mac-onu-degerlendirmesi"
-      },
-      {
-        "ad": "Gündem Yayını | Bayern - Real, Nuri Şahin, Devin Özek",
-        "not": "7 kez \"şike\" — 02.05.2024 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "gundem-yayini-bayern-real-nuri-sahin-devin-ozek"
-      },
-      {
-        "ad": "FM24 KARİYER #S2B9 | JOURNEYMAN MODU | KOCAELİYE KUPA GELİYOR MU?",
-        "not": "7 kez \"şike\" — 16.02.2024 yayınında arşiv zirvesi.",
-        "emoji": "📺",
-        "slug": "fm24-kariyer-s2b9-journeyman-modu-kocaeliye-kupa"
-      },
-      {
-        "ad": "Fenerbahçe-Nice | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "7 kez \"şike\" — 02.10.2025 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "fenerbahce-nice-mac-sonu-degerlendirmesi-uwufufu"
-      },
-      {
-        "ad": "FM 26 Journeyman S1B8 | \"YALANIN BATSIN\" @KorayKoc-KK",
-        "not": "7 kez \"şike\" — 09.01.2026 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "fm-26-journeyman-s1b8-yalanin-batsin-koraykoc-kk"
-      },
-      {
-        "ad": "Gaziantep FK - Fenerbahçe | Maç Sonu Değerlendirmesi | Survivor Nageha",
-        "not": "7 kez \"şike\" — 07.02.2024 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "gaziantep-fk-fenerbahce-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Mehmet Demirkol | Hasan'ın Masası #2",
-        "not": "6 kez \"şike\" — 16.01.2025 yayınında arşiv zirvesi.",
-        "emoji": "📺",
-        "slug": "mehmet-demirkol-hasan-in-masasi-2"
+        "slug": "sakaryaspor-bodrumspor-canli-takip-anadolu-takimli-unluler-b",
+        "vid": "G0E6X-1QC-o"
       },
       {
         "ad": "FM24 Ekiple Draft #2 | KURAL : SADECE FRANSIZLAR",
-        "not": "6 kez \"şike\" — 19.11.2023 yayınında arşiv zirvesi.",
-        "emoji": "📺",
-        "slug": "fm24-ekiple-draft-2-kural-sadece-fransizlar"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "kategori": "veri",
-    "katAd": "Gerçek Veri",
-    "tema": "Maçko, Maksimüs & Yüzleşme Geceleri",
-    "soru": "Kanal sözlüğünün üç efsane kelimesinin zirve yaptığı geceler karşı karşıya. Doğru cevap yok — sence hangi gece daha unutulmaz?",
-    "tip": "bracket",
-    "adaylar": [
-      {
-        "ad": "H-TALK SHOW: Engin Kehale",
-        "not": "24 kez \"maçko\" — 06.12.2022 yayınında arşiv zirvesi.",
+        "not": "5 kez \"şike\" — 19.11.2023 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "h-talk-show-engin-kehale"
+        "slug": "fm24-ekiple-draft-2-kural-sadece-fransizlar",
+        "vid": "LIIFam1FNv8"
       },
       {
-        "ad": "Alanyaspor-Fenerbahçe | Maç Sonu Değerlendirmesi | Afrika Kupası Final",
-        "not": "20 kez \"maçko\" — 18.01.2026 yayınında arşiv zirvesi.",
+        "ad": "Fenerbahçe-Kasımpaşa | Maç Sonu Değerlendirmesi",
+        "not": "5 kez \"şike\" — 16.02.2025 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "alanyaspor-fenerbahce-mac-sonu-degerlendirmesi-a"
+        "slug": "fenerbahce-kasimpasa-mac-sonu-degerlendirmesi",
+        "vid": "wjXSn1N89DE"
       },
       {
-        "ad": "Gaziantep FK-Galatasaray | Maç Sonu Değerlendirmesi | Lige Bakış",
-        "not": "16 kez \"maçko\" — 08.08.2025 yayınında arşiv zirvesi.",
+        "ad": "Ali Koç Açıklamalar | Lezzet Videosu | CL Canlı Takip",
+        "not": "5 kez \"şike\" — 13.03.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "gaziantep-fk-galatasaray-mac-sonu-degerlendirmes"
+        "slug": "ali-koc-aciklamalar-lezzet-videosu-cl-canli-takip",
+        "vid": "J2iA_fi8v_U"
       },
       {
-        "ad": "D.Zagreb-Fenerbahçe | Kayserispor-Beşiktaş | Maç Sonu Değerlendirmeler",
-        "not": "13 kez \"maçko\" — 24.09.2025 yayınında arşiv zirvesi.",
+        "ad": "En Abartılan Yemek? #Seçiyoruz",
+        "not": "5 kez \"şike\" — 05.02.2026 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "d-zagreb-fenerbahce-kayserispor-besiktas-mac-son"
+        "slug": "en-abartilan-yemek-seciyoruz",
+        "vid": "r7N1D6dufic"
       },
       {
-        "ad": "Zecorner Kayserispor-Galatasaray | Maç Sonu Değerlendirmesi | Yeni Sez",
-        "not": "12 kez \"maçko\" — 24.08.2025 yayınında arşiv zirvesi.",
+        "ad": "Beşiktaş - Kasımpaşa | Maç Sonu Değerlendirmesi | Bronckhorst'ta Pürüz Var mı?",
+        "not": "5 kez \"şike\" — 05.01.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "zecorner-kayserispor-galatasaray-mac-sonu-degerl"
-      },
-      {
-        "ad": "Trabzonspor-Fenerbahçe | Maç Sonu Değerlendirmesi | Aşk",
-        "not": "11 kez \"maçko\" — 14.02.2026 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "trabzonspor-fenerbahce-mac-sonu-degerlendirmesi-"
-      },
-      {
-        "ad": "Fenerbahçe-Kayserispor | Kocaelispor-Galatasaray | Maç Sonu Değerlendi",
-        "not": "11 kez \"maçko\" — 09.11.2025 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "fenerbahce-kayserispor-kocaelispor-galatasaray-m"
-      },
-      {
-        "ad": "I Grubu 3. Maçlar | Maç Sonu Değerlendirmesi",
-        "not": "11 kez geçti (26.06.2026)",
-        "emoji": "⚽",
-        "slug": "i-grubu-3-maclar-mac-sonu-degerlendirmesi"
+        "slug": "besiktas-kasimpasa-mac-sonu-degerlendirmesi-bronckhorst-ta-p",
+        "vid": "cy5iwtkVxAg"
       },
       {
         "ad": "Fenerbahçe-Konyaspor | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "10 kez \"maçko\" — 15.12.2025 yayınında arşiv zirvesi.",
+        "not": "5 kez \"şike\" — 15.12.2025 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "fenerbahce-konyaspor-mac-sonu-degerlendirmesi-uw"
+        "slug": "fenerbahce-konyaspor-mac-sonu-degerlendirmesi-uwufufu",
+        "vid": "Tlgf8JwJf7k"
       },
       {
-        "ad": "Galatasaray-Gençlerbirliği | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "10 kez \"maçko\" — 22.11.2025 yayınında arşiv zirvesi.",
+        "ad": "Komşuluk, Öpücük, Arne Slot, Uçak Tuvaleti | Harman 49. Bölüm | Erman Yaşar & @H",
+        "not": "5 kez \"şike\" — 29.04.2025 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "galatasaray-genclerbirligi-mac-sonu-degerlendirm"
+        "slug": "komsuluk-opucuk-arne-slot-ucak-tuvaleti-harman-49-bolum-erma",
+        "vid": "WkAmcTgNfPA"
       },
       {
-        "ad": "Beşiktaş-Başakşehir FK | Maç Sonu Değerlendirmesi | Sizden Gelen Sorul",
-        "not": "10 kez \"maçko\" — 13.09.2025 yayınında arşiv zirvesi.",
+        "ad": "UECL MAÇ SONU CANLI YAYIN TAM KAYIT!",
+        "not": "4 kez \"şike\" — 21.09.2023 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "besiktas-basaksehir-fk-mac-sonu-degerlendirmesi-"
+        "slug": "uecl-mac-sonu-canli-yayin-tam-kayit",
+        "vid": "HKN3Fgi9Uto"
       },
       {
-        "ad": "Arjantin-Avusturya | Maç Sonu Değerlendirmesi",
-        "not": "10 kez geçti (22.06.2026)",
+        "ad": "HTalks Videocast | Benim Hocam Bielsa #1",
+        "not": "4 kez \"şike\" — 03.10.2023 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "arjantin-avusturya-mac-sonu-degerlendirmesi"
+        "slug": "htalks-videocast-benim-hocam-bielsa-1",
+        "vid": "ShjHEZ2OQSU"
       },
       {
-        "ad": "Monaco-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "9 kez \"maçko\" — 09.12.2025 yayınında arşiv zirvesi.",
+        "ad": "Solskjaer, Tümer Metin, Zirvede Puan Farkı | Harman 36. Bölüm | Erman Yaşar & @H",
+        "not": "4 kez \"şike\" — 20.01.2025 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "monaco-galatasaray-mac-sonu-degerlendirmesi"
+        "slug": "solskjaer-tumer-metin-zirvede-puan-farki-harman-36-bolum-erm",
+        "vid": "Mkz8TmOU3dM"
       },
       {
-        "ad": "Göztepe-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "9 kez \"maçko\" — 08.04.2026 yayınında arşiv zirvesi.",
+        "ad": "Antalyaspor - Galatasaray | Maç Sonu Değerlendirmesi | Uwufufu",
+        "not": "4 kez \"şike\" — 19.10.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "goztepe-galatasaray-mac-sonu-degerlendirmesi"
+        "slug": "antalyaspor-galatasaray-mac-sonu-degerlendirmesi-uwufufu",
+        "vid": "QH5_9b3QlEQ"
       },
       {
-        "ad": "Beşiktaş-Kayserispor | Maç Sonu Değerlendirmesi\n20260119|7686|284090|s",
-        "not": "9 kez \"maçko\" — 19.01.2026 yayınında arşiv zirvesi.",
+        "ad": "Gündem Yayını | Bayern - Real, Nuri Şahin, Devin Özek",
+        "not": "4 kez \"şike\" — 02.05.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "besiktas-kayserispor-mac-sonu-degerlendirmesi-20"
+        "slug": "gundem-yayini-bayern-real-nuri-sahin-devin-ozek",
+        "vid": "0MFwsRD5UDM"
       },
       {
-        "ad": "Gençlerbirliği-Beşiktaş | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"maçko\" — 15.03.2026 yayınında arşiv zirvesi.",
+        "ad": "Fenerbahçe - Kasımpaşa | Maç Sonu Değerlendirmesi | Uwufufu",
+        "not": "4 kez \"şike\" — 24.02.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "genclerbirligi-besiktas-mac-sonu-degerlendirmesi"
+        "slug": "fenerbahce-kasimpasa-mac-sonu-degerlendirmesi-uwufufu",
+        "vid": "EUH9D5l8yeQ"
       },
       {
-        "ad": "Galatasaray-Karagümrük | Maç Sonu Değerlendirmesi | 2026 Formalar Uwuf",
-        "not": "8 kez \"maçko\" — 15.08.2025 yayınında arşiv zirvesi.",
+        "ad": "FM24 Ekiple Draft #1| KURAL : 5 BÜYÜK LİG YOK",
+        "not": "4 kez \"şike\" — 07.11.2023 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "galatasaray-karagumruk-mac-sonu-degerlendirmesi-"
+        "slug": "fm24-ekiple-draft-1-kural-5-buyuk-li-g-yok",
+        "vid": "YyL28IEtlI0"
       },
       {
-        "ad": "Galatasaray-Başakşehir | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"maçko\" — 14.03.2026 yayınında arşiv zirvesi.",
+        "ad": "Ciro Immobile ÖZEL Yayını | Canlı Uçak Takip | Cenk Tosun Fenerbahçe'de",
+        "not": "4 kez \"şike\" — 12.07.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "galatasaray-basaksehir-mac-sonu-degerlendirmesi"
+        "slug": "ciro-immobile-ozel-yayini-canli-ucak-takip-cenk-tosun-fenerb",
+        "vid": "vk18CnFIgR0"
       },
       {
-        "ad": "Samsunspor-Galatasaray, Fenerbahçe-Başakşehir, Trabzonspor-Göztepe | M",
-        "not": "8 kez \"maçko\" — 02.05.2026 yayınında arşiv zirvesi.",
+        "ad": "HALİL UMUT MELER, ANKARAGÜCÜ, OLAYLAR, ŞİMDİ NE OLACAK?",
+        "not": "4 kez \"şike\" — 11.12.2023 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "samsunspor-galatasaray-fenerbahce-basaksehir-tra"
+        "slug": "hali-l-umut-meler-ankaragucu-olaylar-si-mdi-ne-olacak",
+        "vid": "TV8U2ZAT8Bs"
       },
       {
-        "ad": "Beşiktaş-Trabzonspor | Maç Önü Değerlendirmesi",
-        "not": "8 kez \"maçko\" — 09.05.2026 yayınında arşiv zirvesi.",
+        "ad": "Euro 2024 Günün Maçları | Transfer Gündemi",
+        "not": "4 kez \"şike\" — 21.06.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "besiktas-trabzonspor-mac-onu-degerlendirmesi"
+        "slug": "euro-2024-gunun-maclari-transfer-gundemi",
+        "vid": "MmZ7QXQsygo"
       },
       {
-        "ad": "Galatasaray-Kayserispor | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"maçko\" — 01.02.2026 yayınında arşiv zirvesi.",
+        "ad": "İstanbulspor - Galatasaray | Maç Sonu Değerlendirmesi",
+        "not": "4 kez \"şike\" — 26.09.2023 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "galatasaray-kayserispor-mac-sonu-degerlendirmesi"
+        "slug": "i-stanbulspor-galatasaray-mac-sonu-degerlendirmesi",
+        "vid": "LF4qNsTCxe4"
       },
       {
-        "ad": "Beşiktaş-Alanyaspor | Rizespor-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "8 kez \"maçko\" — 08.02.2026 yayınında arşiv zirvesi.",
+        "ad": "Mehmet Demirkol | Hasan'ın Masası #2",
+        "not": "4 kez \"şike\" — 16.01.2025 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "besiktas-alanyaspor-rizespor-galatasaray-mac-son"
+        "slug": "mehmet-demirkol-hasan-in-masasi-2",
+        "vid": "K8EnmREzZM4"
       },
       {
-        "ad": "HTalks ile 2024'e Veda | Yılın En Akılda Kalanları",
-        "not": "8 kez geçti (28.12.2024)",
-        "emoji": "📺",
-        "slug": "htalks-ile-2024-e-veda-yilin-en-akilda-kalanlari"
-      },
-      {
-        "ad": "Benfica-Fenerbahçe | Maç Sonu Değerlendirmesi",
-        "not": "7 kez \"maçko\" — 27.08.2025 yayınında arşiv zirvesi.",
+        "ad": "Ç.Rizespor - Fenerbahçe | Maç Sonu Değerlendirmesi | Uwufufu",
+        "not": "4 kez \"şike\" — 25.08.2024 yayınında (temiz transkript sayımı).",
         "emoji": "⚽",
-        "slug": "benfica-fenerbahce-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Liverpool-Galatasaray | Maç Sonu Değerlendirmesi",
-        "not": "7 kez \"maçko\" — 18.03.2026 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "liverpool-galatasaray-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Trabzonspor-Fenerbahçe | Maç Önü Değerlendirmesi",
-        "not": "7 kez \"maçko\" — 14.02.2026 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "trabzonspor-fenerbahce-mac-onu-degerlendirmesi"
-      },
-      {
-        "ad": "Fenerbahçe-Stuttgart | Maç Sonu Değerlendirmesi | Uwufufu",
-        "not": "7 kez \"maçko\" — 23.10.2025 yayınında arşiv zirvesi.",
-        "emoji": "⚽",
-        "slug": "fenerbahce-stuttgart-mac-sonu-degerlendirmesi-uw"
-      },
-      {
-        "ad": "İspanya-Portekiz | Maç Sonu Değerlendirmesi",
-        "not": "6 kez geçti (06.07.2026)",
-        "emoji": "⚽",
-        "slug": "ispanya-portekiz-mac-sonu-degerlendirmesi"
-      },
-      {
-        "ad": "Gündem Yayını | Transferde Son Gelişmeler, Grup Tahminleriyle Yüzleşme",
-        "not": "6 kez geçti (28.06.2026)",
-        "emoji": "🔮",
-        "slug": "gundem-yayini-transferde-son-gelismeler-grup-tah"
-      },
-      {
-        "ad": "Galatasaray-Başakşehir FK | Maç Sonu Değerlendirmesi",
-        "not": "6 kez geçti (08.01.2025)",
-        "emoji": "⚽",
-        "slug": "galatasaray-basaksehir-fk-mac-sonu-degerlendirme"
-      },
-      {
-        "ad": "Gündem Yayını | Nathan Ake, Transferde Son Gelişmeler, Kalan Son 32 Ma",
-        "not": "5 kez geçti (03.07.2026)",
-        "emoji": "🎙️",
-        "slug": "gundem-yayini-nathan-ake-transferde-son-gelismel"
-      },
-      {
-        "ad": "E Grubu 3. Maçlar | Maç Sonu Değerlendirmesi",
-        "not": "5 kez geçti (25.06.2026)",
-        "emoji": "⚽",
-        "slug": "e-grubu-3-maclar-mac-sonu-degerlendirmesi"
+        "slug": "c-rizespor-fenerbahce-mac-sonu-degerlendirmesi-uwufufu",
+        "vid": "Kg0Qs-NcX4E"
       }
     ]
   },
