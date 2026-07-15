@@ -249,16 +249,12 @@
   function cizSetler() {
     const liste = SETLER.filter(s => aktifKat === "hepsi" || s.kategori === aktifKat);
     $("#setlerGrid").innerHTML = liste.map(s => {
-      const onizleme = s.adaylar.slice(0, 5).map(a => `<span>${emo(a)}</span>`).join("")
-        + (s.adaylar.length > 5 ? `<span class="arti">+${s.adaylar.length - 5}</span>` : "");
       return `
       <button class="set-kart" data-id="${s.id}" style="${katStil(s.kategori)}">
         <div class="kat">${s.katAd}${s.kategori === 'veri' ? ' · <span style="color:var(--kat)">✓ gerçek sayım</span>' : ''}</div>
-        <div class="emoji-serit">${onizleme}</div>
         <h3>${s.tema}</h3>
-        <p>${s.soru}</p>
         <div class="alt">
-          <span class="tip-rozet">🏆 ${s.adaylar.length}'lük turnuva</span>
+          <span class="tip-rozet">${s.adaylar.length}'lük turnuva</span>
           <span class="oyna">OYNA →</span>
         </div>
       </button>`; }).join("");
