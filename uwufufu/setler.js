@@ -1248,8 +1248,8 @@ window.SETLER = [
   {
     "id": 5,
     "kategori": "veri",
-    "katAd": "📊 Gerçek Veri",
-    "tema": "🔮 Şike & Gariban Geceleri — Sence En Efsanesi?",
+    "katAd": "Gerçek Veri",
+    "tema": "Şike & Gariban Geceleri — Sence En Efsanesi?",
     "soru": "Arşivin 'şike/rezalet' ve 'garibanlık' yüklü geceleri karşı karşıya — yanlarındaki sayaçlar gerçek arşiv verisi, ama doğru cevap yok: sence hangi gece daha efsane?",
     "tip": "bracket",
     "adaylar": [
@@ -1642,8 +1642,8 @@ window.SETLER = [
   {
     "id": 6,
     "kategori": "veri",
-    "katAd": "📊 Gerçek Veri",
-    "tema": "🙅 Katılmıyorum & Tezahürat Geceleri — Sence Hangisi?",
+    "katAd": "Gerçek Veri",
+    "tema": "Katılmıyorum & Tezahürat Geceleri — Sence Hangisi?",
     "soru": "'Katılmıyorum!' fırtınalarının koptuğu geceler ve unutulmaz deplasman tezahüratları. Sayılar gerçek, seçim senin: sence hangisi daha ikonik?",
     "tip": "bracket",
     "adaylar": [
@@ -2036,8 +2036,8 @@ window.SETLER = [
   {
     "id": 7,
     "kategori": "veri",
-    "katAd": "📊 Gerçek Veri",
-    "tema": "🎖️ Maçko, Maksimüs & Yüzleşme Geceleri",
+    "katAd": "Gerçek Veri",
+    "tema": "Maçko, Maksimüs & Yüzleşme Geceleri",
     "soru": "Kanal sözlüğünün üç efsane kelimesinin zirve yaptığı geceler karşı karşıya. Doğru cevap yok — sence hangi gece daha unutulmaz?",
     "tip": "bracket",
     "adaylar": [
@@ -2823,8 +2823,8 @@ window.SETLER = [
   },
   {
     "kategori": "veri",
-    "katAd": "📊 Gerçek Veri",
-    "tema": "🙅 Katılmıyorum Geceleri — Sence Hangisi?",
+    "katAd": "Gerçek Veri",
+    "tema": "Katılmıyorum Geceleri — Sence Hangisi?",
     "soru": "'Katılmıyorum!' fırtınalarının koptuğu geceler. Sayılar gerçek, seçim senin: sence hangi gecenin itiraz fırtınası daha ikonik?",
     "tip": "bracket",
     "adaylar": [
@@ -3452,7 +3452,7 @@ window.SETLER = [
   {
     "kategori": "uclu",
     "katAd": "Üçlü & Goygoy",
-    "tema": "\"Ünlü Yayıncı\" Anları",
+    "tema": "Ünlü Yayıncı\" Anları",
     "soru": "Üçlünün birbirini sahte unvan ve tam adla anons ettiği bu anlardan sence hangisi en efsanesi?",
     "tip": "bracket",
     "adaylar": [
@@ -3909,7 +3909,7 @@ window.SETLER = [
   },
   {
     "kategori": "hikaye",
-    "katAd": "✈️ Uçak Yayını",
+    "katAd": "Uçak Yayını",
     "tema": "Canlı Uçak Takip Klasikleri",
     "soru": "Sence canlı uçak takip yayınlarının en efsane anı hangisi?",
     "tip": "bracket",
@@ -4143,7 +4143,7 @@ window.SETLER = [
   },
   {
     "kategori": "format",
-    "katAd": "✈️ Uçak Yayını",
+    "katAd": "Uçak Yayını",
     "tema": "Uçak Yayınlık mı, Değil mi?",
     "soru": "Uçak yayını formülünün canlı tartışma anlarından sence en unutulmazı hangisi?",
     "tip": "bracket",
@@ -4612,7 +4612,7 @@ window.SETLER = [
   {
     "kategori": "format",
     "katAd": "Format & Ritüel",
-    "tema": "🎙️ Sponsor Okuması Turnuvası",
+    "tema": "Sponsor Okuması Turnuvası",
     "soru": "'Kafayı kırmışları… [marka] sponsorluğunda' ritüelinin markaları ve okuma anları yarışıyor: sence hangisi bu ritüelin en unutulmaz halkası?",
     "tip": "bracket",
     "adaylar": [
@@ -4845,8 +4845,8 @@ window.SETLER = [
   },
   {
     "kategori": "veri",
-    "katAd": "📊 Gerçek Veri",
-    "tema": "🔊 Açılış Nidası Geceleri — Chat Hangi Gece Patladı?",
+    "katAd": "Gerçek Veri",
+    "tema": "Açılış Nidası Geceleri — Chat Hangi Gece Patladı?",
     "soru": "'Hastaları, delileri, manyakları...' nidası okunur okunmaz chat'in aktığı geceler. Sayılar gerçek, seçim senin: sence hangi gecenin açılışı daha efsane?",
     "tip": "bracket",
     "adaylar": [
@@ -5547,8 +5547,8 @@ window.SETLER = [
   },
   {
     "kategori": "veri",
-    "katAd": "📊 Gerçek Veri",
-    "tema": "⚡ DK-2026: En Cesur Tahmin Çağrısı",
+    "katAd": "Gerçek Veri",
+    "tema": "DK-2026: En Cesur Tahmin Çağrısı",
     "soru": "51 yayın, 859 tahminlik sicilden en gözü kara çağrılar karşı karşıya — tuttu mu çöktü mü bir yana: sence en cesuru hangisi?",
     "tip": "bracket",
     "adaylar": [
@@ -5781,8 +5781,8 @@ window.SETLER = [
   },
   {
     "kategori": "veri",
-    "katAd": "📊 Gerçek Veri",
-    "tema": "🔮 DK-2026: En Büyük Sıçış & Kâhin Anı",
+    "katAd": "Gerçek Veri",
+    "tema": "DK-2026: En Büyük Sıçış & Kâhin Anı",
     "soru": "Karnenin en parlak kehanetleri ve en acı çöküşleri aynı kurada — sence en akılda kalan tahmin anı hangisi?",
     "tip": "bracket",
     "adaylar": [
@@ -7420,7 +7420,7 @@ window.SETLER = [
   {
     "kategori": "uclu",
     "katAd": "Üçlü & Goygoy",
-    "tema": "\"Meşhur ___ Faresi\" Turnuvası",
+    "tema": "Meşhur ___ Faresi\" Turnuvası",
     "soru": "Kanalın fare şablonundan doğan türevlerden sence hangisi en efsanesi?",
     "tip": "bracket",
     "adaylar": [
