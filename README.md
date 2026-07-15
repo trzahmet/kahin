@@ -10,13 +10,11 @@ Kanalın 2.124 videosunu (1.904 saat) analiz eden bir boru hattının ürettiği
 |---|---|---|---|
 | Tahmin Sicili | `sicil/` | **CANLI** | Üçlünün DK-2026 tahmin karnesi: kim ne dedi, ne tuttu, ne çöktü. Her yayından sonra güncellenir. |
 | DK Karnesi — Ödüller | `sicil/karne.html` | CANLI | Üçlünün Dünya Kupası karnesi ödül sayfası: en büyük sıçış, kâhin anı, en cesur çağrı. |
-| Uwufufu — Cümle Arası Kapışmalar | `uwufufu/` | CANLI | Laf arasında ele verilen tercihlerden çıkan 17 dev versus turnuvası (her biri 64 yarışmacı). |
+| Uwufufu — Cümle Arası Kapışmalar | `uwufufu/` | CANLI | Laf arasında ele verilen tercihlerden çıkan 30 versus turnuvası (32 veya 64 yarışmacılı). |
+| HTalks Wrapped | `wrapped/htalks.html` | CANLI | Arşiv sayılarının sinematik gösterimi. |
 | Uçak Yayını Simülatörü | `ucak-yayini/` | CANLI | "Piyasa değeri × Instagram ≥ 25" formülüyle transfer tahmin oyunu; aynı ekrandan 1-6 kişi. |
-| HTalks Wrapped | `wrapped/` | CANLI | Arşiv sayılarının sinematik gösterimi. |
-| ARŞİV Oyunu | `demo/arsiv.html` | DEMO | Kanal hafızasına karşı yarışma prototipi. |
-| VS Arena | — | YAKINDA | Küratörlü, güncel versus paketleri + yayın TV modu. |
-| Günün Sorusu | — | YAKINDA | Arşivden günde tek soru; seri + paylaşım kartı. |
-| Kahin Ligi (park) | `lig/` | PARK | Eski tahmin-ligi uygulaması; altyapısı VS Arena'nın canlı moduna devşirilecek. |
+| Kaçı Bildin? | `izlenme/` | CANLI | İki video, hangisi daha çok izlendi — gerçek YouTube verisiyle tahmin oyunu. |
+| En Çok İzlenenler | `izlenme/istatistik.html` | CANLI | Top 50 liste, yıllara göre büyüme, format kırılımı. |
 
 ## Veri ve dürüstlük ilkeleri
 
