@@ -91,30 +91,6 @@
     border-radius:20px; padding:7px 14px; font-size:.78rem; font-weight:700; cursor:pointer; }
   .filtre-satir button.aktif { background:var(--altin); color:#1a1204; border-color:var(--altin); }
 
-  /* canlı sayaç anları */
-  .ccv-not { background:var(--panel); border:1px solid var(--cizgi); border-left:4px solid var(--altin);
-    border-radius:12px; padding:14px 16px; font-size:.82rem; color:var(--soluk); margin-bottom:18px; }
-  .ccv-not b { color:var(--metin); }
-  .ccv-liste { display:flex; flex-direction:column; gap:8px; }
-  .ccv-satir { display:grid; grid-template-columns:34px 110px 1fr auto; align-items:center; gap:12px;
-    background:var(--panel); border:1px solid var(--cizgi); border-radius:12px; padding:10px 12px;
-    text-decoration:none; color:var(--metin); transition:border-color .15s, transform .15s; }
-  .ccv-satir:hover { border-color:var(--altin); transform:translateX(2px); }
-  .ccv-satir .sira { font-size:.9rem; font-weight:900; color:var(--soluk); text-align:center; }
-  .ccv-satir:nth-child(1) .sira { color:#ffd700; }
-  .ccv-satir:nth-child(2) .sira { color:#c8ccd4; }
-  .ccv-satir:nth-child(3) .sira { color:#cd7f32; }
-  .ccv-satir .deger { font-size:1.05rem; font-weight:900; color:var(--altin-parlak); white-space:nowrap; }
-  .ccv-satir .info { min-width:0; }
-  .ccv-satir .baslik { font-size:.84rem; font-weight:700; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .ccv-satir .tarih { font-size:.68rem; color:var(--soluk); margin-top:2px; }
-  .ccv-satir .an { font-size:.72rem; color:var(--soluk); font-weight:700; white-space:nowrap; }
-  .ccv-satir:hover .an { color:var(--altin-parlak); }
-  .ccv-studio { margin-top:18px; background:var(--panel2); border:1px solid var(--cizgi); border-radius:12px;
-    padding:14px 16px; font-size:.8rem; color:var(--soluk); }
-  .ccv-studio b { color:var(--altin-parlak); }
-  @media (max-width:560px) { .ccv-satir { grid-template-columns:26px 88px 1fr; } .ccv-satir .an { display:none; } }
-
   footer { text-align:center; padding:52px 16px 60px; color:var(--soluk); font-size:.75rem; }
 </style>
 </head>
@@ -146,13 +122,6 @@
   </div>
 
   <div class="bolum">
-    <div class="bolum-bas"><h2>🔴 Canlı Sayaç Anları</h2><span class="say">yayında sesli okunan anlık seyirci</span></div>
-    <div class="ccv-not">YouTube, geçmiş yayınların tepe anlık seyirci sayısını dışarıya açmıyor. Bu liste başka bir yerden geldi: <b>687 canlı yayının transkripti tarandı</b> ve sunucuların yayın sırasında sesli okuduğu sayaç değerleri çıkarıldı. Her satır bir "o an" okumasıdır — yayının gerçek tepesi daha da yüksek olabilir. Satıra tıklayınca sayacın okunduğu saniyeye gidersin.</div>
-    <div class="ccv-liste" id="ccvListe"></div>
-    <div class="ccv-studio">📋 <b>Kanalın kendi kayıtlarından</b> (yayınlarda paylaşılan Studio verileri): Fenerbahçe Seçim / DK Özel <b>114.000</b> · Türkiye-Paraguay <b>110.000</b> (20 Haziran'da "kanal rekoru" anonsuyla) · Beşiktaş-Fenerbahçe maç sonu <b>100.575</b> · İngiltere-Arjantin maç sonu <b>74.966</b> — 16 Temmuz yayınındaki açıklamayla <b>kanal tarihinin 20. yayını</b>.</div>
-  </div>
-
-  <div class="bolum">
     <div class="bolum-bas"><h2>🏆 Top 50</h2><span class="say" id="topSay"></span></div>
     <div class="filtre-satir">
       <button class="aktif" data-f="all">Tümü</button>
@@ -169,25 +138,6 @@
 <script src="data.js"></script>
 <script>
 const data = window.HTALKS_VIDEOS || [];
-
-// Canlı sayaç anları — transkriptlerde sesli okunan anlık seyirci değerleri (yayın başına en yüksek doğrulanmış okuma)
-const CCV = [
-  {v:"odeij_l01vc", n:117460, t:"Victor Osimhen Özel Yayını | Canlı Uçak Takip Part 2", d:"30.07.2025", s:14343},
-  {v:"UphagVX8w2Y", n:110000, t:"Türkiye-Paraguay | Maç Sonu", d:"20.06.2026", s:7582},
-  {v:"3tC5p8UKeiU", n:90000, t:"Beşiktaş-Fenerbahçe | Maç Sonu", d:"02.11.2025", s:2348},
-  {v:"ukVDbwVEG1Y", n:80000, t:"Galatasaray-Fenerbahçe | Maç Sonu", d:"26.04.2026", s:1931},
-  {v:"6HVIdRO1kHg", n:77000, t:"Şampiyonlar Ligi Kura Çekimi | Canlı Takip", d:"28.08.2025", s:6760},
-  {v:"H8Xug_uNn3g", n:75000, t:"Beşiktaş-Lausanne | Maç Sonu", d:"28.08.2025", s:3716},
-  {v:"bO4XZAbdmQ8", n:74000, t:"Türkiye-Avustralya | Maç Sonu", d:"14.06.2026", s:1483},
-  {v:"kzfkjNrmcz8", n:73000, t:"Victor Osimhen Özel Yayını | İlk Uçak Takip", d:"02.09.2024", s:9179},
-  {v:"l6TRO3_9lu0", n:73000, t:"Leroy Sane Özel Yayını | Canlı Uçak Takip", d:"11.06.2025", s:6001},
-  {v:"EcRrNB8ex7c", n:73000, t:"İngiltere-Arjantin | Maç Sonu", d:"15.07.2026", s:993},
-  {v:"LyI-srs5zjQ", n:72000, t:"Fenerbahçe Seçim Canlı Takip | DK Özel", d:"07.06.2026", s:10234},
-  {v:"2OkyRZsFsL4", n:70000, t:"Benfica-Fenerbahçe | Maç Sonu", d:"27.08.2025", s:1249},
-  {v:"umoFOKaNa_s", n:70000, t:"Fenerbahçe-Beşiktaş | Maç Sonu", d:"05.04.2026", s:3437},
-  {v:"wORl3p5pMNc", n:70000, t:"Galatasaray-Juventus | Maç Sonu", d:"17.02.2026", s:2589},
-  {v:"pHm-zuRbDDY", n:70000, t:"Türkiye-Kosova | Maç Sonu", d:"31.03.2026", s:1170},
-];
 function fmt(n){ return n.toLocaleString('tr-TR'); }
 function fmtKisa(n){
   if(n >= 1000000) return (n/1000000).toFixed(1).replace('.0','') + 'M';
@@ -277,16 +227,6 @@ document.querySelectorAll('.filtre-satir button').forEach(btn => {
 renderTop();
 
 // tema
-// canlı sayaç anları render
-const ccvListe = document.getElementById('ccvListe');
-ccvListe.innerHTML = CCV.map((r, i) => `
-  <a class="ccv-satir" href="https://www.youtube.com/watch?v=${r.v}&t=${r.s}s" target="_blank" rel="noopener">
-    <div class="sira">${i+1}</div>
-    <div class="deger mono">${fmt(r.n)}</div>
-    <div class="info"><div class="baslik">${esc(r.t)}</div><div class="tarih">${r.d}</div></div>
-    <div class="an">o anı izle ↗</div>
-  </a>`).join('');
-
 const temaDugme = document.getElementById('temaDugme');
 function temaUygula(t){
   document.documentElement.setAttribute('data-theme', t);
