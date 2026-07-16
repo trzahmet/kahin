@@ -158,5 +158,38 @@ const SICIL = {
   dun: {
     baslik: "Final tablosu netleşti: İSPANYA-ARJANTİN",
     ozet: "Arjantin 2-1 İngiltere (15 Tem — 55' Gordon İngiltere; 85' Enzo Fernández, 90+2' Lautaro Martínez Arjantin'den geriden gelen final): Turancan'ın ilk şampiyonu (İngiltere) elendi ama Arjantin'e çevirdiği ikinci çağrısı finale çıktı — 'Arjantin finale çıkarsa yüzde yüz şampiyon' iddiasının yarısı doğrulandı. Hilmi'nin durumu daha da çarpıcı: hem 10 Haziran'daki ilk seçimi (İspanya) hem 28 Haziran'dan beri sarıldığı Arjantin finalde — hangisi kazanırsa kazansın bir tahmini haklı çıkacak. Final 19 Temmuz."
-  }
+  },
+
+  ironi: "Hilmi 28 Haziran'da şampiyonluk kâğıdını İspanya'dan çekip Arjantin'e yazdı. Terk ettiği İspanya Belçika'yı ve Fransa'yı eleyip finale çıktı; sarıldığı Arjantin de İngiltere'yi geçip finale çıktı. Sonuç: Hilmi'nin iki tahmini de 19 Temmuz finalinde — ne olursa olsun bir yerde haklı çıkacak.",
+
+  oduller: [
+    { buyuk: true, tint: "maks", damga: "Maksimüs", rozet: "🏆 Kâhin Anı", kisi: "HİLMİ",
+      baslik: "Herkes Haaland derken", vurguBaslik: "tek başına kaleciyi işaret etti",
+      metin: "Brezilya-Norveç öncesi bütün gözler Haaland'daydı. Hilmi ısrarla \"Norveç'in kilit adamı kaleci olacak\" dedi. Sonuç: Norveç 1-0 öndeyken kalecisi maçı çeviren kritik kurtarışı yaptı, favori <b>Brezilya çeyrek finalde elendi</b>.",
+      kanitEtiket: "5 Temmuz yayını", kanitVideo: "e6xPTfo4qCA", emoji: "🔮" },
+    { tint: "cop", damga: "Çöp", rozet: "🗑️ En Büyük Sıçış", kisi: "HİLMİ",
+      baslik: "Bir çocuğu tek maçta", vurguBaslik: "\"çöp\" ilan etti",
+      metin: "Aynı kâhin, genç Manzambi'yi tek maçına bakıp gözden çıkardı. Aynı yayında yüzleşme geldi: çocuk yedekten girip <b>2 gol attı</b> ve 20 yaş 247 günle Dünya Kupası tarihinde bunu başaran en genç oyuncu oldu.",
+      kanitEtiket: "18 Haziran yayını", kanitVideo: "HSPOt6RsDPg", emoji: "🗑️" },
+    { tint: "maks", rozet: "⚡ En Cesur Çağrı", kisi: "TURANCAN",
+      baslik: "Kimse yazmazken", vurguBaslik: "Norveç dedi",
+      metin: "Turnuva öncesi ağaçlarda Norveç'i grup lideri gösteren tek isim oydu. Norveç grubu lider bitirdi, Fildişi'ni ve <b>Brezilya'yı eledi</b>; yolculuk çeyrek finalde İngiltere'ye 90+3'te gelen golle 1-2 bitti — yarı finalin bir adım önünde.",
+      kanitEtiket: "22 Haziran yayını", kanitVideo: "-OC5KTxz7Ig" },
+    { tint: "cop", rozet: "💔 En Hızlı Çöküş", kisi: "HASAN",
+      baslik: "Şampiyonu son 16'da,", vurguBaslik: "Meksika hayali son 16'da gitti",
+      metin: "Şampiyon seçtiği Portekiz son 16'da İspanya'ya 90+1'de elendi. \"Meksika İngiltere'yi yener, tarih yazar\" dedi — İngiltere yarı finalde. \"Fransa şampiyon olursa Dembele Ballon d'Or alır\" dedi — Fransa yarı finalde İspanya'ya elendi. Çözülen tahminlerinde <b>0 tuttu, 6 çöktü</b>.",
+      kanitEtiket: "6 Temmuz yayını", kanitVideo: "wX1PGT1zHto" },
+    { tint: "maks", rozet: "🛡️ Sadakat Ödülü", kisi: "TURANCAN",
+      baslik: "Takımı elenirken bile", vurguBaslik: "arkasını dönmedi",
+      metin: "Norveç çeyrek finalde giderken kimse \"öve öve bitirmiştin\" diye takılmadı — ama Turancan zaten geri adım atmadı. Hakem tartışmasında \"ufak takımı kollayın\" deyip <b>\"Norveç müthiş oynadı\"</b> diye çağrısının arkasında durdu.",
+      kanitEtiket: "11 Temmuz yayını", kanitVideo: "uFBXQy-aENs" },
+    { tint: "maks", rozet: "🎯 En İyi Karne", kisi: "HİLMİ",
+      baslik: "Grup tahminlerinde", vurguBaslik: "açık ara birinci",
+      metin: "Ekibin kendi puanladığı yüzleşme yayınında 12 grubun sıralamasını en iyi bilen Hilmi oldu: <b>28+ puan</b>. Hasan 12'de, Turancan 10'da kaldı — kâhin lakabı burada mühürlendi.",
+      kanitEtiket: "28 Haziran yayını", kanitVideo: "KVik2_JlLko" },
+    { tint: "notr", rozet: "⏳ Bekleyen Bomba", kisi: "HENÜZ ÇÖZÜLMEDİ",
+      baslik: "Mühürlenmiş,", vurguBaslik: "patlaması beklenen iddialar",
+      metin: "Turancan: <b>\"Arjantin finale çıkarsa yüzde yüz şampiyon.\"</b> Arjantin, İngiltere'yi 2-1 geçip finale çıktı (15 Tem) — çağrının yarısı doğrulandı, kalan yarısı 19 Temmuz'da. Hilmi'nin durumu daha da çarpıcı: hem ilk seçimi İspanya hem sonradan sarıldığı Arjantin finalde — ne olursa olsun bir tahmini haklı çıkacak.",
+      kanitEtiket: "canlı sicilde izle", kanitVideo: null }
+  ]
 };

@@ -46,6 +46,16 @@
     color:var(--altin-parlak); letter-spacing:.3px; }
   .soru-metin { margin-top:10px; font-size:1rem; font-weight:800; }
 
+  .sayac-halka { width:52px; height:52px; margin:14px auto 0; position:relative; transition:opacity .3s; }
+  .sayac-halka svg { width:100%; height:100%; transform:rotate(-90deg); }
+  .sayac-halka circle { fill:none; stroke-width:5; }
+  .sayac-halka .arka { stroke:var(--cizgi); }
+  .sayac-halka .ileri { stroke:var(--altin-parlak); stroke-linecap:round; transition:stroke-dashoffset 1s linear, stroke .2s; }
+  .sayac-halka.kritik .ileri { stroke:var(--kirmizi); }
+  .sayac-halka .rakam { position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    font-size:1.15rem; font-weight:900; font-variant-numeric:tabular-nums; }
+  .sayac-halka.kritik .rakam { color:var(--kirmizi); }
+
   .skorbar { display:flex; justify-content:center; gap:28px; margin:22px 0 8px; }
   .skor-hane { text-align:center; }
   .skor-hane .n { font-size:1.7rem; font-weight:900; font-variant-numeric:tabular-nums; }
@@ -113,7 +123,7 @@
 
 <div class="sahne">
   <div class="baslik">🔮 <span class="k">Kaçı Bildin?</span></div>
-  <div class="alt">HTalks arşivinin gerçek verisiyle tahmin oyunu — izlenme, süre, şike sayacı. Kâhinliğini test et, bir yanlış seri biter.</div>
+  <div class="alt">HTalks arşivinin gerçek verisiyle tahmin oyunu — izlenme, süre, şike sayacı. 10 saniyen var, bir yanlış (ya da süre) seriyi bitirir.</div>
 
   <div class="skorbar">
     <div class="skor-hane seri">
@@ -129,6 +139,13 @@
   <div class="oyun" id="oyunAlani">
     <div class="kat-rozet" id="katRozet"></div>
     <div class="soru-metin" id="soruMetin"></div>
+    <div class="sayac-halka" id="sayacHalka">
+      <svg viewBox="0 0 60 60">
+        <circle class="arka" cx="30" cy="30" r="26"></circle>
+        <circle class="ileri" id="sayacCember" cx="30" cy="30" r="26"></circle>
+      </svg>
+      <div class="rakam" id="sayacRakam">10</div>
+    </div>
     <div class="kartlar" id="kartlar" style="margin-top:16px"></div>
     <div class="devam" id="devamAlani" style="display:none">
       <button id="devamBtn">Sıradaki →</button>
@@ -161,6 +178,7 @@ function sureFmt(sn){
   return sa + ' sa ' + kalanDk + ' dk';
 }
 function thumb(id){ return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`; }
+function esc(s){ const d = document.createElement('div'); d.textContent = String(s); return d.innerHTML; }
 
 const KATEGORILER = [
   {
@@ -190,6 +208,61 @@ let seri = 0;
 let rekor = parseInt(localStorage.getItem(KEY) || '0', 10);
 let aktifKat, sol, sag, kilitli = false;
 
+const SURE_SN = 10;
+const CEMBER_UZUNLUK = 2 * Math.PI * 26;
+let sayacInterval = null, sayacTimeout = null;
+document.getElementById('sayacCember').style.strokeDasharray = CEMBER_UZUNLUK;
+
+function sayacBaslat(){
+  clearInterval(sayacInterval);
+  clearTimeout(sayacTimeout);
+  const halka = document.getElementById('sayacHalka');
+  const cember = document.getElementById('sayacCember');
+  const rakam = document.getElementById('sayacRakam');
+  halka.style.opacity = '1';
+  halka.classList.remove('kritik');
+  cember.style.transition = 'none';
+  cember.style.strokeDashoffset = '0';
+  rakam.textContent = SURE_SN;
+  void cember.offsetWidth;
+  cember.style.transition = `stroke-dashoffset ${SURE_SN}s linear`;
+  cember.style.strokeDashoffset = String(CEMBER_UZUNLUK);
+
+  let kalan = SURE_SN;
+  sayacInterval = setInterval(() => {
+    kalan--;
+    rakam.textContent = Math.max(0, kalan);
+    if (kalan <= 3) halka.classList.add('kritik');
+    if (kalan <= 0) clearInterval(sayacInterval);
+  }, 1000);
+  sayacTimeout = setTimeout(zamanDoldu, SURE_SN * 1000);
+}
+
+function sayacDurdur(){
+  clearInterval(sayacInterval);
+  clearTimeout(sayacTimeout);
+  document.getElementById('sayacHalka').style.opacity = '0';
+}
+
+function zamanDoldu(){
+  if (kilitli) return;
+  kilitli = true;
+  sayacDurdur();
+  const dogruTaraf = aktifKat.deger(sol) >= aktifKat.deger(sag) ? 'sol' : 'sag';
+  ['sol','sag'].forEach(t => {
+    const kart = document.querySelector(`.kart[data-taraf="${t}"]`);
+    const v = t === 'sol' ? sol : sag;
+    const bu = t === dogruTaraf ? 'dogru' : 'yanlis';
+    kart.classList.add('acik', bu, 'kilit');
+    kart.querySelector('.sayac').textContent = aktifKat.fmt(aktifKat.deger(v));
+    kart.querySelector('.sayac').classList.add(bu);
+    kart.querySelector('.rozet').textContent = t === dogruTaraf ? '👑 ' + aktifKat.rozetMetin : '';
+    kart.querySelector('.rozet').classList.add(bu);
+  });
+  document.getElementById('soruMetin').textContent = '⏱️ Süre doldu — yanlış sayıldı.';
+  setTimeout(() => bitir(), 1200);
+}
+
 function rastgeleKategori(){
   return KATEGORILER[Math.floor(Math.random()*KATEGORILER.length)];
 }
@@ -205,7 +278,7 @@ function kartHTML(v, taraf, kat){
     <div class="kart" data-taraf="${taraf}">
       <div class="thumb-wrap"><img src="${thumb(kat.gosterId(v))}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>
       <div class="gov">
-        <div class="baslik-metin">${kat.gosterAd(v)}</div>
+        <div class="baslik-metin">${esc(kat.gosterAd(v))}</div>
         <div class="sayac" data-taraf="${taraf}"></div>
       </div>
       <div class="rozet"></div>
@@ -224,11 +297,13 @@ function yeniTur(){
   document.querySelectorAll('.kart').forEach(k => {
     k.addEventListener('click', () => sec(k.dataset.taraf), { once: true });
   });
+  sayacBaslat();
 }
 
 function sec(taraf){
   if (kilitli) return;
   kilitli = true;
+  sayacDurdur();
   const solDeger = aktifKat.deger(sol), sagDeger = aktifKat.deger(sag);
   const dogruTaraf = solDeger >= sagDeger ? 'sol' : 'sag';
   const dogru = taraf === dogruTaraf;

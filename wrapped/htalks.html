@@ -73,34 +73,29 @@ html,body{height:100%;background:#05060b;color:#fff;overflow:hidden;
 <script>
 // ================= GERÇEK VERİ — 2.124 video / 1.904 saatlik taramadan =================
 const CARDS = [
- {dur:5200, html:`
-   <div class="eyebrow">bir yapay zeka</div>
-   <div class="title">HTalks'ın<br><span class="k">TAMAMINI</span> izledi.</div>
-   <div class="sub">Her canlı yayın. Her video. Her konukluk.<br>Harman dahil. <b>Ocak 2022'den bugüne.</b></div>`},
- {dur:5200, html:`
-   <div class="eyebrow">arşivin boyutu</div>
-   <div class="big k" data-count="2124">0</div>
-   <div class="title">video</div>
-   <div class="sub"><b>1.904 saat</b> — kesintisiz izlesen <b>79 gün</b> sürer.<br>O izledi. Ve hiçbirini unutmadı.</div>`},
+ {dur:5600, html:`
+   <div class="eyebrow">itiraf ediyoruz</div>
+   <div class="title">Biri <span class="k">2.124 videonun</span><br>tamamını izledi.</div>
+   <div class="sub">Ara vermeden. Harman dahil. Kelon d'Or dahil.<br><b>1.904 saat</b> — kesintisiz gitse <b>79 gün</b> sürer.</div>
+   <div class="punch">Hiçbiri de "Ünlü Yayıncı" değil, bir yapay zeka yaptı bunu.</div>`},
  {dur:6200, html:`
-   <div class="eyebrow">4,5 yılın toplamı</div>
+   <div class="eyebrow">peki kaç kişi izliyor bunları</div>
    <div class="big k" data-count="489" style="font-size:clamp(56px,20vw,140px)">0</div>
    <div class="title">milyon izlenme</div>
-   <div class="sub">2.155 video · <b>749 bin</b> abone.<br>Ocak 2022'den bugüne, tek bir kanaldan.</div>
-   <div class="punch">Türkiye'nin en çok izlenen sohbet kanallarından biri.</div>
+   <div class="sub">2.155 video, Ocak 2022'den bugüne.<br>Yani <b>Türkiye nüfusunun 5,7 katı</b> kere biri "bir dakika bakayım" demiş.</div>
    <div class="stamp">kaynak: kanalın tamamının video-video taraması · Temmuz 2026</div>`},
  {dur:6000, html:`
    <div class="eyebrow">4,5 yılın tek bir şampiyonu</div>
    <div class="title">"Pizza mı?<br>Karadeniz Pidesi mi?"</div>
    <div class="big k" data-count="5966767" style="font-size:clamp(40px,14vw,92px)">0</div>
-   <div class="sub">izlenme — kanalın tek bir videosu.<br>Temmuz 2025'te yayınlandı, hâlâ rekor kırıyor.</div>
-   <div class="punch">İkinci sırada 3,1 milyonla "Analiz budur" kesiti.</div>`},
+   <div class="sub">Tek bir video. Temmuz 2025'te çıktı, hâlâ rekor kırıyor.</div>
+   <div class="punch">İkinci sırada 3,1 milyonla "Analiz budur" kesiti — o da unutulmuyor.</div>`},
  {dur:6000, html:`
    <div class="eyebrow">4,5 yılın en çok söylenen kelimesi</div>
    <div class="big" style="font-size:clamp(34px,11vw,84px)">"KATILIYORUM"</div>
    <div class="big k" data-count="3512" style="font-size:clamp(44px,16vw,110px)">0</div>
-   <div class="sub">"Katılmıyorum" ise <b>1.615</b> kez.</div>
-   <div class="punch">Ama dikkat: her yıl daha itirazcısınız.<br>Onay/itiraz oranı 2.08'den 1.57'ye düştü.</div>`},
+   <div class="sub">"Katılmıyorum" da boş durmuyor: <b>1.615</b> kez.</div>
+   <div class="punch">Ama üçlü giderek daha itirazcı — katılım/itiraz oranı 2022'de 2,08 iken şimdi 1,57'ye indi.</div>`},
  {dur:6000, html:`
    <div class="eyebrow">bir kelimenin yükselişi</div>
    <div class="title">"GARİBAN"</div>
@@ -111,17 +106,17 @@ const CARDS = [
      <div class="bar" style="height:45%"><b>238</b><span>'25</span></div>
      <div class="bar" style="height:48%"><b>250</b><span>'26*</span></div>
    </div>
-   <div class="sub" style="margin-top:5vh">Beş sezonda toplam <b>980</b> kez. Viral bir an değil —<br>bir dünya görüşü. <b>*2026 daha yarısında rekor peşinde.</b></div>`},
+   <div class="sub" style="margin-top:5vh">Beş sezonda toplam <b>980</b> kez. Bu bir espri değil artık —<br>üçlünün resmi dünya görüşü. <b>*2026 daha yarısında, rekora oynuyor.</b></div>`},
  {dur:6000, html:`
    <div class="eyebrow">arşiv bir doğum belgesi buldu</div>
    <div class="title">"TEMKİNCAN"<br>doğduğu an kayıtlarda.</div>
-   <div class="doc">"Senin en iyi isim <b>Temkincan</b> oldu ya…"<br>— lakabın ilk kez telaffuz edildiği yayın ve dakikası arşivde damgalı. Toplam kullanım: <b>14</b>.</div>
-   <div class="punch">Kimse hatırlamıyordu. O hatırlıyor.</div>`},
+   <div class="doc">"Senin en iyi isim <b>Temkincan</b> oldu ya…"<br>— lakabın ilk telaffuz edildiği yayın ve dakika arşivde damgalı. Toplam kullanım: <b>14</b>.</div>
+   <div class="punch">Kimse hatırlamıyordu artık. Arşiv hatırlıyor.</div>`},
  {dur:5600, html:`
    <div class="eyebrow">gecelerin rekoru</div>
    <div class="title">En çok <span class="k">"ŞİKE"</span><br>konuşulan gece?</div>
    <div class="doc"><b>Fenerbahçe – Kayserispor</b> maç sonu:<br>tek gecede <b>27 kez</b>. (İkinci: Çarklı Draft, 25)</div>
-   <div class="sub">Arşiv toplamı: <b>370</b> — hepsi dakika damgalı.</div>`},
+   <div class="sub">Arşiv toplamı: <b>370</b> — hepsi dakika damgalı, hepsi bağlamıyla kayıtlı.</div>`},
  {dur:5600, html:`
    <div class="eyebrow">imza replik</div>
    <div class="title">"NEDEN YALAN<br>SÖYLÜYORSUN?"</div>
@@ -129,32 +124,32 @@ const CARDS = [
      <div class="vs1"><div class="n k" data-count="42">0</div><div class="l">haritalanmış an</div></div>
      <div class="vs1"><div class="n" data-count="17">0</div><div class="l">rekor: tek gecede</div></div>
    </div>
-   <div class="sub">Kime, ne zaman, hangi dakikada —<br>hepsi kayıt altında.</div>`},
+   <div class="sub">Kime, ne zaman, hangi dakikada söylendi —<br>hepsi kayıt altında. Kaçamak yok.</div>`},
  {dur:5600, html:`
-   <div class="eyebrow">topluluğun kalbi</div>
-   <div class="title">12.615 yorum tarandı.<br>En çok konuşulan?</div>
+   <div class="eyebrow">chat'e sorduk</div>
+   <div class="title">12.615 yorumu taradık.<br>En çok kimin adı geçti?</div>
    <div class="vsrow">
-     <div class="vs1"><div class="n" style="color:var(--gs)" data-count="680">0</div><div class="l">Hilmi</div></div>
      <div class="vs1"><div class="n" data-count="841">0</div><div class="l">Hasan</div></div>
+     <div class="vs1"><div class="n" style="color:var(--gs)" data-count="680">0</div><div class="l">Hilmi</div></div>
      <div class="vs1"><div class="n" style="color:var(--fb)" data-count="140">0</div><div class="l">Turancan</div></div>
    </div>
-   <div class="punch">Hilmi, ekran süresine oranla<br>açık ara kalplerin şampiyonu.</div>`},
+   <div class="punch">Hilmi ekranda en az onların yanında ama yorumlarda favori — kalpler onda.</div>`},
  {dur:5600, html:`
    <div class="eyebrow">ve tabii ki</div>
    <div class="big k" data-count="1182">0</div>
    <div class="title">kez söylendi:</div>
    <div class="sub" style="font-size:clamp(17px,5.4vw,26px);color:#fff;font-weight:800">"Htalks'ın hastaları,<br>delileri, manyakları…"</div>
-   <div class="punch">Neredeyse her açılışta. 4,5 yıldır.</div>`},
- {dur:7000, html:`
+   <div class="punch">Neredeyse her açılışta. 4,5 yıldır tek bir gece bile atlanmamış.</div>`},
+ {dur:6500, html:`
    <div class="eyebrow">📼</div>
-   <div class="title">ARŞİV artık <span class="k">uyanık.</span></div>
-   <div class="sub">2.124 video · 10.460 işaretli an · her dakika adresli.<br><br>Sıradaki adım: arşiv yayına çıkıyor —<br><b>ekip kendi hafızasına karşı oynuyor.</b></div>
+   <div class="title">Bunu bir <span class="k">hayran</span> yaptı.</div>
+   <div class="sub">2.124 video, tek tek, baştan sona. Herhangi bir kanaldan değil —<br>sadece bu üçünün <b>4,5 yılını</b> hatırlamaya değer bulduğu için.</div>
    <div class="portraits">
-     <div class="portrait"><img src="img/hasan.jpg" alt="Hasan"></div>
-     <div class="portrait"><img src="img/hilmi.jpg" alt="Hilmi"></div>
-     <div class="portrait"><img src="img/turancan.jpg" alt="Turancan"></div>
+     <div class="portrait"><img src="img/hasan.png" alt="Hasan"></div>
+     <div class="portrait"><img src="img/hilmi.png" alt="Hilmi"></div>
+     <div class="portrait"><img src="img/turancan.png" alt="Turancan"></div>
    </div>
-   <div class="punch">Bu bir fan çalışması. Sayılar gerçek.</div>
+   <div class="punch">Bağımsız bir hayran çalışması. Sayılar gerçek, alıntı yok.</div>
    <div class="stamp">kaynak: tam-arşiv transkript taraması · Temmuz 2026</div>`},
 ];
 

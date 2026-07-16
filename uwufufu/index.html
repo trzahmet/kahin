@@ -213,12 +213,13 @@
   </div>
 </section>
 
-<div class="altbilgi">bağımsız hayran çalışması · içerik kanalın yayınlarındaki bağlamdan damıtıldı · birebir alıntı yoktur · <a href="https://github.com/trzahmet/kahin/blob/main/uwufufu/img/KREDILER.md" style="color:var(--soluk)">görsel atıfları (CC)</a></div>
+<div class="altbilgi">bağımsız hayran çalışması · içerik kanalın yayınlarındaki bağlamdan damıtıldı · birebir alıntı yoktur · <a href="https://github.com/trzahmet/htalks/blob/main/uwufufu/img/KREDILER.md" style="color:var(--soluk)">görsel atıfları (CC)</a></div>
 <div class="toast" id="toast">Kopyalandı!</div>
 
 <script src="setler.js"></script>
 <script>
   const $ = s => document.querySelector(s);
+  const esc = s => { const d = document.createElement('div'); d.textContent = String(s ?? ''); return d.innerHTML; };
   const kok = document.documentElement;
   $("#temaDugme").addEventListener("click", () => {
     const su = kok.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
@@ -251,8 +252,8 @@
     $("#setlerGrid").innerHTML = liste.map(s => {
       return `
       <button class="set-kart" data-id="${s.id}" style="${katStil(s.kategori)}">
-        <div class="kat">${s.katAd}${s.kategori === 'veri' ? ' · <span style="color:var(--kat)">✓ gerçek sayım</span>' : ''}</div>
-        <h3>${s.tema}</h3>
+        <div class="kat">${esc(s.katAd)}${s.kategori === 'veri' ? ' · <span style="color:var(--kat)">✓ gerçek sayım</span>' : ''}</div>
+        <h3>${esc(s.tema)}</h3>
         <div class="alt">
           <span class="tip-rozet">${s.adaylar.length}</span>
           <span class="oyna">OYNA →</span>
@@ -319,8 +320,8 @@
     return `<button class="rakip" data-pos="${pos}" tabindex="0">
       <span class="no mono">${pos===0?"A":"B"}</span>
       <div class="medalyon"><span class="emo">${emo(r)}</span>${fotoHTML(r.slug, r.ad)}</div>
-      <div class="ad">${r.ad}</div>
-      <div class="not">${r.not}</div>
+      <div class="ad">${esc(r.ad)}</div>
+      <div class="not">${esc(r.not)}</div>
     </button>`;
   }
   let kilit = false;

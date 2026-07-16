@@ -154,6 +154,7 @@ function tarihFmt(d){
   return `${d.slice(6,8)}.${d.slice(4,6)}.${d.slice(0,4)}`;
 }
 function thumb(id){ return `https://i.ytimg.com/vi/${id}/hqdefault.jpg`; }
+function esc(s){ const d = document.createElement('div'); d.textContent = String(s); return d.innerHTML; }
 
 const totalViews = data.reduce((a,v)=>a+v.v,0);
 const totalVideos = data.length;
@@ -215,7 +216,7 @@ function renderTop(){
     a.innerHTML = `
       <div class="sira">${i+1}</div>
       <div class="thumb"><img src="${thumb(v.id)}" loading="lazy" alt="" referrerpolicy="no-referrer"></div>
-      <div class="info"><div class="baslik">${v.t}</div><div class="tarih">${tarihFmt(v.d)}</div></div>
+      <div class="info"><div class="baslik">${esc(v.t)}</div><div class="tarih">${tarihFmt(v.d)}</div></div>
       <div class="izl">${fmtKisa(v.v)}</div>`;
     topListe.appendChild(a);
   });
