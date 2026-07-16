@@ -1,6 +1,6 @@
-# HTalks Evreni — bağımsız hayran modülleri
+# HTalks Evreni
 
-Kanalın 2.124 videosunu (1.904 saat) analiz eden bir boru hattının ürettiği, tek çatı altında yaşayan modüller. Bağımsız hayran çalışmasıdır; HTalks ile resmi bağı yoktur.
+Kanalın 2.124 videosunu (1.904 saat) analiz eden bir boru hattının ürettiği, tek çatı altında yaşayan modüller. Resmi HTalks sayfası değildir.
 
 **Canlı site:** https://trzahmet.github.io/htalks/
 

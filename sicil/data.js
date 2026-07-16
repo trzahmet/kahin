@@ -3,17 +3,17 @@
 // yalnız bağlam kanıtıyla kişiye atananlar yayınlanır). Hükümler, yayınlarda
 // söylenen sonuçlara dayanır; her kayıtta kaynak yayın linki vardır.
 const SICIL = {
-  guncelleme: "15 Temmuz 2026",
-  kapsam: { yayin: 51, tahmin: 859, atanmis: 127, yuzlesme: 101 },
+  guncelleme: "16 Temmuz 2026",
+  kapsam: { yayin: 54, tahmin: 859, atanmis: 127, yuzlesme: 101 },
 
   karne: [
     {
       kisi: "Hilmi",
       unvan: "Kanalın Kâhini",
       grupPuan: "28+", grupSira: 1,
-      sampiyon: { pick: "İspanya → Arjantin", durum: "KARARSIZ",
-        not: "10 Haziran'da İspanya dedi, 28 Haziran'da Arjantin'e döndü, 8 Temmuz'da Arjantin'den de şüpheye düştü. Terk ettiği İspanya ise Belçika'yı ve Fransa'yı da eleyip FİNALE çıktı — kupaya tek maç uzakta." },
-      tally: { tuttu: 2, kismen: 1, coktu: 3 },
+      sampiyon: { pick: "İspanya → Arjantin → İspanya", durum: "KARARSIZ",
+        not: "10 Haziran'da İspanya dedi, 28 Haziran'da Arjantin'e döndü, 8 Temmuz'da Arjantin'den şüpheye düştü — 15 Temmuz'da finale İspanya formasıyla geri döndü: tahmini rahat bir İspanya galibiyeti. Üç dönüşün sonunda başladığı yerde." },
+      tally: { tuttu: 2, kismen: 1, coktu: 4 },
       imza: "Herkes Haaland derken Norveç'in kilit adamının kalecisi olacağını tek başına bildi — Brezilya'yı eleyen kurtarışı önceden gördü."
     },
     {
@@ -30,8 +30,8 @@ const SICIL = {
       unvan: "Yüksek Riskli Oyuncu",
       grupPuan: "12", grupSira: 2,
       sampiyon: { pick: "Portekiz", durum: "ÇÖKTÜ",
-        not: "6 Temmuz'da İspanya-Portekiz (1-0, 90+1 Merino) ile şampiyon tahmini turnuvadan elendi." },
-      tally: { tuttu: 0, kismen: 2, coktu: 6 },
+        not: "6 Temmuz'da İspanya-Portekiz (1-0, 90+1 Merino) ile şampiyon tahmini turnuvadan elendi. 15 Temmuz maç sonu yayınında yeni cephesini yeminle açıkladı: finalde Arjantin — 'totem değil.'" },
+      tally: { tuttu: 0, kismen: 2, coktu: 7 },
       imza: "Senegal'e yarı final, ABD'ye çeyrek final, Meksika'ya İngiltere galibiyeti yazdı — üçü de gitti."
     }
   ],
@@ -44,7 +44,8 @@ const SICIL = {
     { t: "11 Tem", olay: "Yarı final belli oldu: FRANSA-İSPANYA. Yani Hasan'ın 'Fransa şampiyonsa Dembele Ballon d'Or' koşulunun takımı, Hilmi'nin 10 Haziran'da seçip 28 Haziran'da terk ettiği İspanya'yla karşı karşıya. Bu gece: Norveç-İngiltere — Turancan'ın ilk şampiyonu ve 'kimse inanmamıştı' çağrısı aynı sahnede.", video: "SRqMJv8FtBI" },
     { t: "11 Tem", olay: "Norveç 1-2 İngiltere (kazandıran gol Bellingham'dan, 90+3'te). Turancan'ın 'kimse inanmadı' Norveç çağrısı yarı finalin bir adım önünde bitti — ama İngiltere yarı finalde, yani Turancan'ın 10 Haziran'daki İLK şampiyonu hâlâ yarışta. Yarı finaller: Fransa-İspanya ve İngiltere-(Arjantin/İsviçre).", video: null },
     { t: "14 Tem", olay: "Fransa 0-2 İspanya (22' Oyarzabal penaltı, 58' Pedro Porro) — Hasan'ın Dembele/Fransa şampiyonluk koşulu çöktü; Hilmi'nin 10 Haziran'da seçip 28 Haziran'da TERK ETTİĞİ İspanya finale yükseldi. Diğer yarı final İngiltere-Arjantin bugün (15 Tem) oynanıyor — Turancan'ın iki şampiyon adayı da bu maçta karşı karşıya, final rakibi belirlenecek.", video: "PkkYh9lL4_c" },
-    { t: "15 Tem", olay: "Arjantin 2-1 İngiltere (55' Gordon İngiltere; 85' Enzo Fernández, 90+2' Lautaro Martínez — Arjantin'den geriden gelen final): Turancan'ın ilk şampiyonu (İngiltere) elendi, ama 28 Haziran'dan beri sarıldığı Arjantin finale çıktı — 'Arjantin finale çıkarsa yüzde yüz şampiyon' çağrısının ilk yarısı doğrulandı. Final tablosu netleşti: İSPANYA-ARJANTİN, 19 Temmuz. Hilmi'nin hem 10 Haziran'daki İLK seçimi (İspanya) hem 28 Haziran'dan beri sarıldığı Arjantin finalde — hangisi kazanırsa kazansın bir tahmini haklı çıkacak.", video: "EcRrNB8ex7c" }
+    { t: "15 Tem", olay: "Arjantin 2-1 İngiltere (55' Gordon İngiltere; 85' Enzo Fernández, 90+2' Lautaro Martínez — Arjantin'den geriden gelen final): Turancan'ın ilk şampiyonu (İngiltere) elendi, ama 28 Haziran'dan beri sarıldığı Arjantin finale çıktı — 'Arjantin finale çıkarsa yüzde yüz şampiyon' çağrısının ilk yarısı doğrulandı. Final tablosu netleşti: İSPANYA-ARJANTİN, 19 Temmuz. Hilmi'nin hem 10 Haziran'daki İLK seçimi (İspanya) hem 28 Haziran'dan beri sarıldığı Arjantin finalde — hangisi kazanırsa kazansın bir tahmini haklı çıkacak.", video: "EcRrNB8ex7c" },
+    { t: "15-16 Tem", olay: "Final cepheleri netleşti. Hilmi üçüncü dönüşünü yaptı: maç önü yayınında finale İspanya formasıyla döneceğini açıkladı — 10 Haziran'da başladığı yere. Hasan ise turnuva boyu durduğu Arjantin karşıtı cepheden yeminle ayrıldı: 'Totem değil — Arjantin finali kazanır, hatta final Messi'nin turnuvadaki en kolay maçı olur.' Skor tablosu: Hasan+Turancan → Arjantin, Hilmi → İspanya. 19 Temmuz'da en az biri kesin yanılacak.", video: "EcRrNB8ex7c" }
   ],
 
   kayitlar: [
@@ -146,7 +147,31 @@ const SICIL = {
     { kisi: "Hilmi", t: "11 Tem", kat: "sampiyon", durum: "BEKLIYOR",
       ozet: "Kalan 5 takım için şampiyonluk yüzdesi verdi: Fransa %40 (açık favori), Arjantin %20, İspanya %20, İngiltere %18, İsviçre en düşük.",
       cozum: "Fransa (en yüksek yüzdesi) yarı finalde İspanya'ya elendi (14 Tem, 0-2) — favorisi ilk turda düştü. İspanya finale yükseldi; Arjantin de İngiltere'yi 2-1 geçip (15 Tem) finalist oldu — kalan iki tahmini (Arjantin %20, İspanya %20) finalde birbirine karşı. Final 19 Temmuz'da netleşecek.",
-      video: "uFBXQy-aENs", kanit: "EcRrNB8ex7c" }
+      video: "uFBXQy-aENs", kanit: "EcRrNB8ex7c" },
+    { kisi: "Hasan", t: "15 Tem", kat: "skor", durum: "COKTU",
+      ozet: "Yarı final sabahı kendine güvenle uyandı: İngiltere kazanacak — hatta 3-0 gibi bir fark olursa İngiltere forması alma sözü verdi.",
+      cozum: "Arjantin 2-1 geriden gelerek kazandı. Maç sonu öfke tamamen Tuchel'e döndü: 'üç koyunu emanet etmem' seviyesinde bir teknik-intihar tiradı.",
+      video: "PjdoI0H8K7M", kanit: "EcRrNB8ex7c" },
+    { kisi: "Hilmi", t: "15 Tem", kat: "kupon", durum: "COKTU",
+      ozet: "Günün kupondaş kuponunu kurdu (Turancan 'sen ne dersen tamam' diye ortak oldu): Kane gol atar + İngiltere kazanır, 3.68 oran.",
+      cozum: "Kane maç boyu Arjantin ceza sahasında topla neredeyse hiç buluşamadı, İngiltere 2-1 kaybetti — kupon yattı. Bir önceki günün kuponu da yatmıştı.",
+      video: "PjdoI0H8K7M", kanit: "EcRrNB8ex7c" },
+    { kisi: "Hasan", t: "15 Tem", kat: "sampiyon", durum: "BEKLIYOR",
+      ozet: "Turnuva boyu Arjantin karşıtı cephenin lideriyken maç sonu yayınında yeminle döndü: 'Totem değil — Arjantin finali kazanır; hatta final, Messi'nin turnuvadaki en kolay maçı olur.'",
+      cozum: "Final 19 Temmuz'da (İspanya-Arjantin) — yeminin bedeli o gece belli olacak.",
+      video: "EcRrNB8ex7c", kanit: null },
+    { kisi: "Hilmi", t: "15 Tem", kat: "sampiyon", durum: "BEKLIYOR",
+      ozet: "Final tahmini: rahat bir İspanya galibiyeti — 'Fransa'ya karşı alınan 2-0 gibi, rakibe şans tanımayan kontrollü bir üstünlük.' Sözünü formayla mühürledi: finale İspanya formasıyla çıkacak.",
+      cozum: "Final 19 Temmuz'da — İspanya kazanırsa Hilmi turnuvayı başladığı tahminle kapatmış olacak.",
+      video: "EcRrNB8ex7c", kanit: null },
+    { kisi: "Turancan", t: "15 Tem", kat: "oyuncu", durum: "BEKLIYOR",
+      ozet: "'Bu, Messi'nin veda turnuvası' iddiasını %100'e çıkardı: finali kazansa da kaybetse de kramponları asacak.",
+      cozum: "Final 19 Temmuz'da; kararın kendisi muhtemelen turnuva sonrası netleşecek.",
+      video: "EcRrNB8ex7c", kanit: null },
+    { kisi: "Turancan", t: "15 Tem", kat: "senaryo", durum: "BEKLIYOR",
+      ozet: "Kanal rekorunu kırdıracak final senaryosunu maç önünden yazdı: İspanya 2-0 öne geçecek, Arjantin uzatmanın 120. dakikasında Messi'nin golüyle 3-2 kazanacak.",
+      cozum: "Final 19 Temmuz'da — senaryo, skoruyla birlikte o gece test edilecek.",
+      video: "PjdoI0H8K7M", kanit: null }
   ],
 
   yuzlesmeKosesi: [
@@ -156,11 +181,11 @@ const SICIL = {
   ],
 
   dun: {
-    baslik: "Final tablosu netleşti: İSPANYA-ARJANTİN",
-    ozet: "Arjantin 2-1 İngiltere (15 Tem — 55' Gordon İngiltere; 85' Enzo Fernández, 90+2' Lautaro Martínez Arjantin'den geriden gelen final): Turancan'ın ilk şampiyonu (İngiltere) elendi ama Arjantin'e çevirdiği ikinci çağrısı finale çıktı — 'Arjantin finale çıkarsa yüzde yüz şampiyon' iddiasının yarısı doğrulandı. Hilmi'nin durumu daha da çarpıcı: hem 10 Haziran'daki ilk seçimi (İspanya) hem 28 Haziran'dan beri sarıldığı Arjantin finalde — hangisi kazanırsa kazansın bir tahmini haklı çıkacak. Final 19 Temmuz."
+    baslik: "Finale 3 gün: cepheler tutuldu, rekorlar sayıldı",
+    ozet: "Final cephesi netleşti: Hasan + Turancan → Arjantin, Hilmi → İspanya (formalı). Balon d'Or da aynı maça kilitli — Kane, Olise ve Dembélé yarı finalde elendi; ödül fiilen finali kazananın yıldızına (Messi ya da Yamal) kaldı. Bu arada 16 Temmuz gündem yayınında kanal tarihi konuşuldu: dünkü İngiltere-Arjantin maç sonu, 74.966 anlık seyirci tepesiyle kanal tarihinin 20. yayını oldu — üçlü 4-9 arası tahmin etmişti, Turancan'ın Studio'dan çıkardığı liste hepsini ters köşe yaptı. Kalan program: 3 gündem yayını + üçüncülük maçı + final (maç önü/maç sonu). 19 Temmuz'da hem kupa hem sicil kapanıyor."
   },
 
-  ironi: "Hilmi 28 Haziran'da şampiyonluk kâğıdını İspanya'dan çekip Arjantin'e yazdı. Terk ettiği İspanya Belçika'yı ve Fransa'yı eleyip finale çıktı; sarıldığı Arjantin de İngiltere'yi geçip finale çıktı. Sonuç: Hilmi'nin iki tahmini de 19 Temmuz finalinde — ne olursa olsun bir yerde haklı çıkacak.",
+  ironi: "Hilmi 28 Haziran'da şampiyonluk kâğıdını İspanya'dan çekip Arjantin'e yazdı. Terk ettiği İspanya Belçika'yı ve Fransa'yı eleyip finale çıktı; sarıldığı Arjantin de İngiltere'yi geçip finale çıktı. 15 Temmuz'da üçüncü hamle geldi: finale İspanya formasıyla dönüş — turnuvaya başladığı tahmine. İki finalist de bir dönemin 'Hilmi şampiyonu': ne olursa olsun bir yerde haklı çıkacak, ama hangi kâğıdının geçerli sayılacağını 19 Temmuz gecesi kanal karar verecek.",
 
   oduller: [
     { buyuk: true, tint: "maks", damga: "Maksimüs", rozet: "🏆 Kâhin Anı", kisi: "HİLMİ",

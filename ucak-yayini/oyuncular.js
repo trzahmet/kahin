@@ -351,12 +351,12 @@ window.OYUNCULAR = [
  // ——— ÖZEL KARTLAR ———
  {
   "ad": "Mason Greenwood",
-  "takim": "Olympique Marseille",
+  "takim": "Fenerbahçe (16 Temmuz 2026'da geldi)",
   "slug": "mason-greenwood",
   "tip": "istisna",
   "piyasa_degeri_milyon_eur": 55,
   "instagram_takipci_milyon": 3,
-  "durum": "Kanalın sabit kararı: hassasiyet gerekçesiyle hangi takıma gelirse gelsin uçak yayını YOK. Formül 165 dese de cevap değişmez.",
+  "durum": "Kanalın sabit kararı: hassasiyet gerekçesiyle uçak yayını YOK — ve karar sahada doğrulandı. 16 Temmuz 2026'da 39,5 milyon €'luk kulüp rekoru transferle gerçekten İstanbul'a indi; uçak yayını açılmadı. Formül 165 dese de cevap değişmedi.",
   "kaynak_piyasa": "https://www.transfermarkt.us/mason-greenwood/profil/spieler/532826",
   "kaynak_instagram": "https://www.instagram.com/masongreenwood/"
  },

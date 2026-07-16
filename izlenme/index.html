@@ -12,11 +12,6 @@
     --metin:#f3eee4; --soluk:#8b97a7; --altin:#f0b34a; --altin-parlak:#ffd484;
     --yesil:#3ecf8e; --kirmizi:#e5555a; --golge:rgba(0,0,0,.45);
   }
-  @media (prefers-color-scheme: light) {
-    :root { --gece:#f4efe4; --panel:#fffdf8; --panel2:#f6f0e4; --cizgi:#e0d7c6;
-      --metin:#191c22; --soluk:#6d7480; --altin:#b07714; --altin-parlak:#cf8f1c;
-      --yesil:#1f9d64; --kirmizi:#c33a40; --golge:rgba(80,60,20,.12); }
-  }
   :root[data-theme="dark"] { --gece:#0a0e13; --panel:#121924; --panel2:#1a2431; --cizgi:#263141;
     --metin:#f3eee4; --soluk:#8b97a7; --altin:#f0b34a; --altin-parlak:#ffd484;
     --yesil:#3ecf8e; --kirmizi:#e5555a; --golge:rgba(0,0,0,.45); }
@@ -364,11 +359,10 @@ function temaUygula(t){
   localStorage.setItem('htalks_tema', t);
 }
 temaDugme.addEventListener('click', () => {
-  const simdiki = document.documentElement.getAttribute('data-theme') ||
-    (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  const simdiki = document.documentElement.getAttribute('data-theme') || 'dark';
   temaUygula(simdiki === 'dark' ? 'light' : 'dark');
 });
-temaUygula(localStorage.getItem('htalks_tema') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+temaUygula(localStorage.getItem('htalks_tema') || 'dark');
 
 yeniTur();
 </script>

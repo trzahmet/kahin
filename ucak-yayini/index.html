@@ -27,14 +27,6 @@
     --kirmizi: #e5555a; --mavi: #5c9dd6; --golge: rgba(0,0,0,.45);
     --altin-glow: rgba(240,179,74,.16); --kirmizi-glow: rgba(229,85,90,.14);
   }
-  @media (prefers-color-scheme: light) {
-    :root {
-      --gece: #f4efe4; --panel: #fffdf8; --panel2: #f6f0e4; --cizgi: #e0d7c6;
-      --metin: #191c22; --soluk: #6d7480;
-      --altin: #b07714; --altin-parlak: #cf8f1c; --kirmizi: #c33a40; --mavi: #2f6fa8;
-      --golge: rgba(80,60,20,.12); --altin-glow: rgba(176,119,20,.12); --kirmizi-glow: rgba(195,58,64,.10);
-    }
-  }
   :root[data-theme="dark"] {
     --gece: #0a0e13; --panel: #121924; --panel2: #1a2431; --cizgi: #263141;
     --metin: #f3eee4; --soluk: #8b97a7; --altin: #f0b34a; --altin-parlak: #ffd484;
@@ -340,7 +332,7 @@
     <button class="yeniden-btn" id="yenidenBtn">Yeniden Oyna</button>
   </section>
 
-  <footer>bağımsız hayran çalışması · kural HTalks'ın kendi yayınlarından damıtıldı, birebir alıntı yok · oyuncu piyasa değeri/Instagram verileri güncel kaynaklardan · <a href="../uwufufu/">Uwufufu</a> · <a href="../sicil/">Tahmin Sicili</a></footer>
+  <footer>kural HTalks'ın kendi yayınlarından damıtıldı, birebir alıntı yok · oyuncu piyasa değeri/Instagram verileri güncel kaynaklardan · <a href="../uwufufu/">Uwufufu</a> · <a href="../sicil/">Tahmin Sicili</a></footer>
 </div>
 
 <script src="oyuncular.js?v=20260714b"></script>
@@ -349,9 +341,12 @@
   const $$ = s => document.querySelectorAll(s);
   const kok = document.documentElement;
   $("#temaDugme").addEventListener("click", () => {
-    const su = kok.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-    kok.setAttribute("data-theme", su === "dark" ? "light" : "dark");
+    const su = kok.getAttribute("data-theme") || "dark";
+    const yeni = su === "dark" ? "light" : "dark";
+    kok.setAttribute("data-theme", yeni);
+    localStorage.setItem("htalks_tema", yeni);
   });
+  kok.setAttribute("data-theme", localStorage.getItem("htalks_tema") || "dark");
 
   const RENKLER = ["#f0b34a", "#5c9dd6", "#3ec97a", "#b06cd5", "#e5555a", "#3ec3d0"];
   const BARAJ = 25;
