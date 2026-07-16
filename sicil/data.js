@@ -21,8 +21,8 @@ const SICIL = {
       unvan: "Cesur Ağaç Ustası",
       grupPuan: "10", grupSira: 3,
       sampiyon: { pick: "İngiltere → Arjantin", durum: "YAŞIYOR",
-        not: "10 Haziran'da İngiltere (final: İspanya-İngiltere) dedi; 28 Haziran'da Arjantin'e geçti; 8 Temmuz'da 'Arjantin finale çıkarsa %100 şampiyon' diye perçinledi. İkisi de hâlâ kupada." },
-      tally: { tuttu: 2, kismen: 1, coktu: 3 },
+        not: "10 Haziran'da İngiltere (final: İspanya-İngiltere) dedi; 28 Haziran'da Arjantin'e geçti; 8 Temmuz'da 'Arjantin finale çıkarsa %100 şampiyon' diye perçinledi. İngiltere yarı finalde Arjantin'e 1-2 kaybedip elendi (15 Tem) — ilk şampiyonu düştü. Ama Arjantin finale çıktı: 8 Temmuz çağrısının ilk yarısı doğrulandı, tamamı 19 Temmuz'da netleşecek." },
+      tally: { tuttu: 2, kismen: 1, coktu: 4 },
       imza: "K Grubu'nun tüm sıralamasını tam bildi; ama Türkiye'ye '9 puanla lider' dedi."
     },
     {
@@ -43,7 +43,8 @@ const SICIL = {
     { t: "8 Tem", olay: "Turancan: 'Arjantin finale çıkarsa yüzde yüz şampiyon.' Hilmi ise Arjantin'in 19 Temmuz'a kadar tükeneceğinden şüpheli.", video: "_vs_fz92o4M" },
     { t: "11 Tem", olay: "Yarı final belli oldu: FRANSA-İSPANYA. Yani Hasan'ın 'Fransa şampiyonsa Dembele Ballon d'Or' koşulunun takımı, Hilmi'nin 10 Haziran'da seçip 28 Haziran'da terk ettiği İspanya'yla karşı karşıya. Bu gece: Norveç-İngiltere — Turancan'ın ilk şampiyonu ve 'kimse inanmamıştı' çağrısı aynı sahnede.", video: "SRqMJv8FtBI" },
     { t: "11 Tem", olay: "Norveç 1-2 İngiltere (kazandıran gol Bellingham'dan, 90+3'te). Turancan'ın 'kimse inanmadı' Norveç çağrısı yarı finalin bir adım önünde bitti — ama İngiltere yarı finalde, yani Turancan'ın 10 Haziran'daki İLK şampiyonu hâlâ yarışta. Yarı finaller: Fransa-İspanya ve İngiltere-(Arjantin/İsviçre).", video: null },
-    { t: "14 Tem", olay: "Fransa 0-2 İspanya (22' Oyarzabal penaltı, 58' Pedro Porro) — Hasan'ın Dembele/Fransa şampiyonluk koşulu çöktü; Hilmi'nin 10 Haziran'da seçip 28 Haziran'da TERK ETTİĞİ İspanya finale yükseldi. Diğer yarı final İngiltere-Arjantin bugün (15 Tem) oynanıyor — Turancan'ın iki şampiyon adayı da bu maçta karşı karşıya, final rakibi belirlenecek.", video: "PkkYh9lL4_c" }
+    { t: "14 Tem", olay: "Fransa 0-2 İspanya (22' Oyarzabal penaltı, 58' Pedro Porro) — Hasan'ın Dembele/Fransa şampiyonluk koşulu çöktü; Hilmi'nin 10 Haziran'da seçip 28 Haziran'da TERK ETTİĞİ İspanya finale yükseldi. Diğer yarı final İngiltere-Arjantin bugün (15 Tem) oynanıyor — Turancan'ın iki şampiyon adayı da bu maçta karşı karşıya, final rakibi belirlenecek.", video: "PkkYh9lL4_c" },
+    { t: "15 Tem", olay: "Arjantin 2-1 İngiltere (55' Gordon İngiltere; 85' Enzo Fernández, 90+2' Lautaro Martínez — Arjantin'den geriden gelen final): Turancan'ın ilk şampiyonu (İngiltere) elendi, ama 28 Haziran'dan beri sarıldığı Arjantin finale çıktı — 'Arjantin finale çıkarsa yüzde yüz şampiyon' çağrısının ilk yarısı doğrulandı. Final tablosu netleşti: İSPANYA-ARJANTİN, 19 Temmuz. Hilmi'nin hem 10 Haziran'daki İLK seçimi (İspanya) hem 28 Haziran'dan beri sarıldığı Arjantin finalde — hangisi kazanırsa kazansın bir tahmini haklı çıkacak.", video: "EcRrNB8ex7c" }
   ],
 
   kayitlar: [
@@ -128,24 +129,24 @@ const SICIL = {
       video: "H9wsL6yVgyM", kanit: "3Vl3PNsRqQ8" },
     { kisi: "Turancan", t: "8 Tem", kat: "turnuva", durum: "BEKLIYOR",
       ozet: "'Arjantin finale çıkarsa, rakip Fransa bile olsa yüzde yüz şampiyon' dedi.",
-      cozum: "Fransa yarı finalde İspanya'ya elendi (14 Tem, 0-2) — 'rakip Fransa bile olsa' koşulu artık test edilemeyecek, ama esas iddia sürüyor: Arjantin bugün (15 Tem) yarı finalde İngiltere'yle oynuyor, sonuç bekleniyor.",
-      video: "_vs_fz92o4M", kanit: "PkkYh9lL4_c" },
+      cozum: "Fransa yarı finalde İspanya'ya elendi (14 Tem, 0-2) — 'rakip Fransa bile olsa' koşulu artık test edilemeyecek. Esas iddia yarı yolda doğrulandı: Arjantin, İngiltere'yi 2-1 geriden gelerek geçip finale çıktı (15 Tem) — şampiyonluk kısmı 19 Temmuz'da netleşecek.",
+      video: "_vs_fz92o4M", kanit: "EcRrNB8ex7c" },
     { kisi: "Turancan", t: "13 Haz", kat: "oyuncu", durum: "BEKLIYOR",
       ozet: "'Niş tahmin': Türkiye'nin Dünya Kupası'ndaki ilk golünü Zeki Çelik atacaktı.",
       cozum: "Türkiye'nin ilk golü ABD maçında (3-2) geldi; golcü verisi bir sonraki güncellemede netleşecek.",
       video: "ssRo1VjOSMU", kanit: null },
-    { kisi: "Turancan", t: "17 Haz", kat: "oyuncu", durum: "BEKLIYOR",
+    { kisi: "Turancan", t: "17 Haz", kat: "oyuncu", durum: "COKTU",
       ozet: "İngiltere 60 yıl sonra kupayı kazanırsa Ballon d'Or'un Harry Kane'e gideceğini söyledi.",
-      cozum: "Koşul canlı: İngiltere hâlâ turnuvada.",
-      video: "sVR8mv4AIPc", kanit: null },
+      cozum: "İngiltere yarı finalde Arjantin'e 1-2 kaybedip elendi (15 Tem) — koşul hiç gerçekleşmeyecek.",
+      video: "sVR8mv4AIPc", kanit: "EcRrNB8ex7c" },
     { kisi: "Hasan", t: "26 Haz", kat: "oyuncu", durum: "COKTU",
       ozet: "Fransa şampiyon olursa Dembele'nin (turnuvada 4 gol) Ballon d'Or'u garantileyeceğini söyledi.",
       cozum: "Fransa yarı finalde İspanya'ya 0-2 kaybetti (14 Tem, Dallas — 22' Oyarzabal penaltı, 58' Pedro Porro) — şampiyonluk ihtimali bitti, koşul hiç gerçekleşmeyecek.",
       video: "HCfRvcR8RxI", kanit: "PkkYh9lL4_c" },
     { kisi: "Hilmi", t: "11 Tem", kat: "sampiyon", durum: "BEKLIYOR",
       ozet: "Kalan 5 takım için şampiyonluk yüzdesi verdi: Fransa %40 (açık favori), Arjantin %20, İspanya %20, İngiltere %18, İsviçre en düşük.",
-      cozum: "Fransa (en yüksek yüzdesi) yarı finalde İspanya'ya elendi (14 Tem, 0-2) — favorisi ilk turda düştü. İspanya finale yükseldi; rakibi bugünkü (15 Tem) İngiltere-Arjantin yarı finalinin galibi. Final 19 Temmuz'da netleşecek.",
-      video: "uFBXQy-aENs", kanit: "PkkYh9lL4_c" }
+      cozum: "Fransa (en yüksek yüzdesi) yarı finalde İspanya'ya elendi (14 Tem, 0-2) — favorisi ilk turda düştü. İspanya finale yükseldi; Arjantin de İngiltere'yi 2-1 geçip (15 Tem) finalist oldu — kalan iki tahmini (Arjantin %20, İspanya %20) finalde birbirine karşı. Final 19 Temmuz'da netleşecek.",
+      video: "uFBXQy-aENs", kanit: "EcRrNB8ex7c" }
   ],
 
   yuzlesmeKosesi: [
@@ -155,7 +156,7 @@ const SICIL = {
   ],
 
   dun: {
-    baslik: "Bu hafta çözülenler",
-    ozet: "Fransa 0-2 İspanya (14 Tem, yarı final): Hasan'ın Dembele/Fransa şampiyonluk koşulu çöktü; Hilmi'nin 10 Haziran'da seçip sonra terk ettiği İspanya finale yükseldi — kupaya tek maç uzakta. Diğer yarı final İngiltere-Arjantin bugün (15 Tem) oynanıyor: Turancan'ın 10 Haziran'daki ilk şampiyonu (İngiltere) ve 28 Haziran'dan beri sarıldığı ikinci şampiyonu (Arjantin) aynı sahada — hangisi kazanırsa Turancan'ın çağrısı finale taşınmış olacak. Final 19 Temmuz."
+    baslik: "Final tablosu netleşti: İSPANYA-ARJANTİN",
+    ozet: "Arjantin 2-1 İngiltere (15 Tem — 55' Gordon İngiltere; 85' Enzo Fernández, 90+2' Lautaro Martínez Arjantin'den geriden gelen final): Turancan'ın ilk şampiyonu (İngiltere) elendi ama Arjantin'e çevirdiği ikinci çağrısı finale çıktı — 'Arjantin finale çıkarsa yüzde yüz şampiyon' iddiasının yarısı doğrulandı. Hilmi'nin durumu daha da çarpıcı: hem 10 Haziran'daki ilk seçimi (İspanya) hem 28 Haziran'dan beri sarıldığı Arjantin finalde — hangisi kazanırsa kazansın bir tahmini haklı çıkacak. Final 19 Temmuz."
   }
 };
