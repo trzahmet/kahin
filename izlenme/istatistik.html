@@ -12,12 +12,6 @@
     --metin:#f3eee4; --soluk:#8b97a7; --altin:#f0b34a; --altin-parlak:#ffd484;
     --yesil:#3ecf8e; --kirmizi:#e5555a; --mavi:#5c9dd6; --golge:rgba(0,0,0,.45);
   }
-  :root[data-theme="dark"] { --gece:#0a0e13; --panel:#121924; --panel2:#1a2431; --cizgi:#263141;
-    --metin:#f3eee4; --soluk:#8b97a7; --altin:#f0b34a; --altin-parlak:#ffd484;
-    --yesil:#3ecf8e; --kirmizi:#e5555a; --mavi:#5c9dd6; --golge:rgba(0,0,0,.45); }
-  :root[data-theme="light"] { --gece:#f4efe4; --panel:#fffdf8; --panel2:#f6f0e4; --cizgi:#e0d7c6;
-    --metin:#191c22; --soluk:#6d7480; --altin:#b07714; --altin-parlak:#cf8f1c;
-    --yesil:#1f9d64; --kirmizi:#c33a40; --mavi:#2f6fa8; --golge:rgba(80,60,20,.12); }
 
   * { margin:0; padding:0; box-sizing:border-box; }
   html { scroll-behavior:smooth; }
@@ -31,9 +25,6 @@
     text-decoration:none; font-weight:600; background:var(--panel); border:1px solid var(--cizgi);
     padding:8px 14px; border-radius:20px; }
   .ust-link:hover { color:var(--metin); border-color:var(--altin); }
-  .tema-dugme { position:fixed; top:16px; right:16px; z-index:40; width:44px; height:44px; border-radius:50%;
-    background:var(--panel); border:1px solid var(--cizgi); color:var(--metin); font-size:1rem; cursor:pointer;
-    display:flex; align-items:center; justify-content:center; }
 
   .hero { padding:96px 0 40px; text-align:center; }
   .hero .etiket { font-size:.72rem; letter-spacing:4px; color:var(--altin); text-transform:uppercase; font-weight:800; margin-bottom:16px; }
@@ -96,7 +87,6 @@
 </head>
 <body>
 <a class="ust-link" href="../">← HTalks Evreni</a>
-<button class="tema-dugme" id="temaDugme">🌙</button>
 
 <div class="kabuk">
   <div class="hero">
@@ -226,18 +216,6 @@ document.querySelectorAll('.filtre-satir button').forEach(btn => {
 });
 renderTop();
 
-// tema
-const temaDugme = document.getElementById('temaDugme');
-function temaUygula(t){
-  document.documentElement.setAttribute('data-theme', t);
-  temaDugme.textContent = t === 'light' ? '☀️' : '🌙';
-  localStorage.setItem('htalks_tema', t);
-}
-temaDugme.addEventListener('click', () => {
-  const simdiki = document.documentElement.getAttribute('data-theme') || 'dark';
-  temaUygula(simdiki === 'dark' ? 'light' : 'dark');
-});
-temaUygula(localStorage.getItem('htalks_tema') || 'dark');
 </script>
 </body>
 </html>

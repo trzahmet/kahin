@@ -36,16 +36,6 @@
     --maks-glow: rgba(240,179,74,.16);
     --cop-glow: rgba(229,85,90,.14);
   }
-  :root[data-theme="dark"] {
-    --gece: #0a0e13; --panel: #121924; --panel2: #1a2431; --cizgi: #263141;
-    --metin: #f3eee4; --soluk: #8b97a7; --maksimus: #f0b34a; --maksimus-parlak: #ffd484;
-    --cop: #e5555a; --notr: #5c9dd6; --golge: rgba(0,0,0,.45); --maks-glow: rgba(240,179,74,.16); --cop-glow: rgba(229,85,90,.14);
-  }
-  :root[data-theme="light"] {
-    --gece: #f4efe4; --panel: #fffdf8; --panel2: #f6f0e4; --cizgi: #e0d7c6;
-    --metin: #191c22; --soluk: #6d7480; --maksimus: #b07714; --maksimus-parlak: #cf8f1c;
-    --cop: #c33a40; --notr: #2f6fa8; --golge: rgba(80,60,20,.12); --maks-glow: rgba(176,119,20,.12); --cop-glow: rgba(195,58,64,.10);
-  }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; }
@@ -65,15 +55,6 @@
   .mono { font-family: "Space Mono", monospace; }
   a { color: inherit; }
 
-  .tema-dugme {
-    position: fixed; top: 16px; right: 16px; z-index: 40;
-    width: 44px; height: 44px; border-radius: 50%;
-    background: var(--panel); border: 1px solid var(--cizgi); color: var(--metin);
-    font-size: 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: center;
-    transition: transform .2s, border-color .2s;
-    box-shadow: 0 2px 10px rgba(0,0,0,.18);
-  }
-  .tema-dugme:hover { transform: scale(1.08); border-color: var(--maksimus); }
   .ust-link {
     position: fixed; top: 16px; left: 16px; z-index: 40; font-size: .78rem;
     color: var(--soluk); text-decoration: none; font-weight: 600; letter-spacing: .3px;
@@ -258,7 +239,7 @@
     background: var(--panel); border: 1px solid var(--cizgi); border-radius: 14px; padding: 16px 18px;
   }
   .kayit-kart .ust { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
-  .kayit-kart .kisi { font-weight: 800; font-family: "Anton", sans-serif; letter-spacing: .3px; }
+  .kayit-kart .kisi { font-weight: 800; font-size: .95rem; letter-spacing: 1px; text-transform: uppercase; color: var(--maksimus-parlak); }
   .kayit-kart .meta { color: var(--soluk); font-size: .72rem; font-family: "Space Mono", monospace; }
   .kayit-kart .ozet { font-size: .95rem; }
   .kayit-kart .cozum { font-size: .86rem; color: var(--soluk); margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--cizgi); }
@@ -291,7 +272,6 @@
 </head>
 <body>
 <a class="ust-link" href="../">← HTalks Evreni</a>
-<button class="tema-dugme" id="temaDugme" aria-label="Temayı değiştir">◐</button>
 
 <header class="hero">
   <div class="kabuk">
@@ -463,17 +443,6 @@
   }, { threshold: .12 });
   document.querySelectorAll('.odul, .karne, .kumar').forEach(el => so.observe(el));
 
-  // tema
-  const kok = document.documentElement, td = document.getElementById('temaDugme');
-  function temaUygula(t) {
-    kok.setAttribute('data-theme', t);
-    localStorage.setItem('htalks_tema', t);
-  }
-  td.addEventListener('click', () => {
-    const su = kok.getAttribute('data-theme') || 'dark';
-    temaUygula(su === 'dark' ? 'light' : 'dark');
-  });
-  temaUygula(localStorage.getItem('htalks_tema') || 'dark');
 </script>
 </body>
 </html>
